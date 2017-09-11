@@ -831,7 +831,7 @@ html.active {
   display: none;
 }
 .faq .items .item .text p {
-  line-height: 18px;
+  line-height: 24px;
   margin-bottom: 1.5em;
   opacity: 0.7;
 }
@@ -846,6 +846,9 @@ html.active {
 }
 .faq .items .item.active .text {
   display: block;
+}
+.faq .items .item:last-child {
+  border-bottom: none;
 }
 .faq .items .tab {
   display: none;
@@ -894,70 +897,150 @@ html.active {
 .whitepaper .row:last-child {
   margin-bottom: 0;
 }
-.team {
+.team,
+.advisors {
   padding-bottom: 150px;
 }
-.team .row {
+.team .row,
+.advisors .row {
   margin-bottom: 70px;
 }
-.team .row:last-of-type {
+.team .row:last-of-type,
+.advisors .row:last-of-type {
   margin-bottom: 0;
 }
-.team .col-6 {
+.team .col-6,
+.advisors .col-6,
+.team .col-4,
+.advisors .col-4 {
   position: relative;
 }
-.team .col-6 .img {
+.team .col-6 .img,
+.advisors .col-6 .img,
+.team .col-4 .img,
+.advisors .col-4 .img {
   position: absolute;
   left: 10px;
   top: 0;
 }
-.team .col-6 .img img {
+.team .col-6 .img img,
+.advisors .col-6 .img img,
+.team .col-4 .img img,
+.advisors .col-4 .img img {
   width: 100px;
   height: 100px;
   border-radius: 50px;
 }
 .team .col-6 h3,
+.advisors .col-6 h3,
+.team .col-4 h3,
+.advisors .col-4 h3,
 .team .col-6 .position,
-.team .col-6 .links {
+.advisors .col-6 .position,
+.team .col-4 .position,
+.advisors .col-4 .position,
+.team .col-6 .links,
+.advisors .col-6 .links,
+.team .col-4 .links,
+.advisors .col-4 .links {
   padding-left: 120px;
 }
-.team .col-6 h3 {
+.team .col-6 h3,
+.advisors .col-6 h3,
+.team .col-4 h3,
+.advisors .col-4 h3 {
   font-size: 16px;
   font-weight: 600;
   margin: 15px 0 10px 0;
 }
-.team .col-6 .position {
+.team .col-6 .position,
+.advisors .col-6 .position,
+.team .col-4 .position,
+.advisors .col-4 .position {
   opacity: 0.7;
   margin-bottom: 10px;
 }
-.team .col-6 .links {
+.team .col-6 .links,
+.advisors .col-6 .links,
+.team .col-4 .links,
+.advisors .col-4 .links {
   margin-bottom: 30px;
 }
-.team .col-6 .links li {
+.team .col-6 .links li,
+.advisors .col-6 .links li,
+.team .col-4 .links li,
+.advisors .col-4 .links li {
   display: inline-block;
   margin-right: 10px;
 }
-.team .col-6 .links a {
+.team .col-6 .links a,
+.advisors .col-6 .links a,
+.team .col-4 .links a,
+.advisors .col-4 .links a {
   display: block;
   width: 24px;
   height: 24px;
   opacity: 0.3;
 }
-.team .col-6 .links a:hover {
+.team .col-6 .links a:hover,
+.advisors .col-6 .links a:hover,
+.team .col-4 .links a:hover,
+.advisors .col-4 .links a:hover {
   opacity: 0.6;
 }
-.team .col-6 p {
+.team .col-6 p,
+.advisors .col-6 p,
+.team .col-4 p,
+.advisors .col-4 p {
   opacity: 0.7;
   line-height: 26px;
 }
-.team .col-6:first-child {
+.team .col-6:first-child,
+.advisors .col-6:first-child,
+.team .col-4:first-child,
+.advisors .col-4:first-child {
   padding-right: 60px;
 }
-.team .col-6:last-child {
+.team .col-6:last-child,
+.advisors .col-6:last-child,
+.team .col-4:last-child,
+.advisors .col-4:last-child {
   padding-left: 60px;
 }
-.team .col-6:last-child .img {
+.team .col-6:last-child .img,
+.advisors .col-6:last-child .img,
+.team .col-4:last-child .img,
+.advisors .col-4:last-child .img {
   left: 60px;
+}
+.advisors {
+  padding-bottom: 0;
+}
+.advisors .col-4 {
+  margin-bottom: 70px;
+}
+.advisors .col-4 h3 {
+  margin-top: 10px;
+}
+.advisors .col-4 .position {
+  line-height: 1.3;
+}
+.advisors .col-4:first-child {
+  padding-right: 10px;
+}
+.advisors .col-4:last-child {
+  padding-left: 10px;
+}
+.advisors .col-4:last-child .img {
+  left: 10px;
+}
+.advisors .col-4 .links {
+  margin-bottom: 0;
+}
+.advisors .col-4:nth-child(4),
+.advisors .col-4:nth-child(5),
+.advisors .col-4:nth-child(6) {
+  margin-bottom: 0;
 }
 .careers {
   padding-top: 0;
@@ -1048,6 +1131,17 @@ html.active {
   }
   .countdown .timer {
     width: 100%;
+  }
+  .advisors .col-4 {
+    margin-bottom: 70px;
+    width: 50%;
+  }
+  .advisors .col-4:nth-child(4) {
+    margin-bottom: 70px;
+  }
+  .advisors .col-4:nth-child(5),
+  .advisors .col-4:nth-child(6) {
+    margin-bottom: 0;
   }
 }
 @media only screen and (max-width: 800px) {
@@ -1227,6 +1321,20 @@ html.active {
   }
   .roadmap .timeline .item:last-child {
     padding-bottom: 60px;
+  }
+  .advisors .col-4 {
+    margin-bottom: 60px;
+    width: 100%;
+    float: none;
+  }
+  .advisors .col-4:nth-child(4) {
+    margin-bottom: 60px;
+  }
+  .advisors .col-4:nth-child(5) {
+    margin-bottom: 60px;
+  }
+  .advisors .col-4:last-child {
+    margin-bottom: 0;
   }
   .team .row {
     margin-bottom: 0;
