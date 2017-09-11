@@ -497,6 +497,15 @@ html.active {
 .countdown .field a:hover {
   opacity: 0.5;
 }
+.countdown .field .done {
+  color: #4dd0e1;
+  text-align: center;
+  position: absolute;
+  width: 100%;
+  left: 0;
+  top: 80px;
+  display: none;
+}
 .countdown .inner {
   position: unset;
 }
@@ -708,6 +717,9 @@ html.active {
   right: 0;
   top: 0;
 }
+.jnt .item .money span {
+  font-weight: normal;
+}
 .jnt .item .title {
   position: absolute;
   left: 0;
@@ -833,6 +845,12 @@ html.active {
   background-image: url("../img/icons/close.svg");
 }
 .faq .items .item.active .text {
+  display: block;
+}
+.faq .items .tab {
+  display: none;
+}
+.faq .items .tab.active {
   display: block;
 }
 .whitepaper {
@@ -1174,6 +1192,9 @@ html.active {
   .about .row {
     margin-bottom: 0;
   }
+  .about .icons {
+    background-position: 10px 4px;
+  }
   .jnt .events .event h3 {
     font-size: 16px;
   }
@@ -1323,6 +1344,7 @@ html.active {
   }
   .faq .items .item h3 {
     font-size: 16px;
+    line-height: 1.4;
   }
   .footer li {
     width: 30%;
