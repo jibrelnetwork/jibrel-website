@@ -504,7 +504,6 @@ html.active {
   width: 100%;
   left: 0;
   top: 80px;
-  display: none;
 }
 .countdown .inner {
   position: unset;
@@ -1548,4 +1547,7 @@ html.active {
     height: 70px;
     border-radius: 35px;
   }
+}
+.hidden {
+  display: none;
 }
