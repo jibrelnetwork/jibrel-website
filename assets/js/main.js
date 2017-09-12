@@ -1,0 +1,102 @@
+
+    $(document).ready(function(){
+        
+                //Header animation
+                $(window).scroll(function() {
+                    if ($(this).scrollTop() >= 100) {
+                        $('.header').addClass('active');
+                    }
+                    else {
+                        $('.header').removeClass('active');
+                    }
+                });
+        
+                //Accordion
+                $('.faq h3').click(function() {
+                    $('.faq .item').removeClass('active');
+                    $(this).parent().toggleClass('active');
+                });
+        
+                $(".faq .row ul a").each(function(k,v){
+                    $(v).click(function(e){
+                        $(".faq .row ul a").removeClass('active');
+                        $(".faq .items .tab").removeClass('active');
+                        $(this).addClass('active');
+        
+                        var n = $(this).attr('data-id');
+                        $(".faq .items .tab-"+n).addClass('active');
+                        e.preventDefault();
+                    })
+                });
+        
+                //Scroll
+                $('.header .scroll').smoothScroll();
+        
+                //Menu
+                $('.menu-button').click(function() {
+                    $(this).toggleClass('active');
+                    $('.menu, html').toggleClass('active');
+                    return false;
+                });
+        
+                $('.menu .scroll').click(function() {
+                    $('.menu-button').toggleClass('active');
+                    $('.menu, html').removeClass('active');
+                    return false;
+                });
+        
+                //Count
+                $('#countdown').ClassyCountdown({
+                    end: $.now() + 110000,
+                    labelsOptions: {
+                        lang: {
+                            days: 'Days',
+                            hours: 'Hours',
+                            minutes: 'Minutes',
+                            seconds: 'Seconds'
+                        },
+                        style: ''
+                    },
+                    style: {
+                        element: '',
+                        labels: false,
+                        days: {
+                            gauge: {
+                                thickness: 0.2,
+                                bgColor: 'rgba(255, 255, 255, 0.3)',
+                                fgColor: 'rgba(255, 255, 255, 1)',
+                                lineCap: 'round'
+                            },
+                            textCSS: ''
+                        },
+                        hours: {
+                            gauge: {
+                                thickness: 0.2,
+                                bgColor: 'rgba(255, 255, 255, 0.3)',
+                                fgColor: 'rgba(255, 255, 255, 1)',
+                                lineCap: 'round'
+                            },
+                            textCSS: ''
+                        },
+                        minutes: {
+                            gauge: {
+                                thickness: 0.2,
+                                bgColor: 'rgba(255, 255, 255, 0.3)',
+                                fgColor: 'rgba(255, 255, 255, 1)',
+                                lineCap: 'round'
+                            },
+                            textCSS: ''
+                        },
+                        seconds: {
+                            gauge: {
+                                thickness: 0.2,
+                                bgColor: 'rgba(255, 255, 255, 0.3)',
+                                fgColor: 'rgba(255, 255, 255, 1)',
+                                lineCap: 'round'
+                            },
+                            textCSS: ''
+                        }
+                    }
+                });
+        
+            });
