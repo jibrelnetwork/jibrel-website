@@ -74,9 +74,10 @@ $(document).ready(function(){
         return false;
     });
 
+    var timeLeft = (new Date("Sep 25, 2017 12:00:00 GMT+000").getTime() - $.now())/1000;
     //Count
     $('#countdown').ClassyCountdown({
-        end: $.now() + 110000,
+        end: $.now() + timeLeft,
         labelsOptions: {
             lang: {
                 days: 'Days',
