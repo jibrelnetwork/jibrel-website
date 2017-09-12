@@ -361,15 +361,10 @@ html.active {
   background-color: #f8fbff;
   border-bottom: 1px solid rgba(5, 116, 235, 0.1);
   position: relative;
-  height: 100vh;
-}
-.start .inner {
-  height: calc(100vh - 250px);
 }
 .start .text {
+  padding: 160px 0 300px 0;
   position: relative;
-  top: 50%;
-  margin-top: -150px;
 }
 .start .text h1 {
   font-size: 32px;
@@ -405,8 +400,7 @@ html.active {
 .start .iphone {
   position: absolute;
   left: 480px;
-  top: 50%;
-  margin-top: -60px;
+  top: 110px;
   width: 650px;
   height: 468px;
 }
@@ -419,8 +413,7 @@ html.active {
 .start .card {
   position: absolute;
   left: 580px;
-  top: 50%;
-  margin-top: -86px;
+  top: 84px;
   width: 316px;
   height: 194px;
 }
@@ -433,24 +426,18 @@ html.active {
 .start .floating {
   animation-name: floating;
   -webkit-animation-name: floating;
-  -moz-animation-name: floating;
   animation-duration: 4s;
   -webkit-animation-duration: 4s;
-  -moz-animation-duration: 4s;
   animation-iteration-count: infinite;
   -webkit-animation-iteration-count: infinite;
-  -moz-animation-iteration-count: infinite;
 }
 .start .floating2 {
   animation-name: floating2;
   -webkit-animation-name: floating2;
-  -moz-animation-name: floating2;
   animation-duration: 4s;
   -webkit-animation-duration: 4s;
-  -moz-animation-duration: 4s;
   animation-iteration-count: infinite;
   -webkit-animation-iteration-count: infinite;
-  -moz-animation-iteration-count: infinite;
 }
 @keyframes floating {
   0% {
@@ -753,7 +740,6 @@ html.active {
   display: block;
   width: 290px;
   height: auto;
-  image-rendering: -webkit-optimize-contrast;
 }
 .jnt .item {
   position: relative;

@@ -410,14 +410,9 @@ html.active {
   background-color: @blue-bg;
   border-bottom: 1px solid @line-bg;
   position: relative;
-  height: 100vh;
-  .inner {
-    height: calc(~"100vh - 250px");
-  }
   .text {
+    padding: 160px 0 300px 0;
     position: relative;
-    top: 50%;
-    margin-top: -150px;
     h1 {
       font-size: 32px;
       font-weight: 300;
@@ -453,8 +448,7 @@ html.active {
   .iphone {
     position: absolute;
     left: 480px;
-    top: 50%;
-    margin-top: -60px;
+    top: 110px;
     width: 650px;
     height: 468px;
     img {
@@ -467,8 +461,7 @@ html.active {
   .card {
     position: absolute;
     left: 580px;
-    top: 50%;
-    margin-top: -86px;
+    top: 84px;
     width: 316px;
     height: 194px;
     img {
@@ -481,24 +474,18 @@ html.active {
   .floating {
     animation-name: floating;
     -webkit-animation-name: floating;
-    -moz-animation-name: floating;
     animation-duration: 4s;
     -webkit-animation-duration: 4s;
-    -moz-animation-duration: 4s;
     animation-iteration-count: infinite;
     -webkit-animation-iteration-count: infinite;
-    -moz-animation-iteration-count: infinite;
   }
   .floating2 {
     animation-name: floating2;
     -webkit-animation-name: floating2;
-    -moz-animation-name: floating2;
     animation-duration: 4s;
     -webkit-animation-duration: 4s;
-    -moz-animation-duration: 4s;
     animation-iteration-count: infinite;
     -webkit-animation-iteration-count: infinite;
-    -moz-animation-iteration-count: infinite;
   }
   @keyframes floating {
     0% {
@@ -814,7 +801,6 @@ html.active {
       display: block;
       width: 290px;
       height: auto;
-      image-rendering: -webkit-optimize-contrast;
     }
   }
   .item {
