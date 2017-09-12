@@ -36,7 +36,7 @@ a {
   text-decoration: none;
 }
 a:hover {
-  color: #3c3c58;
+  color: #00c1ff;
 }
 li {
   list-style: none;
@@ -323,7 +323,7 @@ html.active {
   margin-left: 0;
 }
 .header li a {
-  transition: none;
+  transition: color 0.3s ease 0s;
 }
 .header li svg {
   display: block;
@@ -340,7 +340,7 @@ html.active {
   fill: #0574eb;
 }
 .header li svg:hover .cls-2 {
-  fill: #3c3c58;
+  fill: #00c1ff;
 }
 .header .menu-button {
   top: 46px;
@@ -361,10 +361,15 @@ html.active {
   background-color: #f8fbff;
   border-bottom: 1px solid rgba(5, 116, 235, 0.1);
   position: relative;
+  height: 100vh;
+}
+.start .inner {
+  height: calc(100vh - 250px);
 }
 .start .text {
-  padding: 160px 0 300px 0;
   position: relative;
+  top: 50%;
+  margin-top: -150px;
 }
 .start .text h1 {
   font-size: 32px;
@@ -397,30 +402,77 @@ html.active {
 .start .logos a:hover {
   opacity: 0.8;
 }
-.start .img {
+.start .iphone {
   position: absolute;
-  right: -110px;
+  left: 480px;
   top: 50%;
-  margin-top: -280px;
-  display: none;
+  margin-top: -60px;
+  width: 650px;
+  height: 468px;
 }
-.start .video {
+.start .iphone img {
   width: 100%;
   height: 100%;
-  position: absolute;
-  overflow: hidden;
-  left: 0;
-  top: 0;
+  display: block;
+  image-rendering: -webkit-optimize-contrast;
 }
-.start .video video {
-  width: auto;
-  height: auto;
-  min-height: 100%;
-  min-width: 100%;
-  position: relative;
-  left: 50%;
-  margin-left: -960px;
-  top: -140px;
+.start .card {
+  position: absolute;
+  left: 580px;
+  top: 50%;
+  margin-top: -86px;
+  width: 316px;
+  height: 194px;
+}
+.start .card img {
+  width: 100%;
+  height: 100%;
+  display: block;
+  image-rendering: -webkit-optimize-contrast;
+}
+.start .floating {
+  animation-name: floating;
+  -webkit-animation-name: floating;
+  -moz-animation-name: floating;
+  animation-duration: 4s;
+  -webkit-animation-duration: 4s;
+  -moz-animation-duration: 4s;
+  animation-iteration-count: infinite;
+  -webkit-animation-iteration-count: infinite;
+  -moz-animation-iteration-count: infinite;
+}
+.start .floating2 {
+  animation-name: floating2;
+  -webkit-animation-name: floating2;
+  -moz-animation-name: floating2;
+  animation-duration: 4s;
+  -webkit-animation-duration: 4s;
+  -moz-animation-duration: 4s;
+  animation-iteration-count: infinite;
+  -webkit-animation-iteration-count: infinite;
+  -moz-animation-iteration-count: infinite;
+}
+@keyframes floating {
+  0% {
+    transform: translateY(0%);
+  }
+  50% {
+    transform: translateY(8px);
+  }
+  100% {
+    transform: translateY(0%);
+  }
+}
+@keyframes floating2 {
+  0% {
+    transform: translateY(0%) scale(1);
+  }
+  50% {
+    transform: translateY(-8px) scale(1.025);
+  }
+  100% {
+    transform: translateY(0%) scale(1);
+  }
 }
 .countdown {
   background: linear-gradient(to top left, #0939dc, #00c1ff);
@@ -701,6 +753,7 @@ html.active {
   display: block;
   width: 290px;
   height: auto;
+  image-rendering: -webkit-optimize-contrast;
 }
 .jnt .item {
   position: relative;
@@ -1150,7 +1203,7 @@ html.active {
   }
 }
 @media only screen and (max-width: 800px) {
-  .start .img {
+  .start .iphone {
     right: -400px;
   }
   .start .logos a {
@@ -1262,14 +1315,14 @@ html.active {
   .start {
     padding-top: 120px;
   }
-  .start .img {
+  .start .iphone,
+  .start .card {
     display: none;
   }
   .start .text {
     padding: 60px 0 150px;
     text-align: center;
   }
-  .start .video,
   .start .logos {
     display: none;
   }
@@ -1552,5 +1605,8 @@ html.active {
     width: 70px;
     height: 70px;
     border-radius: 35px;
+  }
+  .team .col-6 h3 {
+    margin-top: 4px;
   }
 }

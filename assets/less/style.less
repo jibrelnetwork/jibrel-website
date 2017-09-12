@@ -58,7 +58,7 @@ a {
   color: @blue;
   text-decoration: none;
   &:hover {
-    color: @black;
+    color: @light-blue;
   }
 }
 
@@ -367,7 +367,7 @@ html.active {
       margin-left: 0;
     }
     a {
-      transition: none;
+      transition: color 0.3s ease 0s;
     }
     svg {
       display: block;
@@ -384,7 +384,7 @@ html.active {
       }
       &:hover {
         .cls-2 {
-          fill: @black;
+          fill: @light-blue;
         }
       }
     }
@@ -410,9 +410,14 @@ html.active {
   background-color: @blue-bg;
   border-bottom: 1px solid @line-bg;
   position: relative;
+  height: 100vh;
+  .inner {
+    height: calc(~"100vh - 250px");
+  }
   .text {
-    padding: 160px 0 300px 0;
     position: relative;
+    top: 50%;
+    margin-top: -150px;
     h1 {
       font-size: 32px;
       font-weight: 300;
@@ -445,29 +450,76 @@ html.active {
       }
     }
   }
-  .img {
+  .iphone {
     position: absolute;
-    right: -110px;
+    left: 480px;
     top: 50%;
-    margin-top: -280px;
-    display: none;
+    margin-top: -60px;
+    width: 650px;
+    height: 468px;
+    img {
+      width: 100%;
+      height: 100%;
+      display: block;
+      image-rendering: -webkit-optimize-contrast;
+    }
   }
-  .video {
-    width: 100%;
-    height: 100%;
+  .card {
     position: absolute;
-    overflow: hidden;
-    left: 0;
-    top: 0;
-    video {
-      width: auto;
-      height: auto;
-      min-height: 100%;
-      min-width: 100%;
-      position: relative;
-      left: 50%;
-      margin-left: -960px;
-      top: -140px;
+    left: 580px;
+    top: 50%;
+    margin-top: -86px;
+    width: 316px;
+    height: 194px;
+    img {
+      width: 100%;
+      height: 100%;
+      display: block;
+      image-rendering: -webkit-optimize-contrast;
+    }
+  }
+  .floating {
+    animation-name: floating;
+    -webkit-animation-name: floating;
+    -moz-animation-name: floating;
+    animation-duration: 4s;
+    -webkit-animation-duration: 4s;
+    -moz-animation-duration: 4s;
+    animation-iteration-count: infinite;
+    -webkit-animation-iteration-count: infinite;
+    -moz-animation-iteration-count: infinite;
+  }
+  .floating2 {
+    animation-name: floating2;
+    -webkit-animation-name: floating2;
+    -moz-animation-name: floating2;
+    animation-duration: 4s;
+    -webkit-animation-duration: 4s;
+    -moz-animation-duration: 4s;
+    animation-iteration-count: infinite;
+    -webkit-animation-iteration-count: infinite;
+    -moz-animation-iteration-count: infinite;
+  }
+  @keyframes floating {
+    0% {
+      transform: translateY(0%);
+    }
+    50% {
+      transform: translateY(8px);
+    }
+    100% {
+      transform: translateY(0%);
+    }
+  }
+  @keyframes floating2 {
+    0% {
+      transform: translateY(0%) scale(1);
+    }
+    50% {
+      transform: translateY(-8px) scale(1.025);
+    }
+    100% {
+      transform: translateY(0%) scale(1);
     }
   }
 }
@@ -762,6 +814,7 @@ html.active {
       display: block;
       width: 290px;
       height: auto;
+      image-rendering: -webkit-optimize-contrast;
     }
   }
   .item {
@@ -1183,7 +1236,7 @@ html.active {
 
 @media only screen and (max-width: 800px) {
   .start {
-    .img {
+    .iphone {
       right: -400px;
     }
     .logos {
@@ -1331,14 +1384,13 @@ html.active {
   }
   .start {
     padding-top: 120px;
-    .img {
+    .iphone, .card {
       display: none;
     }
     .text {
       padding: 60px 0 150px;
       text-align: center;
     }
-    .video,
     .logos {
       display: none;
     }
@@ -1703,6 +1755,9 @@ html.active {
           height: 70px;
           border-radius: 35px;
         }
+      }
+      h3 {
+        margin-top: 4px;
       }
     }
   }
