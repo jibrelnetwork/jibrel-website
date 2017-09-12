@@ -163,6 +163,9 @@ i,
 .icons.icon-linkedin {
   background-image: url("../img/icons/linkedin.svg");
 }
+.icons.icon-wiki {
+  background-image: url("../img/icons/wiki.svg");
+}
 .icons.icon-big-twitter:before {
   background-image: url("../img/icons/big/twitter.svg");
 }
@@ -399,6 +402,7 @@ html.active {
   right: -110px;
   top: 50%;
   margin-top: -280px;
+  display: none;
 }
 .start .video {
   width: 100%;
@@ -407,7 +411,6 @@ html.active {
   overflow: hidden;
   left: 0;
   top: 0;
-  display: none;
 }
 .start .video video {
   width: auto;
@@ -417,7 +420,7 @@ html.active {
   position: relative;
   left: 50%;
   margin-left: -960px;
-  top: -100px;
+  top: -15px;
 }
 .countdown {
   background: linear-gradient(to top left, #0939dc, #00c1ff);
@@ -504,6 +507,7 @@ html.active {
   width: 100%;
   left: 0;
   top: 80px;
+  display: none;
 }
 .countdown .inner {
   position: unset;
@@ -668,6 +672,7 @@ html.active {
   text-transform: uppercase;
   opacity: 0.5;
   font-weight: 600;
+  line-height: 1.5;
 }
 .jnt .events .event:before {
   display: inline-block;
@@ -1122,6 +1127,7 @@ html.active {
 }
 .footer p {
   opacity: 0.7;
+  line-height: 2;
 }
 @media only screen and (max-width: 1100px) {
   .section {
@@ -1547,7 +1553,4 @@ html.active {
     height: 70px;
     border-radius: 35px;
   }
-}
-.hidden {
-  display: none;
 }
