@@ -420,7 +420,7 @@ html.active {
   position: relative;
   left: 50%;
   margin-left: -960px;
-  top: -15px;
+  top: -140px;
 }
 .countdown {
   background: linear-gradient(to top left, #0939dc, #00c1ff);
