@@ -190,6 +190,7 @@ i,
   line-height: 48px;
   border-radius: 24px;
   color: #ffffff;
+  background-color: #0574eb;
   background: linear-gradient(to top left, #0574eb, #00c1ff);
   box-shadow: 0 5px 10px rgba(17, 85, 204, 0.35);
   font-size: 14px;
@@ -586,6 +587,7 @@ html.active {
   padding-bottom: 0;
 }
 .roadmap:before {
+  background-color: #0574eb;
   background: linear-gradient(to top left, #0939dc, #00c1ff);
   opacity: 0.9;
   width: 100%;
@@ -924,6 +926,7 @@ html.active {
   height: 36px;
   border-radius: 18px;
   box-shadow: 0 5px 10px rgba(17, 85, 204, 0.35);
+  background-color: #0574eb;
   background: url("../img/icons/download.svg") no-repeat, linear-gradient(to top left, #0574eb, #00c1ff);
   display: block;
   position: absolute;
@@ -1266,12 +1269,10 @@ html.active {
   .header {
     padding-top: 0;
     padding-bottom: 0;
+    overflow: visible;
   }
   .header .menu {
     display: none;
-  }
-  .header .menu.active {
-    display: block;
     position: fixed;
     top: 120px;
     left: 0;
@@ -1279,17 +1280,21 @@ html.active {
     height: 100%;
     background-color: #3c3c58;
     padding: 30px;
+    z-index: 100;
   }
-  .header .menu.active li {
+  .header .menu li {
     line-height: 40px;
     display: block;
     margin-left: 0;
   }
-  .header .menu.active li a {
+  .header .menu li a {
     color: #ffffff;
   }
-  .header .menu.active li:last-child {
+  .header .menu li:last-child {
     margin-top: 10px;
+  }
+  .header .menu.active {
+    display: block;
   }
   .header .menu-button {
     display: block;
