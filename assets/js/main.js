@@ -59,7 +59,7 @@ $(document).ready(function(){
     });
 
     //Scroll
-    $('.header .scroll').smoothScroll();
+    $('.scroll').smoothScroll();
 
     //Menu
     $('.menu-button').click(function() {
