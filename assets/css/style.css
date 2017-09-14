@@ -413,10 +413,10 @@ html.active {
 }
 .start .card {
   position: absolute;
-  left: 580px;
-  top: 84px;
-  width: 316px;
-  height: 194px;
+  left: 555px;
+  top: 66px;
+  width: 380px;
+  height: 233px;
 }
 .start .card img {
   width: 100%;
