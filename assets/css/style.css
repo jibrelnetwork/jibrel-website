@@ -547,7 +547,12 @@ html.active {
   width: 100%;
   left: 0;
   top: 80px;
-  display: none;
+}
+.countdown .field .done.error {
+  color: #e91e63;
+}
+.countdown .field .done.in-progress {
+  color: #0574eb;
 }
 .countdown .inner {
   position: unset;

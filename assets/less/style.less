@@ -597,7 +597,12 @@ html.active {
       width: 100%;
       left: 0;
       top: 80px;
-      display: none;
+      &.error {
+        color: @pink;
+      }
+      &.in-progress {
+        color: @blue;
+      }
     }
   }
   .inner {
