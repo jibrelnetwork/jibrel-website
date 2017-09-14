@@ -517,6 +517,8 @@ html.active {
   border-radius: 28px;
   background-color: #ffffff;
   border: none;
+  -webkit-appearance: none;
+  -webkit-box-shadow: 0 5px 10px rgba(17, 85, 204, 0.35);
   box-shadow: 0 5px 10px rgba(17, 85, 204, 0.35);
   width: 100%;
   color: #0574eb;
