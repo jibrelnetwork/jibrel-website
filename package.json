@@ -1,0 +1,21 @@
+{
+    "name": "jibrel",
+    "version": "0.1.1",
+    "private": true,
+    "homepage": "https://jibrel.website/",
+    "dependencies": {
+      "express": "^4.15.3",
+      "gh-pages": "^1.0.0"
+    },
+    "devDependencies": {
+      "express": "^4.15.3",
+      "path": "^0.12.7",
+      "react-scripts": "1.0.6",
+      "serve-static": "^1.12.3"
+    },
+    "scripts": {
+        "postinstall": "npm install express",
+        "start": "node demo-server.js"
+    }
+  }
+  
