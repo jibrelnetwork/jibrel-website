@@ -431,8 +431,6 @@ html.active {
   -webkit-animation-duration: 4s;
   animation-iteration-count: infinite;
   -webkit-animation-iteration-count: infinite;
-  -webkit-transition: all 600ms easeInQuad;
-  transition: all 600ms easeInQuad;
 }
 .start .floating2 {
   animation-name: floating2;
@@ -441,8 +439,6 @@ html.active {
   -webkit-animation-duration: 4s;
   animation-iteration-count: infinite;
   -webkit-animation-iteration-count: infinite;
-  -webkit-transition: all 600ms easeInQuad;
-  transition: all 600ms easeInQuad;
 }
 @keyframes floating {
   0% {
@@ -551,8 +547,6 @@ html.active {
   width: 100%;
   left: 0;
   top: 80px;
-}
-.hidden {
   display: none;
 }
 .countdown .inner {
