@@ -523,6 +523,8 @@ html.active {
   width: 100%;
   color: #0574eb;
   padding: 0 28px;
+  font-family: 'Open Sans', Arial, sans-serif;
+  font-size: 13px;
 }
 .countdown .field input::-webkit-input-placeholder {
   color: #0574eb;
