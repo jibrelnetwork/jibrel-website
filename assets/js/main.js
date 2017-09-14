@@ -7,16 +7,10 @@ var isEmailValid = function(value) {
 
 function callbackName (data){}
 var sendEmail = function(email, callback){
-    var emailAddlUrl = 'http://network.us16.list-manage.com/subscribe/post?u=c183c6fd5297d1abedae2421f&id=ea106174e5&EMAIL=' + email;
+    var emailAddlUrl = 'https://network.us16.list-manage.com/subscribe/post?u=c183c6fd5297d1abedae2421f&id=ea106174e5&EMAIL=' + email;
     
-    $.ajax({
-        url: emailAddlUrl,
-        method: 'GET',
-        jsonpCallback: 'c',
-        dataType: 'JSONP',
-        success: function(json){
+    $.post(emailAddlUrl, function(){
             callback();
-          }
     })
 
 }
