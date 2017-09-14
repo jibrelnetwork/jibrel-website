@@ -554,6 +554,9 @@ html.active {
 .countdown .field .done.in-progress {
   color: #0574eb;
 }
+.countdown .field .done .hidden {
+  display: none;
+}
 .countdown .inner {
   position: unset;
 }
