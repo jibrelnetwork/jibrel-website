@@ -31,10 +31,16 @@ $(document).ready(function(){
         
         var emailValue = $('#email-input', $emailContainer).val();
         if (isEmailValid(emailValue)) {
+            $emailContainer.find('.in-progress').removeClass('hidden');
+            $emailContainer.find('.error').addClass('hidden');
             sendEmail(emailValue, function(){
                 $emailContainer.find('.done').removeClass('hidden');
+                $emailContainer.find('.in-progress').addClass('hidden');
+                $emailContainer.find('.error').addClass('hidden');
                 $('#email-input', $emailContainer).val('')
             })
+        } else {
+            $emailContainer.find('.error').removeClass('hidden');
         }
         return false;
     });
