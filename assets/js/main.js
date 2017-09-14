@@ -4,12 +4,21 @@ var isEmailValid = function(value) {
     if(value && value != '' && value.length > 5 && re.test(value)) return true;
     return false;
 }
+
+function callbackName (data){}
 var sendEmail = function(email, callback){
-    var postCallUrl = 'http://network.us16.list-manage.com/subscribe/post-json?u=c183c6fd5297d1abedae2421f&id=ea106174e5&EMAIL=' + email;
-    $.post(postCallUrl, function( data ) {
-       console.log(data)
-       callback();
-      })
+    var emailAddlUrl = 'http://network.us16.list-manage.com/subscribe/post?u=c183c6fd5297d1abedae2421f&id=ea106174e5&EMAIL=' + email;
+    
+    $.ajax({
+        url: emailAddlUrl,
+        method: 'GET',
+        jsonpCallback: 'c',
+        dataType: 'JSONP',
+        success: function(json){
+            callback();
+          }
+    })
+
 }
 
 $(document).ready(function(){
@@ -31,10 +40,15 @@ $(document).ready(function(){
         
         var emailValue = $('#email-input', $emailContainer).val();
         if (isEmailValid(emailValue)) {
+            $emailContainer.find('.in-progress').removeClass('hidden');
+            $emailContainer.find('.error').addClass('hidden');
             sendEmail(emailValue, function(){
                 $emailContainer.find('.done').removeClass('hidden');
+                $emailContainer.find('.in-progress').addClass('hidden');
                 $('#email-input', $emailContainer).val('')
             })
+        } else {
+            $emailContainer.find('.error').removeClass('hidden');
         }
         return false;
     });
