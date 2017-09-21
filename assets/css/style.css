@@ -1304,13 +1304,7 @@ html.active {
 .remodal .remodal-footer .pull-right:hover:before {
   left: -36px;
 }
-.remodal .steps.step-2 {
-  display: none;
-}
-.remodal .steps.step-3 {
-  display: none;
-}
-.remodal .steps.step-4 {
+.remodal .steps {
   display: none;
 }
 .remodal .steps.step-4 p {
@@ -1333,6 +1327,9 @@ html.active {
 .remodal .steps.step-4 p:last-child {
   font-weight: normal;
   opacity: 0.7;
+}
+.remodal .steps.active {
+  display: block;
 }
 .remodal .field {
   position: relative;
