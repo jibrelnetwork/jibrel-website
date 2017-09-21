@@ -1254,6 +1254,7 @@ html.active {
   text-align: left;
   border-radius: 8px;
   box-shadow: 0 5px 10px rgba(17, 85, 204, 0.1);
+  position: relative;
 }
 .remodal .remodal-header {
   margin: 50px 50px 0 50px;
