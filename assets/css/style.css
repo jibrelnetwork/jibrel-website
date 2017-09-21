@@ -1249,7 +1249,7 @@ html.active {
   line-height: 2;
 }
 .remodal {
-  max-width: 560px;
+  width: 560px;
   background-color: #ffffff;
   text-align: left;
   border-radius: 8px;
