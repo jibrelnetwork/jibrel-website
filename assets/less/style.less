@@ -93,7 +93,9 @@ i,
 .menu,
 .menu-button,
 .whitepaper a:before,
-.footer a:before{
+.footer a:before,
+.pull-right:before
+{
   transition: all 0.3s ease 0s;
 }
 
@@ -1260,6 +1262,183 @@ html.active {
   p {
     opacity: 0.7;
     line-height: 2;
+  }
+}
+
+.remodal {
+  max-width: 560px;
+  background-color: @white;
+  text-align: left;
+  border-radius: 8px;
+  box-shadow: @shadow-2;
+  .remodal-header {
+    margin: 50px 50px 0 50px;
+    position: relative;
+    h2 {
+      font-weight: normal;
+      font-size: 18px;
+    }
+    .remodal-close {
+      position: absolute;
+      right: 0;
+      top: 50%;
+      width: 20px;
+      height: 20px;
+      background-image: url('../img/icons/modal-close.svg');
+      border: none;
+      background-color: transparent;
+      margin-top: -10px;
+      opacity: 0.5;
+    }
+  }
+  .remodal-content {
+    padding: 50px;
+    overflow: hidden;
+  }
+  .remodal-footer {
+    padding: 0 50px 50px 50px;
+    .pull-left {
+      opacity: 0.5;
+      font-weight: bold;
+    }
+    .pull-right {
+      text-transform: uppercase;
+      font-weight: bold;
+      position: relative;
+      &:before {
+        background-image: url('../img/icons/step.svg');
+        content: '';
+        background-size: 24px 24px;
+        width: 24px;
+        height: 24px;
+        position: absolute;
+        left: -32px;
+        top: -5px;
+      }
+      &:hover {
+        &:before {
+          left: -36px;
+        }
+      }
+    }
+  }
+  .steps {
+    &.step-2 {
+      display: none;
+    }
+    &.step-3 {
+      display: none;
+    }
+    &.step-4 {
+      display: none;
+      p {
+        font-weight: 600;
+        line-height: 24px;
+        margin-bottom: 1.5em;
+        span {
+          color: @blue;
+        }
+        &:first-child {
+          text-align: center;
+          margin-bottom: 40px;
+          img {
+            width: 234px;
+            height: 126px;
+            display: inline-block;
+          }
+        }
+        &:last-child {
+          font-weight: normal;
+          opacity: 0.7;
+        }
+      }
+    }
+  }
+  .field {
+    position: relative;
+    margin-bottom: 40px;
+    &:last-child {
+      margin-bottom: 0;
+    }
+    &.field-checkbox {
+      input {
+        display:none;
+        & + label {
+          padding-left: 30px;
+          font-size: 13px;
+          font-weight: normal;
+          position: relative;
+          top: 0;
+          color: @black;
+          left: 0;
+          display: block;
+          line-height: 24px;
+        }
+        & + label:before {
+          top: 2px;
+          display: inline-block;
+          position: absolute;
+          left: 0px;
+          border: 2px solid @line;
+          background-color: @white;
+          width: 16px;
+          height: 16px;
+          content: '';
+          border-radius: 10px;
+        }
+        &:checked + label:before {
+          display: block;
+          position: absolute;
+          border: 2px solid @blue;
+          width: 16px;
+          height: 16px;
+          background-color: @blue;
+          background-image: url("../img/icons/checkbox.svg");
+          background-size: 9px 7px;
+          background-repeat: no-repeat;
+          background-position: center center;
+        }
+        &:checked + label {
+          color: @blue;
+        }
+      }
+    }
+    &.field-input {
+      input {
+        display: block;
+        width: 100%;
+        padding: 15px 0;
+        border: none;
+        border-bottom: 1px solid rgba(45, 44, 62, 0.1);
+        font-family: @font;
+        font-size: 13px;
+        font-weight: 600;
+      }
+    }
+  }
+  .notice {
+    color: @blue;
+    position: relative;
+    line-height: 24px;
+    padding: 25px 0;
+    margin-bottom: 40px;
+    p {
+      position: relative;
+    }
+    &:before {
+      content: '';
+      background-color: @blue-bg;
+      border-top: 1px solid @line-bg;
+      border-bottom: 1px solid @line-bg;
+      position: absolute;
+      height: 100%;
+      width: 200%;
+      left: -50%;
+      top: 0;
+    }
+  }
+  .label {
+    margin-bottom: 40px;
   }
 }
 

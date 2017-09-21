@@ -65,7 +65,8 @@ i,
 .menu,
 .menu-button,
 .whitepaper a:before,
-.footer a:before {
+.footer a:before,
+.pull-right:before {
   transition: all 0.3s ease 0s;
 }
 /* Grid */
@@ -1246,6 +1247,174 @@ html.active {
 .footer p {
   opacity: 0.7;
   line-height: 2;
+}
+.remodal {
+  max-width: 560px;
+  background-color: #ffffff;
+  text-align: left;
+  border-radius: 8px;
+  box-shadow: 0 5px 10px rgba(17, 85, 204, 0.1);
+}
+.remodal .remodal-header {
+  margin: 50px 50px 0 50px;
+  position: relative;
+}
+.remodal .remodal-header h2 {
+  font-weight: normal;
+  font-size: 18px;
+}
+.remodal .remodal-header .remodal-close {
+  position: absolute;
+  right: 0;
+  top: 50%;
+  width: 20px;
+  height: 20px;
+  background-image: url('../img/icons/modal-close.svg');
+  border: none;
+  background-color: transparent;
+  margin-top: -10px;
+  opacity: 0.5;
+}
+.remodal .remodal-content {
+  padding: 50px;
+  overflow: hidden;
+}
+.remodal .remodal-footer {
+  padding: 0 50px 50px 50px;
+}
+.remodal .remodal-footer .pull-left {
+  opacity: 0.5;
+  font-weight: bold;
+}
+.remodal .remodal-footer .pull-right {
+  text-transform: uppercase;
+  font-weight: bold;
+  position: relative;
+}
+.remodal .remodal-footer .pull-right:before {
+  background-image: url('../img/icons/step.svg');
+  content: '';
+  background-size: 24px 24px;
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  left: -32px;
+  top: -5px;
+}
+.remodal .remodal-footer .pull-right:hover:before {
+  left: -36px;
+}
+.remodal .steps.step-2 {
+  display: none;
+}
+.remodal .steps.step-3 {
+  display: none;
+}
+.remodal .steps.step-4 {
+  display: none;
+}
+.remodal .steps.step-4 p {
+  font-weight: 600;
+  line-height: 24px;
+  margin-bottom: 1.5em;
+}
+.remodal .steps.step-4 p span {
+  color: #0574eb;
+}
+.remodal .steps.step-4 p:first-child {
+  text-align: center;
+  margin-bottom: 40px;
+}
+.remodal .steps.step-4 p:first-child img {
+  width: 234px;
+  height: 126px;
+  display: inline-block;
+}
+.remodal .steps.step-4 p:last-child {
+  font-weight: normal;
+  opacity: 0.7;
+}
+.remodal .field {
+  position: relative;
+  margin-bottom: 40px;
+}
+.remodal .field:last-child {
+  margin-bottom: 0;
+}
+.remodal .field.field-checkbox input {
+  display: none;
+}
+.remodal .field.field-checkbox input + label {
+  padding-left: 30px;
+  font-size: 13px;
+  font-weight: normal;
+  position: relative;
+  top: 0;
+  color: #3c3c58;
+  left: 0;
+  display: block;
+  line-height: 24px;
+}
+.remodal .field.field-checkbox input + label:before {
+  top: 2px;
+  display: inline-block;
+  position: absolute;
+  left: 0px;
+  border: 2px solid #cde3fb;
+  background-color: #ffffff;
+  width: 16px;
+  height: 16px;
+  content: '';
+  border-radius: 10px;
+}
+.remodal .field.field-checkbox input:checked + label:before {
+  display: block;
+  position: absolute;
+  border: 2px solid #0574eb;
+  width: 16px;
+  height: 16px;
+  background-color: #0574eb;
+  background-image: url("../img/icons/checkbox.svg");
+  background-size: 9px 7px;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+.remodal .field.field-checkbox input:checked + label {
+  color: #0574eb;
+}
+.remodal .field.field-input input {
+  display: block;
+  width: 100%;
+  padding: 15px 0;
+  border: none;
+  border-bottom: 1px solid rgba(45, 44, 62, 0.1);
+  font-family: 'Open Sans', Arial, sans-serif;
+  font-size: 13px;
+  font-weight: 600;
+}
+.remodal .notice {
+  color: #0574eb;
+  position: relative;
+  line-height: 24px;
+  padding: 25px 0;
+  margin-bottom: 40px;
+}
+.remodal .notice p {
+  position: relative;
+}
+.remodal .notice:before {
+  content: '';
+  background-color: #f8fbff;
+  border-top: 1px solid rgba(5, 116, 235, 0.1);
+  border-bottom: 1px solid rgba(5, 116, 235, 0.1);
+  position: absolute;
+  height: 100%;
+  width: 200%;
+  left: -50%;
+  top: 0;
+}
+.remodal .label {
+  margin-bottom: 40px;
 }
 @media only screen and (max-width: 1100px) {
   .section {
