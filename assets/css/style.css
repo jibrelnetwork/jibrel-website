@@ -186,9 +186,9 @@ i,
 }
 .button {
   display: inline-block;
-  height: 48px;
-  line-height: 48px;
-  border-radius: 24px;
+  height: 56px;
+  line-height: 56px;
+  border-radius: 28px;
   color: #ffffff;
   background-color: #0574eb;
   background: linear-gradient(to top left, #0574eb, #00c1ff);
@@ -198,10 +198,10 @@ i,
   transition: background 0.3s ease-out;
   width: 160px;
   text-align: center;
-  background-size: 100% 96px;
+  background-size: 100% 112px;
 }
 .button:hover {
-  background-position: 0 -48px;
+  background-position: 0 -56px;
   color: #ffffff;
 }
 /* Menu button */
@@ -360,8 +360,8 @@ html.active {
 .start {
   padding: 120px 0 0 0;
   background-color: #f8fbff;
-  border-bottom: 1px solid rgba(5, 116, 235, 0.1);
   position: relative;
+  border-bottom: 1px solid rgba(5, 116, 235, 0.1);
 }
 .start .text {
   padding: 160px 0 300px 0;
@@ -377,6 +377,17 @@ html.active {
   margin: 30px 0;
   line-height: 30px;
   font-weight: 300;
+}
+.start .text a {
+  line-height: 28px;
+  display: inline-block;
+  background-image: url("../img/icons/fire.svg");
+  background-repeat: no-repeat;
+  background-position: left top;
+  background-size: 24px 24px;
+  padding-left: 34px;
+  font-size: 14px;
+  font-weight: 600;
 }
 .start .logos {
   position: absolute;
@@ -401,7 +412,7 @@ html.active {
 .start .iphone {
   position: absolute;
   left: 480px;
-  top: 110px;
+  top: 90px;
   width: 650px;
   height: 468px;
 }
@@ -427,7 +438,7 @@ html.active {
 .start .card {
   position: absolute;
   left: 563px;
-  top: 80px;
+  top: 60px;
   width: 353px;
   height: 216px;
 }
@@ -493,6 +504,7 @@ html.active {
   position: relative;
   overflow: visible;
   margin-bottom: 30px;
+  border-bottom: 1px solid rgba(5, 116, 235, 0.1);
 }
 .countdown .title {
   text-align: center;
@@ -537,6 +549,7 @@ html.active {
   left: 50%;
   margin-left: -200px;
   bottom: -28px;
+  text-align: center;
 }
 .countdown .field input {
   height: 56px;
@@ -559,36 +572,61 @@ html.active {
 .countdown .field input:invalid {
   color: #e91e63;
 }
-.countdown .field a {
+.countdown .field .button {
+  display: inline-block;
+  width: 300px;
+  height: 56px;
+  line-height: 56px;
+  border-radius: 28px;
+  font-weight: 600;
+  text-align: left;
+  padding: 0 30px 0 64px;
+  position: relative;
+}
+.countdown .field .button i {
+  position: absolute;
   display: block;
   width: 24px;
   height: 24px;
-  position: absolute;
-  right: 22px;
+  background-image: url("../img/icons/arrow-right.svg");
+  background-repeat: no-repeat;
+  background-position: left top;
+  background-size: 24px 24px;
+  left: 30px;
   top: 16px;
 }
-.countdown .field a:hover {
-  opacity: 0.5;
+.countdown .field .button .floating3 {
+  animation-name: floating3;
+  -webkit-animation-name: floating3;
+  animation-duration: 2s;
+  -webkit-animation-duration: 2s;
+  animation-iteration-count: infinite;
+  -webkit-animation-iteration-count: infinite;
 }
-.countdown .field .done {
-  color: #4dd0e1;
-  text-align: center;
-  position: absolute;
-  width: 100%;
-  left: 0;
-  top: 80px;
-}
-.countdown .field .done.error {
-  color: #e91e63;
-}
-.countdown .field .done.in-progress {
-  color: #0574eb;
-}
-.countdown .field .done.hidden {
-  display: none;
+@keyframes floating3 {
+  0% {
+    transform: translateX(0%);
+  }
+  50% {
+    transform: translateX(-8px);
+  }
+  100% {
+    transform: translateX(0%);
+  }
 }
 .countdown .inner {
   position: unset;
+}
+.countdown:before {
+  display: block;
+  position: absolute;
+  content: '';
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  background-image: url("../img/countdown-bg.png");
+  background-size: cover;
 }
 .about h3,
 .about p {
