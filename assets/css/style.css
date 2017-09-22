@@ -1249,12 +1249,14 @@ html.active {
   line-height: 2;
 }
 .remodal {
-  width: 560px;
+  max-width: 560px;
+  width: 100%;
   background-color: #ffffff;
   text-align: left;
   border-radius: 8px;
   box-shadow: 0 5px 10px rgba(17, 85, 204, 0.1);
   position: relative;
+  transition: all 0.3s ease 0s;
 }
 .remodal .remodal-header {
   margin: 50px 50px 0 50px;
@@ -1279,6 +1281,7 @@ html.active {
 .remodal .remodal-content {
   padding: 50px;
   overflow: hidden;
+  transition: all 0.3s ease 0s;
 }
 .remodal .remodal-footer {
   padding: 0 50px 50px 50px;
@@ -1307,6 +1310,7 @@ html.active {
 }
 .remodal .steps {
   display: none;
+  transition: all 0.3s ease 0s;
 }
 .remodal .steps.step-4 p {
   font-weight: 600;
@@ -1501,6 +1505,9 @@ html.active {
   }
 }
 @media only screen and (max-width: 600px) {
+  .remodal {
+    width: 90%;
+  }
   .section {
     padding-top: 60px;
     padding-bottom: 60px;
@@ -1691,6 +1698,14 @@ html.active {
   .countdown .ClassyCountdown-wrapper .ClassyCountdown-value span {
     top: -10px;
   }
+  .countdown .field .button {
+    width: 280px;
+    padding: 0 30px;
+    text-align: center;
+  }
+  .countdown .field .button i {
+    display: none;
+  }
   .roadmap {
     padding-bottom: 0;
   }
@@ -1841,5 +1856,20 @@ html.active {
   }
   .team .col-6 h3 {
     margin-top: 4px;
+  }
+  .remodal {
+    width: 90%;
+  }
+  .remodal .remodal-header {
+    margin: 30px 30px 0 30px;
+  }
+  .remodal .remodal-content {
+    padding: 30px;
+  }
+  .remodal .remodal-footer {
+    padding: 0 30px 30px 30px;
+  }
+  .remodal .field {
+    margin-bottom: 20px;
   }
 }
