@@ -1296,7 +1296,6 @@ html.active {
   }
   .remodal-content {
     padding: 50px;
-    overflow: hidden;
     transition: all 0.3s ease 0s;
   }
   .remodal-footer {
@@ -1415,6 +1414,37 @@ html.active {
         font-size: 13px;
         font-weight: 600;
       }
+      ul {
+        display: none;
+        position: absolute;
+        top: 45px;
+        left: 0;
+        width: 100%;
+        border: 1px solid rgba(45,44,62,0.2);
+        background-color: @white;
+        z-index: 10;
+        padding: 5px 0;
+        height: 160px;
+        overflow-y: scroll;
+        &.scroll {
+          height: 136px;
+          overflow: auto;
+        }
+        a {
+          display: block;
+          line-height: 40px;
+          padding: 0 15px;
+          &.active {
+            background-color: @line-bg;
+          }
+          &:hover {
+            color: @black;
+          }
+        }
+        &:target {
+          display: block;
+        }
+      }
     }
   }
   .notice {
@@ -1433,8 +1463,8 @@ html.active {
       border-bottom: 1px solid @line-bg;
       position: absolute;
       height: 100%;
-      width: 200%;
-      left: -50%;
+      width: calc(~"100% + 100px");
+      left: -50px;
       top: 0;
     }
   }
@@ -2022,6 +2052,12 @@ html.active {
     }
     .field {
       margin-bottom: 20px;
+    }
+    .notice {
+      &:before {
+        width: calc(~"100% + 60px");
+        left: -30px;
+      }
     }
   }
 }
