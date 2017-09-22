@@ -787,26 +787,13 @@ Creation Date: 09/20/2017
             <div class="field field-input">
                 <input type="email" placeholder="Email" name="email" />
             </div>
-            <div class="field field-input">
-                <input type="text" placeholder="Country of Residence" name="country" />
-                <ul>
-                    <li><a href="#">Russia</a></li>
-                    <li><a href="#">Russia</a></li>
-                    <li><a href="#">Russia</a></li>
-                    <li><a href="#">Russia</a></li>
-                    <li><a href="#">Russia</a></li>
-                    <li><a href="#">Russia</a></li>
-                </ul>
+            <div class="field field-input" id="country-container">
+                <input type="text" placeholder="Country of Residence" name="country" id="country" />
+                <ul id="country-list" class="autocomplete"></ul>
             </div>
-            <div class="field field-input">
-                <input type="text" placeholder="Citizenship" name="citizenship" />
-                <ul>
-                    <li><a href="#">Russia</a></li>
-                    <li><a href="#">Russia</a></li>
-                    <li><a href="#">Russia</a></li>
-                    <li><a href="#">Russia</a></li>
-                    <li><a href="#">Russia</a></li>
-                </ul>
+            <div class="field field-input" id="citizenship-container">
+                <input type="text" placeholder="Citizenship" name="citizenship" id="citizenship" />
+                <ul id="citizenship-list" class="autocomplete"></ul>
             </div>
         </div>
         <div class="steps step-3">
@@ -814,18 +801,12 @@ Creation Date: 09/20/2017
                 <p>Please note, the minimum value for pre-sale participation is US$ 15,000.</p>
             </div>
             <div class="label">I would like to contribute:</div>
-            <div class="field field-input">
-                <input type="text" placeholder="Currency" name="currency" id="form-currency" />
-                <ul>
-                    <li><a href="#">ETH</a></li>
-                    <li><a href="#">BTC</a></li>
-                    <li><a href="#" class="active">USD</a></li>
-                    <li><a href="#">EUR</a></li>
-                    <li><a href="#">CHF</a></li>
-                </ul>
+            <div class="field field-input" id="currency-container">
+                <input type="text" placeholder="Currency" name="currency" id="currency" />
+                <ul id="currency-list" class="autocomplete"></ul>
             </div>
             <div class="field field-input">
-                <input type="text" placeholder="Amount" name="amount" id="form-amount" />
+                <input type="text" placeholder="Amount" name="amount" id="amount" />
             </div>
         </div>
         <div class="steps step-4">
@@ -848,6 +829,8 @@ Creation Date: 09/20/2017
 <script src="assets/js/jquery.classycountdown.min.js"></script>
 <script src="assets/js/remodal.min.js"></script>
 <script src="assets/js/main.js"></script>
+<script src="assets/js/countries.js"></script>
 <script src="assets/js/form.js"></script>
+
 </body>
 </html>
