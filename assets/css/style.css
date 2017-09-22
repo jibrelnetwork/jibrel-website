@@ -1307,6 +1307,9 @@ html.active {
 .remodal .remodal-footer .pull-right:hover:before {
   left: -36px;
 }
+.remodal .remodal-footer .disabled {
+  opacity: 0.5;
+}
 .remodal .steps {
   display: none;
   transition: all 0.3s ease 0s;
