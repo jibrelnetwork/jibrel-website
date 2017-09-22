@@ -1408,8 +1408,8 @@ html.active {
   background-color: #ffffff;
   z-index: 10;
   padding: 5px 0;
-  height: 160px;
-  overflow-y: scroll;
+  max-height: 160px;
+  overflow: auto;
 }
 .remodal .field.field-input ul.scroll {
   height: 136px;
@@ -1419,6 +1419,7 @@ html.active {
   display: block;
   line-height: 40px;
   padding: 0 15px;
+  cursor: pointer;
 }
 .remodal .field.field-input ul a.active {
   background-color: rgba(5, 116, 235, 0.1);
@@ -1426,8 +1427,12 @@ html.active {
 .remodal .field.field-input ul a:hover {
   color: #3c3c58;
 }
-.remodal .field.field-input ul:target {
+.remodal .field.field-input ul.active {
   display: block;
+}
+.remodal .field.field-input ul.hidden {
+  visibility: hidden;
+  opacity: 0;
 }
 .remodal .notice {
   color: #0574eb;

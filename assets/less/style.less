@@ -1430,8 +1430,8 @@ html.active {
         background-color: @white;
         z-index: 10;
         padding: 5px 0;
-        height: 160px;
-        overflow-y: scroll;
+        max-height: 160px;
+        overflow: auto;
         &.scroll {
           height: 136px;
           overflow: auto;
@@ -1440,6 +1440,7 @@ html.active {
           display: block;
           line-height: 40px;
           padding: 0 15px;
+          cursor: pointer;
           &.active {
             background-color: @line-bg;
           }
@@ -1447,8 +1448,12 @@ html.active {
             color: @black;
           }
         }
-        &:target {
+        &.active {
           display: block;
+        }
+        &.hidden {
+          visibility: hidden;
+          opacity: 0;
         }
       }
     }
