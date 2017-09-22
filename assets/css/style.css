@@ -1280,7 +1280,6 @@ html.active {
 }
 .remodal .remodal-content {
   padding: 50px;
-  overflow: hidden;
   transition: all 0.3s ease 0s;
 }
 .remodal .remodal-footer {
@@ -1393,6 +1392,37 @@ html.active {
   font-size: 13px;
   font-weight: 600;
 }
+.remodal .field.field-input ul {
+  display: none;
+  position: absolute;
+  top: 45px;
+  left: 0;
+  width: 100%;
+  border: 1px solid rgba(45, 44, 62, 0.2);
+  background-color: #ffffff;
+  z-index: 10;
+  padding: 5px 0;
+  height: 160px;
+  overflow-y: scroll;
+}
+.remodal .field.field-input ul.scroll {
+  height: 136px;
+  overflow: auto;
+}
+.remodal .field.field-input ul a {
+  display: block;
+  line-height: 40px;
+  padding: 0 15px;
+}
+.remodal .field.field-input ul a.active {
+  background-color: rgba(5, 116, 235, 0.1);
+}
+.remodal .field.field-input ul a:hover {
+  color: #3c3c58;
+}
+.remodal .field.field-input ul:target {
+  display: block;
+}
 .remodal .notice {
   color: #0574eb;
   position: relative;
@@ -1410,8 +1440,8 @@ html.active {
   border-bottom: 1px solid rgba(5, 116, 235, 0.1);
   position: absolute;
   height: 100%;
-  width: 200%;
-  left: -50%;
+  width: calc(100% + 100px);
+  left: -50px;
   top: 0;
 }
 .remodal .label {
@@ -1871,5 +1901,9 @@ html.active {
   }
   .remodal .field {
     margin-bottom: 20px;
+  }
+  .remodal .notice:before {
+    width: calc(100% + 60px);
+    left: -30px;
   }
 }
