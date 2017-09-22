@@ -1392,6 +1392,9 @@ html.active {
   font-size: 13px;
   font-weight: 600;
 }
+.remodal .field.field-input input:focus + ul {
+  display: block;
+}
 .remodal .field.field-input ul {
   display: none;
   position: absolute;
