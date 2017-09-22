@@ -1,4 +1,4 @@
-$(document).ready(function(){
+$(document).ready(function() {
 
     //Header animation
     $(window).scroll(function() {
@@ -44,24 +44,9 @@ $(document).ready(function(){
         return false;
     });
 
-    //Form
-    var currentStep = 1;
-
-    $('.remodal-footer a').click(function(e) {
-        e.preventDefault();
-
-        var nextStep = currentStep + 1;
-
-        $('.remodal-content .step-' + currentStep).toggleClass('active');
-        $('.remodal-content .step-' + nextStep).toggleClass('active');
-
-        currentStep = nextStep;
-
-        e.stopPropagation();
-    });
-
-    var timeLeft = (new Date("Sep 25, 2017 12:00:00 GMT+000").getTime() - $.now())/1000;
     //Count
+    var timeLeft = (new Date("Sep 25, 2017 12:00:00 GMT+000").getTime() - $.now())/1000;
+
     $('#countdown').ClassyCountdown({
         end: $.now() + timeLeft,
         labelsOptions: {

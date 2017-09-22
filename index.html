@@ -772,23 +772,23 @@ Creation Date: 09/20/2017
     <div class="remodal-content">
         <div class="steps step-1 active">
             <div class="field field-checkbox">
-                <input type="checkbox" id="checkbox-1" />
+                <input type="checkbox" id="checkbox-1" name="checkbox1" />
                 <label for="checkbox-1">I am not citizen, permanent resident, or granted indefinite leave to remain in the US, Singapore or China - or any jurisdiction in which the purchase of Jibrel Network Token (JNT) is explicitly prohibited or outlawed.</label>
             </div>
             <div class="field field-checkbox">
-                <input type="checkbox" id="checkbox-2" />
+                <input type="checkbox" id="checkbox-2" name="checkbox2" />
                 <label for="checkbox-2">I have read the <a href="#">Token Sale Terms & Conditions</a>, <a href="#">Privacy Policy</a> and Jibrel Network White Paper, and accept all terms, conditions, obligations, affirmations, representations and warranties outlined in these documents and agree to adhere to them and be legally bound by them.</label>
             </div>
         </div>
         <div class="steps step-2">
             <div class="field field-input">
-                <input type="text" placeholder="Full Name" />
+                <input type="text" placeholder="Full Name" name="fullname" />
             </div>
             <div class="field field-input">
-                <input type="email" placeholder="Email" />
+                <input type="email" placeholder="Email" name="email" />
             </div>
             <div class="field field-input">
-                <input type="text" placeholder="Country of Residence" />
+                <input type="text" placeholder="Country of Residence" name="country" />
                 <ul>
                     <li><a href="#">Russia</a></li>
                     <li><a href="#">Russia</a></li>
@@ -799,7 +799,7 @@ Creation Date: 09/20/2017
                 </ul>
             </div>
             <div class="field field-input">
-                <input type="text" placeholder="Citizenship" />
+                <input type="text" placeholder="Citizenship" name="citizenship" />
                 <ul>
                     <li><a href="#">Russia</a></li>
                     <li><a href="#">Russia</a></li>
@@ -815,7 +815,7 @@ Creation Date: 09/20/2017
             </div>
             <div class="label">I would like to contribute:</div>
             <div class="field field-input">
-                <input type="text" placeholder="Currency" />
+                <input type="text" placeholder="Currency" name="currency" id="form-currency" />
                 <ul>
                     <li><a href="#">ETH</a></li>
                     <li><a href="#">BTC</a></li>
@@ -825,19 +825,19 @@ Creation Date: 09/20/2017
                 </ul>
             </div>
             <div class="field field-input">
-                <input type="text" placeholder="Amount" />
+                <input type="text" placeholder="Amount" name="amount" id="form-amount" />
             </div>
         </div>
         <div class="steps step-4">
             <p><img src="assets/img/email.svg" alt="" /></p>
-            <p>Thank you for your application to the Jibrel Network Public Pre-sale. A Jibrel Network representative will contact you within <span>24 hours</span> via the email you provided to complete your application to purchase <span class="total">$25,000</span> of Jibrel Network Token (JNT).</p>
+            <p>Thank you for your application to the Jibrel Network Public Pre-sale. A Jibrel Network representative will contact you within <span>24 hours</span> via the email you provided to complete your application to purchase <span class="total" id="total-amount"></span> of Jibrel Network Token (JNT).</p>
             <p>Thank you again for your interest in the Jibrel Network.</p>
             <p>Sincerely,<br />Jibrel Network Team</p>
         </div>
     </div>
     <div class="remodal-footer clear">
-        <div class="pull-left">1 / 3</div>
-        <a href="#" class="pull-right">Next step</a>
+        <div class="pull-left" id="steps-counter">1 / 3</div>
+        <a href="#" class="pull-right disabled" id="next-step">Next step</a>
     </div>
 </div>
 
@@ -848,5 +848,6 @@ Creation Date: 09/20/2017
 <script src="assets/js/jquery.classycountdown.min.js"></script>
 <script src="assets/js/remodal.min.js"></script>
 <script src="assets/js/main.js"></script>
+<script src="assets/js/form.js"></script>
 </body>
 </html>
