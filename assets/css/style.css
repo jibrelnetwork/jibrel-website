@@ -1342,23 +1342,28 @@ html.active {
   display: none;
   transition: all 0.3s ease 0s;
 }
-.remodal .steps.step-4 p {
+.remodal .steps.step-4 p,
+.remodal .steps.step-5 p {
   font-weight: 600;
   line-height: 24px;
   margin-bottom: 1.5em;
 }
-.remodal .steps.step-4 p span {
+.remodal .steps.step-4 p span,
+.remodal .steps.step-5 p span {
   color: #0574eb;
 }
-.remodal .steps.step-4 p:first-child {
+.remodal .steps.step-4 p:first-child,
+.remodal .steps.step-5 p:first-child {
   margin-bottom: 40px;
 }
-.remodal .steps.step-4 p:first-child img {
+.remodal .steps.step-4 p:first-child img,
+.remodal .steps.step-5 p:first-child img {
   width: 115px;
   height: 110px;
   display: inline-block;
 }
-.remodal .steps.step-4 p:last-child {
+.remodal .steps.step-4 p:last-child,
+.remodal .steps.step-5 p:last-child {
   font-weight: normal;
   opacity: 0.7;
 }
