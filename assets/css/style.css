@@ -425,7 +425,7 @@ html.active {
   transform: translate3d(0, 0, 0);
   image-rendering: optimizeSpeed;
   /*                     */
-  image-rendering: -moz-crisp-edges;
+  -moz-image-rendering: optimizequality;
   /* Firefox             */
   image-rendering: -o-crisp-edges;
   /* Opera               */
@@ -451,7 +451,7 @@ html.active {
   transform: translate3d(0, 0, 0);
   image-rendering: optimizeSpeed;
   /*                     */
-  image-rendering: -moz-crisp-edges;
+  -moz-image-rendering: optimizequality;
   /* Firefox             */
   image-rendering: -o-crisp-edges;
   /* Opera               */
