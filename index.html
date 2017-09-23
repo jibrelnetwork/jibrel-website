@@ -119,7 +119,7 @@ Creation Date: 09/20/2017
 <div class="section countdown presale">
     <div class="inner">
         <div class="title">
-            <p>Our token pre-sale ends on October 25, 2017 at 12:00PM GMT</p>
+            <p>Our token pre-sale ends on October 25, 2017 at 12:00PM GMT<br /><span>If you have any questions, please contact us <a href="mailto:presale@jibrel.network">presale@jibrel.network</a></span></p>
         </div>
         <div class="timer">
             <div id="countdown"></div>
@@ -766,11 +766,14 @@ Creation Date: 09/20/2017
 
 <div class="remodal" data-remodal-id="form">
     <div class="remodal-header">
-        <h2>Token Pre-sale</h2>
+        <h2>Token Pre-sale. Step <span id="steps-counter">1/3</span></h2>
         <button data-remodal-action="close" class="remodal-close"></button>
     </div>
     <div class="remodal-content">
         <div class="steps step-1 active">
+            <div class="notice">
+                <p>Please confirm the following.</p>
+            </div>
             <div class="field field-checkbox">
                 <input type="checkbox" id="checkbox-1" name="checkbox1" />
                 <label for="checkbox-1">I am not citizen, permanent resident, or granted indefinite leave to remain in the US, Singapore or China - or any jurisdiction in which the purchase of Jibrel Network Token (JNT) is explicitly prohibited or outlawed.</label>
@@ -781,8 +784,12 @@ Creation Date: 09/20/2017
             </div>
         </div>
         <div class="steps step-2">
-            <div class="field field-input">
+            <div class="notice">
+                <p>All fields are mandatory.</p>
+            </div>
+            <div class="field field-input error">
                 <input type="text" placeholder="Full Name" name="fullname" />
+                <div class="error-text">The field can't be empty!</div>
             </div>
             <div class="field field-input">
                 <input type="email" placeholder="Email" name="email" />
@@ -817,7 +824,7 @@ Creation Date: 09/20/2017
         </div>
     </div>
     <div class="remodal-footer clear">
-        <div class="pull-left" id="steps-counter">1 / 3</div>
+        <a href="#" class="pull-left">Previous step</a>
         <a href="#" class="pull-right disabled" id="next-step">Next step</a>
     </div>
 </div>

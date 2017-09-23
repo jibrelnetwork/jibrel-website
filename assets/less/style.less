@@ -548,8 +548,21 @@ html.active {
   .title {
     text-align: center;
     color: @white;
-    font-size: 18px;
     margin-bottom: 80px;
+    position: relative;
+    font-size: 18px;
+    span {
+      font-size: 14px;
+      margin-top: 15px;
+      display: inline-block;
+      color: rgba(255,255,255,0.7);
+      a {
+        color: rgba(255,255,255,0.7);
+        &:hover {
+          color: @white;
+        }
+      }
+    }
   }
   .timer {
     margin: 0 auto;
@@ -1301,8 +1314,13 @@ html.active {
   .remodal-footer {
     padding: 0 50px 50px 50px;
     .pull-left {
-      opacity: 0.5;
       font-weight: bold;
+      text-transform: uppercase;
+      color: @black;
+      opacity: 0.5;
+      &:hover {
+        opacity: 1;
+      }
     }
     .pull-right {
       text-transform: uppercase;
@@ -1326,6 +1344,13 @@ html.active {
     }
     .disabled {
       opacity: 0.5;
+      cursor: default;
+      &:hover {
+        color: @blue;
+      }
+      &:before {
+        display: none;
+      }
     }
   }
   .steps {
@@ -1455,6 +1480,24 @@ html.active {
           visibility: hidden;
           opacity: 0;
         }
+      }
+      &.error {
+        input {
+          color: @pink;
+          border-bottom: 1px solid @pink;
+        }
+        div {
+          color: @pink;
+          text-align: right;
+          position: absolute;
+          right: 0;
+          top: 60px;
+        }
+      }
+      input:invalid {
+        box-shadow: none;
+        color: @pink;
+        border-bottom: 1px solid @pink;
       }
     }
   }
