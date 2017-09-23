@@ -510,8 +510,21 @@ html.active {
 .countdown .title {
   text-align: center;
   color: #ffffff;
-  font-size: 18px;
   margin-bottom: 80px;
+  position: relative;
+  font-size: 18px;
+}
+.countdown .title span {
+  font-size: 14px;
+  margin-top: 15px;
+  display: inline-block;
+  color: rgba(255, 255, 255, 0.7);
+}
+.countdown .title span a {
+  color: rgba(255, 255, 255, 0.7);
+}
+.countdown .title span a:hover {
+  color: #ffffff;
 }
 .countdown .timer {
   margin: 0 auto;
@@ -1286,8 +1299,13 @@ html.active {
   padding: 0 50px 50px 50px;
 }
 .remodal .remodal-footer .pull-left {
-  opacity: 0.5;
   font-weight: bold;
+  text-transform: uppercase;
+  color: #3c3c58;
+  opacity: 0.5;
+}
+.remodal .remodal-footer .pull-left:hover {
+  opacity: 1;
 }
 .remodal .remodal-footer .pull-right {
   text-transform: uppercase;
@@ -1309,6 +1327,13 @@ html.active {
 }
 .remodal .remodal-footer .disabled {
   opacity: 0.5;
+  cursor: default;
+}
+.remodal .remodal-footer .disabled:hover {
+  color: #0574eb;
+}
+.remodal .remodal-footer .disabled:before {
+  display: none;
 }
 .remodal .steps {
   display: none;
@@ -1433,6 +1458,22 @@ html.active {
 .remodal .field.field-input ul.hidden {
   visibility: hidden;
   opacity: 0;
+}
+.remodal .field.field-input.error input {
+  color: #e91e63;
+  border-bottom: 1px solid #e91e63;
+}
+.remodal .field.field-input.error div {
+  color: #e91e63;
+  text-align: right;
+  position: absolute;
+  right: 0;
+  top: 60px;
+}
+.remodal .field.field-input input:invalid {
+  box-shadow: none;
+  color: #e91e63;
+  border-bottom: 1px solid #e91e63;
 }
 .remodal .notice {
   color: #0574eb;
