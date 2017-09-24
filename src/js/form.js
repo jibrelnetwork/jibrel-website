@@ -36,6 +36,7 @@
     },
     countries: countries,
     currencies: ['ETH', 'BTC', 'USD', 'EUR', 'CHF'],
+    submitURL: 'https://presaleapi.jibrel.network/presale_request',
   }
 
   $(document).ready(function() {
@@ -267,7 +268,7 @@
 
     return $.ajax({
       type: 'POST',
-      url: 'https://presaleapi.jibrel.network/presale_request',
+      url: form.submitURL,
       data: getFormData(),
       cache: false,
       crossDomain: true,
@@ -291,7 +292,7 @@
   function onErrorSubmit(jqXHR, textStatus, error) {
     hideModalFooter();
 
-    return setCurrentStep(form.successStep);
+    return setCurrentStep(form.errorStep);
   }
 
   function getFormData() {
