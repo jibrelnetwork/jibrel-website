@@ -23,7 +23,7 @@ body {
   font-family: 'Open Sans', Arial, sans-serif;
   font-size: 13px;
   line-height: 1;
-  color: #3c3c58;
+  color: #3C3C58;
 }
 .clear:after {
   clear: both;
@@ -32,11 +32,11 @@ body {
   height: 0;
 }
 a {
-  color: #0574eb;
+  color: #0574EB;
   text-decoration: none;
 }
 a:hover {
-  color: #00c1ff;
+  color: #00C1FF;
 }
 li {
   list-style: none;
@@ -191,8 +191,8 @@ i,
   line-height: 56px;
   border-radius: 28px;
   color: #ffffff;
-  background-color: #0574eb;
-  background: linear-gradient(to top left, #0574eb, #00c1ff);
+  background-color: #0574EB;
+  background: linear-gradient(to top left, #0574EB, #00C1FF);
   box-shadow: 0 5px 10px rgba(17, 85, 204, 0.35);
   font-size: 14px;
   font-weight: bold;
@@ -223,7 +223,7 @@ i,
 .menu-button::before,
 .menu-button::after,
 .menu-button span {
-  background: #0574eb;
+  background: #0574EB;
 }
 .menu-button::before,
 .menu-button::after {
@@ -288,7 +288,7 @@ html.active {
 }
 .section .inner > h2:before {
   content: '';
-  background-color: #cde3fb;
+  background-color: #CDE3FB;
   height: 2px;
   width: 60px;
   border-radius: 1px;
@@ -339,10 +339,10 @@ html.active {
   opacity: 0;
 }
 .header li svg .cls-2 {
-  fill: #0574eb;
+  fill: #0574EB;
 }
 .header li svg:hover .cls-2 {
-  fill: #00c1ff;
+  fill: #00C1FF;
 }
 .header .menu-button {
   top: 46px;
@@ -350,7 +350,7 @@ html.active {
 .header.active {
   height: 80px;
   line-height: 80px;
-  background-color: #f8fbff;
+  background-color: #F8FBFF;
 }
 .header.active .logo {
   margin-top: 18px;
@@ -360,7 +360,7 @@ html.active {
 }
 .start {
   padding: 120px 0 0 0;
-  background-color: #f8fbff;
+  background-color: #F8FBFF;
   position: relative;
   border-bottom: 1px solid rgba(5, 116, 235, 0.1);
 }
@@ -501,7 +501,7 @@ html.active {
   }
 }
 .countdown {
-  background: linear-gradient(to top left, #0939dc, #00c1ff);
+  background: linear-gradient(to top left, #0939DC, #00C1FF);
   position: relative;
   overflow: visible;
   margin-bottom: 30px;
@@ -574,17 +574,17 @@ html.active {
   -webkit-box-shadow: 0 5px 10px rgba(17, 85, 204, 0.35);
   box-shadow: 0 5px 10px rgba(17, 85, 204, 0.35);
   width: 100%;
-  color: #0574eb;
+  color: #0574EB;
   padding: 0 28px;
   font-family: 'Open Sans', Arial, sans-serif;
   font-size: 13px;
 }
 .countdown .field input::-webkit-input-placeholder {
-  color: #0574eb;
+  color: #0574EB;
   opacity: 0.5;
 }
 .countdown .field input:invalid {
-  color: #e91e63;
+  color: #E91E63;
 }
 .countdown .field .button {
   display: inline-block;
@@ -677,8 +677,8 @@ html.active {
   padding-bottom: 0;
 }
 .roadmap:before {
-  background-color: #0574eb;
-  background: linear-gradient(to top left, #0939dc, #00c1ff);
+  background-color: #0574EB;
+  background: linear-gradient(to top left, #0939DC, #00C1FF);
   opacity: 0.9;
   width: 100%;
   height: 100%;
@@ -773,13 +773,13 @@ html.active {
   position: absolute;
   height: 1px;
   width: 50%;
-  background-color: #cde3fb;
+  background-color: #CDE3FB;
   top: 32px;
   left: 25%;
 }
 .jnt .events:after {
   content: '';
-  background-color: #cde3fb;
+  background-color: #CDE3FB;
   height: 2px;
   width: 60px;
   border-radius: 1px;
@@ -795,7 +795,7 @@ html.active {
 }
 .jnt .events .event h3 {
   font-size: 20px;
-  color: #0574eb;
+  color: #0574EB;
   margin-bottom: 15px;
 }
 .jnt .events .event .title {
@@ -811,10 +811,10 @@ html.active {
   width: 62px;
   height: 62px;
   line-height: 62px;
-  border: 1px solid #cde3fb;
+  border: 1px solid #CDE3FB;
   border-radius: 32px;
   margin-bottom: 15px;
-  color: #0574eb;
+  color: #0574EB;
   font-weight: bold;
   font-size: 20px;
   background-color: #ffffff;
@@ -844,7 +844,7 @@ html.active {
 }
 .jnt .item .money,
 .jnt .item .percents {
-  color: #0574eb;
+  color: #0574EB;
   font-weight: bold;
   position: absolute;
 }
@@ -873,7 +873,7 @@ html.active {
   display: block;
   content: '';
   height: 16px;
-  background-color: #0574eb;
+  background-color: #0574EB;
   border-radius: 8px;
   left: 0;
   top: 0;
@@ -894,28 +894,28 @@ html.active {
   width: 40%;
 }
 .jnt .item.pink .bar:before {
-  background-color: #e91e63;
+  background-color: #E91E63;
 }
 .jnt .item.pink .money,
 .jnt .item.pink .percents {
-  color: #e91e63;
+  color: #E91E63;
 }
 .jnt .item.green .bar:before {
-  background-color: #4dd0e1;
+  background-color: #4DD0E1;
 }
 .jnt .item.green .money,
 .jnt .item.green .percents {
-  color: #4dd0e1;
+  color: #4DD0E1;
 }
 .jnt .item.purple .bar:before {
-  background-color: #aa00ff;
+  background-color: #AA00FF;
 }
 .jnt .item.purple .money,
 .jnt .item.purple .percents {
-  color: #aa00ff;
+  color: #AA00FF;
 }
 .faq {
-  background-color: #f8fbff;
+  background-color: #F8FBFF;
   border-top: 1px solid rgba(5, 116, 235, 0.1);
   border-bottom: 1px solid rgba(5, 116, 235, 0.1);
 }
@@ -925,11 +925,11 @@ html.active {
 .faq li a {
   font-size: 14px;
   font-weight: 600;
-  color: #3c3c58;
+  color: #3C3C58;
 }
 .faq li a:hover,
 .faq li a.active {
-  color: #0574eb;
+  color: #0574EB;
 }
 .faq .items {
   box-shadow: 0 5px 10px rgba(17, 85, 204, 0.1);
@@ -943,12 +943,12 @@ html.active {
 }
 .faq .items .item h3 {
   font-size: 20px;
-  color: #0574eb;
+  color: #0574EB;
   cursor: pointer;
   position: relative;
 }
 .faq .items .item h3:hover {
-  color: #3c3c58;
+  color: #3C3C58;
 }
 .faq .items .item h3:after {
   content: '';
@@ -974,7 +974,7 @@ html.active {
   margin-bottom: 10px;
 }
 .faq .items .item.active h3 {
-  color: #3c3c58;
+  color: #3C3C58;
 }
 .faq .items .item.active h3:after {
   background-image: url("../img/icons/close.svg");
@@ -1016,8 +1016,8 @@ html.active {
   height: 36px;
   border-radius: 18px;
   box-shadow: 0 5px 10px rgba(17, 85, 204, 0.35);
-  background-color: #0574eb;
-  background: url("../img/icons/download.svg") no-repeat, linear-gradient(to top left, #0574eb, #00c1ff);
+  background-color: #0574EB;
+  background: url("../img/icons/download.svg") no-repeat, linear-gradient(to top left, #0574EB, #00C1FF);
   display: block;
   position: absolute;
   left: 50%;
@@ -1196,10 +1196,10 @@ html.active {
   font-size: 16px;
   font-weight: 600;
   margin-bottom: 15px;
-  color: #3c3c58;
+  color: #3C3C58;
 }
 .careers span {
-  color: #0574eb;
+  color: #0574EB;
   display: block;
 }
 .careers i {
@@ -1210,7 +1210,7 @@ html.active {
   display: block;
   margin: 0 auto 15px auto;
   position: relative;
-  background: linear-gradient(to top left, #0574eb, #00c1ff);
+  background: linear-gradient(to top left, #0574EB, #00C1FF);
   background-size: 100% 128px;
 }
 .careers i:before {
@@ -1223,7 +1223,7 @@ html.active {
   top: 20px;
 }
 .footer {
-  background-color: #3c3c58;
+  background-color: #3C3C58;
   text-align: center;
   color: #ffffff;
 }
@@ -1301,7 +1301,7 @@ html.active {
 .remodal .remodal-footer .pull-left {
   font-weight: bold;
   text-transform: uppercase;
-  color: #3c3c58;
+  color: #3C3C58;
   opacity: 0.5;
 }
 .remodal .remodal-footer .pull-left:hover {
@@ -1330,7 +1330,7 @@ html.active {
   cursor: default;
 }
 .remodal .remodal-footer .disabled:hover {
-  color: #0574eb;
+  color: #0574EB;
 }
 .remodal .remodal-footer .disabled:before {
   display: none;
@@ -1350,7 +1350,7 @@ html.active {
 }
 .remodal .steps.step-4 p span,
 .remodal .steps.step-5 p span {
-  color: #0574eb;
+  color: #0574EB;
 }
 .remodal .steps.step-4 p:first-child,
 .remodal .steps.step-5 p:first-child {
@@ -1368,12 +1368,12 @@ html.active {
   opacity: 0.7;
 }
 .remodal .steps.show-errors .field-input.error input {
-  color: #e91e63;
-  border-bottom: 1px solid #e91e63;
+  color: #E91E63;
+  border-bottom: 1px solid #E91E63;
 }
 .remodal .steps.show-errors .field-input.error div.error-text {
   display: block;
-  color: #e91e63;
+  color: #E91E63;
   text-align: right;
   position: absolute;
   right: 0;
@@ -1402,7 +1402,7 @@ html.active {
   font-weight: normal;
   position: relative;
   top: 0;
-  color: #3c3c58;
+  color: #3C3C58;
   left: 0;
   display: block;
   line-height: 24px;
@@ -1412,7 +1412,7 @@ html.active {
   display: inline-block;
   position: absolute;
   left: 0px;
-  border: 2px solid #cde3fb;
+  border: 2px solid #CDE3FB;
   background-color: #ffffff;
   width: 16px;
   height: 16px;
@@ -1422,17 +1422,17 @@ html.active {
 .remodal .field.field-checkbox input:checked + label:before {
   display: block;
   position: absolute;
-  border: 2px solid #0574eb;
+  border: 2px solid #0574EB;
   width: 16px;
   height: 16px;
-  background-color: #0574eb;
+  background-color: #0574EB;
   background-image: url("../img/icons/checkbox.svg");
   background-size: 9px 7px;
   background-repeat: no-repeat;
   background-position: center center;
 }
 .remodal .field.field-checkbox input:checked + label {
-  color: #0574eb;
+  color: #0574EB;
 }
 .remodal .field.field-input input {
   display: block;
@@ -1474,7 +1474,7 @@ html.active {
   background-color: rgba(5, 116, 235, 0.1);
 }
 .remodal .field.field-input ul a:hover {
-  color: #3c3c58;
+  color: #3C3C58;
 }
 .remodal .field.field-input ul.active {
   display: block;
@@ -1483,7 +1483,7 @@ html.active {
   display: none;
 }
 .remodal .notice {
-  color: #0574eb;
+  color: #0574EB;
   position: relative;
   line-height: 24px;
   padding: 25px 0;
@@ -1494,7 +1494,7 @@ html.active {
 }
 .remodal .notice:before {
   content: '';
-  background-color: #f8fbff;
+  background-color: #F8FBFF;
   border-top: 1px solid rgba(5, 116, 235, 0.1);
   border-bottom: 1px solid rgba(5, 116, 235, 0.1);
   position: absolute;
@@ -1616,7 +1616,7 @@ html.active {
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: #3c3c58;
+    background-color: #3C3C58;
     padding: 30px;
     z-index: 100;
   }
@@ -2047,4 +2047,231 @@ html.active {
   50% {
     background-color: #0574eb;
   }
+}
+
+/* ==========================================================================
+   Remodal's default mobile first theme
+   ========================================================================== */
+
+/* Default theme styles for the background */
+
+.remodal-bg.remodal-is-opening,
+.remodal-bg.remodal-is-opened {
+  filter: blur(3px);
+}
+
+/* Default theme styles of the overlay */
+
+.remodal-overlay {
+  background: rgba(43, 46, 56, 0.9);
+}
+
+.remodal-overlay.remodal-is-opening,
+.remodal-overlay.remodal-is-closing {
+  animation-duration: 0.3s;
+  animation-fill-mode: forwards;
+}
+
+.remodal-overlay.remodal-is-opening {
+  animation-name: remodal-overlay-opening-keyframes;
+}
+
+.remodal-overlay.remodal-is-closing {
+  animation-name: remodal-overlay-closing-keyframes;
+}
+
+.remodal.remodal-is-opening,
+.remodal.remodal-is-closing {
+  animation-duration: 0.3s;
+  animation-fill-mode: forwards;
+}
+
+.remodal.remodal-is-opening {
+  animation-name: remodal-opening-keyframes;
+}
+
+.remodal.remodal-is-closing {
+  animation-name: remodal-closing-keyframes;
+}
+
+/* Vertical align of the modal dialog */
+
+.remodal,
+.remodal-wrapper:after {
+  vertical-align: middle;
+}
+
+/* Remove inner padding and border in Firefox 4+ for the button tag. */
+
+.remodal-confirm::-moz-focus-inner,
+.remodal-cancel::-moz-focus-inner,
+.remodal-close::-moz-focus-inner {
+  padding: 0;
+
+  border: 0;
+}
+
+/* Keyframes
+   ========================================================================== */
+
+@keyframes remodal-opening-keyframes {
+  from {
+    transform: scale(1.05);
+
+    opacity: 0;
+  }
+  to {
+    transform: none;
+
+    opacity: 1;
+
+    filter: blur(0);
+  }
+}
+
+@keyframes remodal-closing-keyframes {
+  from {
+    transform: scale(1);
+
+    opacity: 1;
+  }
+  to {
+    transform: scale(0.95);
+
+    opacity: 0;
+
+    filter: blur(0);
+  }
+}
+
+@keyframes remodal-overlay-opening-keyframes {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes remodal-overlay-closing-keyframes {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+
+/* Media queries
+   ========================================================================== */
+
+@media only screen and (min-width: 641px) {
+  .remodal {
+    max-width: 900px;
+  }
+}
+
+/* IE8
+   ========================================================================== */
+
+.lt-ie9 .remodal-overlay {
+  background: #2b2e38;
+}
+
+.lt-ie9 .remodal {
+  width: 700px;
+}
+
+/*
+ *  Remodal - v1.1.1
+ *  Responsive, lightweight, fast, synchronized with CSS animations, fully customizable modal window plugin with declarative configuration and hash tracking.
+ *  http://vodkabears.github.io/remodal/
+ *
+ *  Made by Ilya Makarov
+ *  Under MIT License
+ */
+
+/* ==========================================================================
+   Remodal's necessary styles
+   ========================================================================== */
+
+/* Hide scroll bar */
+
+html.remodal-is-locked {
+  overflow: hidden;
+
+  -ms-touch-action: none;
+  touch-action: none;
+}
+
+/* Anti FOUC */
+
+.remodal,
+[data-remodal-id] {
+  display: none;
+}
+
+/* Necessary styles of the overlay */
+
+.remodal-overlay {
+  position: fixed;
+  z-index: 9999;
+  top: -5000px;
+  right: -5000px;
+  bottom: -5000px;
+  left: -5000px;
+
+  display: none;
+}
+
+/* Necessary styles of the wrapper */
+
+.remodal-wrapper {
+  position: fixed;
+  z-index: 10000;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+
+  display: none;
+  overflow: auto;
+
+  text-align: center;
+
+  -webkit-overflow-scrolling: touch;
+}
+
+.remodal-wrapper:after {
+  display: inline-block;
+
+  height: 100%;
+  margin-left: -0.05em;
+
+  content: "";
+}
+
+/* Fix iPad, iPhone glitches */
+
+.remodal-overlay,
+.remodal-wrapper {
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+/* Necessary styles of the modal dialog */
+
+.remodal {
+  position: relative;
+
+  outline: none;
+
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+}
+
+.remodal-is-initialized {
+  /* Disable Anti-FOUC */
+  display: inline-block;
 }
