@@ -1352,6 +1352,9 @@ html.active {
         display: none;
       }
     }
+    .hidden {
+      display: none;
+    }
   }
   .steps {
     display: none;
@@ -1378,9 +1381,27 @@ html.active {
         }
       }
     }
-   &.active {
-     display: block;
-   }
+    &.show-errors .field-input.error {
+      input {
+        color: @pink;
+        border-bottom: 1px solid @pink;
+      }
+      div.error-text {
+        display: block;
+        color: @pink;
+        text-align: right;
+        position: absolute;
+        right: 0;
+        top: 60px;
+      }
+    }
+    &.active {
+      display: block;
+    }
+  }
+  .hidden {
+    visibility: hidden;
+    opacity: 0;
   }
   .field {
     position: relative;
@@ -1476,28 +1497,9 @@ html.active {
         &.active {
           display: block;
         }
-        &.hidden {
-          visibility: hidden;
-          opacity: 0;
-        }
       }
-      &.error {
-        input {
-          color: @pink;
-          border-bottom: 1px solid @pink;
-        }
-        div {
-          color: @pink;
-          text-align: right;
-          position: absolute;
-          right: 0;
-          top: 60px;
-        }
-      }
-      input:invalid {
-        box-shadow: none;
-        color: @pink;
-        border-bottom: 1px solid @pink;
+      div.error-text {
+        display: none;
       }
     }
   }
@@ -2114,4 +2116,116 @@ html.active {
       }
     }
   }
+}
+
+#loading{
+  width: 52px;
+  margin: auto;
+
+  .loading{
+    background-color:rgb(255,255,255);
+    float:left;
+    height:11px;
+    margin-left:6px;
+    width:11px;
+    animation-name:bounce_loading;
+    -o-animation-name:bounce_loading;
+    -ms-animation-name:bounce_loading;
+    -webkit-animation-name:bounce_loading;
+    -moz-animation-name:bounce_loading;
+    animation-duration:1.1675s;
+    -o-animation-duration:1.1675s;
+    -ms-animation-duration:1.1675s;
+    -webkit-animation-duration:1.1675s;
+    -moz-animation-duration:1.1675s;
+    animation-iteration-count:infinite;
+    -o-animation-iteration-count:infinite;
+    -ms-animation-iteration-count:infinite;
+    -webkit-animation-iteration-count:infinite;
+    -moz-animation-iteration-count:infinite;
+    animation-direction:normal;
+    -o-animation-direction:normal;
+    -ms-animation-direction:normal;
+    -webkit-animation-direction:normal;
+    -moz-animation-direction:normal;
+    border-radius:7px;
+    -o-border-radius:7px;
+    -ms-border-radius:7px;
+    -webkit-border-radius:7px;
+    -moz-border-radius:7px;
+  }
+
+  #loading_1{
+    animation-delay:0.2295s;
+    -o-animation-delay:0.2295s;
+    -ms-animation-delay:0.2295s;
+    -webkit-animation-delay:0.2295s;
+    -moz-animation-delay:0.2295s;
+  }
+
+  #loading_2{
+    animation-delay:0.5455s;
+    -o-animation-delay:0.5455s;
+    -ms-animation-delay:0.5455s;
+    -webkit-animation-delay:0.5455s;
+    -moz-animation-delay:0.5455s;
+  }
+
+  #loading_3{
+    animation-delay:0.6985s;
+    -o-animation-delay:0.6985s;
+    -ms-animation-delay:0.6985s;
+    -webkit-animation-delay:0.6985s;
+    -moz-animation-delay:0.6985s;
+  }
+}
+
+@keyframes bounce_loading{
+  0%{}
+
+  50%{
+    background-color: #0574eb;
+  }
+
+  100%{}
+}
+
+@-o-keyframes bounce_loading{
+  0%{}
+
+  50%{
+    background-color: #0574eb;
+  }
+
+  100%{}
+}
+
+@-ms-keyframes bounce_loading{
+  0%{}
+
+  50%{
+    background-color: #0574eb;
+  }
+
+  100%{}
+}
+
+@-webkit-keyframes bounce_loading{
+  0%{}
+
+  50%{
+    background-color: #0574eb;
+  }
+
+  100%{}
+}
+
+@-moz-keyframes bounce_loading{
+  0%{}
+
+  50%{
+    background-color: #0574eb;
+  }
+
+  100%{}
 }

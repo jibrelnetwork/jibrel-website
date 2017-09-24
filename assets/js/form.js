@@ -1,79 +1,187 @@
 (function($) {
-  var totalSteps = 3;
-  var currentStep = 1;
-
-  var formFields = {
-    checkbox1: false,
-    checkbox2: false,
-    fullname: false,
-    email: false,
-    country: false,
-    citizenship: false,
-    currency: false,
-    amount: false,
+  var form = {
+    totalSteps: 3,
+    currentStep: 1,
+    successStep: 4,
+    errorStep: 5,
+    validators: {
+      checkbox1: validateCheckbox,
+      checkbox2: validateCheckbox,
+      fullname: validateString,
+      email: validateEmail,
+      country: validateString,
+      citizenship: validateString,
+      currency: validateString,
+      amount: validateNumber,
+    },
+    validations: {
+      checkbox1: false,
+      checkbox2: false,
+      fullname: false,
+      email: false,
+      country: false,
+      citizenship: false,
+      currency: false,
+      amount: false,
+    },
+    data: {
+      checkbox1: false,
+      checkbox2: false,
+      fullname: '',
+      email: '',
+      country: '',
+      citizenship: '',
+      currency: '',
+      amount: 0,
+    },
+    countries: countries,
+    currencies: ['ETH', 'BTC', 'USD', 'EUR', 'CHF'],
   }
-
-  var validateFields = {
-    checkbox1: validateCheckbox,
-    checkbox2: validateCheckbox,
-    fullname: validateString,
-    email: validateEmail,
-    country: validateString,
-    citizenship: validateString,
-    currency: validateString,
-    amount: validateNumber,
-  }
-
-  var currencies = ['ETH', 'BTC', 'USD', 'EUR', 'CHF'];
 
   $(document).ready(function() {
-    $('.remodal-content input').on('change', watchFormField);
-    $('.remodal-content input').on('input', watchFormField);
+    startWatchingFormFields();
 
-    $('#next-step').click(function(e) {
-      e.preventDefault();
-
-      if ($(this).hasClass('disabled')) {
-        return;
-      }
-
-      var nextStep = currentStep + 1;
-
-      $('.remodal-content .step-' + currentStep).toggleClass('active');
-      $('.remodal-content .step-' + nextStep).toggleClass('active');
-
-      if (nextStep === totalSteps) {
-        $('#next-step').html('Submit form');
-      }
-
-      changeStepsCounter(nextStep);
-
-      e.stopPropagation();
-    });
+    $('#previous-step').click(onPreviousStepClick);
+    $('#next-step').click(onNextStepClick);
 
     initAutocompletes();
   });
 
+  function startWatchingFormFields() {
+    $('.remodal-content input').on('change', watchFormField);
+    $('.remodal-content input').on('input', watchFormField);
+  }
+
+  function onPreviousStepClick(event) {
+    event.preventDefault();
+
+    if (form.currentStep < 2) {
+      return;
+    }
+
+    var previousStep = form.currentStep - 1;
+
+    $('.remodal-content .step-' + previousStep).toggleClass('active');
+    $('.remodal-content .step-' + form.currentStep).toggleClass('active');
+
+    onPreviousStep(previousStep);
+
+    event.stopPropagation();
+  }
+
+  function onNextStepClick(event) {
+    event.preventDefault();
+
+    if (form.currentStep > form.totalSteps) {
+      return;
+    }
+
+    hideFormErrors();
+
+    if (!isNextStepAllowed()) {
+      validateAllFields();
+
+      return showFormErrors();
+    }
+
+    var nextStep = form.currentStep + 1;
+
+    if (nextStep === form.totalSteps) {
+      $('#next-step').html('Submit form');
+    }
+
+    onNextStep(nextStep);
+
+    event.stopPropagation();
+  }
+
+  function isNextStepAllowed() {
+    return !$('#next-step').hasClass('disabled');
+  }
+
+  function showFormErrors() {
+    $('.step-' + form.currentStep).addClass('show-errors');
+  }
+
+  function hideFormErrors() {
+    $('.step-' + form.currentStep).removeClass('show-errors');
+  }
+
   function watchFormField(event) {
     var fieldName = event.target.name;
-    var fieldValue = event.target.value;
+    var fieldValue = getFieldValue(event.target);
 
-    formFields[fieldName] = validateFields[fieldName](fieldValue);
+    validateField(fieldName, fieldValue);
+
+    form.data[fieldName] = fieldValue;
 
     checkNextStepAllowed();
   }
 
+  function validateField(fieldName, fieldValue) {
+    hideFieldError(fieldName);
+
+    isFieldValid = form.validators[fieldName](fieldValue);
+
+    if ((fieldName === 'country') || (fieldName === 'citizenship')) {
+      isFieldValid = validateCountry(fieldValue, isFieldValid);
+    }
+
+    form.validations[fieldName] = isFieldValid;
+
+    if (!isFieldValid) {
+      showFieldError(fieldName);
+    }
+  }
+
+  function validateAllFields() {
+    var fields = Object.keys(form.data);
+
+    fields.forEach(function(fieldName) {
+      validateField(fieldName, form.data[fieldName]);
+    })
+  }
+
+  function validateCountry(country, isValid) {
+    var prohibitedCountries = ['united states', 'singapore', 'china'];
+    var isProhibitedCountry = false;
+
+    prohibitedCountries.forEach(function(prohibitedCountry) {
+      if (prohibitedCountry === country.toLowerCase()) {
+        isProhibitedCountry = true;
+      }
+    });
+
+    return isProhibitedCountry ? false : isValid;
+  }
+
+  function showFieldError(fieldName) {
+    $('#' + fieldName + '-container').addClass('error');
+  }
+
+  function hideFieldError(fieldName) {
+    $('#' + fieldName + '-container').removeClass('error');
+  }
+
+  function getFieldValue(target) {
+    var fieldName = target.name;
+    var fieldValue = target.value;
+
+    if (fieldName.indexOf('checkbox') === 0) {
+      fieldValue = target.checked;
+    }
+
+    return fieldValue;
+  }
+
   function validateCheckbox(value) {
-    return (value === 'on');
+    return value;
   }
 
   function validateString(value) {
     var numbersRe = /\d/g;
 
-    if (
-      (value.length < 3) ||
-      (numbersRe.test(value))
-    ) {
+    if ((value.length < 3) || (numbersRe.test(value))) {
       return false;
     }
 
@@ -83,10 +191,7 @@
   function validateNumber(value) {
     var notNumbersRe = /\D/g;
 
-    if (
-      (value.length < 1) ||
-      (notNumbersRe.test(value))
-    ) {
+    if ((value.length < 1) || (notNumbersRe.test(value))) {
       return false;
     }
 
@@ -100,124 +205,157 @@
   }
 
   function checkNextStepAllowed() {
+    var currentStep = form.currentStep;
+    var validations = form.validations;
     var isNextStepAllowed = false;
 
     if (currentStep === 1) {
-      isNextStepAllowed = (formFields.checkbox1 && formFields.checkbox2);
+      isNextStepAllowed = (validations.checkbox1 && validations.checkbox2);
     } else if (currentStep === 2) {
-      isNextStepAllowed = (formFields.fullname && formFields.email && formFields.country && formFields.citizenship);
+      isNextStepAllowed = (validations.fullname && validations.email && validations.country && validations.citizenship);
     } else if (currentStep === 3) {
-      isNextStepAllowed = (formFields.currency && formFields.amount);
+      isNextStepAllowed = (validations.currency && validations.amount);
 
       if (isNextStepAllowed) {
-        var amount = $('#amount').val();
-        var currency = $('#currency').val();
-
-        $('#total-amount').html('' + amount + ' ' + currency);
+        setTotalAmount();
       }
     }
 
     if (isNextStepAllowed) {
-      return $('#next-step').removeClass('disabled');
+      return enableNextStep();
     }
 
+    disableNextStep();
+  }
+
+  function setTotalAmount() {
+    var amount = $('#amount').val();
+    var currency = $('#currency').val();
+
+    $('#total-amount').html('' + amount + ' ' + currency);
+  }
+
+  function disableNextStep() {
     $('#next-step').addClass('disabled');
   }
 
-  function changeStepsCounter(nextStep) {
-    currentStep = nextStep;
+  function enableNextStep() {
+    $('#next-step').removeClass('disabled');
+  }
 
-    if (nextStep > totalSteps) {
-      $('.remodal-footer').html('');
-      $('.remodal-footer').css('padding', 0);
+  function onPreviousStep(previousStep) {
+    setCurrentStep(previousStep);
 
-      return;
+    $('#next-step').html('Next step');
+
+    checkNextStepAllowed();
+  }
+
+  function onNextStep(nextStep) {
+    if (nextStep > form.totalSteps) {
+      $('#steps-counter').addClass('hidden');
+
+      return onSubmit();
     }
 
-    $('#next-step').addClass('disabled');
-    $('#steps-counter').html('' + currentStep + ' / ' + totalSteps);
+    setCurrentStep(nextStep);
+    checkNextStepAllowed();
+  }
+
+  function onSubmit() {
+    setLoading();
+
+    return $.ajax({
+      type: 'POST',
+      url: 'https://presaleapi.jibrel.network/presale_request',
+      data: getFormData(),
+      cache: false,
+      crossDomain: true,
+      dataType: 'json',
+      headers: { 'Content-Type': 'application/json' },
+      success: onSuccessSubmit,
+      error: onErrorSubmit,
+    });
+  }
+
+  function onSuccessSubmit(response, textStatus) {
+    hideModalFooter();
+
+    if (response && (response.success === true) && (textStatus === 'success')) {
+      return setCurrentStep(form.successStep);
+    }
+
+    return setCurrentStep(form.errorStep);
+  }
+
+  function onErrorSubmit(jqXHR, textStatus, error) {
+    hideModalFooter();
+
+    return setCurrentStep(form.successStep);
+  }
+
+  function getFormData() {
+    var data = form.data;
+
+    return JSON.stringify({
+      fullname: data.fullname,
+      email: data.email,
+      country: data.country,
+      citizenship: data.citizenship,
+      currency: data.currency,
+      amount: data.amount,
+    });
+  }
+
+  function hideModalFooter() {
+    $('.remodal-footer').html('');
+    $('.remodal-footer').css('padding', 0);
+  }
+
+  function setLoading() {
+    $("#previous-step").addClass('hidden');
+    $("#next-step").addClass('hidden');
+    $("#loading").removeClass('hidden');
+  }
+
+  function setCurrentStep(step) {
+    $('.remodal-content .step-' + step).addClass('active');
+    $('.remodal-content .step-' + form.currentStep).removeClass('active');
+    $('#steps-counter').html('Step ' + step + '/' + form.totalSteps);
+
+    if (step === 1) {
+      $('#previous-step').addClass('hidden');
+    } else {
+      $('#previous-step').removeClass('hidden');
+    }
+
+    form.currentStep = step;
   }
 
   function initAutocompletes() {
-    initAutocomplete('#country', countries);
-    initAutocomplete('#citizenship', countries);
-    initAutocomplete('#currency', currencies, true);
-  }
-
-  function initAutocomplete(selector, list, alwaysAll) {
-    var autocompleteRenderHandler = renderAutocomplete.bind(null, selector, list, alwaysAll);
-
-    autocompleteRenderHandler();
-
-    $(selector).on('input', autocompleteRenderHandler);
-
-    $(selector).click(function() {
-      hideAllAutocompletes(function() {
-        $(selector + '-list').addClass('active');
-        hideOnClickOutside(selector);
-      });
+    initAutocomplete({
+      source: form.countries,
+      id: 'country',
+      placeholder: 'Country of Residence',
+      errorText: 'The field should be valid country!',
+      onInput: watchFormField,
     });
 
-    $(selector + '-container').click(function(e) {
-      e.stopPropagation();
-    });
-  }
-
-  function renderAutocomplete(selector, list, alwaysAll) {
-    var selectorList = selector + '-list';
-    var currentValue = $(selector).val().toLowerCase();
-
-    $(selectorList).removeClass('hidden');
-
-    var listItemsCount = 0;
-
-    var listItems = list.map(function (item) {
-      var isFound = (item.toLowerCase().indexOf(currentValue) > -1);
-      var isActive = (item.toLowerCase() === currentValue);
-
-      if (isFound || alwaysAll) {
-        listItemsCount += 1;
-
-        return '<li><a' + (isActive ? ' class="active" ' : '') + '>' + item + '</a></li>'
-      }
-
-      return '';
+    initAutocomplete({
+      source: form.countries,
+      id: 'citizenship',
+      placeholder: 'Citizenship',
+      errorText: 'The field should be valid citizenship!',
+      onInput: watchFormField,
     });
 
-    $(selectorList).html(listItems.join(''));
-
-    if (!listItemsCount) {
-      $(selectorList).addClass('hidden');
-    }
-
-    $(selectorList + ' a').click(function(e) {
-      $(selector).val($(this).text());
-      $(selector).change();
-      $(selectorList).removeClass('active');
-      renderAutocomplete(selector, list, alwaysAll);
-    });
-  }
-
-  function hideOnClickOutside(selector) {
-    function outsideClickListener() {
-      $(selector + '-list').removeClass('active');
-      removeClickListener();
-    }
-
-    function removeClickListener() {
-      document.removeEventListener('click', outsideClickListener);
-    }
-
-    setTimeout(function() {
-      document.addEventListener('click', outsideClickListener);
-    }, 50);
-  }
-
-  function hideAllAutocompletes(callback) {
-    $('.autocomplete').each(function() {
-      $(this).removeClass('active');
-
-      callback();
+    initAutocomplete({
+      source: form.currencies,
+      id: 'currency',
+      placeholder: 'Currency',
+      errorText: 'The field should be valid currency!',
+      alwaysAll: true,
+      onInput: watchFormField,
     });
   }
 })(jQuery);

@@ -1335,6 +1335,9 @@ html.active {
 .remodal .remodal-footer .disabled:before {
   display: none;
 }
+.remodal .remodal-footer .hidden {
+  display: none;
+}
 .remodal .steps {
   display: none;
   transition: all 0.3s ease 0s;
@@ -1351,16 +1354,32 @@ html.active {
   margin-bottom: 40px;
 }
 .remodal .steps.step-4 p:first-child img {
-  width: 234px;
-  height: 126px;
+  width: 115px;
+  height: 110px;
   display: inline-block;
 }
 .remodal .steps.step-4 p:last-child {
   font-weight: normal;
   opacity: 0.7;
 }
+.remodal .steps.show-errors .field-input.error input {
+  color: #e91e63;
+  border-bottom: 1px solid #e91e63;
+}
+.remodal .steps.show-errors .field-input.error div.error-text {
+  display: block;
+  color: #e91e63;
+  text-align: right;
+  position: absolute;
+  right: 0;
+  top: 60px;
+}
 .remodal .steps.active {
   display: block;
+}
+.remodal .hidden {
+  visibility: hidden;
+  opacity: 0;
 }
 .remodal .field {
   position: relative;
@@ -1455,25 +1474,8 @@ html.active {
 .remodal .field.field-input ul.active {
   display: block;
 }
-.remodal .field.field-input ul.hidden {
-  visibility: hidden;
-  opacity: 0;
-}
-.remodal .field.field-input.error input {
-  color: #e91e63;
-  border-bottom: 1px solid #e91e63;
-}
-.remodal .field.field-input.error div {
-  color: #e91e63;
-  text-align: right;
-  position: absolute;
-  right: 0;
-  top: 60px;
-}
-.remodal .field.field-input input:invalid {
-  box-shadow: none;
-  color: #e91e63;
-  border-bottom: 1px solid #e91e63;
+.remodal .field.field-input div.error-text {
+  display: none;
 }
 .remodal .notice {
   color: #0574eb;
@@ -1957,5 +1959,87 @@ html.active {
   .remodal .notice:before {
     width: calc(100% + 60px);
     left: -30px;
+  }
+}
+#loading {
+  width: 52px;
+  margin: auto;
+}
+#loading .loading {
+  background-color: #ffffff;
+  float: left;
+  height: 11px;
+  margin-left: 6px;
+  width: 11px;
+  animation-name: bounce_loading;
+  -o-animation-name: bounce_loading;
+  -ms-animation-name: bounce_loading;
+  -webkit-animation-name: bounce_loading;
+  -moz-animation-name: bounce_loading;
+  animation-duration: 1.1675s;
+  -o-animation-duration: 1.1675s;
+  -ms-animation-duration: 1.1675s;
+  -webkit-animation-duration: 1.1675s;
+  -moz-animation-duration: 1.1675s;
+  animation-iteration-count: infinite;
+  -o-animation-iteration-count: infinite;
+  -ms-animation-iteration-count: infinite;
+  -webkit-animation-iteration-count: infinite;
+  -moz-animation-iteration-count: infinite;
+  animation-direction: normal;
+  -o-animation-direction: normal;
+  -ms-animation-direction: normal;
+  -webkit-animation-direction: normal;
+  -moz-animation-direction: normal;
+  border-radius: 7px;
+  -o-border-radius: 7px;
+  -ms-border-radius: 7px;
+  -webkit-border-radius: 7px;
+  -moz-border-radius: 7px;
+}
+#loading #loading_1 {
+  animation-delay: 0.2295s;
+  -o-animation-delay: 0.2295s;
+  -ms-animation-delay: 0.2295s;
+  -webkit-animation-delay: 0.2295s;
+  -moz-animation-delay: 0.2295s;
+}
+#loading #loading_2 {
+  animation-delay: 0.5455s;
+  -o-animation-delay: 0.5455s;
+  -ms-animation-delay: 0.5455s;
+  -webkit-animation-delay: 0.5455s;
+  -moz-animation-delay: 0.5455s;
+}
+#loading #loading_3 {
+  animation-delay: 0.6985s;
+  -o-animation-delay: 0.6985s;
+  -ms-animation-delay: 0.6985s;
+  -webkit-animation-delay: 0.6985s;
+  -moz-animation-delay: 0.6985s;
+}
+@keyframes bounce_loading {
+  50% {
+    background-color: #0574eb;
+  }
+}
+@-o-keyframes bounce_loading {
+  50% {
+    background-color: #0574eb;
+  }
+}
+@-ms-keyframes bounce_loading {
+  50% {
+    background-color: #0574eb;
+  }
+}
+@-webkit-keyframes bounce_loading {
+  50% {
+    background-color: #0574eb;
+  }
+}
+@-moz-keyframes bounce_loading {
+  50% {
+    background-color: #0574eb;
   }
 }
