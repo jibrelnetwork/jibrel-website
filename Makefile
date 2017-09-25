@@ -1,8 +1,9 @@
-ECHO = /bin/echo
 GIT = /usr/bin/git
+NPM = /usr/bin/npm
 
 GIT-REPOSITORY-BRANCH = master
 
 git-pull:
-	$(ECHO) "Pulling master branch"
 	$(GIT) pull origin $(GIT-REPOSITORY-BRANCH)
+	$(NPM) install
+	$(NPM) run build:prod
