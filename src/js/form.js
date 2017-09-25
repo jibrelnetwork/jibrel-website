@@ -46,6 +46,8 @@
   }
 
   $(document).ready(function() {
+    $('#phone-container input').mask('+999 (999) 999-9999');
+
     startWatchingFormFields();
 
     $('#previous-step').click(onPreviousStepClick);

@@ -18,6 +18,7 @@ var vendorScripts = [
   './src/js/jquery.throttle.min.js',
   './src/js/jquery.classycountdown.js',
   './src/js/remodal.min.js',
+  './src/js/jquery.maskedinput.min.js',
 ]
 
 var scripts = [
