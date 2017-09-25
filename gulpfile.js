@@ -4,6 +4,7 @@ var concat = require('gulp-concat');
 var minify = require('gulp-minify-css');
 var merge = require('merge-stream');
 var uglify = require('gulp-uglify');
+var version = require('gulp-version-number');
 
 var cssStyles = [
   './src/css/remodal.css',
@@ -25,6 +26,21 @@ var scripts = [
   './src/js/form.js',
   './src/js/main.js',
 ]
+
+const versionConfig = {
+  'value': '%MDS%',
+  'append': {
+    'key': 'v',
+    'to': ['css', 'js'],
+  },
+};
+
+gulp.task('html', function() {
+  return gulp
+    .src('src/index.html')
+    .pipe(version(versionConfig))
+    .pipe(gulp.dest('./'));
+});
 
 gulp.task('css', function() {
   var lessStream = gulp.src('./src/less/*.less').pipe(less());
@@ -80,6 +96,6 @@ gulp.task('watch', function() {
   gulp.watch('src/js/*.js', ['js', 'js-vendor', 'js-vendor-min', 'js-min']);
 });
 
-gulp.task('default', ['css', 'js-vendor', 'js']);
-gulp.task('prod', ['css-min', 'js-vendor-min', 'js-min']);
+gulp.task('default', ['html', 'css', 'js-vendor', 'js']);
+gulp.task('prod', ['html', 'css-min', 'js-vendor-min', 'js-min']);
 gulp.task('all', ['default', 'prod']);
