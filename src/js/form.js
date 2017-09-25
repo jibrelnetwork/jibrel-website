@@ -283,13 +283,19 @@
     hideModalFooter();
 
     if (response && (response.success === true) && (textStatus === 'success')) {
-      return setCurrentStep(form.successStep);
+      setCurrentStep(form.successStep);
+
+      reachGoal('presaleSuccess');
+
+      return;
     }
 
-    return setCurrentStep(form.errorStep);
+    setCurrentStep(form.errorStep);
   }
 
   function onErrorSubmit(jqXHR, textStatus, error) {
+    console.error(textStatus, error);
+
     hideModalFooter();
 
     return setCurrentStep(form.errorStep);
@@ -331,6 +337,14 @@
     }
 
     form.currentStep = step;
+  }
+
+  function reachGoal(target) {
+    try {
+      yaCounter45922689.reachGoal(target);
+    } catch(e) {
+      console.error(e);
+    }
   }
 
   function initAutocompletes() {
