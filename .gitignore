@@ -5,3 +5,8 @@
 .idea
 
 node_modules
+
+# produced by gulp
+index.html
+assets/css
+assets/js
