@@ -17,8 +17,8 @@
     <meta name="og:locale" content="en_US" />
     <meta name="og:type" content="website" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700&v=0332e83ad4e777da3099f59d1da57172" rel="stylesheet" />
-    <link rel="stylesheet" href="assets/css/style.min.css?v=0332e83ad4e777da3099f59d1da57172" />
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet" />
+    <link rel="stylesheet" href="assets/css/style.min.css" />
     <link rel="icon" href="assets/img/favicon.png" />
     <!-- Google Tag Manager -->
     <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
@@ -764,9 +764,6 @@
             </div>
         </div>
         <div class="steps step-2">
-            <div class="notice">
-                <p>All fields are mandatory.</p>
-            </div>
             <div class="field field-input" id="fullname-container">
                 <input type="text" placeholder="Full Name" name="fullname" />
                 <div class="error-text">The field should be valid full name!</div>
@@ -774,6 +771,16 @@
             <div class="field field-input" id="email-container">
                 <input type="email" placeholder="Email" name="email" />
                 <div class="error-text">The field should be valid email address!</div>
+            </div>
+            <div class="field field-input" id="emailconfirm-container">
+                <input type="email" placeholder="Confirm email address" name="emailconfirm" />
+                <div class="error-text">Email should match confirmation!</div>
+            </div>
+            <div class="field field-input" id="email2-container">
+                <input type="email" placeholder="2nd email address (optional)" name="email2" />
+            </div>
+            <div class="field field-input" id="phone-container">
+                <input type="text" placeholder="Phone number (optional)" name="phone" />
             </div>
             <div class="field field-input" id="country"></div>
             <div class="field field-input" id="citizenship"></div>
@@ -813,8 +820,8 @@
 </div>
 
 
-<script src="assets/js/vendor.min.js?v=0332e83ad4e777da3099f59d1da57172"></script>
-<script src="assets/js/bundle.min.js?v=0332e83ad4e777da3099f59d1da57172"></script>
+<script src="assets/js/vendor.min.js"></script>
+<script src="assets/js/bundle.min.js"></script>
 
 </body>
 </html>

@@ -9,6 +9,9 @@
       checkbox2: validateCheckbox,
       fullname: validateString,
       email: validateEmail,
+      emailconfirm: validateEmailConfirm,
+      email2: validateOptional,
+      phone: validateOptional,
       country: validateString,
       citizenship: validateString,
       currency: validateString,
@@ -19,6 +22,9 @@
       checkbox2: false,
       fullname: false,
       email: false,
+      emailconfirm: false,
+      email2: true,
+      phone: true,
       country: false,
       citizenship: false,
       currency: false,
@@ -29,6 +35,9 @@
       checkbox2: false,
       fullname: '',
       email: '',
+      emailconfirm: '',
+      email2: '',
+      phone: '',
       country: '',
       citizenship: '',
       currency: '',
@@ -205,6 +214,14 @@
     return emailRe.test(value);
   }
 
+  function validateOptional() {
+    return true;
+  }
+
+  function validateEmailConfirm(value) {
+    return (form.data.email === value);
+  }
+
   function checkNextStepAllowed() {
     var currentStep = form.currentStep;
     var validations = form.validations;
@@ -213,7 +230,7 @@
     if (currentStep === 1) {
       isNextStepAllowed = (validations.checkbox1 && validations.checkbox2);
     } else if (currentStep === 2) {
-      isNextStepAllowed = (validations.fullname && validations.email && validations.country && validations.citizenship);
+      isNextStepAllowed = (validations.fullname && validations.email && validations.emailconfirm && validations.country && validations.citizenship);
     } else if (currentStep === 3) {
       isNextStepAllowed = (validations.currency && validations.amount);
 
@@ -307,6 +324,9 @@
     return JSON.stringify({
       fullname: data.fullname,
       email: data.email,
+      emailconfirm: data.emailconfirm,
+      email2: data.email2,
+      phone: data.phone,
       country: data.country,
       citizenship: data.citizenship,
       currency: data.currency,

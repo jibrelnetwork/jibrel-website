@@ -7,6 +7,6 @@
 node_modules
 
 # produced by gulp
-index.html
+./index.html
 assets/css
 assets/js

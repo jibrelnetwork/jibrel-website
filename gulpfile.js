@@ -92,6 +92,7 @@ return gulp
 });
 
 gulp.task('watch', function() {
+  gulp.watch('src/index.html', ['html']);
   gulp.watch('src/less/*.less', ['css', 'css-min']);
   gulp.watch('src/js/*.js', ['js', 'js-vendor', 'js-vendor-min', 'js-min']);
 });
