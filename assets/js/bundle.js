@@ -548,7 +548,7 @@
         });
 
         //Count
-        var timeLeft = (new Date("Sep 25, 2017 12:00:00 GMT+000").getTime() - $.now())/1000;
+        var timeLeft = (new Date("Oct 25, 2017 12:00:00 GMT+000").getTime() - $.now())/1000;
 
         $('#countdown').ClassyCountdown({
             end: $.now() + timeLeft,
@@ -567,38 +567,42 @@
                 days: {
                     gauge: {
                         thickness: 0.15,
-                        bgColor: 'rgba(255, 255, 255, 0.3)',
-                        fgColor: 'rgba(255, 255, 255, 1)',
-                        lineCap: 'round'
+                        bgColor: 'rgba(255, 255, 255, 1)',
+                        fgColor: 'rgba(5, 116, 235, 0.7)',
+                        lineCap: 'butt',
+                        rotation: 'anticlockwise',
                     },
                     textCSS: ''
                 },
                 hours: {
                     gauge: {
                         thickness: 0.15,
-                        bgColor: 'rgba(255, 255, 255, 0.3)',
-                        fgColor: 'rgba(255, 255, 255, 1)',
-                        lineCap: 'round'
+                        bgColor: 'rgba(255, 255, 255, 1)',
+                        fgColor: 'rgba(5, 116, 235, 0.7)',
+                        lineCap: 'butt',
+                        rotation: 'anticlockwise',
                     },
                     textCSS: ''
                 },
                 minutes: {
                     gauge: {
                         thickness: 0.15,
-                        bgColor: 'rgba(255, 255, 255, 0.3)',
-                        fgColor: 'rgba(255, 255, 255, 1)',
-                        lineCap: 'round'
+                        bgColor: 'rgba(255, 255, 255, 1)',
+                        fgColor: 'rgba(5, 116, 235, 0.7)',
+                        lineCap: 'butt',
+                        rotation: 'anticlockwise',
                     },
                     textCSS: ''
                 },
                 seconds: {
                     gauge: {
                         thickness: 0.15,
-                        bgColor: 'rgba(255, 255, 255, 0.3)',
-                        fgColor: 'rgba(255, 255, 255, 1)',
-                        lineCap: 'round'
+                        bgColor: 'rgba(255, 255, 255, 1)',
+                        fgColor: 'rgba(5, 116, 235, 0.7)',
+                        lineCap: 'butt',
+                        rotation: 'anticlockwise',
                     },
-                    textCSS: ''
+                    textCSS: '',
                 }
             }
         });

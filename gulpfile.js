@@ -10,7 +10,7 @@ var vendorScripts = [
   './src/js/scroll.js',
   './src/js/jquery.knob.min.js',
   './src/js/jquery.throttle.min.js',
-  './src/js/jquery.classycountdown.min.js',
+  './src/js/jquery.classycountdown.js',
   './src/js/remodal.min.js',
 ]
 
@@ -71,8 +71,8 @@ return gulp
 });
 
 gulp.task('watch', function() {
-  gulp.watch('src/less/*.less', ['css']);
-  gulp.watch('src/js/*.js', ['js', 'js-vendor']);
+  gulp.watch('src/less/*.less', ['css', 'css-min']);
+  gulp.watch('src/js/*.js', ['js', 'js-vendor', 'js-vendor-min', 'js-min']);
 });
 
 gulp.task('default', ['css', 'js-vendor', 'js']);
