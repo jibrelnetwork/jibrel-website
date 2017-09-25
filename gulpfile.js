@@ -5,6 +5,11 @@ var minify = require('gulp-minify-css');
 var merge = require('merge-stream');
 var uglify = require('gulp-uglify');
 
+var cssStyles = [
+  './src/css/remodal.css',
+  './src/css/remodal-default-theme.css',
+]
+
 var vendorScripts = [
   './src/js/jquery.min.js',
   './src/js/scroll.js',
@@ -23,7 +28,7 @@ var scripts = [
 
 gulp.task('css', function() {
   var lessStream = gulp.src('./src/less/*.less').pipe(less());
-  var cssStream = gulp.src('./src/css/*.css');
+  var cssStream = gulp.src(cssStyles);
 
   return merge(lessStream, cssStream)
     .pipe(concat('style.css'))
@@ -46,7 +51,7 @@ return gulp
 
 gulp.task('css-min', function() {
   var lessStream = gulp.src('./src/less/*.less').pipe(less());
-  var cssStream = gulp.src('./src/css/*.css');
+  var cssStream = gulp.src(cssStyles);
 
   return merge(lessStream, cssStream)
     .pipe(concat('style.min.css'))
