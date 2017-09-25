@@ -352,7 +352,204 @@
  * Licensed under the MIT license www.class.pm/LICENSE-MIT
  * Version 1.0.0
  *
- */(function(c){c.fn.ClassyCountdown=function(k,r){function l(){e=Math.floor(d/86400);f=Math.floor(d%86400/3600);g=Math.floor(d%86400%3600/60);h=Math.floor(d%86400%3600%60%60)}function m(){d--;l();0>=d&&(n||(n=!0,b.onEndCallback()),h=g=f=e=0);a.find(".ClassyCountdown-days input").val(365-e).trigger("change");a.find(".ClassyCountdown-hours input").val(24-f).trigger("change");a.find(".ClassyCountdown-minutes input").val(60-g).trigger("change");a.find(".ClassyCountdown-seconds input").val(60-h).trigger("change"); a.find(".ClassyCountdown-days .ClassyCountdown-value > div").html(e);a.find(".ClassyCountdown-hours .ClassyCountdown-value > div").html(f);a.find(".ClassyCountdown-minutes .ClassyCountdown-value > div").html(g);a.find(".ClassyCountdown-seconds .ClassyCountdown-value > div").html(h)}function p(){a.find(".ClassyCountdown-wrapper > div").each(function(){c(this).css("height",c(this).width()+"px")});b.style.textResponsive&&a.find(".ClassyCountdown-value").css("font-size",Math.floor(a.find("> div").eq(0).width()* b.style.textResponsive/10)+"px");a.find(".ClassyCountdown-value").each(function(){c(this).css("margin-top",Math.floor(0-parseInt(c(this).height())/2)+"px")});a.find(".ClassyCountdown-days input").trigger("change");a.find(".ClassyCountdown-hours input").trigger("change");a.find(".ClassyCountdown-minutes input").trigger("change");a.find(".ClassyCountdown-seconds input").trigger("change")}function q(a){switch(a){case "flat-colors":return{labels:!0,style:{element:"",textResponsive:.5,days:{gauge:{thickness:.01, bgColor:"rgba(0,0,0,0.05)",fgColor:"#1abc9c"},textCSS:"font-family:'Open Sans';font-weight:300;color:#34495e;"},hours:{gauge:{thickness:.01,bgColor:"rgba(0,0,0,0.05)",fgColor:"#2980b9"},textCSS:"font-family:'Open Sans';font-weight:300;color:#34495e;"},minutes:{gauge:{thickness:.01,bgColor:"rgba(0,0,0,0.05)",fgColor:"#8e44ad"},textCSS:"font-family:'Open Sans';font-weight:300;color:#34495e;"},seconds:{gauge:{thickness:.01,bgColor:"rgba(0,0,0,0.05)",fgColor:"#f39c12"},textCSS:"font-family:'Open Sans';font-weight:300;color:#34495e;"}}}; case "flat-colors-wide":return{labels:!0,style:{element:"",textResponsive:.5,days:{gauge:{thickness:.03,bgColor:"rgba(0,0,0,0.05)",fgColor:"#1abc9c"},textCSS:"font-family:'Open Sans';font-weight:300;color:#34495e;"},hours:{gauge:{thickness:.03,bgColor:"rgba(0,0,0,0.05)",fgColor:"#2980b9"},textCSS:"font-family:'Open Sans';font-weight:300;color:#34495e;"},minutes:{gauge:{thickness:.03,bgColor:"rgba(0,0,0,0.05)",fgColor:"#8e44ad"},textCSS:"font-family:'Open Sans';font-weight:300;color:#34495e;"},seconds:{gauge:{thickness:.03, bgColor:"rgba(0,0,0,0.05)",fgColor:"#f39c12"},textCSS:"font-family:'Open Sans';font-weight:300;color:#34495e;"}}};case "flat-colors-very-wide":return{labels:!0,style:{element:"",textResponsive:.5,days:{gauge:{thickness:.12,bgColor:"rgba(0,0,0,0.05)",fgColor:"#1abc9c"},textCSS:"font-family:'Open Sans';font-weight:300;color:#34495e;"},hours:{gauge:{thickness:.12,bgColor:"rgba(0,0,0,0.05)",fgColor:"#2980b9"},textCSS:"font-family:'Open Sans';font-weight:300;color:#34495e;"},minutes:{gauge:{thickness:.12, bgColor:"rgba(0,0,0,0.05)",fgColor:"#8e44ad"},textCSS:"font-family:'Open Sans';font-weight:300;color:#34495e;"},seconds:{gauge:{thickness:.12,bgColor:"rgba(0,0,0,0.05)",fgColor:"#f39c12"},textCSS:"font-family:'Open Sans';font-weight:300;color:#34495e;"}}};case "flat-colors-black":return{labels:!0,style:{element:"",textResponsive:.5,days:{gauge:{thickness:.25,bgColor:"rgba(0,0,0,0.05)",fgColor:"#1abc9c",lineCap:"round"},textCSS:"font-family:'Open Sans';font-weight:300;color:#34495e;"},hours:{gauge:{thickness:.25, bgColor:"rgba(0,0,0,0.05)",fgColor:"#2980b9",lineCap:"round"},textCSS:"font-family:'Open Sans';font-weight:300;color:#34495e;"},minutes:{gauge:{thickness:.25,bgColor:"rgba(0,0,0,0.05)",fgColor:"#8e44ad",lineCap:"round"},textCSS:"font-family:'Open Sans';font-weight:300;color:#34495e;"},seconds:{gauge:{thickness:.25,bgColor:"rgba(0,0,0,0.05)",fgColor:"#f39c12",lineCap:"round"},textCSS:"font-family:'Open Sans';font-weight:300;color:#34495e;"}}};case "black":return{labels:!0,style:{element:"",textResponsive:.5, days:{gauge:{thickness:.01,bgColor:"rgba(0,0,0,0.05)",fgColor:"#222"},textCSS:"font-family:'Open Sans';font-weight:300;color:#34495e;"},hours:{gauge:{thickness:.01,bgColor:"rgba(0,0,0,0.05)",fgColor:"#222"},textCSS:"font-family:'Open Sans';font-weight:300;color:#34495e;"},minutes:{gauge:{thickness:.01,bgColor:"rgba(0,0,0,0.05)",fgColor:"#222"},textCSS:"font-family:'Open Sans';font-weight:300;color:#34495e;"},seconds:{gauge:{thickness:.01,bgColor:"rgba(0,0,0,0.05)",fgColor:"#222"},textCSS:"font-family:'Open Sans';font-weight:300;color:#34495e;"}}}; case "black-wide":return{labels:!0,style:{element:"",textResponsive:.5,days:{gauge:{thickness:.03,bgColor:"rgba(0,0,0,0.05)",fgColor:"#222"},textCSS:"font-family:'Open Sans';font-weight:300;color:#34495e;"},hours:{gauge:{thickness:.03,bgColor:"rgba(0,0,0,0.05)",fgColor:"#222"},textCSS:"font-family:'Open Sans';font-weight:300;color:#34495e;"},minutes:{gauge:{thickness:.03,bgColor:"rgba(0,0,0,0.05)",fgColor:"#222"},textCSS:"font-family:'Open Sans';font-weight:300;color:#34495e;"},seconds:{gauge:{thickness:.03, bgColor:"rgba(0,0,0,0.05)",fgColor:"#222"},textCSS:"font-family:'Open Sans';font-weight:300;color:#34495e;"}}};case "black-very-wide":return{labels:!0,style:{element:"",textResponsive:.5,days:{gauge:{thickness:.17,bgColor:"rgba(0,0,0,0.05)",fgColor:"#222"},textCSS:"font-family:'Open Sans';font-weight:300;color:#34495e;"},hours:{gauge:{thickness:.17,bgColor:"rgba(0,0,0,0.05)",fgColor:"#222"},textCSS:"font-family:'Open Sans';font-weight:300;color:#34495e;"},minutes:{gauge:{thickness:.17,bgColor:"rgba(0,0,0,0.05)", fgColor:"#222"},textCSS:"font-family:'Open Sans';font-weight:300;color:#34495e;"},seconds:{gauge:{thickness:.17,bgColor:"rgba(0,0,0,0.05)",fgColor:"#222"},textCSS:"font-family:'Open Sans';font-weight:300;color:#34495e;"}}};case "black-black":return{labels:!0,style:{element:"",textResponsive:.5,days:{gauge:{thickness:.25,bgColor:"rgba(0,0,0,0.05)",fgColor:"#222",lineCap:"round"},textCSS:"font-family:'Open Sans';font-weight:300;color:#34495e;"},hours:{gauge:{thickness:.25,bgColor:"rgba(0,0,0,0.05)", fgColor:"#222",lineCap:"round"},textCSS:"font-family:'Open Sans';font-weight:300;color:#34495e;"},minutes:{gauge:{thickness:.25,bgColor:"rgba(0,0,0,0.05)",fgColor:"#222",lineCap:"round"},textCSS:"font-family:'Open Sans';font-weight:300;color:#34495e;"},seconds:{gauge:{thickness:.25,bgColor:"rgba(0,0,0,0.05)",fgColor:"#222",lineCap:"round"},textCSS:"font-family:'Open Sans';font-weight:300;color:#34495e;"}}};case "white":return{labels:!0,style:{element:"",textResponsive:.5,days:{gauge:{thickness:.03, bgColor:"rgba(255,255,255,0.05)",fgColor:"#fff"},textCSS:"font-family:'Open Sans';font-weight:300;color:#fff;"},hours:{gauge:{thickness:.03,bgColor:"rgba(255,255,255,0.05)",fgColor:"#fff"},textCSS:"font-family:'Open Sans';font-weight:300;color:#fff;"},minutes:{gauge:{thickness:.03,bgColor:"rgba(255,255,255,0.05)",fgColor:"#fff"},textCSS:"font-family:'Open Sans';font-weight:300;color:#fff;"},seconds:{gauge:{thickness:.03,bgColor:"rgba(255,255,255,0.05)",fgColor:"#fff"},textCSS:"font-family:'Open Sans';font-weight:300;color:#fff;"}}}; case "white-wide":return{labels:!0,style:{element:"",textResponsive:.5,days:{gauge:{thickness:.06,bgColor:"rgba(255,255,255,0.05)",fgColor:"#fff"},textCSS:"font-family:'Open Sans';font-weight:300;color:#fff;"},hours:{gauge:{thickness:.06,bgColor:"rgba(255,255,255,0.05)",fgColor:"#fff"},textCSS:"font-family:'Open Sans';font-weight:300;color:#fff;"},minutes:{gauge:{thickness:.06,bgColor:"rgba(255,255,255,0.05)",fgColor:"#fff"},textCSS:"font-family:'Open Sans';font-weight:300;color:#fff;"},seconds:{gauge:{thickness:.06, bgColor:"rgba(255,255,255,0.05)",fgColor:"#fff"},textCSS:"font-family:'Open Sans';font-weight:300;color:#fff;"}}};case "white-very-wide":return{labels:!0,style:{element:"",textResponsive:.5,days:{gauge:{thickness:.16,bgColor:"rgba(255,255,255,0.05)",fgColor:"#fff"},textCSS:"font-family:'Open Sans';font-weight:300;color:#fff;"},hours:{gauge:{thickness:.16,bgColor:"rgba(255,255,255,0.05)",fgColor:"#fff"},textCSS:"font-family:'Open Sans';font-weight:300;color:#fff;"},minutes:{gauge:{thickness:.16,bgColor:"rgba(255,255,255,0.05)", fgColor:"#fff"},textCSS:"font-family:'Open Sans';font-weight:300;color:#fff;"},seconds:{gauge:{thickness:.16,bgColor:"rgba(255,255,255,0.05)",fgColor:"#fff"},textCSS:"font-family:'Open Sans';font-weight:300;color:#fff;"}}};case "white-black":return{labels:!0,style:{element:"",textResponsive:.5,days:{gauge:{thickness:.25,bgColor:"rgba(255,255,255,0.05)",fgColor:"#fff",lineCap:"round"},textCSS:"font-family:'Open Sans';font-weight:300;color:#fff;"},hours:{gauge:{thickness:.25,bgColor:"rgba(255,255,255,0.05)", fgColor:"#fff",lineCap:"round"},textCSS:"font-family:'Open Sans';font-weight:300;color:#fff;"},minutes:{gauge:{thickness:.25,bgColor:"rgba(255,255,255,0.05)",fgColor:"#fff",lineCap:"round"},textCSS:"font-family:'Open Sans';font-weight:300;color:#fff;"},seconds:{gauge:{thickness:.25,bgColor:"rgba(255,255,255,0.05)",fgColor:"#fff",lineCap:"round"},textCSS:"font-family:'Open Sans';font-weight:300;color:#fff;"}}}}}var a=c(this),e,f,g,h,d,n=!1,b={end:void 0,now:c.now(),labels:!0,labelsOptions:{lang:{days:"Days", hours:"Hours",minutes:"Minutes",seconds:"Seconds"},style:"font-size: 0.5em;"},style:{element:"",labels:!1,textResponsive:.5,days:{gauge:{thickness:.02,bgColor:"rgba(0, 0, 0, 0)",fgColor:"rgba(0, 0, 0, 1)",lineCap:"butt"},textCSS:""},hours:{gauge:{thickness:.02,bgColor:"rgba(0, 0, 0, 0)",fgColor:"rgba(0, 0, 0, 1)",lineCap:"butt"},textCSS:""},minutes:{gauge:{thickness:.02,bgColor:"rgba(0, 0, 0, 0)",fgColor:"rgba(0, 0, 0, 1)",lineCap:"butt"},textCSS:""},seconds:{gauge:{thickness:.02,bgColor:"rgba(0, 0, 0, 0)", fgColor:"rgba(0, 0, 0, 1)",lineCap:"butt"},textCSS:""}},onEndCallback:function(){}};k.theme&&(b=c.extend(!0,b,q(k.theme)));b=c.extend(!0,b,k);(function(){a.append('<div class="ClassyCountdown-wrapper"><div class="ClassyCountdown-days"><input type="text" /><span class="ClassyCountdown-value"><div></div><span></span></span></div><div class="ClassyCountdown-hours"><input type="text" /><span class="ClassyCountdown-value"><div></div><span></span></span></div><div class="ClassyCountdown-minutes"><input type="text" /><span class="ClassyCountdown-value"><div></div><span></span></span></div><div class="ClassyCountdown-seconds"><input type="text" /><span class="ClassyCountdown-value"><div></div><span></span></span></div></div>'); a.find(".ClassyCountdown-days input").knob(c.extend({width:"100%",displayInput:!1,readOnly:!0,max:365},b.style.days.gauge));a.find(".ClassyCountdown-hours input").knob(c.extend({width:"100%",displayInput:!1,readOnly:!0,max:24},b.style.hours.gauge));a.find(".ClassyCountdown-minutes input").knob(c.extend({width:"100%",displayInput:!1,readOnly:!0,max:60},b.style.minutes.gauge));a.find(".ClassyCountdown-seconds input").knob(c.extend({width:"100%",displayInput:!1,readOnly:!0,max:60},b.style.seconds.gauge)); a.find(".ClassyCountdown-wrapper > div").attr("style",b.style.element);a.find(".ClassyCountdown-days .ClassyCountdown-value").attr("style",b.style.days.textCSS);a.find(".ClassyCountdown-hours .ClassyCountdown-value").attr("style",b.style.hours.textCSS);a.find(".ClassyCountdown-minutes .ClassyCountdown-value").attr("style",b.style.minutes.textCSS);a.find(".ClassyCountdown-seconds .ClassyCountdown-value").attr("style",b.style.seconds.textCSS);a.find(".ClassyCountdown-value").each(function(){c(this).css("margin-top", Math.floor(0-parseInt(c(this).height())/2)+"px")});b.labels&&(a.find(".ClassyCountdown-days .ClassyCountdown-value > span").html(b.labelsOptions.lang.days),a.find(".ClassyCountdown-hours .ClassyCountdown-value > span").html(b.labelsOptions.lang.hours),a.find(".ClassyCountdown-minutes .ClassyCountdown-value > span").html(b.labelsOptions.lang.minutes),a.find(".ClassyCountdown-seconds .ClassyCountdown-value > span").html(b.labelsOptions.lang.seconds),a.find(".ClassyCountdown-value > span").attr("style", b.labelsOptions.style));d=b.end-b.now;l()})();m();setInterval(m,1E3);(function(){a.find(".ClassyCountdown-wrapper > div").each(function(){c(this).css("height",c(this).width()+"px")});b.style.textResponsive&&(a.find(".ClassyCountdown-value").css("font-size",Math.floor(a.find("> div").eq(0).width()*b.style.textResponsive/10)+"px"),a.find(".ClassyCountdown-value").each(function(){c(this).css("margin-top",Math.floor(0-parseInt(c(this).height())/2)+"px")}));c(window).trigger("resize");c(window).resize(c.throttle(50, p))})()}})(jQuery);
+ */
+
+(function($) {
+    $.fn.ClassyCountdown = function(options, callback) {
+        var element = $(this);
+        var DaysLeft, HoursLeft, MinutesLeft, SecondsLeft;
+        var secondsLeft;
+        var isFired = false;
+        var settings = {
+            end: undefined,
+            now: $.now(),
+            labels: true,
+            labelsOptions: {
+                lang: {
+                    days: 'Days',
+                    hours: 'Hours',
+                    minutes: 'Minutes',
+                    seconds: 'Seconds'
+                },
+                style: 'font-size: 0.5em;'
+            },
+            style: {
+                element: '',
+                labels: false,
+                textResponsive: 0.5,
+                days: {
+                    gauge: {
+                        thickness: 0.02,
+                        bgColor: 'rgba(0, 0, 0, 0)',
+                        fgColor: 'rgba(0, 0, 0, 1)',
+                        lineCap: 'butt'
+                    },
+                    textCSS: ''
+                },
+                hours: {
+                    gauge: {
+                        thickness: 0.02,
+                        bgColor: 'rgba(0, 0, 0, 0)',
+                        fgColor: 'rgba(0, 0, 0, 1)',
+                        lineCap: 'butt'
+                    },
+                    textCSS: ''
+                },
+                minutes: {
+                    gauge: {
+                        thickness: 0.02,
+                        bgColor: 'rgba(0, 0, 0, 0)',
+                        fgColor: 'rgba(0, 0, 0, 1)',
+                        lineCap: 'butt'
+                    },
+                    textCSS: ''
+                },
+                seconds: {
+                    gauge: {
+                        thickness: 0.02,
+                        bgColor: 'rgba(0, 0, 0, 0)',
+                        fgColor: 'rgba(0, 0, 0, 1)',
+                        lineCap: 'butt'
+                    },
+                    textCSS: ''
+                }
+            },
+            onEndCallback: function() {
+            }
+        };
+        if (options.theme) {
+            settings = $.extend(true, settings, getPreset(options.theme));
+        }
+        settings = $.extend(true, settings, options);
+        prepare();
+        doTick();
+        setInterval(doTick, 1000);
+        doResponsive();
+        
+        function prepare() {
+            element.append('<div class="ClassyCountdown-wrapper">' +
+                    '<div class="ClassyCountdown-days">' +
+                        '<input type="text" />' +
+                        '<span class="ClassyCountdown-value"><div></div><span></span></span>' +
+                    '</div>' +
+                    '<div class="ClassyCountdown-hours">' +
+                        '<input type="text" />' +
+                        '<span class="ClassyCountdown-value"><div></div><span></span></span>' +
+                    '</div>' +
+                    '<div class="ClassyCountdown-minutes">' +
+                        '<input type="text" />' +
+                        '<span class="ClassyCountdown-value"><div></div><span></span></span>' +
+                    '</div>' +
+                    '<div class="ClassyCountdown-seconds">' +
+                        '<input type="text" />' +
+                        '<span class="ClassyCountdown-value"><div></div><span></span></span>' +
+                    '</div>' +
+                '</div>');
+            element.find('.ClassyCountdown-days input').knob($.extend({
+                width: '100%',
+                displayInput: false,
+                readOnly: true,
+                max: 31
+            }, settings.style.days.gauge));
+            element.find('.ClassyCountdown-hours input').knob($.extend({
+                width: '100%',
+                displayInput: false,
+                readOnly: true,
+                max: 24
+            }, settings.style.hours.gauge));
+            element.find('.ClassyCountdown-minutes input').knob($.extend({
+                width: '100%',
+                displayInput: false,
+                readOnly: true,
+                max: 60
+            }, settings.style.minutes.gauge));
+            element.find('.ClassyCountdown-seconds input').knob($.extend({
+                width: '100%',
+                displayInput: false,
+                readOnly: true,
+                max: 60,
+            }, settings.style.seconds.gauge));
+            element.find('.ClassyCountdown-wrapper > div').attr("style", settings.style.element);
+            element.find('.ClassyCountdown-days .ClassyCountdown-value').attr('style', settings.style.days.textCSS);
+            element.find('.ClassyCountdown-hours .ClassyCountdown-value').attr('style', settings.style.hours.textCSS);
+            element.find('.ClassyCountdown-minutes .ClassyCountdown-value').attr('style', settings.style.minutes.textCSS);
+            element.find('.ClassyCountdown-seconds .ClassyCountdown-value').attr('style', settings.style.seconds.textCSS);
+            element.find('.ClassyCountdown-value').each(function() {
+                $(this).css('margin-top', Math.floor(0 - (parseInt($(this).height()) / 2)) + 'px');
+            });
+            if (settings.labels) {
+                element.find(".ClassyCountdown-days .ClassyCountdown-value > span").html(settings.labelsOptions.lang.days);
+                element.find(".ClassyCountdown-hours .ClassyCountdown-value > span").html(settings.labelsOptions.lang.hours);
+                element.find(".ClassyCountdown-minutes .ClassyCountdown-value > span").html(settings.labelsOptions.lang.minutes);
+                element.find(".ClassyCountdown-seconds .ClassyCountdown-value > span").html(settings.labelsOptions.lang.seconds);
+                element.find(".ClassyCountdown-value > span").attr("style", settings.labelsOptions.style);
+            }
+            secondsLeft = settings.end - settings.now;
+            secondsToDHMS();
+        }
+        
+        function secondsToDHMS() {
+            DaysLeft = Math.floor(secondsLeft / 86400);
+            HoursLeft = Math.floor((secondsLeft % 86400) / 3600);
+            MinutesLeft = Math.floor(((secondsLeft % 86400) % 3600) / 60);
+            SecondsLeft = Math.floor((((secondsLeft % 86400) % 3600) % 60) % 60);
+        }
+
+        function doTick() {
+            secondsLeft--;
+            secondsToDHMS();
+            if (secondsLeft <= 0) {
+                if (!isFired) {
+                    isFired = true;
+                    settings.onEndCallback();
+                }
+                DaysLeft = 0;
+                HoursLeft = 0;
+                MinutesLeft = 0;
+                SecondsLeft = 0;
+            }
+            element.find('.ClassyCountdown-days input').val(31 - DaysLeft).trigger('change');
+            element.find('.ClassyCountdown-hours input').val(24 - HoursLeft).trigger('change');
+            element.find('.ClassyCountdown-minutes input').val(60 - MinutesLeft).trigger('change');
+            element.find('.ClassyCountdown-seconds input').val(60 - SecondsLeft).trigger('change');
+            element.find('.ClassyCountdown-days .ClassyCountdown-value > div').html(DaysLeft);
+            element.find('.ClassyCountdown-hours .ClassyCountdown-value > div').html(HoursLeft);
+            element.find('.ClassyCountdown-minutes .ClassyCountdown-value > div').html(MinutesLeft);
+            element.find('.ClassyCountdown-seconds .ClassyCountdown-value > div').html(SecondsLeft);
+        }
+        
+        function doResponsive() {
+            element.find('.ClassyCountdown-wrapper > div').each(function() {
+                $(this).css('height', $(this).width() + 'px');
+            });
+            if (settings.style.textResponsive) {
+                element.find('.ClassyCountdown-value').css('font-size', Math.floor(element.find('> div').eq(0).width() * settings.style.textResponsive / 10) + 'px');
+                element.find('.ClassyCountdown-value').each(function() {
+                    $(this).css('margin-top', Math.floor(0 - (parseInt($(this).height()) / 2)) + 'px');
+                });
+            }
+            $(window).trigger('resize');
+            $(window).resize($.throttle(50, onResize));
+        }
+
+        function onResize() {
+            element.find('.ClassyCountdown-wrapper > div').each(function() {
+                $(this).css('height', $(this).width() + 'px');
+            });
+            if (settings.style.textResponsive) {
+                element.find('.ClassyCountdown-value').css('font-size', Math.floor(element.find('> div').eq(0).width() * settings.style.textResponsive / 10) + 'px');
+            }
+            element.find('.ClassyCountdown-value').each(function() {
+                $(this).css("margin-top", Math.floor(0 - (parseInt($(this).height()) / 2)) + 'px');
+            });
+            element.find('.ClassyCountdown-days input').trigger('change');
+            element.find('.ClassyCountdown-hours input').trigger('change');
+            element.find('.ClassyCountdown-minutes input').trigger('change');
+            element.find('.ClassyCountdown-seconds input').trigger('change');
+        }
+    };
+})(jQuery);
+
 /*
  *  Remodal - v1.1.1
  *  Responsive, lightweight, fast, synchronized with CSS animations, fully customizable modal window plugin with declarative configuration and hash tracking.
