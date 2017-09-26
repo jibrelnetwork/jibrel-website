@@ -1904,6 +1904,13 @@ html.active {
     padding-bottom: 0;
     .timeline {
       .item {
+        &.left,
+        &.right {
+          .time:before {
+            right: inherit;
+            left: -7px;
+          }
+        }
         &.left {
           padding-left: 30px;
           padding-right: 0;
@@ -1911,10 +1918,6 @@ html.active {
           .time {
             padding-right: 0;
             padding-left: 30px;
-            &:before {
-              right: inherit;
-              left: -7px;
-            }
           }
           * {
             padding-right: 0;
@@ -1927,6 +1930,9 @@ html.active {
         }
         &:last-child {
           padding-bottom: 40px;
+        }
+        &:before {
+          right: initial;
         }
       }
     }
