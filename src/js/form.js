@@ -299,12 +299,7 @@
     if (response && (response.success === true) && (textStatus === 'success')) {
       setCurrentStep(form.successStep);
 
-      var goalParams = {
-        currency: form.data.currency,
-        amount: form.data.amount,
-      }
-
-      reachGoal('presaleSuccess', goalParams);
+      reachPresaleSuccessGoal();
 
       return;
     }
@@ -358,6 +353,23 @@
     }
 
     form.currentStep = step;
+  }
+
+  function reachPresaleSuccessGoal() {
+    var currency = form.data.currency;
+
+    if (currency === 'BTC') {
+      currency = 'BAM';
+    } else if (currency === 'ETH') {
+      currency = 'YND';
+    }
+
+    var goalParams = {
+      currency: currency,
+      order_price: form.data.amount,
+    }
+
+    reachGoal('presaleSuccess', goalParams);
   }
 
   function reachGoal(goalTarget, goalParams) {
