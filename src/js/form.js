@@ -46,8 +46,6 @@
   }
 
   $(document).ready(function() {
-    $('#phone-container input').mask('+999 (999) 999-9999');
-
     startWatchingFormFields();
 
     $('#previous-step').click(onPreviousStepClick);
@@ -374,7 +372,7 @@
     initAutocomplete({
       source: form.countries,
       id: 'country',
-      placeholder: 'Country of Residence',
+      placeholder: 'Country of Residence *',
       errorText: 'The field should be valid country!',
       onInput: watchFormField,
     });
@@ -382,7 +380,7 @@
     initAutocomplete({
       source: form.countries,
       id: 'citizenship',
-      placeholder: 'Citizenship',
+      placeholder: 'Citizenship *',
       errorText: 'The field should be valid citizenship!',
       onInput: watchFormField,
     });
