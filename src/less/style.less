@@ -450,9 +450,11 @@ html.active {
       opacity: 0.4;
       margin: 0 30px;
       img {
-        display: block;
         height: 20px;
-        width: auto;
+        width: auto\9;
+        -ms-interpolation-mode: bicubic;
+        vertical-align: middle;
+        border: 0;
       }
       &:hover {
         opacity: 0.8;
@@ -669,7 +671,7 @@ html.active {
     }
   }
   .inner {
-    position: unset;
+    position: static;
   }
   &:before {
     display: block;
@@ -745,6 +747,7 @@ html.active {
         position: absolute;
         top: 24px;
         opacity: 0.3;
+        right: 50%;
       }
       &.right {
         padding-left: 50%;
@@ -753,7 +756,7 @@ html.active {
           padding-left: 30px;
         }
         .time:before {
-          left: -7px;
+          left: -8px;
         }
       }
       &.left {
@@ -764,7 +767,7 @@ html.active {
           padding-right: 30px;
         }
         .time:before {
-          right: -7px;
+          right: -6px;
         }
       }
       .time {
@@ -2228,4 +2231,10 @@ html.active {
   }
 
   100%{}
+}
+
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+  .start .logos {
+    display: none;
+  }
 }
