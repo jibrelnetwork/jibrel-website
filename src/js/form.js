@@ -301,7 +301,12 @@
     if (response && (response.success === true) && (textStatus === 'success')) {
       setCurrentStep(form.successStep);
 
-      reachGoal('presaleSuccess');
+      var goalParams = {
+        currency: form.data.currency,
+        amount: form.data.amount,
+      }
+
+      reachGoal('presaleSuccess', goalParams);
 
       return;
     }
@@ -357,9 +362,9 @@
     form.currentStep = step;
   }
 
-  function reachGoal(target) {
+  function reachGoal(goalTarget, goalParams) {
     try {
-      yaCounter45922689.reachGoal(target);
+      yaCounter45922689.reachGoal(goalTarget, goalParams);
     } catch(e) {
       console.error(e);
     }
