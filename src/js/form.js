@@ -43,6 +43,8 @@
     countries: countries,
     currencies: ['ETH', 'BTC', 'USD', 'EUR', 'CHF'],
     submitURL: 'https://presaleapi.jibrel.network/presale_request',
+    btcUSD: 4000,
+    ethUSD: 300,
   }
 
   $(document).ready(function() {
@@ -300,6 +302,7 @@
       setCurrentStep(form.successStep);
 
       reachPresaleSuccessGoal();
+      pushFormSubmissionEvent();
 
       return;
     }
@@ -357,16 +360,19 @@
 
   function reachPresaleSuccessGoal() {
     var currency = form.data.currency;
+    var price = form.data.amount;
 
     if (currency === 'BTC') {
-      currency = 'BAM';
+      currency = 'USD';
+      price = form.btcUSD * (parseInt(price, 10) || 0)
     } else if (currency === 'ETH') {
-      currency = 'YND';
+      currency = 'USD';
+      price = form.ethUSD * (parseInt(price, 10) || 0)
     }
 
     var goalParams = {
       currency: currency,
-      order_price: form.data.amount,
+      order_price: price,
     }
 
     reachGoal('presaleSuccess', goalParams);
@@ -378,6 +384,11 @@
     } catch(e) {
       console.error(e);
     }
+  }
+
+  function pushFormSubmissionEvent() {
+    window.dataLayer = window.dataLayer || [];
+    window.dataLayer.push({ event: 'formSubmission' });
   }
 
   function initAutocompletes() {
