@@ -1,4 +1,6 @@
 (function($) {
+  'use strict';
+
   var form = {
     totalSteps: 3,
     currentStep: 1,
@@ -7,13 +9,13 @@
     validators: {
       checkbox1: validateCheckbox,
       checkbox2: validateCheckbox,
-      fullname: validateString,
+      fullname: validateFullname,
       email: validateEmail,
       emailconfirm: validateEmailConfirm,
-      phone: validateOptional,
-      country: validateString,
-      citizenship: validateString,
-      currency: validateString,
+      phone: validatePhone,
+      country: validateCountry,
+      citizenship: validateCitizenship,
+      currency: validateCurrency,
       amount: validateAmount,
     },
     validations: {
@@ -38,10 +40,11 @@
       country: '',
       citizenship: '',
       currency: '',
-      amount: 0,
+      amount: '',
     },
     countries: countries,
     currencies: ['ETH', 'BTC', 'USD', 'EUR', 'CHF'],
+    // submitURL: 'http://localhost:3001/presale_request',
     submitURL: 'https://presaleapi.jibrel.network/presale_request',
     btcUSD: 4000,
     ethUSD: 300,
@@ -130,16 +133,12 @@
   function validateField(fieldName, fieldValue) {
     hideFieldError(fieldName);
 
-    isFieldValid = form.validators[fieldName](fieldValue);
+    var validationError = form.validators[fieldName](fieldValue);
 
-    if ((fieldName === 'country') || (fieldName === 'citizenship')) {
-      isFieldValid = validateCountry(fieldValue, isFieldValid);
-    }
+    form.validations[fieldName] = (validationError == null);
 
-    form.validations[fieldName] = isFieldValid;
-
-    if (!isFieldValid) {
-      showFieldError(fieldName);
+    if (validationError) {
+      showFieldError(fieldName, validationError);
     }
   }
 
@@ -151,20 +150,8 @@
     })
   }
 
-  function validateCountry(country, isValid) {
-    var prohibitedCountries = ['united states', 'singapore', 'china'];
-    var isProhibitedCountry = false;
-
-    prohibitedCountries.forEach(function(prohibitedCountry) {
-      if (prohibitedCountry === country.toLowerCase()) {
-        isProhibitedCountry = true;
-      }
-    });
-
-    return isProhibitedCountry ? false : isValid;
-  }
-
-  function showFieldError(fieldName) {
+  function showFieldError(fieldName, validationError) {
+    $('#' + fieldName + '-container > .error-text').html(validationError);
     $('#' + fieldName + '-container').addClass('error');
   }
 
@@ -184,7 +171,8 @@
   }
 
   function validateCheckbox(value) {
-    return value;
+    // if checkbox is setted on - return null, otherwise empty error message
+    return value ? null : '';
   }
 
   function validateString(value) {
@@ -207,23 +195,83 @@
     return true;
   }
 
-  function validateEmail(value) {
-    var emailRe = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
-
-    return emailRe.test(value);
-  }
-
   function validateOptional() {
     return true;
   }
 
+  function validateProhibitedCountry(value) {
+    var prohibitedCountries = ['united states', 'singapore', 'china'];
+
+    for (var i = 0; i < prohibitedCountries.length; i += 1) {
+      if (prohibitedCountries[i] === value.toLowerCase()) {
+        return false;
+      }
+    }
+
+    return true;
+  }
+
+  function validateFullname(value) {
+    if (!validateString(value)) {
+      return 'The field should be valid full name.'
+    }
+
+    return null;
+  }
+
+  function validateEmail(value) {
+    var emailRe = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+
+    return emailRe.test(value) ? null : 'The field should be valid email address.';
+  }
+
   function validateEmailConfirm(value) {
-    return (form.data.email === value);
+    return (form.data.email === value) ? null : 'Emails should match to proceed.';
+  }
+
+  function validatePhone(value) {
+    if (!validateOptional(value)) {
+      return 'The field should be valid phone number.'
+    }
+
+    return null;
+  }
+
+  function validateCountry(value) {
+    if (!validateString(value)) {
+      return 'The field should be valid country.';
+    } else if (!validateProhibitedCountry(value)) {
+      return 'The country is prohibited.';
+    }
+
+    return null;
+  }
+
+  function validateCitizenship(value) {
+    if (!validateString(value)) {
+      return 'The field should be valid citizenship.';
+    } else if (!validateProhibitedCountry(value)) {
+      return 'The country is prohibited.';
+    }
+
+    return null;
+  }
+
+  function validateCurrency(value) {
+    if (!validateString(value)) {
+      return 'The field should be valid currency.';
+    }
+
+    var amount = $('#amount').val();
+
+    validateField('amount', amount);
+
+    return null;
   }
 
   function validateAmount(value) {
     if (!validateNumber(value)) {
-      return false;
+      return 'The field should be valid number.';
     }
 
     var amount = parseFloat(value, 10);
@@ -231,17 +279,17 @@
 
     switch (currency) {
       case 'ETH':
-        return (amount >= 15);
+        return (amount < 15) ? 'Minimum investment is 15 ETH.' : null;
       case 'BTC':
-        return (amount >= 1.2);
+        return (amount < 1.2) ? 'Minimum investment is 1.2 BTC.' : null;
       case 'USD':
-        return (amount >= 5000);
+        return (amount < 5000) ? 'Minimum investment is 5,000 USD.' : null;
       case 'EUR':
-        return (amount >= 4250);
+        return (amount < 4250) ? 'Minimum investment is 4,250 EUR.' : null;
       case 'CHF':
-        return (amount >= 4865);
+        return (amount < 4865) ? 'Minimum investment is 4,865 CHF.' : null;
       default:
-        return false;
+        return null;
     }
   }
 
@@ -420,7 +468,6 @@
       source: form.countries,
       id: 'country',
       placeholder: 'Country of Residence *',
-      errorText: 'The field should be valid country!',
       onInput: watchFormField,
     });
 
@@ -428,7 +475,6 @@
       source: form.countries,
       id: 'citizenship',
       placeholder: 'Citizenship *',
-      errorText: 'The field should be valid citizenship!',
       onInput: watchFormField,
     });
 
@@ -436,7 +482,6 @@
       source: form.currencies,
       id: 'currency',
       placeholder: 'Currency',
-      errorText: 'The field should be valid currency!',
       alwaysAll: true,
       readonly: true,
       onInput: watchFormField,
