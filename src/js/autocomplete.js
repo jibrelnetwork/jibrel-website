@@ -5,12 +5,13 @@
     var placeholder = props.placeholder || '';
     var errorText = props.errorText || '';
     var alwaysAll = !!props.alwaysAll;
+    var readonly = !!props.readonly;
     var onInput = props.onInput || function () {};
 
     var containerEl = document.getElementById(id);
     containerEl.id = id + '-container';
 
-    renderContainer(id, placeholder, errorText);
+    renderContainer(id, placeholder, errorText, readonly);
 
     var renderItemsHandler = renderItems.bind(null, source, id, alwaysAll);
 
@@ -36,18 +37,19 @@
     });
   }
 
-  function renderContainer(id, placeholder, errorText) {
-    renderInput(id, placeholder);
+  function renderContainer(id, placeholder, errorText, readonly) {
+    renderInput(id, placeholder, readonly);
     renderList(id);
     renderErrorText(id, errorText);
   }
 
-  function renderInput(id, placeholder) {
+  function renderInput(id, placeholder, readonly) {
     var input = document.createElement('input');
     input.type = 'text';
     input.name = id;
     input.id = id;
     input.placeholder = placeholder;
+    input.readOnly = readonly;
 
     document.getElementById(id + '-container').appendChild(input);
   }

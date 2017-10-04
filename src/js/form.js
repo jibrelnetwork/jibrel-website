@@ -14,7 +14,7 @@
       country: validateString,
       citizenship: validateString,
       currency: validateString,
-      amount: validateNumber,
+      amount: validateAmount,
     },
     validations: {
       checkbox1: false,
@@ -198,7 +198,7 @@
   }
 
   function validateNumber(value) {
-    var notNumbersRe = /\D/g;
+    var notNumbersRe = /[^\d\.]/g;
 
     if ((value.length < 1) || (notNumbersRe.test(value))) {
       return false;
@@ -219,6 +219,30 @@
 
   function validateEmailConfirm(value) {
     return (form.data.email === value);
+  }
+
+  function validateAmount(value) {
+    if (!validateNumber(value)) {
+      return false;
+    }
+
+    var amount = parseFloat(value, 10);
+    var currency = $('#currency').val();
+
+    switch (currency) {
+      case 'ETH':
+        return (amount >= 15);
+      case 'BTC':
+        return (amount >= 1.2);
+      case 'USD':
+        return (amount >= 5000);
+      case 'EUR':
+        return (amount >= 4250);
+      case 'CHF':
+        return (amount >= 4865);
+      default:
+        return false;
+    }
   }
 
   function checkNextStepAllowed() {
@@ -414,6 +438,7 @@
       placeholder: 'Currency',
       errorText: 'The field should be valid currency!',
       alwaysAll: true,
+      readonly: true,
       onInput: watchFormField,
     });
   }
