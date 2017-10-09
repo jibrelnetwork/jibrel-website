@@ -48,7 +48,8 @@
     submitURL: 'https://presaleapiv2.jibrel.network/presale_request',
     btcUSD: 4000,
     ethUSD: 300,
-    showRecaptchaTimeout: 1000,
+    showRecaptchaTimeout: 500,
+    showRecaptchaTimer: null,
   }
 
   var captchaHandler = function() { console.error('grecaptcha handler not defined') };
@@ -59,8 +60,8 @@
     $('#previous-step').click(onPreviousStepClick);
     $('#next-step').click(onNextStepClick);
 
+    initRemodal();
     initAutocompletes();
-    showRecaptcha();
   });
 
   function startWatchingFormFields() {
@@ -109,6 +110,10 @@
     onNextStep(nextStep);
 
     event.stopPropagation();
+  }
+
+  function onRemodalCloseClick() {
+    hideRecaptcha();
   }
 
   function isNextStepAllowed() {
@@ -486,6 +491,16 @@
     window.dataLayer.push({ event: 'formSubmission' });
   }
 
+  function initRemodal() {
+    $(document).on('opened', '.remodal', function () {
+      showRecaptcha();
+    });
+
+    $(document).on('closing', '.remodal', function () {
+      hideRecaptcha();
+    });
+  }
+
   function initAutocompletes() {
     initAutocomplete({
       source: form.countries,
@@ -534,8 +549,18 @@
   }
 
   function showRecaptcha() {
-    setTimeout(function() {
+    form.showRecaptchaTimer = setTimeout(function() {
       $('#grecaptcha').removeClass('hidden');
     }, form.showRecaptchaTimeout);
+  }
+
+  function hideRecaptcha() {
+    var showRecaptchaTimerId = form.showRecaptchaTimer
+
+    if (showRecaptchaTimerId) {
+      clearTimeout(showRecaptchaTimerId);
+    }
+
+    $('#grecaptcha').addClass('hidden');
   }
 })(jQuery);
