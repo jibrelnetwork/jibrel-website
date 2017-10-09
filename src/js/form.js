@@ -44,11 +44,13 @@
     },
     countries: countries,
     currencies: ['ETH', 'BTC', 'USD', 'EUR', 'CHF'],
-    // submitURL: 'http://localhost:3001/presale_request',
-    submitURL: 'https://presaleapi.jibrel.network/presale_request',
+    // submitURL: 'http://localhost:3001/v2/presale_request',
+    submitURL: 'https://presaleapiv2.jibrel.network/presale_request',
     btcUSD: 4000,
     ethUSD: 300,
   }
+
+  var captchaHandler = function() { console.error('grecaptcha handler not defined') };
 
   $(document).ready(function() {
     startWatchingFormFields();
@@ -344,14 +346,14 @@
     if (nextStep > form.totalSteps) {
       $('#steps-counter').addClass('hidden');
 
-      return onSubmit();
+      return captchaHandler();
     }
 
     setCurrentStep(nextStep);
     checkNextStepAllowed();
   }
 
-  function onSubmit() {
+  window.onPresaleFormSubmit = function() {
     setLoading();
 
     return $.ajax({
@@ -367,10 +369,14 @@
     });
   }
 
-  function onSuccessSubmit(response, textStatus) {
+  function onSuccessSubmit(response, textStatus, jqXHR) {
     hideModalFooter();
 
-    if (response && (response.success === true) && (textStatus === 'success')) {
+    var statusCode = jqXHR.status
+    var isValidStatus = ((statusCode === 200) || (statusCode === 201))
+
+    if (isValidStatus && response && (response.error === false)) {
+      showAddress(response.address);
       setCurrentStep(form.successStep);
 
       reachPresaleSuccessGoal();
@@ -402,6 +408,7 @@
       citizenship: data.citizenship,
       currency: data.currency,
       amount: data.amount,
+      'g-recaptcha-response': window.grecaptcha.getResponse(),
     });
   }
 
@@ -411,9 +418,23 @@
   }
 
   function setLoading() {
-    $("#previous-step").addClass('hidden');
-    $("#next-step").addClass('hidden');
-    $("#loading").removeClass('hidden');
+    $('#previous-step').addClass('hidden');
+    $('#next-step').addClass('hidden');
+    $('#loading').removeClass('hidden');
+  }
+
+  function showAddress(investmentAddress) {
+    var isAddressExists = (investmentAddress && investmentAddress.length)
+    var isCryptoCurrency = (['BTC', 'ETH'].indexOf(form.data.currency) > -1)
+
+    if (!(isAddressExists && isCryptoCurrency)) {
+      return;
+    }
+
+    var addressEl = '<span>' + investmentAddress + '</span>';
+
+    $('#investment-address').html('Address for investing your funds: ' + addressEl);
+    $('#investment-address').removeClass('hidden');
   }
 
   function setCurrentStep(step) {
@@ -486,5 +507,27 @@
       readonly: true,
       onInput: watchFormField,
     });
+  }
+
+  window.initRecaptcha = function() {
+    window.grecaptcha.render('grecaptcha', {
+      sitekey: '6LcgaTMUAAAAACZXKcB6ik_MMVY__gwL1zb8d3lq',
+      callback: window.onPresaleFormSubmit,
+      size: 'invisible',
+    });
+
+    captchaHandler = window.grecaptcha.execute;
+
+    window.grecaptcha.execute = function () {
+      if (!isNextStepAllowed()) {
+        console.error('Execution of recaptcha from the console is prohibited');
+
+        validateAllFields();
+
+        return showFormErrors();
+      }
+
+      return captchaHandler();
+    }
   }
 })(jQuery);

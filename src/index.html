@@ -797,6 +797,7 @@
         <button data-remodal-action="close" class="remodal-close"></button>
     </div>
     <div class="remodal-content">
+        <div id="grecaptcha"></div>
         <div class="steps step-1 active">
             <div class="notice">
                 <p>Please confirm the following.</p>
@@ -845,7 +846,8 @@
         </div>
         <div class="steps step-4">
             <p><img src="assets/img/form-ok.svg" alt="" /></p>
-            <p>Thank you for your application to the Jibrel Network Public Pre-sale. A Jibrel Network representative will contact you within <span>24 hours</span> via the email you provided to complete your application to purchase <span class="total" id="total-amount"></span> of Jibrel Network Token (JNT).</p>
+            <p>Thank you for your application to the Jibrel Network Public Pre-sale. A Jibrel Network representative will contact you within <span>24 hours</span> via the email you provided to complete your application to purchase <span id="total-amount"></span> of Jibrel Network Token (JNT).</p>
+            <p id="investment-address" class="hidden"></p>
             <p>Thank you again for your interest in the Jibrel Network.</p>
             <p>Sincerely,<br />Jibrel Network Team</p>
         </div>
@@ -869,6 +871,8 @@
 
 <script src="assets/js/vendor.min.js"></script>
 <script src="assets/js/bundle.min.js"></script>
+
+<script src="https://www.google.com/recaptcha/api.js?onload=initRecaptcha&render=explicit" async defer></script>
 
 </body>
 </html>
