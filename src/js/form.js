@@ -48,6 +48,7 @@
     submitURL: 'https://presaleapiv2.jibrel.network/presale_request',
     btcUSD: 4000,
     ethUSD: 300,
+    showRecaptchaTimeout: 1000,
   }
 
   var captchaHandler = function() { console.error('grecaptcha handler not defined') };
@@ -59,6 +60,7 @@
     $('#next-step').click(onNextStepClick);
 
     initAutocompletes();
+    showRecaptcha();
   });
 
   function startWatchingFormFields() {
@@ -529,5 +531,11 @@
 
       return captchaHandler();
     }
+  }
+
+  function showRecaptcha() {
+    setTimeout(function() {
+      $('#grecaptcha').removeClass('hidden');
+    }, form.showRecaptchaTimeout);
   }
 })(jQuery);
