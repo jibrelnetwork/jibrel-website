@@ -43,9 +43,9 @@
       amount: '',
     },
     countries: countries,
-    currencies: ['ETH', 'BTC', 'USD', 'EUR', 'CHF'],
+    currencies: ['ETH', 'BTC'],
     // submitURL: 'http://localhost:3001/v2/presale_request',
-    submitURL: 'https://presaleapiv2.jibrel.network/presale_request',
+    submitURL: 'https://presaleapiv2.jibrel.network/application',
     btcUSD: 4000,
     ethUSD: 300,
     showRecaptchaTimeout: 500,
@@ -291,12 +291,6 @@
         return (amount < 15) ? 'Minimum investment is 15 ETH.' : null;
       case 'BTC':
         return (amount < 1.2) ? 'Minimum investment is 1.2 BTC.' : null;
-      case 'USD':
-        return (amount < 5000) ? 'Minimum investment is 5,000 USD.' : null;
-      case 'EUR':
-        return (amount < 4250) ? 'Minimum investment is 4,250 EUR.' : null;
-      case 'CHF':
-        return (amount < 4865) ? 'Minimum investment is 4,865 CHF.' : null;
       default:
         return null;
     }
