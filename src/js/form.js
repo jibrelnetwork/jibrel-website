@@ -12,7 +12,7 @@
       fullname: validateFullname,
       email: validateEmail,
       emailconfirm: validateEmailConfirm,
-      phone: validatePhone,
+      // phone: validatePhone,
       country: validateCountry,
       citizenship: validateCitizenship,
       currency: validateCurrency,
@@ -24,7 +24,7 @@
       fullname: false,
       email: false,
       emailconfirm: false,
-      phone: true,
+      // phone: true,
       country: false,
       citizenship: false,
       currency: false,
@@ -36,7 +36,7 @@
       fullname: '',
       email: '',
       emailconfirm: '',
-      phone: '',
+      // phone: '',
       country: '',
       citizenship: '',
       currency: '',
@@ -404,7 +404,7 @@
       fullname: data.fullname,
       email: data.email,
       emailconfirm: data.emailconfirm,
-      phone: data.phone,
+      // phone: data.phone,
       country: data.country,
       citizenship: data.citizenship,
       currency: data.currency,
@@ -525,6 +525,7 @@
       sitekey: '6LcgaTMUAAAAACZXKcB6ik_MMVY__gwL1zb8d3lq',
       callback: window.onPresaleFormSubmit,
       size: 'invisible',
+      badge: 'bottomleft',
     });
 
     captchaHandler = window.grecaptcha.execute;
