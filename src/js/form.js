@@ -379,7 +379,6 @@
     var isValidStatus = ((statusCode === 200) || (statusCode === 201))
 
     if (isValidStatus && response && (response.error === false)) {
-      showAddress(response.address);
       setCurrentStep(form.successStep);
 
       reachPresaleSuccessGoal();
@@ -424,20 +423,6 @@
     $('#previous-step').addClass('hidden');
     $('#next-step').addClass('hidden');
     $('#loading').removeClass('hidden');
-  }
-
-  function showAddress(investmentAddress) {
-    var isAddressExists = (investmentAddress && investmentAddress.length)
-    var isCryptoCurrency = (['BTC', 'ETH'].indexOf(form.data.currency) > -1)
-
-    if (!(isAddressExists && isCryptoCurrency)) {
-      return;
-    }
-
-    var addressEl = '<span>' + investmentAddress + '</span>';
-
-    $('#investment-address').html('Address for investing your funds: ' + addressEl);
-    $('#investment-address').removeClass('hidden');
   }
 
   function setCurrentStep(step) {
@@ -496,6 +481,8 @@
     initAutocomplete({
       source: form.countries,
       id: 'country',
+      alwaysAll: true,
+      readonly: true,
       placeholder: 'Country of Residence *',
       onInput: watchFormField,
     });
@@ -504,6 +491,8 @@
       source: form.countries,
       id: 'citizenship',
       placeholder: 'Citizenship *',
+      alwaysAll: true,
+      readonly: true,
       onInput: watchFormField,
     });
 
