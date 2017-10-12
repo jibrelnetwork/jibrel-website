@@ -2245,12 +2245,22 @@ html.active {
   }
 }
 
-#grecaptcha {
-  z-index: 1;
-  position: relative;
-}
+#captcha-container {
+  &.compact {
+    .error-text {
+      margin-top: 100px;
+    }
+  }
 
-.autocomplete {
-  z-index: 2;
-  position: relative;
+  #grecaptcha {
+    padding: 15px 0;
+
+    & > div {
+      margin: 0 auto;
+    }
+  }
+
+  .error-text {
+    margin-top: 40px;
+  }
 }

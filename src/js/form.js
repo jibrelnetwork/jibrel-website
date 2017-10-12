@@ -17,6 +17,7 @@
       citizenship: validateCitizenship,
       currency: validateCurrency,
       amount: validateAmount,
+      captcha: validateCaptcha,
     },
     validations: {
       checkbox1: false,
@@ -29,6 +30,7 @@
       citizenship: false,
       currency: false,
       amount: false,
+      captcha: false,
     },
     data: {
       checkbox1: false,
@@ -41,6 +43,7 @@
       citizenship: '',
       currency: '',
       amount: '',
+      captcha: '',
     },
     countries: countries,
     currencies: ['ETH', 'BTC'],
@@ -48,11 +51,7 @@
     submitURL: 'https://presaleapiv2.jibrel.network/application',
     btcUSD: 4000,
     ethUSD: 300,
-    showRecaptchaTimeout: 500,
-    showRecaptchaTimer: null,
   }
-
-  var captchaHandler = function() { console.error('grecaptcha handler not defined') };
 
   $(document).ready(function() {
     startWatchingFormFields();
@@ -60,7 +59,6 @@
     $('#previous-step').click(onPreviousStepClick);
     $('#next-step').click(onNextStepClick);
 
-    initRemodal();
     initAutocompletes();
   });
 
@@ -110,10 +108,6 @@
     onNextStep(nextStep);
 
     event.stopPropagation();
-  }
-
-  function onRemodalCloseClick() {
-    hideRecaptcha();
   }
 
   function isNextStepAllowed() {
@@ -296,6 +290,14 @@
     }
   }
 
+  function validateCaptcha(value) {
+    if (!((typeof value === 'string') && (value.length > 0))) {
+      return 'The captcha should be checked.';
+    }
+
+    return null;
+  }
+
   function checkNextStepAllowed() {
     var currentStep = form.currentStep;
     var validations = form.validations;
@@ -306,7 +308,7 @@
     } else if (currentStep === 2) {
       isNextStepAllowed = (validations.fullname && validations.email && validations.emailconfirm && validations.country && validations.citizenship);
     } else if (currentStep === 3) {
-      isNextStepAllowed = (validations.currency && validations.amount);
+      isNextStepAllowed = (validations.currency && validations.amount && validations.captcha);
 
       if (isNextStepAllowed) {
         setTotalAmount();
@@ -347,14 +349,14 @@
     if (nextStep > form.totalSteps) {
       $('#steps-counter').addClass('hidden');
 
-      return captchaHandler();
+      return onSubmit();
     }
 
     setCurrentStep(nextStep);
     checkNextStepAllowed();
   }
 
-  window.onPresaleFormSubmit = function() {
+  function onSubmit() {
     setLoading();
 
     return $.ajax({
@@ -409,7 +411,7 @@
       citizenship: data.citizenship,
       currency: data.currency,
       amount: data.amount,
-      'g-recaptcha-response': window.grecaptcha.getResponse(),
+      'g-recaptcha-response': data.captcha,
     });
   }
 
@@ -485,16 +487,6 @@
     window.dataLayer.push({ event: 'formSubmission' });
   }
 
-  function initRemodal() {
-    $(document).on('opened', '.remodal', function () {
-      showRecaptcha();
-    });
-
-    $(document).on('closing', '.remodal', function () {
-      hideRecaptcha();
-    });
-  }
-
   function initAutocompletes() {
     initAutocomplete({
       source: form.countries,
@@ -521,41 +513,26 @@
   }
 
   window.initRecaptcha = function() {
+    var windowWidth = $(window).outerWidth();
+    var isCompact = (windowWidth < 450);
+
+    if (isCompact) {
+      $('#captcha-container').addClass('compact');
+    }
+
     window.grecaptcha.render('grecaptcha', {
+      size: isCompact ? 'compact' : 'normal',
       sitekey: '6LcgaTMUAAAAACZXKcB6ik_MMVY__gwL1zb8d3lq',
-      callback: window.onPresaleFormSubmit,
-      size: 'invisible',
-      badge: 'bottomleft',
+      callback: setRecaptchaResponse,
+      'expired-callback': setRecaptchaResponse.bind(null, ''),
     });
-
-    captchaHandler = window.grecaptcha.execute;
-
-    window.grecaptcha.execute = function () {
-      if (!isNextStepAllowed()) {
-        console.error('Execution of recaptcha from the console is prohibited');
-
-        validateAllFields();
-
-        return showFormErrors();
-      }
-
-      return captchaHandler();
-    }
   }
 
-  function showRecaptcha() {
-    form.showRecaptchaTimer = setTimeout(function() {
-      $('#grecaptcha').removeClass('hidden');
-    }, form.showRecaptchaTimeout);
-  }
-
-  function hideRecaptcha() {
-    var showRecaptchaTimerId = form.showRecaptchaTimer
-
-    if (showRecaptchaTimerId) {
-      clearTimeout(showRecaptchaTimerId);
+  function setRecaptchaResponse(recaptchaResponse) {
+    var event = {
+      target: { name: 'captcha', value: recaptchaResponse },
     }
 
-    $('#grecaptcha').addClass('hidden');
+    return watchFormField(event);
   }
 })(jQuery);
