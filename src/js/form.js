@@ -56,10 +56,9 @@
   $(document).ready(function() {
     startWatchingFormFields();
 
-    $('#previous-step').click(onPreviousStepClick);
-    $('#next-step').click(onNextStepClick);
-
+    initClickHandlers();
     initAutocompletes();
+    initInputFocusHandler();
   });
 
   function startWatchingFormFields() {
@@ -487,6 +486,11 @@
     window.dataLayer.push({ event: 'formSubmission' });
   }
 
+  function initClickHandlers() {
+    $('#previous-step').click(onPreviousStepClick);
+    $('#next-step').click(onNextStepClick);
+  }
+
   function initAutocompletes() {
     initAutocomplete({
       source: form.countries,
@@ -512,6 +516,18 @@
     });
   }
 
+  function initInputFocusHandler() {
+    if (!isIOSDevice()) {
+      return;
+    }
+
+    var $remodal = $('.remodal-wrapper');
+
+    $(document)
+      .on('focus', 'input', function() { $remodal.addClass('absolute'); })
+      .on('blur', 'input', function() { $remodal.removeClass('absolute'); });
+  }
+
   window.initRecaptcha = function() {
     var windowWidth = $(window).outerWidth();
     var isCompact = (windowWidth < 450);
@@ -534,5 +550,11 @@
     }
 
     return watchFormField(event);
+  }
+
+  function isIOSDevice() {
+    var userAgent = window.navigator.userAgent;
+
+    return (userAgent.match(/iPad/i) || userAgent.match(/iPhone/i));
   }
 })(jQuery);
