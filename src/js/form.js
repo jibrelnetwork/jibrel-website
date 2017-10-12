@@ -51,6 +51,7 @@
     submitURL: 'https://presaleapiv2.jibrel.network/application',
     btcUSD: 4000,
     ethUSD: 300,
+    currentScrollPosition: 0,
   }
 
   $(document).ready(function() {
@@ -58,7 +59,7 @@
 
     initClickHandlers();
     initAutocompletes();
-    initInputFocusHandler();
+    initScrollHandler();
   });
 
   function startWatchingFormFields() {
@@ -516,16 +517,24 @@
     });
   }
 
-  function initInputFocusHandler() {
+  function initScrollHandler() {
     if (!isIOSDevice()) {
       return;
     }
 
     var $remodal = $('.remodal-wrapper');
 
-    $(document)
-      .on('focus', 'input', function() { $remodal.addClass('absolute'); })
-      .on('blur', 'input', function() { $remodal.removeClass('absolute'); });
+    $remodal.on('touchmove', function() {
+      form.currentScrollPosition = $(this).scrollTop();
+    });
+
+    $(document).on('focus', 'input', function(e) {
+      e.preventDefault();
+
+      $remodal.scrollTop(form.currentScrollPosition);
+
+      e.stopPropagation();
+    });
   }
 
   window.initRecaptcha = function() {

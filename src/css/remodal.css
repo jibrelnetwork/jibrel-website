@@ -58,10 +58,6 @@ html.remodal-is-locked {
   -webkit-overflow-scrolling: touch;
 }
 
-.remodal-wrapper.absolute {
-  position: absolute;
-}
-
 .remodal-wrapper:after {
   display: inline-block;
 
