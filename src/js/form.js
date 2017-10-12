@@ -48,7 +48,7 @@
     countries: countries,
     currencies: ['ETH', 'BTC'],
     // submitURL: 'http://localhost:3001/v2/presale_request',
-    submitURL: 'https://presaleapiv2.jibrel.network/application',
+    submitURL: 'https://saleaddresses.jibrel.network/application',
     btcUSD: 4000,
     ethUSD: 300,
     currentScrollPosition: 0,
