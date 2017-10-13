@@ -58,7 +58,7 @@
     startWatchingFormFields();
 
     initClickHandlers();
-    // initAutocompletes();
+    initSelects();
     initScrollHandler();
   });
 
@@ -244,10 +244,7 @@
   }
 
   function validateCountry(value) {
-    var isValidString = validateString(value);
-    var isFound = (countries.indexOf(value) > -1);
-
-    if (!(isValidString)) {
+    if (!validateString(value)) {
       return 'The field should be valid country.';
     } else if (!validateProhibitedCountry(value)) {
       return 'The country is prohibited.';
@@ -257,10 +254,7 @@
   }
 
   function validateCitizenship(value) {
-    var isValidString = validateString(value);
-    var isFound = (countries.indexOf(value) > -1);
-
-    if (!(isValidString)) {
+    if (!validateString(value)) {
       return 'The field should be valid citizenship.';
     } else if (!validateProhibitedCountry(value)) {
       return 'The country is prohibited.';
@@ -270,10 +264,7 @@
   }
 
   function validateCurrency(value) {
-    var isValidString = validateString(value);
-    var isFound = (form.currencies.indexOf(value) > -1);
-
-    if (!(isValidString && isFound)) {
+    if (!validateString(value)) {
       return 'The field should be valid currency.';
     }
 
@@ -489,28 +480,26 @@
     $('#next-step').click(onNextStepClick);
   }
 
-  function initAutocompletes() {
-    initAutocomplete({
+  function initSelects() {
+    initSelect({
       source: form.countries,
       id: 'country',
       placeholder: 'Country of Residence *',
-      onInput: watchFormField,
+      onSelect: watchFormField,
     });
 
-    initAutocomplete({
+    initSelect({
       source: form.countries,
       id: 'citizenship',
       placeholder: 'Citizenship *',
-      onInput: watchFormField,
+      onSelect: watchFormField,
     });
 
-    initAutocomplete({
+    initSelect({
       source: form.currencies,
       id: 'currency',
       placeholder: 'Currency',
-      alwaysAll: true,
-      readonly: true,
-      onInput: watchFormField,
+      onSelect: watchFormField,
     });
   }
 

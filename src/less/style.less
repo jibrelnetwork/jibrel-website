@@ -1389,7 +1389,8 @@ html.active {
         }
       }
     }
-    &.show-errors .field-input.error {
+    &.show-errors .field-input.error,
+    &.show-errors .field-select.error {
       input {
         color: @pink;
         border-bottom: 1px solid @pink;
@@ -1515,8 +1516,31 @@ html.active {
           display: block;
         }
       }
+    }
+    &.field-input,
+    &.field-select {
       div.error-text {
         display: none;
+      }
+    }
+    &.field-select {
+      select {
+        display: block;
+        width: 100%;
+        padding: 15px 0;
+        border: none;
+        border-bottom: 1px solid rgba(45, 44, 62, 0.1);
+        background: transparent;
+        font-family: @font;
+        font-size: 13px;
+        font-weight: 600;
+        color: rgba(0, 0, 0, 0.5);
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        appearance: none;
+        &.selected {
+          color: rgba(0, 0, 0, 1);
+        }
       }
     }
   }
