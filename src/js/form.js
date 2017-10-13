@@ -58,7 +58,7 @@
     startWatchingFormFields();
 
     initClickHandlers();
-    initAutocompletes();
+    // initAutocompletes();
     initScrollHandler();
   });
 
@@ -247,7 +247,7 @@
     var isValidString = validateString(value);
     var isFound = (countries.indexOf(value) > -1);
 
-    if (!(isValidString && isFound)) {
+    if (!(isValidString)) {
       return 'The field should be valid country.';
     } else if (!validateProhibitedCountry(value)) {
       return 'The country is prohibited.';
@@ -260,7 +260,7 @@
     var isValidString = validateString(value);
     var isFound = (countries.indexOf(value) > -1);
 
-    if (!(isValidString && isFound)) {
+    if (!(isValidString)) {
       return 'The field should be valid citizenship.';
     } else if (!validateProhibitedCountry(value)) {
       return 'The country is prohibited.';
@@ -270,7 +270,10 @@
   }
 
   function validateCurrency(value) {
-    if (!validateString(value)) {
+    var isValidString = validateString(value);
+    var isFound = (form.currencies.indexOf(value) > -1);
+
+    if (!(isValidString && isFound)) {
       return 'The field should be valid currency.';
     }
 

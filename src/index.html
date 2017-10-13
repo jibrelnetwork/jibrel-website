@@ -815,15 +815,24 @@
                     <input type="text" placeholder="Phone Number: +1 (234) 5678900" name="phone" />
                 </div>
             -->
-            <div class="field field-input" id="country"></div>
-            <div class="field field-input" id="citizenship"></div>
+            <div class="field field-input" id="country-container">
+                <input type="text" placeholder="Country *" name="country" />
+                <div class="error-text"></div>
+            </div>
+            <div class="field field-input" id="citizenship-container">
+                <input type="text" placeholder="Citizenship *" name="citizenship" />
+                <div class="error-text"></div>
+            </div>
         </div>
         <div class="steps step-3">
             <div class="notice">
                 <p>Please note, the minimum value for pre-sale participation is US$ 5,000.</p>
             </div>
             <div class="label">I would like to contribute:</div>
-            <div class="field field-input" id="currency"></div>
+            <div class="field field-input" id="currency-container">
+                <input type="text" placeholder="Currency (BTC/ETH)" name="currency" />
+                <div class="error-text"></div>
+            </div>
             <div class="field field-input" id="amount-container">
                 <input type="text" placeholder="Amount" name="amount" id="amount" />
                 <div class="error-text"></div>
