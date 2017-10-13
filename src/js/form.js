@@ -59,7 +59,7 @@
 
     initClickHandlers();
     initSelects();
-    initScrollHandler();
+    changeSelectColorForIOSSafari();
   });
 
   function startWatchingFormFields() {
@@ -503,24 +503,10 @@
     });
   }
 
-  function initScrollHandler() {
-    if (!isIOSDevice()) {
-      return;
+  function changeSelectColorForIOSSafari() {
+    if (isIOSDevice()) {
+      $('.field-select select').css('color', '#a9a9a9');
     }
-
-    var $remodal = $('.remodal-wrapper');
-
-    $remodal.on('touchmove', function() {
-      form.currentScrollPosition = $(this).scrollTop();
-    });
-
-    $(document).on('focus', 'input', function(e) {
-      e.preventDefault();
-
-      $remodal.scrollTop(form.currentScrollPosition);
-
-      e.stopPropagation();
-    });
   }
 
   window.initRecaptcha = function() {
