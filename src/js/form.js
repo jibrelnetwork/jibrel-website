@@ -59,7 +59,6 @@
 
     initClickHandlers();
     initSelects();
-    changeSelectColor();
   });
 
   function startWatchingFormFields() {
@@ -244,7 +243,10 @@
   }
 
   function validateCountry(value) {
-    if (!validateString(value)) {
+    var isValidString = validateString(value);
+    var isFound = (form.countries.indexOf(value) > -1);
+
+    if (!(isValidString && isFound)) {
       return 'The field should be valid country.';
     } else if (!validateProhibitedCountry(value)) {
       return 'The country is prohibited.';
@@ -254,7 +256,10 @@
   }
 
   function validateCitizenship(value) {
-    if (!validateString(value)) {
+    var isValidString = validateString(value);
+    var isFound = (form.countries.indexOf(value) > -1);
+
+    if (!(isValidString && isFound)) {
       return 'The field should be valid citizenship.';
     } else if (!validateProhibitedCountry(value)) {
       return 'The country is prohibited.';
@@ -481,34 +486,38 @@
   }
 
   function initSelects() {
-    initSelect({
+    var handler = initAutocomplete;
+
+    if (isIOSDevice()) {
+      handler = initSelect;
+
+      ['country', 'citizenship', 'currency'].forEach(function(item) {
+        $('#' + item).removeClass('field-input').addClass('field-select');
+      });
+    }
+
+    handler({
       source: form.countries,
       id: 'country',
       placeholder: 'Country of Residence *',
-      onSelect: watchFormField,
+      onChange: watchFormField,
     });
 
-    initSelect({
+    handler({
       source: form.countries,
       id: 'citizenship',
       placeholder: 'Citizenship *',
-      onSelect: watchFormField,
+      onChange: watchFormField,
     });
 
-    initSelect({
+    handler({
       source: form.currencies,
       id: 'currency',
       placeholder: 'Currency',
-      onSelect: watchFormField,
+      alwaysAll: true,
+      readonly: true,
+      onChange: watchFormField,
     });
-  }
-
-  function changeSelectColor() {
-    if (isIOSDevice()) {
-      $('.field-select select').css('color', '#a9a9a9');
-    } else if (isFirefox()) {
-      $('.field-select select').css('color', '#999999');
-    }
   }
 
   window.initRecaptcha = function() {
@@ -539,9 +548,5 @@
     var userAgent = window.navigator.userAgent;
 
     return (userAgent.match(/iPad/i) || userAgent.match(/iPhone/i));
-  }
-
-  function isFirefox() {
-    return (window.navigator.userAgent.toLowerCase().indexOf('firefox') > -1);
   }
 })(jQuery);
