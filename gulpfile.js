@@ -5,6 +5,10 @@ var minify = require('gulp-minify-css');
 var merge = require('merge-stream');
 var uglify = require('gulp-uglify');
 var version = require('gulp-version-number');
+var nunjucks = require('gulp-nunjucks');
+var rename = require('gulp-rename');
+
+var i18nEN = require('./src/html/i18n/en');
 
 var cssStyles = [
   './src/css/remodal.css',
@@ -35,6 +39,14 @@ const versionConfig = {
     'to': ['css', 'js'],
   },
 };
+
+gulp.task('html-en', function() {
+  return gulp
+    .src('./src/index.html')
+    .pipe(nunjucks.compile(i18nEN))
+    .pipe(rename('./index-en.html'))
+    .pipe(gulp.dest('./'));
+});
 
 gulp.task('html', function() {
   return gulp
