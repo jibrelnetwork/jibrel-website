@@ -6,7 +6,7 @@
     var errorText = props.errorText || '';
     var alwaysAll = !!props.alwaysAll;
     var readonly = !!props.readonly;
-    var onInput = props.onInput || function () {};
+    var onChange = props.onChange || function () {};
 
     var containerEl = document.getElementById(id);
     containerEl.id = id + '-container';
@@ -25,7 +25,7 @@
     });
 
     $(inputEl).on('input', function(e) {
-      onInput(e);
+      onChange(e);
       renderItemsHandler();
     });
 

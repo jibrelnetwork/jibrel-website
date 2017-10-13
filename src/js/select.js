@@ -4,7 +4,7 @@
     var id = '' + (props.id || '');
     var placeholder = props.placeholder || '';
     var errorText = props.errorText || '';
-    var onSelect = props.onSelect || function () {};
+    var onChange = props.onChange || function () {};
 
     var containerEl = document.getElementById(id);
     containerEl.id = id + '-container';
@@ -16,7 +16,7 @@
     $select.on('change', function(e) {
       $select.addClass('selected');
 
-      onSelect(e);
+      onChange(e);
     });
 
     $select.on('focus', function(e) {
