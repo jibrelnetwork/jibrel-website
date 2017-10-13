@@ -1,6 +1,8 @@
-var i18nEN = {
-  title: 'Jibrel Network',
-  menu: {
+module.exports = {
+  meta: {
+    title: 'Jibrel Network',
+  },
+  header: {
     logo: 'assets/img/logo.svg',
     about: 'About',
     roadmap: 'Roadmap',
@@ -11,7 +13,7 @@ var i18nEN = {
     button: 'Menu',
   },
   start: {
-    h1: 'Tokenize Everything',
+    title: 'Tokenize Everything',
     text: [
       'Jibrel provides traditional financial assets,',
       'as ERC-20 tokens, on the Ethereum blockchain',
@@ -19,14 +21,25 @@ var i18nEN = {
     cta: 'Our Pre-sale is now open',
     iphone: 'assets/img/iphone.png',
     card: 'assets/img/card.png',
-  },
-  logos: {
-    cryptoninjas: 'assets/img/logos/1.svg',
-    cointelegraph: 'assets/img/logos/7.svg',
-    forbes: 'assets/img/logos/5.svg',
-    huffingtonpost: 'assets/img/logos/2.svg',
-    econotimes: 'assets/img/logos/4.svg',
-    finextra: 'assets/img/logos/3.svg',
+    logos: [{
+      href: 'https://www.cryptoninjas.net/2017/08/03/jibrel-network-raises-3m-enable-licensed-entities-sell-tokenized-securities',
+      src: 'assets/img/logos/1.svg',
+    }, {
+      href: 'https://cointelegraph.com/news/ethereum-backed-jibrel-aims-to-contain-ico-bubble-with-new-type-of-smart-tokens',
+      src: 'assets/img/logos/7.svg',
+    }, {
+      href: 'https://www.forbes.com/sites/cbovaird/2017/09/13/cryptocurrency-5-ways-to-profit-from-a-market-crash',
+      src: 'assets/img/logos/5.svg',
+    }, {
+      href: 'http://www.huffingtonpost.com/entry/how-smart-regulation-could-help-institutional-blockchain_us_5996982be4b033e0fbdec2f1',
+      src: 'assets/img/logos/2.svg',
+    }, {
+      href: 'http://www.econotimes.com/Blockchain-startup-ArabianChain-inks-MoU-with-Jibrel-Network-874347',
+      src: 'assets/img/logos/4.svg',
+    }, {
+      href: 'https://www.finextra.com/pressarticle/70497/jibrel-network-signs-mou-with-mena-based-blockchain-platform',
+      src: 'assets/img/logos/3.svg',
+    }]
   },
   countdown: {
     title: 'Our token pre-sale ends on October 25, 2017 at 12:00PM GMT',
