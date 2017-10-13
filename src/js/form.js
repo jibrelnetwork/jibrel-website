@@ -59,6 +59,7 @@
 
     initClickHandlers();
     initSelects();
+    initRemodalEvents();
   });
 
   function startWatchingFormFields() {
@@ -548,5 +549,21 @@
     var userAgent = window.navigator.userAgent;
 
     return (userAgent.match(/iPad/i) || userAgent.match(/iPhone/i));
+  }
+
+  function initRemodalEvents() {
+    if (window.navigator.userAgent.match(/iPhone/i)) {
+      $(document).on('opened', '.remodal', function () {
+        $('.remodal-bg').css('display', 'none');
+      });
+
+      $(document).on('opening', '.remodal', function () {
+        $('.remodal-bg').css('display', 'none');
+      });
+
+      $(document).on('closing', '.remodal', function (e) {
+        $('.remodal-bg').css('display', 'block');
+      });
+    }
   }
 })(jQuery);
