@@ -21,7 +21,7 @@ var vendorScripts = [
 ]
 
 var scripts = [
-  './src/js/autocomplete.js',
+  './src/js/select.js',
   './src/js/countries.js',
   './src/js/form.js',
   './src/js/main.js',
