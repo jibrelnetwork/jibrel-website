@@ -229,7 +229,10 @@
   }
 
   function validateEmailConfirm(value) {
-    return (form.data.email === value) ? null : 'Emails should match to proceed.';
+    var email = form.data.email.toLowerCase();
+    var emailConfirm = value.toLowerCase();
+
+    return (email === emailConfirm) ? null : 'Emails should match to proceed.';
   }
 
   function validatePhone(value) {
@@ -241,7 +244,10 @@
   }
 
   function validateCountry(value) {
-    if (!validateString(value)) {
+    var isValidString = validateString(value);
+    var isFound = (countries.indexOf(value) > -1);
+
+    if (!(isValidString && isFound)) {
       return 'The field should be valid country.';
     } else if (!validateProhibitedCountry(value)) {
       return 'The country is prohibited.';
@@ -251,7 +257,10 @@
   }
 
   function validateCitizenship(value) {
-    if (!validateString(value)) {
+    var isValidString = validateString(value);
+    var isFound = (countries.indexOf(value) > -1);
+
+    if (!(isValidString && isFound)) {
       return 'The field should be valid citizenship.';
     } else if (!validateProhibitedCountry(value)) {
       return 'The country is prohibited.';
@@ -481,8 +490,6 @@
     initAutocomplete({
       source: form.countries,
       id: 'country',
-      alwaysAll: true,
-      readonly: true,
       placeholder: 'Country of Residence *',
       onInput: watchFormField,
     });
@@ -491,8 +498,6 @@
       source: form.countries,
       id: 'citizenship',
       placeholder: 'Citizenship *',
-      alwaysAll: true,
-      readonly: true,
       onInput: watchFormField,
     });
 
