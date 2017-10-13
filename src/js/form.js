@@ -59,7 +59,7 @@
 
     initClickHandlers();
     initSelects();
-    changeSelectColorForIOSSafari();
+    changeSelectColor();
   });
 
   function startWatchingFormFields() {
@@ -503,9 +503,11 @@
     });
   }
 
-  function changeSelectColorForIOSSafari() {
+  function changeSelectColor() {
     if (isIOSDevice()) {
       $('.field-select select').css('color', '#a9a9a9');
+    } else if (isFirefox()) {
+      $('.field-select select').css('color', '#999999');
     }
   }
 
@@ -537,5 +539,9 @@
     var userAgent = window.navigator.userAgent;
 
     return (userAgent.match(/iPad/i) || userAgent.match(/iPhone/i));
+  }
+
+  function isFirefox() {
+    return (window.navigator.userAgent.toLowerCase().indexOf('firefox') > -1);
   }
 })(jQuery);
