@@ -616,6 +616,8 @@ html.active {
       border: none;
       -webkit-appearance: none;
       -webkit-box-shadow: @shadow;
+      -moz-appearance: none;
+      appearance: none;
       box-shadow: @shadow;
       width: 100%;
       color: @blue;
@@ -1886,6 +1888,13 @@ html.active {
   }
   .start {
     padding-top: 120px;
+    .text {
+      p {
+        br {
+          display: none;
+        }
+      }
+    }
   }
   .countdown {
     padding-bottom: 60px;
@@ -2003,7 +2012,7 @@ html.active {
   }
 }
 
-@media only screen and (max-width: 414px) {
+@media only screen and (max-width: 440px) {
   .section {
     .inner {
       > h2 {
@@ -2123,9 +2132,14 @@ html.active {
     }
   }
   .remodal {
-    width: 90%;
+    width: 100%;
+    border-radius: 0;
     .remodal-header {
       margin: 30px 30px 0 30px;
+      h2 {
+        font-size: 16px;
+        padding-right: 30px;
+      }
     }
     .remodal-content {
       padding: 30px;
