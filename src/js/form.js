@@ -355,6 +355,8 @@
   }
 
   function onNextStep(nextStep) {
+    pushGAEvent(nextStep);
+
     if (nextStep > form.totalSteps) {
       $('#steps-counter').addClass('hidden');
 
@@ -479,6 +481,16 @@
   function pushFormSubmissionEvent() {
     window.dataLayer = window.dataLayer || [];
     window.dataLayer.push({ event: 'formSubmission' });
+  }
+
+  function pushGAEvent(nextStep) {
+    var currentStep = nextStep - 1;
+
+    try {
+      ga('send', 'event', '/virtual/presaleform' + currentStep + '/');
+    } catch (e) {
+      console.error(e);
+    }
   }
 
   function initClickHandlers() {
