@@ -2,29 +2,23 @@
         <div class="inner">
           <h2>{{ jnt.title }}</h2>
           <div class="events">
-            {% for event in jnt.events %}
-              <div class="event event-{{ loop.index }}">
-                <h3>{{ event.time }}</h3>
-                <div class="title">{{ event.title }}<br />{{ event.price }}</div>
-              </div>
-            {% endfor %}
+            {% for event in jnt.events %}<div class="event event-{{ loop.index }}">
+              <h3>{{ event.time }}</h3>
+              <div class="title">{{ event.title }}<br />{{ event.price }}</div>
+            </div>{% endfor %}
           </div>
           <div class="charts">
             <div class="row clear">
               <div class="col-4">
-                <div class="pie-chart">
-                  <img src="{{ jnt.charts.image }}" alt="" />
-                </div>
+                <div class="pie-chart"><img src="{{ jnt.charts.image }}" alt="" /></div>
               </div>
               <div class="col-8">
-                {% for item in jnt.charts.items %}
-                  <div class="item {{ item.class }}">
-                    <div class="title">{{ item.title }}</div>
-                    <div class="percents">{{ item.percents }}%</div>
-                    <div class="bar bar-{{ item.percents }}"></div>
-                    <div class="money">{{ item.money }} <span>JNT</span></div>
-                  </div>
-                {% endfor %}
+                {% for item in jnt.charts.items %}<div class="item {{ item.class }}">
+                  <div class="title">{{ item.title }}</div>
+                  <div class="percents">{{ item.percents }}%</div>
+                  <div class="bar bar-{{ item.percents }}"></div>
+                  <div class="money">{{ item.money }} <span>JNT</span></div>
+                </div>{% endfor %}
               </div>
             </div>
           </div>

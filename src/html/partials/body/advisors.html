@@ -1,0 +1,24 @@
+      <div class="section advisors" id="team">
+        <div class="inner">
+          <h2>{{ advisors.title }}</h2>
+          <div class="row clear">
+            {% for person in advisors.persons %}<div class="col-4">
+              <div class="img">
+                <img src="assets/img/advisors/{{ loop.index }}.png" alt="" />
+              </div>
+              <h3>{{ person.name }}</h3>
+              <div class="position">{{ person.title }}<br />{{ person.position }}</div>
+              <ul class="links">
+                {% for link in person.links %}<li>
+                  <a
+                    href="{{ link.href }}"
+                    class="icons icon-{{ link.type }}"
+                    target="_blank"
+                    rel="nofollow"
+                  ></a>
+                </li>{% endfor %}
+              </ul>
+            </div>{% endfor %}
+          </div>
+        </div>
+      </div>

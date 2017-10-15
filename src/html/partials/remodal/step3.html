@@ -1,0 +1,20 @@
+        <div class="steps step-3">
+          <div class="notice">
+            <p>{{ remodal.step3.notice[0] }}</p>
+          </div>
+          <div class="label">{{ remodal.step3.label }}</div>
+          <div class="field field-input" id="currency"></div>
+          <div class="field field-input" id="amount-container">
+            <input
+              type="text"
+              placeholder="{{ remodal.step3.placeholders.amount }}"
+              name="amount"
+              id="amount"
+            />
+            <div class="error-text"></div>
+          </div>
+          <div class="field field-input" id="captcha-container">
+            <div id="grecaptcha"></div>
+            <div class="error-text"></div>
+          </div>
+        </div>

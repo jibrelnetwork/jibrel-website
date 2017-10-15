@@ -1,0 +1,23 @@
+      <div class="section team">
+        <div class="inner">
+          <h2>{{ team.title }}</h2>
+          {% for row in team.persons %}<div class="row clear">
+            {% for person in row %}<div class="col-6">
+              <div class="img"><img src="assets/img/team/{{ person.id }}.png" alt="" /></div>
+              <h3>{{ person.name }}</h3>
+              <div class="position">{{ person.position }}</div>
+              <ul class="links">{% for link in person.links %}
+                <li>
+                  <a
+                    href="{{ link.href }}"
+                    class="icons icon-{{ link.type }}"
+                    target="_blank"
+                    rel="nofollow"
+                  ></a>
+                </li>
+              {% endfor %}</ul>
+              <p>{{ person.description }}</p>
+            </div>{% endfor %}
+          </div>{% endfor %}
+        </div>
+      </div>
