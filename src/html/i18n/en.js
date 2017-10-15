@@ -43,7 +43,7 @@ module.exports = {
   },
   countdown: {
     title: 'Our token pre-sale ends on October 25, 2017 at 12:00PM GMT',
-    subtitle: 'If you have any questions, please contact us at ',
+    subtitle: 'If you have any questions, please contact us at',
     email: 'presale@jibrel.network',
     cta: 'Participate in Token Pre-sale',
     days: 'Days',
@@ -53,47 +53,59 @@ module.exports = {
   },
   about: {
     title: 'About the Jibrel Network',
-    benefits: [{
-      head: 'What is the Jibrel Network?',
-      body: 'The Jibrel Network provides currencies, equities, commodities and other financial assets and instruments as standard ERC-20 tokens on the Ethereum blockchain.',
-    }, {
-      head: 'What are CryDRs?',
-      body: 'CryptoDepository Receipts or CryDRs are tokens representing a traditional financial asset’s value, denominated in Jibrel Network Token - JNT (e.g. a USD CryDR holds 1 dollar worth of JNT).',
-    }, {
-      head: 'What can CryDRs be used for?',
-      body: 'Fiat CryDRs can be used for remittances, global payments, trading and hedging. CryDRs can also be used to create automated and decentralized financial instruments - such as bonds, commodities, debt instruments and securities.',
-    }, {
-      head: 'What is Smart Regulation?',
-      body: 'CryDRs have smart regulation built in, real-world rules and regulations translated into solidity code and deployed on the ethereum blockchain. Ensuring that while decentralized, CryDRs always follow real world rules and regulations.',
-    }, {
-      head: 'What is jCash?',
-      body: 'jCash is the first roll-out of currencies. USD, GBP, EUR, RUB, AED, CNY CryDRs will be made available.',
-    }, {
-      head: 'How can I purchase CryDRs?',
-      body: 'CryDRs can be purchased from the Jibrel DAO using Jibrel Network Token (JNT).',
-    }],
+    benefits: [
+      [{
+        id: 1,
+        head: 'What is the Jibrel Network?',
+        body: 'The Jibrel Network provides currencies, equities, commodities and other financial assets and instruments as standard ERC-20 tokens on the Ethereum blockchain.',
+      }, {
+        id: 3,
+        head: 'What are CryDRs?',
+        body: 'CryptoDepository Receipts or CryDRs are tokens representing a traditional financial asset’s value, denominated in Jibrel Network Token - JNT (e.g. a USD CryDR holds 1 dollar worth of JNT).',
+      }], [{
+        id: 4,
+        head: 'What can CryDRs be used for?',
+        body: 'Fiat CryDRs can be used for remittances, global payments, trading and hedging. CryDRs can also be used to create automated and decentralized financial instruments - such as bonds, commodities, debt instruments and securities.',
+      }, {
+        id: 2,
+        head: 'What is Smart Regulation?',
+        body: 'CryDRs have smart regulation built in, real-world rules and regulations translated into solidity code and deployed on the ethereum blockchain. Ensuring that while decentralized, CryDRs always follow real world rules and regulations.',
+      }], [{
+        id: 5,
+        head: 'What is jCash?',
+        body: 'jCash is the first roll-out of currencies. USD, GBP, EUR, RUB, AED, CNY CryDRs will be made available.',
+      }, {
+        id: 6,
+        head: 'How can I purchase CryDRs?',
+        body: 'CryDRs can be purchased from the Jibrel DAO using Jibrel Network Token (JNT).',
+      }],
+    ],
   },
   roadmap: {
     title: 'Roadmap',
     timeline: [{
+      class: 'right active', // not translate
       time: 'May, 2017',
       head: 'Ropsten Alpha',
       body: [
         'The Jibrel Network Limited Alpha goes live on Ropsten',
       ],
     }, {
+      class: 'left active', // not translate
       time: 'September, 2017',
       head: 'Jibrel Network Token (JNT) Pre-sale',
       body: [
         'Jibrel Network Token offered at a discounted price',
       ],
     }, {
+      class: 'right', // not translate
       time: 'October, 2017',
       head: 'jWallet Release',
       body: [
         'The official CryDR wallet is released under an open-source license for community use',
       ],
     }, {
+      class: 'left', // not translate
       time: 'November, 2017',
       head: 'jCash Launch / Public Sale',
       body: [
@@ -103,18 +115,21 @@ module.exports = {
         'Jibrel Network Token offered publically',
       ],
     }, {
+      class: 'right', // not translate
       time: 'Q1 2018',
       head: 'CryDR Explorer',
       body: [
         'A dedicated CryDR block explorer is released to facilitate closer / more detailed tracking of CryDRs on the network',
       ],
     }, {
+      class: 'left', // not translate
       time: 'Q3 2018',
       head: 'Institutional Grade Banking Platform',
       body: [
         'An institutional-grade solution for banking and other financial institutions to directly tokenize and transact with their own off-chain assets',
       ],
     }, {
+      class: 'right', // not translate
       time: 'Q4 2018',
       head: 'Jibrel DAO / Full Decentralization',
       body: [
@@ -125,33 +140,27 @@ module.exports = {
   jnt: {
     title: 'Jibrel Network Token',
     events: [{
-      title: 'July 25 — Aug 25',
-      text: [
-        'Angel round',
-        'USD 0.15',
-      ],
+      time: 'July 25 — Aug 25',
+      title: 'Angel round',
+      price: 'USD 0.15',
     }, {
-      title: 'Sept 25 — Oct 25',
-      text: [
-        'Public Pre-Sale',
-        'USD 0.20 — 0.225',
-      ],
+      time: 'Sept 25 — Oct 25',
+      title: 'Public Pre-Sale',
+      price: 'USD 0.20 — 0.225',
     }, {
-      title: 'November 27th',
-      text: [
-        'Network Launch',
-        'USD 0.25 +',
-      ],
+      time: 'November 27th',
+      title: 'Network Launch',
+      price: 'USD 0.25 +',
     }],
     charts: {
       image: 'assets/img/chart.png',
       items: [
-        { title: 'Angel Round', percents: '10%', money: '20,000,000' },
-        { title: 'Public Pre-sale', percents: '20%', money: '40,000,000' },
-        { title: 'Network Launch', percents: '40%', money: '80,000,000' },
-        { title: 'Team', percents: '15%', money: '30,000,000' },
-        { title: 'Advisors and Partners', percents: '10%', money: '20,000,000' },
-        { title: 'Bounties', percents: '5%', money: '10,000,000' },
+        { title: 'Angel Round', percents: '10', money: '20,000,000', class: '' },
+        { title: 'Public Pre-sale', percents: '20', money: '40,000,000', class: '' },
+        { title: 'Network Launch', percents: '40', money: '80,000,000', class: '' },
+        { title: 'Team', percents: '15', money: '30,000,000', class: 'pink' },
+        { title: 'Advisors and Partners', percents: '10', money: '20,000,000', class: 'green' },
+        { title: 'Bounties', percents: '5', money: '10,000,000', class: 'purple' },
       ],
       code: 'JNT',
     },
