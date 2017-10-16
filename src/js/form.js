@@ -51,7 +51,7 @@
     submitURL: 'https://saleaddresses.jibrel.network/application',
     btcUSD: 4000,
     ethUSD: 300,
-    currentScrollPosition: 0,
+    i18n: window.i18n.remodal,
   }
 
   $(document).ready(function() {
@@ -102,7 +102,7 @@
     var nextStep = form.currentStep + 1;
 
     if (nextStep === form.totalSteps) {
-      $('#next-step').html('Submit form');
+      $('#next-step').html(form.i18n.submit);
     }
 
     onNextStep(nextStep);
@@ -216,7 +216,7 @@
 
   function validateFullname(value) {
     if (!validateString(value)) {
-      return 'The field should be valid full name.'
+      return form.i18n.step2.errors.fullname[0];
     }
 
     return null;
@@ -225,19 +225,21 @@
   function validateEmail(value) {
     var emailRe = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
 
-    return emailRe.test(value) ? null : 'The field should be valid email address.';
+    validateField('emailconfirm', form.data.emailconfirm);
+
+    return emailRe.test(value) ? null : form.i18n.step2.errors.email[0];
   }
 
   function validateEmailConfirm(value) {
     var email = form.data.email.toLowerCase();
     var emailConfirm = value.toLowerCase();
 
-    return (email === emailConfirm) ? null : 'Emails should match to proceed.';
+    return (email === emailConfirm) ? null : form.i18n.step2.errors.emailconfirm[0];
   }
 
   function validatePhone(value) {
     if (!validateOptional(value)) {
-      return 'The field should be valid phone number.'
+      return form.i18n.step2.errors.phone
     }
 
     return null;
@@ -248,9 +250,9 @@
     var isFound = (form.countries.indexOf(value) > -1);
 
     if (!(isValidString && isFound)) {
-      return 'The field should be valid country.';
+      return form.i18n.step2.errors.country[0];
     } else if (!validateProhibitedCountry(value)) {
-      return 'The country is prohibited.';
+      return form.i18n.step2.errors.country[1];
     }
 
     return null;
@@ -261,9 +263,9 @@
     var isFound = (form.countries.indexOf(value) > -1);
 
     if (!(isValidString && isFound)) {
-      return 'The field should be valid citizenship.';
+      return form.i18n.step2.errors.citizenship[0];
     } else if (!validateProhibitedCountry(value)) {
-      return 'The country is prohibited.';
+      return form.i18n.step2.errors.citizenship[1];
     }
 
     return null;
@@ -271,19 +273,17 @@
 
   function validateCurrency(value) {
     if (!validateString(value)) {
-      return 'The field should be valid currency.';
+      return form.i18n.step3.errors.currency[0];
     }
 
-    var amount = $('#amount').val();
-
-    validateField('amount', amount);
+    validateField('amount', form.data.amount);
 
     return null;
   }
 
   function validateAmount(value) {
     if (!validateNumber(value)) {
-      return 'The field should be valid number.';
+      return form.i18n.step3.errors.amount[0];
     }
 
     var amount = parseFloat(value, 10);
@@ -291,9 +291,9 @@
 
     switch (currency) {
       case 'ETH':
-        return (amount < 15) ? 'Minimum investment is 15 ETH.' : null;
+        return (amount < 15) ? form.i18n.step3.errors.amount[1] : null;
       case 'BTC':
-        return (amount < 1.2) ? 'Minimum investment is 1.2 BTC.' : null;
+        return (amount < 1.2) ? form.i18n.step3.errors.amount[2] : null;
       default:
         return null;
     }
@@ -301,7 +301,7 @@
 
   function validateCaptcha(value) {
     if (!((typeof value === 'string') && (value.length > 0))) {
-      return 'The captcha should be checked.';
+      return form.i18n.step3.errors.captcha[0];
     }
 
     return null;
@@ -349,7 +349,7 @@
   function onPreviousStep(previousStep) {
     setCurrentStep(previousStep);
 
-    $('#next-step').html('Next step');
+    $('#next-step').html(form.i18n.next);
 
     checkNextStepAllowed();
   }
@@ -439,7 +439,7 @@
   function setCurrentStep(step) {
     $('.remodal-content .step-' + step).addClass('active');
     $('.remodal-content .step-' + form.currentStep).removeClass('active');
-    $('#steps-counter').html('Step ' + step + '/' + form.totalSteps);
+    $('#steps-counter').html(' - ' + form.i18n.step + ' ' + step + '/' + form.totalSteps);
 
     if (step === 1) {
       $('#previous-step').addClass('hidden');
@@ -512,21 +512,21 @@
     handler({
       source: form.countries,
       id: 'country',
-      placeholder: 'Country of Residence *',
+      placeholder: form.i18n.step2.placeholders.country + ' *',
       onChange: watchFormField,
     });
 
     handler({
       source: form.countries,
       id: 'citizenship',
-      placeholder: 'Citizenship *',
+      placeholder: form.i18n.step2.placeholders.citizenship + ' *',
       onChange: watchFormField,
     });
 
     handler({
       source: form.currencies,
       id: 'currency',
-      placeholder: 'Currency',
+      placeholder: form.i18n.step3.placeholders.currency,
       alwaysAll: true,
       readonly: true,
       onChange: watchFormField,
