@@ -173,6 +173,7 @@ module.exports = {
       '토큰세일',
     ],
     tabs: [[{
+      active: true,
       question: 'Jibrel Network는 무엇입니까?',
       answer: [
         'Jibrel Network는 화폐, 채권, 상품 및 증권과 같은 전통적인 금융 자산을 이더리움 블록체인의 표준 ERC-20 토큰으로 제공합니다.',
@@ -192,6 +193,7 @@ module.exports = {
         '또한 분산 된 조직 및 펀드는 CryptoDepository Receipts (CryptDRs)를 지원하는 자산을 사용하여 기존 자산으로 다양화할 수 있습니다.',
       ],
     }], [{
+      active: true,
       question: 'CryptDepository Receipts (CryDR) 란 무엇입니까?',
       answer: [
         'Crypto Depository Receipt는 현실 세계 자산의 가치를 나타내는 스마트 계약입니다. 사용자는 Jibrel Network Token(JNT)를 법정 화폐, 상품, 채권 또는 유가 증권을 나타내는 CryDR로 변환 할 수 있습니다. CryDR은 Jibrel DAO를 사용하여 토큰을 JNT 기본 값으로 교환할 수 있는 다른 개인 또는 단체로 이전 될 수 있습니다. CryDR은 smart regulation이 내장되어 있어 모든 거래가 KYC / AML을 준수합니다.',
@@ -233,6 +235,7 @@ module.exports = {
         '주로 투기 및 유동성 병목 현상에 의해 촉발되는 암호화 된 화폐의 변동성 때문에 안정적인 온 체인 자산이 특히 중요합니다. 기존 자산이 성공적으로 토큰화되고 커뮤니티에서 이 토큰이 미래의 어느 시기에도 기본 자산으로 교환 가능할 것이라는 강한 믿음이 있다면, 온 체인 자산의 가치는 원래의 오프 체인 구매 가격보다 더 가치 있게 됩니다. 이것은 안정적인 온 체인 자산이 부족하기 때문입니다. 우리는 이것을 온 체인 / 오프 체인 차익 거래라고 부릅니다.',
       ],
     }], [{
+      active: true,
       question: 'Jibrel Network Token (JNT)이란 무엇입니까?',
       answer: [
         'Jibrel Network Token (JNT)은 CryDR을 구매 / 교환하는 가상 화폐입니다. 또한, Jibrel Network Token을 사용하여 증권화 된 오프 체인 자산과 관련된 모든 가치 교환이 처리됩니다. 마지막으로, CryDR 전송은 jGas 형태로 소량의 JNT를 소비합니다.',
@@ -257,6 +260,7 @@ module.exports = {
         'Jibrel은 공개세일이 종료 된 후 90일 이내에 JNT를 수많은 거래소에 등록할 계획입니다.',
       ],
     }], [{
+      active: true,
       question: '토큰 프리세일은 언제입니까?',
       answer: [
         '토큰 프리세일은 2017년 9월 25일 오후 9시에 시작하여 30일 동안 진행합니다.',
@@ -282,6 +286,7 @@ module.exports = {
         '미국, 싱가포르 또는 중국의 거주자 또는 시민은 프리세일에 참여할 수 없습니다.',
       ],
     }], [{
+      active: true,
       question: '토큰세일은 언제입니까?',
       answer: [
         '토큰세일은 2017년 11월 27일 12시 (GMT)에 시작됩니다 ',
