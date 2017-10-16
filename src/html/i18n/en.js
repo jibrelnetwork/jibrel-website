@@ -173,6 +173,7 @@ module.exports = {
       'Token Sale',
     ],
     tabs: [[{
+      active: true,
       question: 'What is the Jibrel Network?',
       answer: [
         'The Jibrel Network provides traditional financial assets, such as currencies, bonds, commodities and securities, as standard ERC-20 tokens on the ethereum blockchain.',
@@ -192,6 +193,7 @@ module.exports = {
         'In addition, decentralized organizations and funds can diversify into traditional assets, using asset backed CryptoDepository Receipts (CryDRs).',
       ],
     }], [{
+      active: true,
       question: 'What are CryptoDepository Receipts (CryDRs)?',
       answer: [
         'Crypto Depository Receipts are smart contracts that represent the value of a real-world asset.  Users can convert Jibrel Network Token (JNT) into CryDRs representing fiat currencies, commodities, bonds or even securities.  CryDRs can be transferred to another individual or entity, who can redeem the token for the underlying value in JNT with the Jibrel DAO. CryDRs have smart regulation embedded, meaning all transactions are KYC / AML compliant.',
@@ -233,6 +235,7 @@ module.exports = {
         'Due to the volatility of crypto-currencies, primarily driven by speculation and liquidity bottlenecks, stable on-chain assets become especially valuable. If a traditional asset is tokenized successfully, and the community has a strong belief that this token is redeemable at any future date for the underlying asset, the value of the asset on-chain becomes more valuable than the original off-chain purchase price. This is due to the scarcity of stable assets on-chain. We call this on-chain / off-chain arbitrage.',
       ],
     }], [{
+      active: true,
       question: 'What is Jibrel Network Token (JNT)?',
       answer: [
         'Jibrel Network Token (JNT) is a virtual currency used to purchase / redeem CryDRs. In addition, any value exchange associated with the securitized off-chain assets are transacted using Jibrel Network Token. Finally, CryDR transfers consume small amounts of JNT in the form of jGas.',
@@ -257,6 +260,7 @@ module.exports = {
         'Jibrel intends to list JNT on numerous exchanges within 90 days of public sale close.',
       ],
     }], [{
+      active: true,
       question: 'When is the token presale?',
       answer: [
         'The token pre-sale will start on September 25th, 2017 at 12:00PM GMT and will be open for 30 days.',
@@ -282,6 +286,7 @@ module.exports = {
         'The pre-sale is not open to residents or citizens of the US, Singapore or China.',
       ],
     }], [{
+      active: true,
       question: 'When is the token sale?',
       answer: [
         'The token sale will start on November 27th, 2017 at 12:00PM GMT.',
