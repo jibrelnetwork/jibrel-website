@@ -1,4 +1,5 @@
 module.exports = {
+  language: 'en',
   meta: {
     title: 'Jibrel Network',
   },
@@ -53,33 +54,31 @@ module.exports = {
   },
   about: {
     title: 'About the Jibrel Network',
-    benefits: [
-      [{
-        id: 1,
-        head: 'What is the Jibrel Network?',
-        body: 'The Jibrel Network provides currencies, equities, commodities and other financial assets and instruments as standard ERC-20 tokens on the Ethereum blockchain.',
-      }, {
-        id: 3,
-        head: 'What are CryDRs?',
-        body: 'CryptoDepository Receipts or CryDRs are tokens representing a traditional financial asset’s value, denominated in Jibrel Network Token - JNT (e.g. a USD CryDR holds 1 dollar worth of JNT).',
-      }], [{
-        id: 4,
-        head: 'What can CryDRs be used for?',
-        body: 'Fiat CryDRs can be used for remittances, global payments, trading and hedging. CryDRs can also be used to create automated and decentralized financial instruments - such as bonds, commodities, debt instruments and securities.',
-      }, {
-        id: 2,
-        head: 'What is Smart Regulation?',
-        body: 'CryDRs have smart regulation built in, real-world rules and regulations translated into solidity code and deployed on the ethereum blockchain. Ensuring that while decentralized, CryDRs always follow real world rules and regulations.',
-      }], [{
-        id: 5,
-        head: 'What is jCash?',
-        body: 'jCash is the first roll-out of currencies. USD, GBP, EUR, RUB, AED, CNY CryDRs will be made available.',
-      }, {
-        id: 6,
-        head: 'How can I purchase CryDRs?',
-        body: 'CryDRs can be purchased from the Jibrel DAO using Jibrel Network Token (JNT).',
-      }],
-    ],
+    benefits: [[{
+      id: 1,
+      head: 'What is the Jibrel Network?',
+      body: 'The Jibrel Network provides currencies, equities, commodities and other financial assets and instruments as standard ERC-20 tokens on the Ethereum blockchain.',
+    }, {
+      id: 3,
+      head: 'What are CryDRs?',
+      body: 'CryptoDepository Receipts or CryDRs are tokens representing a traditional financial asset’s value, denominated in Jibrel Network Token - JNT (e.g. a USD CryDR holds 1 dollar worth of JNT).',
+    }], [{
+      id: 4,
+      head: 'What can CryDRs be used for?',
+      body: 'Fiat CryDRs can be used for remittances, global payments, trading and hedging. CryDRs can also be used to create automated and decentralized financial instruments - such as bonds, commodities, debt instruments and securities.',
+    }, {
+      id: 2,
+      head: 'What is Smart Regulation?',
+      body: 'CryDRs have smart regulation built in, real-world rules and regulations translated into solidity code and deployed on the ethereum blockchain. Ensuring that while decentralized, CryDRs always follow real world rules and regulations.',
+    }], [{
+      id: 5,
+      head: 'What is jCash?',
+      body: 'jCash is the first roll-out of currencies. USD, GBP, EUR, RUB, AED, CNY CryDRs will be made available.',
+    }, {
+      id: 6,
+      head: 'How can I purchase CryDRs?',
+      body: 'CryDRs can be purchased from the Jibrel DAO using Jibrel Network Token (JNT).',
+    }]],
   },
   roadmap: {
     title: 'Roadmap',
@@ -162,7 +161,6 @@ module.exports = {
         { title: 'Advisors and Partners', percents: '10', money: '20,000,000', class: 'green' },
         { title: 'Bounties', percents: '5', money: '10,000,000', class: 'purple' },
       ],
-      code: 'JNT',
     },
   },
   faq: {
@@ -387,7 +385,7 @@ module.exports = {
     }, {
       name: 'Ruslan Gavrilyuk',
       title: 'CryptoFinance Advisor',
-      position: 'CEO &amp; Founder of TaaS Fund',
+      position: 'CEO & Founder of TaaS Fund',
       links: [{
         href: 'https://www.linkedin.com/in/ruslan-gavrilyuk',
         type: 'linkedin',
@@ -411,7 +409,7 @@ module.exports = {
     }, {
       name: 'Mohammad Al Sehli',
       title: 'MENA Advisor',
-      position: 'CEO &amp; Founder of Arabian Chain',
+      position: 'CEO & Founder of Arabian Chain',
       links: [{
         href: 'https://www.linkedin.com/in/mohammed-alsehli-7520a626',
         type: 'linkedin',
@@ -492,7 +490,7 @@ module.exports = {
       id: 9,
       name: 'Jad Hindy',
       position: 'Marketing',
-      description: 'Jad is a seasoned executive with over 20 years of experience in marketing, communication and brand building and has worked with some of the biggest multi-nationals (P&amp;G, Virgin Mobile, Red Bull, Unilever).',
+      description: 'Jad is a seasoned executive with over 20 years of experience in marketing, communication and brand building and has worked with some of the biggest multi-nationals (P&G, Virgin Mobile, Red Bull, Unilever).',
       links: [{
         href: 'mailto:jad@jibrel.network',
         type: 'email',
@@ -526,18 +524,21 @@ module.exports = {
       }, {
         href: 'https://jibrelnetwork.slack.com/messages/@ivanviolentov',
         type: 'slack',
+      }, {
+        href: 'https://www.linkedin.com/in/ivanviolentov',
+        type: 'linkedin',
       }],
     }, {
       id: 10,
       name: 'Anna Bordunova',
       position: 'Public Relations',
-      description: 'Anna is media and communications practitioner with 5+ years of experience in journalism, PR and social media. Her expertise spans traditional, experiential &amp; digital marketing – with an emphasis on comprehensive Internet presence management.',
+      description: 'Anna is media and communications practitioner with 5+ years of experience in journalism, PR and social media. Her expertise spans traditional, experiential & digital marketing – with an emphasis on comprehensive Internet presence management.',
       links: [{
         href: 'mailto:anna@jibrel.network',
-        type: 'linkedin',
+        type: 'email',
       }, {
         href: 'https://www.linkedin.com/in/anna-bordunova-54002467',
-        type: 'email',
+        type: 'linkedin',
       }],
     }], [{
       id: 11,
@@ -612,8 +613,8 @@ module.exports = {
       ],
       checkbox2: [
         'I hereby confirm that I have read and agree to the Jibrel Network Token Pre-sale and Sale ',
-        'Terms &amp; Conditions',
-        ' and that I am the ultimate beneficial owner (UBO) of the tokens.',
+        'Terms & Conditions',
+        'and that I am the ultimate beneficial owner (UBO) of the tokens.',
       ],
     },
     step2: {
@@ -688,10 +689,11 @@ module.exports = {
         'Ooops…',
         'Something is wrong on the line',
         'Please, send us email',
-        'presale@jibrel.network',
+        '',
         'Sincerely,',
         'Jibrel Network Team',
       ],
+      email: 'presale@jibrel.network',
     },
   },
   timestamp: Date.now(),

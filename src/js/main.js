@@ -51,12 +51,7 @@
         $('#countdown').ClassyCountdown({
             end: $.now() + timeLeft,
             labelsOptions: {
-                lang: {
-                    days: 'Days',
-                    hours: 'Hours',
-                    minutes: 'Minutes',
-                    seconds: 'Seconds'
-                },
+                lang: window.i18n.countdown.lang,
                 style: ''
             },
             style: {
