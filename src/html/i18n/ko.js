@@ -487,15 +487,18 @@ module.exports = {
         type: 'linkedin',
       }],
     }], [{
-      id: 9,
-      name: 'Jad Hindy',
-      position: '마케팅 담당',
-      description: 'Jad는 마케팅, 커뮤니케이션 및 브랜드 구축 분야에서 20 년 이상의 경험을 쌓은 노련한 중역으로 P&G, Virgin Mobile, Red Bull, Unilever와 같은 거대 다국적기업과 함께 일했습니다 ',
+      id: 12,
+      name: 'Hamzeh Kolaghassi',
+      position: 'Operations',
+      description: 'Hamzeh has over 6 years’ financial experience at top private equity and financial consultancy firms such as Alcazar Capital and Ernst & Young. He is proficient in financial management and data analysis, with an emphasis on designing and implementing business strategies, plans and procedures.',
       links: [{
-        href: 'mailto:jad@jibrel.network',
+        href: 'mailto:hamzeh@jibrel.network',
         type: 'email',
       }, {
-        href: 'https://www.linkedin.com/in/jadhindy',
+        href: 'https://jibrelnetwork.slack.com/messages/@hamzeh',
+        type: 'slack',
+      }, {
+        href: 'https://www.linkedin.com/in/hamzeh-kolaghassi-61505131',
         type: 'linkedin',
       }],
     }, {
