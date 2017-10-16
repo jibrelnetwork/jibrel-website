@@ -378,25 +378,6 @@ html.active {
     a {
       transition: color 0.3s ease 0s;
     }
-    svg {
-      display: block;
-      width: 24px;
-      height: 24px;
-      position: relative;
-      top: 4px;
-      .cls-1 {
-        fill: @white;
-        opacity: 0;
-      }
-      .cls-2 {
-        fill: @blue;
-      }
-      &:hover {
-        .cls-2 {
-          fill: @light-blue;
-        }
-      }
-    }
   }
   .menu-button {
     top: 46px;
@@ -410,6 +391,52 @@ html.active {
     }
     .menu-button {
       top: 28px;
+    }
+  }
+  .github {
+    a {
+      display: inline-block;
+      height: 100%;
+      svg {
+        display: inline-block;
+        width: 24px;
+        height: 24px;
+        vertical-align: middle;
+        .cls-1 {
+          fill: @white;
+          opacity: 0;
+        }
+        .cls-2 {
+          fill: @blue;
+        }
+        &:hover {
+          .cls-2 {
+            fill: @light-blue;
+          }
+        }
+      }
+    }
+  }
+  .flags {
+    margin-left: 80px;
+    a {
+      display: inline-block;
+      height: 30px;
+      margin-right: 20px;
+      &:last-child {
+        margin-right: 0;
+      }
+      &:hover img {
+        border-color: transparent;
+      }
+      img {
+        height: 30px;
+        width: 30px;
+        border: 1px solid @blue;
+        border-radius: 50%;
+        vertical-align: middle;
+        transition: border-color 0.3s ease 0s;
+      }
     }
   }
 }
@@ -1727,6 +1754,10 @@ html.active {
     padding-top: 0;
     padding-bottom: 0;
     overflow: visible;
+    .menu-button {
+      display: block;
+      z-index: 1000;
+    }
     .menu {
       display: none;
       position: fixed;
@@ -1750,6 +1781,9 @@ html.active {
       }
       &.active {
         display: block;
+      }
+      .flags a img {
+        border-color: transparent;
       }
     }
     &.active {
