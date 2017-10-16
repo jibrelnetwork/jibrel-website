@@ -1603,6 +1603,16 @@ html.active {
   }
 }
 
+@media only screen and (max-width: 768px) {
+  .menu-button {
+    display: block;
+    z-index: 1000;
+  }
+  .header .menu {
+    display: none;
+  }
+}
+
 @media only screen and (max-width: 800px) {
   .start {
     .iphone {
@@ -1746,10 +1756,6 @@ html.active {
       &.active {
         display: block;
       }
-    }
-    .menu-button {
-      display: block;
-      z-index: 1000;
     }
     &.active {
       .menu.active {
