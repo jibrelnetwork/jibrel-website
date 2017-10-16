@@ -577,5 +577,9 @@
         $('.remodal-bg').css('display', 'block');
       });
     }
+
+    $(document).on('opened', '.remodal', function () {
+      pushGAEvent(1);
+    });
   }
 })(jQuery);
