@@ -209,6 +209,9 @@ i,
   &.icon-big-kakaotalk:before {
     background-image: url("../img/icons/big/kakao.svg");
   }
+  &.icon-big-medium:before {
+    background-image: url("../img/icons/big/medium.svg");
+  }
   &.icon-big-youtube:before {
     background-image: url("../img/icons/big/youtube.svg");
   }
@@ -1257,7 +1260,7 @@ html.active {
       a {
         color: rgba(255,255,255,0.7);
         position: relative;
-        padding: 0 40px;
+        padding: 0 30px;
         display: block;
         font-size: 15px;
         &:before {
@@ -1598,6 +1601,16 @@ html.active {
         a {
           padding: 0 20px;
         }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .start {
+    .logos {
+      a {
+        margin: 0 20px;
       }
     }
   }
