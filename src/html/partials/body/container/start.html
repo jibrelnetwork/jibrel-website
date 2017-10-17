@@ -3,12 +3,12 @@
           <div class="text">
             <h1>{{ start.title }}</h1>
             <p>{{ start.text[0] }}<br />{{ start.text[1] }}</p>
-            <a href="#logos" class="scroll">{{ start.cta }}</a>
+            <a href="#countdown-container" class="scroll">{{ start.cta }}</a>
           </div>
           <div class="iphone floating"><img src="{{ start.iphone }}?v=1" alt="" /></div>
           <div class="card floating2"><img src="{{ start.card }}?v=1" alt="" /></div>
         </div>
-        <div class="logos" id="logos">
+        <div class="logos">
           {% for logo in start.logos %}<a href="{{ logo.href }}" target="_blank" rel="nofollow">
             <img src="{{ logo.src }}" alt="" />
           </a>{% endfor %}
