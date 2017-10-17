@@ -1603,16 +1603,6 @@ html.active {
   }
 }
 
-@media only screen and (max-width: 768px) {
-  .menu-button {
-    display: block;
-    z-index: 1000;
-  }
-  .header .menu {
-    display: none;
-  }
-}
-
 @media only screen and (max-width: 800px) {
   .start {
     .iphone {
@@ -1715,18 +1705,10 @@ html.active {
   }
 }
 
-@media only screen and (max-width: 600px) {
-  .remodal {
-    width: 90%;
-  }
-  .section {
-    padding-top: 60px;
-    padding-bottom: 60px;
-    .inner {
-      > h2 {
-        margin-bottom: 90px;
-      }
-    }
+@media only screen and (max-width: 768px) {
+  .menu-button {
+    display: block;
+    z-index: 1000;
   }
   .header {
     padding-top: 0;
@@ -1762,6 +1744,25 @@ html.active {
         top: 80px;
       }
     }
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .remodal {
+    width: 90%;
+  }
+  .section {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    .inner {
+      > h2 {
+        margin-bottom: 90px;
+      }
+    }
+  }
+  .header {
+    padding-top: 0;
+    padding-bottom: 0;
   }
   .start {
     padding-top: 120px;
