@@ -5,8 +5,10 @@
 .idea
 
 node_modules
+npm-debug.log
 
 # produced by gulp
 /index*.html
+/ko.html
 assets/css
 assets/js

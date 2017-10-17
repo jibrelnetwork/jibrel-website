@@ -50,7 +50,7 @@ gulp.task('html-ko', function() {
   return gulp
     .src('./src/html/index.html')
     .pipe(nunjucks.compile(i18nKO))
-    .pipe(rename('./index-ko.html'))
+    .pipe(rename('./ko.html'))
     .pipe(gulp.dest('./'));
 });
 
