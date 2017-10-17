@@ -154,7 +154,7 @@ module.exports = {
     charts: {
       image: 'assets/img/chart.png',
       items: [
-        { title: '엔젤 라운', percents: '10', money: '20,000,000', class: '' },
+        { title: '엔젤 라운드', percents: '10', money: '20,000,000', class: '' },
         { title: '공개 프리세일', percents: '20', money: '40,000,000', class: '' },
         { title: '네트워크 런칭', percents: '40', money: '80,000,000', class: '' },
         { title: '팀', percents: '15', money: '30,000,000', class: 'pink' },
@@ -494,8 +494,8 @@ module.exports = {
     }], [{
       id: 12,
       name: 'Hamzeh Kolaghassi',
-      position: 'Operations',
-      description: 'Hamzeh has over 6 years’ financial experience at top private equity and financial consultancy firms such as Alcazar Capital and Ernst & Young. He is proficient in financial management and data analysis, with an emphasis on designing and implementing business strategies, plans and procedures.',
+      position: '업무책임자',
+      description: 'Hamzeh는 Alcazar Capital 및 Ernst & Young과 같은 최고 사모 펀드 및 금융 컨설팅 회사에서 6 년 이상의 경험을 쌓았습니다. 그는 비즈니스 전략, 계획 및 절차의 설계 및 구현에 중점을 두고 재무 관리 및 데이터 분석에 능숙합니다.',
       links: [{
         href: 'mailto:hamzeh@jibrel.network',
         type: 'email',
@@ -664,7 +664,7 @@ module.exports = {
       notice: [
         '프리세일 참여의 최소 금액은 5,000 달러입니다.',
       ],
-      label: 'I would like to contribute:',
+      label: '지브렐 네트워크 참여를 희망합니다',
       placeholders: {
         currency: '화폐',
         amount: '금액',
