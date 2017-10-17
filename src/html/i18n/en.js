@@ -586,6 +586,10 @@ module.exports = {
       type: 'kakaotalk',
       title: 'Kakaotalk',
     }, {
+      href: 'https://medium.com/@jibrelnetwork',
+      type: 'medium',
+      title: 'Medium',
+    }, {
       href: 'https://www.youtube.com/watch?v=LBMyd7Ql8QU',
       type: 'youtube',
       title: 'Youtube',
