@@ -664,7 +664,7 @@ module.exports = {
       notice: [
         'Please note, the minimum value for pre-sale participation is US$ 5,000.',
       ],
-      label: 'I would like to contribute:',
+      label: 'I would like to contribute',
       placeholders: {
         currency: 'Currency',
         amount: 'Amount',
