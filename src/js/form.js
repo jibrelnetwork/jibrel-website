@@ -293,7 +293,7 @@
       case 'ETH':
         return (amount < 15) ? form.i18n.step3.errors.amount[1] : null;
       case 'BTC':
-        return (amount < 1.2) ? form.i18n.step3.errors.amount[2] : null;
+        return (amount < 1) ? form.i18n.step3.errors.amount[2] : null;
       default:
         return null;
     }

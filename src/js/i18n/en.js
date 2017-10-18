@@ -51,7 +51,7 @@ window.i18n = {
         amount: [
           'The field should be valid number.',
           'Minimum investment is 15 ETH.',
-          'Minimum investment is 1.2 BTC.',
+          'Minimum investment is 1 BTC.',
         ],
         captcha: [
           'The captcha should be checked.',
