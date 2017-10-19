@@ -182,7 +182,7 @@
   function validateString(value) {
     var numbersRe = /\d/g;
 
-    if ((value.length < 3) || (numbersRe.test(value))) {
+    if ((value.length < 1) || (numbersRe.test(value))) {
       return false;
     }
 
