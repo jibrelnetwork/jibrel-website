@@ -423,7 +423,7 @@
       currency: data.currency,
       amount: data.amount,
       'g-recaptcha-response': data.captcha,
-      refid: window.getRefId(),
+      'reference_id': window.getRefId(),
     });
   }
 
