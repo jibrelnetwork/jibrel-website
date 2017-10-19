@@ -28,7 +28,7 @@ var vendorScripts = [
 var scripts = [
   './src/js/autocomplete.js',
   './src/js/select.js',
-  './src/js/countries.js',
+  './src/js/ref.js',
   './src/js/form.js',
   './src/js/main.js',
 ]
@@ -36,6 +36,8 @@ var scripts = [
 var i18n = [
   './src/js/i18n/en.js',
   './src/js/i18n/ko.js',
+  './src/js/i18n/countries-en.js',
+  './src/js/i18n/countries-ko.js',
 ]
 
 gulp.task('html-en', function() {

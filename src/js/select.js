@@ -1,4 +1,6 @@
 (function($) {
+  'use strict';
+
   window.initSelect = function(props) {
     var source = props.source || [];
     var id = '' + (props.id || '');

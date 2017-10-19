@@ -21,7 +21,8 @@
   "scripts": {
     "start": "node server.js",
     "build": "./node_modules/.bin/gulp",
-    "postinstall": "./node_modules/.bin/gulp prod"
+    "build:prod": "./node_modules/.bin/gulp prod",
+    "postinstall": "npm run build:prod"
   },
   "devDependencies": {
     "express": "4.15.3",

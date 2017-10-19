@@ -46,6 +46,7 @@
       captcha: '',
     },
     countries: countries,
+    countriesNames: Object.keys(countries),
     currencies: ['ETH', 'BTC'],
     // submitURL: 'http://localhost:3001/v2/presale_request',
     submitURL: 'https://saleaddresses.jibrel.network/application',
@@ -247,7 +248,7 @@
 
   function validateCountry(value) {
     var isValidString = validateString(value);
-    var isFound = (form.countries.indexOf(value) > -1);
+    var isFound = (form.countriesNames.indexOf(value) > -1);
 
     if (!(isValidString && isFound)) {
       return form.i18n.step2.errors.country[0];
@@ -260,7 +261,7 @@
 
   function validateCitizenship(value) {
     var isValidString = validateString(value);
-    var isFound = (form.countries.indexOf(value) > -1);
+    var isFound = (form.countriesNames.indexOf(value) > -1);
 
     if (!(isValidString && isFound)) {
       return form.i18n.step2.errors.citizenship[0];
@@ -417,11 +418,12 @@
       email: data.email,
       emailconfirm: data.emailconfirm,
       // phone: data.phone,
-      country: data.country,
-      citizenship: data.citizenship,
+      country: form.countries[data.country],
+      citizenship: form.countries[data.citizenship],
       currency: data.currency,
       amount: data.amount,
       'g-recaptcha-response': data.captcha,
+      refid: window.getRefId(),
     });
   }
 
@@ -510,14 +512,14 @@
     }
 
     handler({
-      source: form.countries,
+      source: form.countriesNames,
       id: 'country',
       placeholder: form.i18n.step2.placeholders.country + ' *',
       onChange: watchFormField,
     });
 
     handler({
-      source: form.countries,
+      source: form.countriesNames,
       id: 'citizenship',
       placeholder: form.i18n.step2.placeholders.citizenship + ' *',
       onChange: watchFormField,

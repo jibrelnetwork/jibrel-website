@@ -1,4 +1,6 @@
 (function($) {
+  'use strict';
+
   window.initAutocomplete = function(props) {
     var source = props.source || [];
     var id = '' + (props.id || '');
