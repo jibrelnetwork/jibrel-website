@@ -11,4 +11,3 @@ white-paper-git-pull:
 git-pull: white-paper-git-pull
 	$(GIT) pull origin $(GIT-REPOSITORY-BRANCH)
 	$(NPM) install
-	$(NPM) run build:prod
