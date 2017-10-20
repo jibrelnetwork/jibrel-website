@@ -231,7 +231,6 @@
     "United Arab Emirates": "United Arab Emirates",
     "United Kingdom": "United Kingdom",
     "United Kingdom Overseas Territories": "United Kingdom Overseas Territories",
-    "United States Minor Outlying Islands": "United States Minor Outlying Islands",
     "Uruguay": "Uruguay",
     "Uzbekistan": "Uzbekistan",
     "Vanuatu": "Vanuatu",

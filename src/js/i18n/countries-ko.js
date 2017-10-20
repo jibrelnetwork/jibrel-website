@@ -231,7 +231,6 @@
     "아랍에미리트": "United Arab Emirates",
     "영국": "United Kingdom",
     "영국 해외 영토": "United Kingdom Overseas Territories",
-    "미국령 군소 제도": "United States Minor Outlying Islands",
     "우루과이": "Uruguay",
     "우즈베키스탄": "Uzbekistan",
     "바누아투": "Vanuatu",
