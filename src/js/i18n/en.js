@@ -52,6 +52,8 @@ window.i18n = {
           'The field should be valid number.',
           'Minimum investment is 15 ETH.',
           'Minimum investment is 1 BTC.',
+          'Maximum investment is 2500 ETH.',
+          'Maximum investment is 150 BTC.',
         ],
         captcha: [
           'The captcha should be checked.',

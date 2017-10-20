@@ -292,9 +292,21 @@
 
     switch (currency) {
       case 'ETH':
-        return (amount < 15) ? form.i18n.step3.errors.amount[1] : null;
+        if (amount < 15) {
+          return form.i18n.step3.errors.amount[1];
+        } else if (amount > 2500) {
+          return form.i18n.step3.errors.amount[3];
+        }
+
+        return null;
       case 'BTC':
-        return (amount < 1) ? form.i18n.step3.errors.amount[2] : null;
+        if (amount < 1) {
+          return form.i18n.step3.errors.amount[2];
+        } else if (amount > 150) {
+          return form.i18n.step3.errors.amount[4];
+        }
+
+        return null;
       default:
         return null;
     }
