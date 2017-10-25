@@ -19,7 +19,7 @@ module.exports = {
       'Jibrel provides traditional financial assets,',
       'as ERC-20 tokens, on the Ethereum blockchain',
     ],
-    cta: 'Our Pre-sale is now open',
+    cta: 'Learn more',
     iphone: 'assets/img/iphone.png',
     card: 'assets/img/card.png',
     logos: [{
@@ -43,7 +43,7 @@ module.exports = {
     }]
   },
   countdown: {
-    title: 'Our token pre-sale ends on October 25, 2017 at 12:00PM GMT',
+    title: 'Our token sale starts on November 27, 2017 at 12:00PM GMT',
     subtitle: 'If you have any questions, please contact us at',
     email: 'presale@jibrel.network',
     cta: 'Participate in Token Pre-sale',
@@ -51,6 +51,12 @@ module.exports = {
     hours: 'Hours',
     minutes: 'Minutes',
     seconds: 'Seconds',
+    subscribe: {
+      placeholder: 'Sign-up for network updates',
+      progress: 'Sending in progress...',
+      success: 'Thanks for signing-up. We\'ll keep you posted!',
+      error: 'Oops, unable to save this address',
+    },
   },
   about: {
     title: 'About the Jibrel Network',
@@ -263,7 +269,7 @@ module.exports = {
       active: true,
       question: 'When is the token presale?',
       answer: [
-        'The token pre-sale will start on September 25th, 2017 at 12:00PM GMT and will be open for 30 days.',
+        'The token pre-sale took place between September 25th, 2017 - 12PM GMT and October 25th, 2017 - 12PM GMT.',
       ],
     }, {
       question: 'What currencies are accepted?',
@@ -278,7 +284,7 @@ module.exports = {
     }, {
       question: 'How do I participate in the pre-sale?',
       answer: [
-        'Instructions on how to participate, including completing the pre-sale form will be made available when the pre-sale opens.',
+        'Unfortunately, the pre-sale has concluded. The main sale, however, will start on November 27th, 2017 at 12PM GMT.',
       ],
     }, {
       question: 'Can anyone participate in the token pre-sale?',

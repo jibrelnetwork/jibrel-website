@@ -103,7 +103,7 @@
                 width: '100%',
                 displayInput: false,
                 readOnly: true,
-                max: 31
+                max: 33
             }, settings.style.days.gauge));
             element.find('.ClassyCountdown-hours input').knob($.extend({
                 width: '100%',
@@ -162,7 +162,7 @@
                 MinutesLeft = 0;
                 SecondsLeft = 0;
             }
-            element.find('.ClassyCountdown-days input').val(31 - DaysLeft).trigger('change');
+            element.find('.ClassyCountdown-days input').val(33 - DaysLeft).trigger('change');
             element.find('.ClassyCountdown-hours input').val(24 - HoursLeft).trigger('change');
             element.find('.ClassyCountdown-minutes input').val(60 - MinutesLeft).trigger('change');
             element.find('.ClassyCountdown-seconds input').val(60 - SecondsLeft).trigger('change');

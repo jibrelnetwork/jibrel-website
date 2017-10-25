@@ -11,10 +11,7 @@ var copy = require('gulp-copy');
 var i18nEN = require('./src/html/i18n/en');
 var i18nKO = require('./src/html/i18n/ko');
 
-var cssStyles = [
-  './src/css/remodal.css',
-  './src/css/remodal-default-theme.css',
-]
+var cssStyles = []
 
 var vendorScripts = [
   './src/js/jquery.min.js',
@@ -22,14 +19,10 @@ var vendorScripts = [
   './src/js/jquery.knob.min.js',
   './src/js/jquery.throttle.min.js',
   './src/js/jquery.classycountdown.js',
-  './src/js/remodal.min.js',
 ]
 
 var scripts = [
-  './src/js/autocomplete.js',
-  './src/js/select.js',
-  './src/js/ref.js',
-  './src/js/form.js',
+  './src/js/subscribe.js',
   './src/js/main.js',
 ]
 

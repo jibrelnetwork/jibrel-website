@@ -19,7 +19,7 @@ module.exports = {
       'Jibrel은 ERC-20토큰으로서 이더리움 블록체인에서',
       '전통적인 금융 자산을 제공합니다',
     ],
-    cta: '현재 프리세일 진행중입니다',
+    cta: 'Learn more',
     iphone: 'assets/img/iphone.png',
     card: 'assets/img/card.png',
     logos: [{
@@ -43,7 +43,7 @@ module.exports = {
     }]
   },
   countdown: {
-    title: '토큰 프리세일은 2017년 10월 25일 오후 9시에 종료합니다',
+    title: 'Our token sale starts on November 27, 2017 at 12:00PM GMT',
     subtitle: '질문이 있으시면 문의해주세요: ',
     email: 'presale@jibrel.network',
     cta: '토큰 프리세일 참여하기',
@@ -51,6 +51,12 @@ module.exports = {
     hours: '시간',
     minutes: '분',
     seconds: '초',
+    subscribe: {
+      placeholder: 'Sign-up for network updates',
+      progress: 'Sending in progress...',
+      success: 'Thanks for signing-up. We\'ll keep you posted!',
+      error: 'Oops, unable to save this address',
+    },
   },
   about: {
     title: 'Jibrel Network 소개',
@@ -263,7 +269,7 @@ module.exports = {
       active: true,
       question: '토큰 프리세일은 언제입니까?',
       answer: [
-        '토큰 프리세일은 2017년 9월 25일 오후 9시에 시작하여 30일 동안 진행합니다.',
+        'The token pre-sale took place between September 25th, 2017 - 12PM GMT and October 25th, 2017 - 12PM GMT.',
       ],
     }, {
       question: '어떤 화폐가 허용됩니까?',
@@ -278,7 +284,7 @@ module.exports = {
     }, {
       question: '프리세일에 어떻게 참여합니까?',
       answer: [
-        '프리세일 양식을 작성하는 것을 포함하여 참여 방법에 대한 지침은 프리세일이 시작될 때 열람할 수 있습니다.',
+        'Unfortunately, the pre-sale has concluded. The main sale, however, will start on November 27th, 2017 at 12PM GMT.',
       ],
     }, {
       question: '누구든지 토큰 프리세일에 참여할 수 있습니까?',

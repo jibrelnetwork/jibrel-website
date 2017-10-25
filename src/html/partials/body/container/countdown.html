@@ -1,4 +1,4 @@
-      <div class="section countdown presale" id="countdown-container">
+      <div class="section countdown">
         <div class="inner">
           <div class="title">
             <p>
@@ -9,10 +9,16 @@
             </p>
           </div>
           <div class="timer"><div id="countdown"></div></div>
-          <div class="field">
-            <a href="#form" class="button">
-              <i class="floating3"></i>{{ countdown.cta }}
-            </a>
+          <div class="field field-email-subscriprion">
+            <input
+              type="email"
+              placeholder="{{ countdown.subscribe.placeholder }}"
+              id="email-input"
+            />
+            <a href="#" class="icons icon-send" id="email-subcribe-button"></a>
+            <div class="done in-progress hidden">{{ countdown.subscribe.progress }}</div>
+            <div class="done hidden">{{ countdown.subscribe.success }}</div>
+            <div class="done error hidden">{{ countdown.subscribe.error }}</div>
           </div>
         </div>
       </div>
