@@ -45,7 +45,7 @@ module.exports = {
   countdown: {
     title: 'Our token sale starts on November 27, 2017 at 12:00PM GMT',
     subtitle: 'If you have any questions, please contact us at',
-    email: 'presale@jibrel.network',
+    email: 'info@jibrel.network',
     cta: 'Participate in Token Pre-sale',
     days: 'Days',
     hours: 'Hours',

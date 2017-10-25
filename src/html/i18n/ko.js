@@ -45,7 +45,7 @@ module.exports = {
   countdown: {
     title: 'Our token sale starts on November 27, 2017 at 12:00PM GMT',
     subtitle: '질문이 있으시면 문의해주세요: ',
-    email: 'presale@jibrel.network',
+    email: 'info@jibrel.network',
     cta: '토큰 프리세일 참여하기',
     days: '일',
     hours: '시간',
