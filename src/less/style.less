@@ -463,11 +463,9 @@ html.active {
     a {
       line-height: 28px;
       display: inline-block;
-      background-image: url("../img/icons/fire.svg");
       background-repeat: no-repeat;
       background-position: left top;
       background-size: 24px 24px;
-      padding-left: 34px;
       font-size: 14px;
       font-weight: 600;
     }
@@ -660,6 +658,34 @@ html.active {
       }
       &:invalid {
         color: @pink;
+      }
+    }
+    a {
+      display: block;
+      width: 24px;
+      height: 24px;
+      position: absolute;
+      right: 22px;
+      top: 16px;
+      &:hover {
+       opacity: 0.5;
+      }
+    }
+    .done {
+      color: @green;
+      text-align: center;
+      position: absolute;
+      width: 100%;
+      left: 0;
+      top: 80px;
+      &.error {
+       color: @pink;
+      }
+      &.in-progress {
+       color: @blue;
+      }
+      &.hidden {
+       display: none;
       }
     }
     .button {

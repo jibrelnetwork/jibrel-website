@@ -48,7 +48,7 @@
         });
 
         //Count
-        var timeLeft = (new Date("Oct 25, 2017 12:00:00 GMT+000").getTime() - $.now())/1000;
+        var timeLeft = (new Date("Nov 27, 2017 12:00:00 GMT+000").getTime() - $.now())/1000;
 
         $('#countdown').ClassyCountdown({
             end: $.now() + timeLeft,
