@@ -16,7 +16,7 @@ module.exports = {
   start: {
     title: 'Tokenize Everything',
     text: [
-      'Jibrel provides traditional financial assets,',
+      'Jibrel provides traditional financial assets, ',
       'as ERC-20 tokens, on the Ethereum blockchain',
     ],
     cta: 'Learn more',
