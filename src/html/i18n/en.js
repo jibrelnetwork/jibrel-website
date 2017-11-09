@@ -402,19 +402,19 @@ module.exports = {
         type: 'linkedin',
       }],
     }, {
-      name: 'Stephen Murphy',
-      title: 'FinTech Advisor',
-      position: 'CEO of Genesis Global Tech',
-      links: [{
-        href: 'https://www.linkedin.com/in/stephenmurphy3',
-        type: 'linkedin',
-      }],
-    }, {
       name: 'Abbas Zuaiter',
       title: 'Capital Markets Advisor',
       position: 'Former COO Soros Fund',
       links: [{
         href: 'https://www.linkedin.com/in/abbas-f-eddy-zuaiter-51832a9',
+        type: 'linkedin',
+      }],
+    }, {
+      name: 'Saul Hudson',
+      title: 'Communications Advisor',
+      position: 'GM at Thomson Reuters',
+      links: [{
+        href: 'https://www.linkedin.com/in/saul-hudson-2ab9228',
         type: 'linkedin',
       }],
     }, {
