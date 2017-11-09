@@ -410,7 +410,7 @@ module.exports = {
         type: 'linkedin',
       }],
     }, {
-      name: 'Abbas &laquo;Eddy&raquo; Zuaiter',
+      name: 'Abbas Zuaiter',
       title: 'Capital Markets Advisor',
       position: 'Former COO Soros Fund',
       links: [{
