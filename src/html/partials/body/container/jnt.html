@@ -1,12 +1,6 @@
       <div class="section jnt" id="jnt">
         <div class="inner">
           <h2>{{ jnt.title }}</h2>
-          <div class="events">
-            {% for event in jnt.events %}<div class="event event-{{ loop.index }}">
-              <h3>{{ event.time }}</h3>
-              <div class="title">{{ event.title }}<br />{{ event.price }}</div>
-            </div>{% endfor %}
-          </div>
           <div class="charts">
             <div class="row clear">
               <div class="col-4">
