@@ -160,8 +160,9 @@ module.exports = {
     charts: {
       image: 'assets/img/chart.png',
       items: [
-        { title: 'Public Pre-sale', percents: '10', money: '20,000,000', class: '' },
-        { title: 'Network Launch', percents: '60', money: '120,000,000', class: '' },
+        { title: 'Angel Round', percents: '10', money: '20,000,000', class: '' },
+        { title: 'Public Pre-sale', percents: '20', money: '40,000,000', class: '' },
+        { title: 'Network Launch', percents: '40', money: '80,000,000', class: '' },
         { title: 'Team', percents: '15', money: '30,000,000', class: 'pink' },
         { title: 'Advisors and Partners', percents: '10', money: '20,000,000', class: 'green' },
         { title: 'Bounties', percents: '5', money: '10,000,000', class: 'purple' },
@@ -401,19 +402,19 @@ module.exports = {
         type: 'linkedin',
       }],
     }, {
+      name: 'Stephen Murphy',
+      title: 'FinTech Advisor',
+      position: 'CEO of Genesis Global Tech',
+      links: [{
+        href: 'https://www.linkedin.com/in/stephenmurphy3',
+        type: 'linkedin',
+      }],
+    }, {
       name: 'Abbas &laquo;Eddy&raquo; Zuaiter',
       title: 'Capital Markets Advisor',
       position: 'Former COO Soros Fund',
       links: [{
         href: 'https://www.linkedin.com/in/abbas-f-eddy-zuaiter-51832a9',
-        type: 'linkedin',
-      }],
-    }, {
-      name: 'Saul Hudson',
-      title: 'Communications Advisor',
-      position: 'GM at Thomson Reuters',
-      links: [{
-        href: 'https://www.linkedin.com/in/saul-hudson-2ab9228',
         type: 'linkedin',
       }],
     }, {
