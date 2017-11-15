@@ -104,14 +104,14 @@ module.exports = {
       ],
     }, {
       class: 'right', // not translate
-      time: '2017년 10월',
+      time: '2017년 11월',
       head: 'jWallet 출시',
       body: [
         '공식 CryDR 지갑은 커뮤니티 사용을 위해 오픈소스 라이센스로 배포됩니다.',
       ],
     }, {
-      class: 'left', // not translate
-      time: '2017년 11월',
+      class: 'right', // not translate
+      time: '',
       head: 'jCash 출시/공개세일',
       body: [
         'Jibrel Network에서 추가로 다섯가지 법정 화폐를 jCash 런칭과 선보입니다.',
@@ -120,21 +120,21 @@ module.exports = {
         'Jibrel Network Token이 공개적으로 제공됩니다.',
       ],
     }, {
-      class: 'right', // not translate
+      class: 'left', // not translate
       time: '2018년 1분기',
       head: 'CryDR 익스플로러',
       body: [
         'CryDR 전용 블록 익스플로러가 출시되어 네트워크에서 CryDR을 보다 가까이, 자세히 추적할 수 있게 됩니다.',
       ],
     }, {
-      class: 'left', // not translate
+      class: 'right', // not translate
       time: '2018 3분기',
       head: '기관 등급의 은행 플랫폼',
       body: [
         '은행과 금융기관들이 직접적으로 토큰화 하고 오프체인 자산과 거래할 수 있는 기관 등급의 솔루션을 선보입니다',
       ],
     }, {
-      class: 'right', // not translate
+      class: 'left', // not translate
       time: '2018 4분기',
       head: 'Jibrel DAO / 완전 분권화',
       body: [
@@ -144,25 +144,12 @@ module.exports = {
   },
   jnt: {
     title: 'Jibrel Network 토큰',
-    events: [{
-      time: '7월 25일— 8월 25일',
-      title: '엔젤 라운드',
-      price: 'USD 0.15',
-    }, {
-      time: '9월 25일— 10월 25일',
-      title: '공개 프리세일',
-      price: 'USD 0.20 — 0.225',
-    }, {
-      time: '11월 27일',
-      title: '네트워크 런칭',
-      price: 'USD 0.25 +',
-    }],
     charts: {
       image: 'assets/img/chart.png',
       items: [
         { title: '엔젤 라운드', percents: '10', money: '20,000,000', class: '' },
-        { title: '공개 프리세일', percents: '20', money: '40,000,000', class: '' },
-        { title: '네트워크 런칭', percents: '40', money: '80,000,000', class: '' },
+        { title: '공개 프리세일', percents: '10', money: '20,000,000', class: '' },
+        { title: '네트워크 런칭', percents: '50', money: '100,000,000', class: '' },
         { title: '팀', percents: '15', money: '30,000,000', class: 'pink' },
         { title: '자문 및 파트너', percents: '10', money: '20,000,000', class: 'green' },
         { title: '바운티', percents: '5', money: '10,000,000', class: 'purple' },
@@ -172,14 +159,123 @@ module.exports = {
   faq: {
     title: '자주 묻는 질문',
     categories: [
+      '토큰세일',
       '개요',
       'CryptoDepository Receipts',
       'Jibrel Network토큰 (JNT)',
-      '토큰 프리세일',
-      '토큰세일',
     ],
     tabs: [[{
       active: true,
+      question: '토큰세일은 언제입니까?',
+      answer: [
+        'The token sale will take place between November 27th, 2017 - 12:00PM GMT and January 26th, 2017 - 12:00PM GMT.',
+      ],
+    }, {
+      question: '어떤 가상화폐로 참여할 수 있습니까?',
+      answer: [
+        'ETH 및 BTC.',
+      ],
+    }, {
+      question: '토큰 가격은 얼마입니까?',
+      answer: [
+        'Jibre Network Token (JNT)은 0.25 US달러에 판매될 예정입니다.',
+      ],
+    }, {
+      question: 'How do I participate in the token sale?',
+      answer: [
+        'You can participate by visiting the dedicated token sale website <a href="#" target="_blank" rel="noopener noreferrer">link</a>.',
+        'For a detailed instructions on how to complete your JNT purchase, please read the full walkthrough <a href="https://medium.com" target="_blank" rel="noopener noreferrer">https://medium.com</a>.'
+      ],
+    }, {
+      question: 'Is there a minimum or maximum investment limit?',
+      answer: [
+        'Yes, the minimum accepted investment is US$ 100.',
+        'The investment limit is US$ 850,000.',
+      ],
+    }, {
+      question: 'What wallets are supported?',
+      answer: [
+        'You can use any wallet that supports Ethereum ERC-20 tokens, particularly Ethereum Wallet, MIST, MyEtherScan etc.',
+        'We recommend to use web-wallet developed by Jibrel Network: <a href="https://jwallet.network" target="_blank" rel="noopener noreferrer">https://jwallet.network</a>.',
+      ],
+    }, {
+      question: 'Will there be a KYC process?',
+      answer: [
+        'Yes. The entire process is automated and should not take longer than ~4 minutes to complete.',
+      ],
+    }, {
+      question: 'Do I need to recomplete an application to increase my purchase?',
+      answer: [
+        'No. Once your purchase is complete, you can increase your Jibrel Network Token allocation through the user portal on our token sale website <a href="#" target="_blank" rel="noopener noreferrer">link</a>.',
+      ],
+    }, {
+      question: 'When will I receive my Jibrel Network Token (JNT)?',
+      answer: [
+        'Immediately. Once your ETH or BTC transfer is complete (12 confirmations for ETH, 3 confirmations for BTC) you will immediately receive your JNT to the ETH address specified in your application.',
+      ],
+    }, {
+      question: 'When will Jibrel Network be publicly tradable?',
+      answer: [
+        'Jibrel Network Token (JNT) will be publicly traded on at least five exchanges as soon as February 1st, 2018.',
+      ],
+    }, {
+      question: 'I’m a citizen of the US, China or Singapore, why can’t I participate?',
+      answer: [
+        'Due to legal restrictions, US, China and Singapore residents are forbidden from participating in the Jibrel Network Token sale.',
+      ],
+    }, {
+      question: 'Does the project have a hardcap?',
+      answer: [
+        'Yes, the hardcap for sale is 115,000,000 Jibrel Network Token or US$ 28,750,000.',
+      ],
+    }, {
+      question: 'What will funds be used for?',
+      answer: [
+        '25% of proceeds will go towards building out the network (development, marketing and legal), with the remaining 75% used to mint the first batch of crypto-fiat tokens - jCash.',
+        'For a more detailed budget breakdown, please see this medium post <a href="#" target="_blank" rel="noopener noreferrer">link</a>.',
+      ],
+    }, {
+      question: 'I participated in Token pre-sale. How do I receive my JNT?',
+      answer: [
+        '- By the 25th of November you will receive email with the credentials for your personal account',
+        '- Open your personal account on <a href="https://sale.jibrel.network" target="_blank" rel="noopener noreferrer">https://sale.jibrel.network</a>.',
+        '- System will ask you for ETH address which will receive your JNT tokens',
+      ],
+    }, {
+      question: 'How do I sell my Jibrel Network Token after completing my purchase, can I refund my purchase?',
+      answer: [
+        'Jibrel Network token cannot be refunded after a purchase is completed, but can be resold on exchanges starting February 1st, 2018.',
+      ],
+    }], [{
+      active: true,
+      question: 'Where I can meet Jibrel Network team?',
+      answer: [
+        'You can meet us at one of the following events:',
+        '<b>N. America</b><br />' +
+          'Blockchain for Wall Street, New York, Nov 14<br />' +
+          'Consensus: Invest, New York, Nov 28<br />' +
+          'Blockchain Opportunity Summit, New York, Dec 5<br />' +
+          'The Blockchain Event, Fort Lauderdale, Feb 15-16',
+        '<b>MENA</b><br />' +
+          'Regtech MENA, Bahrain, Nov 21-22',
+        '<b>Europe</b><br />' +
+          'Blockchain Summit Kyiv, Kiev, Ukraine, Nov 25',
+        '<b>Asia</b><br />' +
+          'Inside Fintech, Seoul, Korea, Nov 30 - Dec 1',
+      ],
+    }, {
+      question: 'How does Jibrel Network protect me from cryptocurrency volatility?',
+      answer: [
+        'Jibrel provides stable coins representing real world value on the Ethereum blockchain. Using the Jibrel Decentral Bank (Jibrel DAO), you can exchange volatile ETH, BTC or other cryptocurrencies for  stable tokens like jUSD, jEUR, jGBP, jKRW and others.',
+        'These stable tokens can be exchanged for the underlying value at any point in the future, regardless of the price of ETH or BTC at the time.',
+      ],
+    }, {
+      question: 'How do I know Jibrel is secure?',
+      answer: [
+        'Jibrel Smart Contracts have been audited by our security partner, New Alchemy, the full Security Audit can be found here.',
+        'In addition, Jibrel financials are reviewed and audited by our financial transparency partner, PwC.',
+      ],
+    }, {
       question: 'Jibrel Network는 무엇입니까?',
       answer: [
         'Jibrel Network는 화폐, 채권, 상품 및 증권과 같은 전통적인 금융 자산을 이더리움 블록체인의 표준 ERC-20 토큰으로 제공합니다.',
@@ -249,12 +345,8 @@ module.exports = {
     }, {
       question: 'ETH 또는 BTC가 아닌 전용 토큰이 필요한 이유는 무엇입니까?',
       answer: [
-        'ETH와 BTC의 극단적인 변동성을 감안할 때 변동적이고 관련성이 없는 암호화 자산을 보유하면서 법정 화폐(CryDRs)로 된 부채를 유지하는 것은 어려울 것입니다. JNT를 사용하면 폐쇄형 시스템이 구축되어 시스템이 자체 균형을 유지할 수 있습니다. 자세한 내용은 전체 Jibrel Network 로드맵을 읽어보십시오.',
+        'ETH와 BTC의 극단적인 변동성을 감안할 때 변동적이고 관련성이 없는 암호화 자산을 보유하면서 법정 화폐(CryDRs)로 된 부채를 유지하는 것은 어려울 것입니다. JNT를 사용하면 폐쇄형 시스템이 구축되어 시스템이 자체 균형을 유지할 수 있습니다. 자세한 내용은 전체 Jibrel Network 로드맵을 읽어보십시오. <a href="https://medium.com/@jibrelnetwork/jibrel-network-roadmap-618d156b884c" target="_blank" rel="noopener noreferrer">Jibrel Network 로드맵</a>.',
       ],
-      a: {
-        href: 'https://medium.com/@jibrelnetwork/jibrel-network-roadmap-618d156b884c',
-        name: 'Jibrel Network 로드맵',
-      },
     }, {
       question: 'Jibrel Network 토큰은 어떻게 소비됩니까?',
       answer: [
@@ -265,67 +357,6 @@ module.exports = {
       answer: [
         'Jibrel은 공개세일이 종료 된 후 90일 이내에 JNT를 수많은 거래소에 등록할 계획입니다.',
       ],
-    }], [{
-      active: true,
-      question: '토큰 프리세일은 언제입니까?',
-      answer: [
-        'The token pre-sale took place between September 25th, 2017 - 12PM GMT and October 25th, 2017 - 12PM GMT.',
-      ],
-    }, {
-      question: '어떤 화폐가 허용됩니까?',
-      answer: [
-        'ETH, BTC 및 법정화폐 선택',
-      ],
-    }, {
-      question: '프리세일에 참여할 때 어떤 이점이 있습니까?',
-      answer: [
-        'Jibrel Network Token (JNT)은 0.20 US달러의 할인 가격으로 제공됩니다 (공개세일은 0.25달러).',
-      ],
-    }, {
-      question: '프리세일에 어떻게 참여합니까?',
-      answer: [
-        'Unfortunately, the pre-sale has concluded. The main sale, however, will start on November 27th, 2017 at 12PM GMT.',
-      ],
-    }, {
-      question: '누구든지 토큰 프리세일에 참여할 수 있습니까?',
-      answer: [
-        '미국, 싱가포르 또는 중국의 거주자 또는 시민은 프리세일에 참여할 수 없습니다.',
-      ],
-    }], [{
-      active: true,
-      question: '토큰세일은 언제입니까?',
-      answer: [
-        '토큰세일은 2017년 11월 27일 12시 (GMT)에 시작됩니다 ',
-      ],
-    }, {
-      question: '어떤 가상화폐로 참여할 수 있습니까?',
-      answer: [
-        'ETH 및 BTC.',
-      ],
-    }, {
-      question: '토큰 가격은 얼마입니까?',
-      answer: [
-        'Jibre Network Token (JNT)은 0.25 US달러에 판매될 예정입니다.',
-      ],
-    }, {
-      question: '토큰세일에 참여하려면 어떻게 해야합니까?',
-      answer: [
-        ' 토큰세일에 참여하는 방법에 대한 지침은 토큰세일이 시작할 때 공개됩니다.',
-      ],
-    }, {
-      question: '누구든지 토큰세일에 참여할 수 있습니까?',
-      answer: [
-        '미국, 싱가포르 또는 중국의 거주자 또는 시민은 토큰세일에 참여할 수 없습니다 ',
-      ],
-    }, {
-      question: '자금은 무엇을 위해 사용됩니까?',
-      answer: [
-        '수익금의 10 %는 개발, 마케팅 및 법률과 관련되어 사용되며 남은 90 %는 법정 CryDRs - jCash 의 첫번째 묶음을 발행하는 데 사용됩니다. 예산 내역에 대한 자세한 내용은 비트코인 토크 (bitcointalk) 발표를 참조하십시오.',
-      ],
-      a: {
-        href: 'https://bitcointalk.org/index.php?topic=2057487.0',
-        name: '비트코인 토크 발표',
-      },
     }]],
   },
   whitepaper: {
@@ -402,12 +433,15 @@ module.exports = {
         type: 'linkedin',
       }],
     }, {
-      name: 'Stephen Murphy',
-      title: '핀테크 자문',
-      position: 'Genesis Global Tech의 CEO',
+      name: 'Abbas Zuaiter',
+      title: 'Capital Markets Advisor',
+      position: 'Former COO Soros Fund',
       links: [{
-        href: 'https://www.linkedin.com/in/stephenmurphy3',
+        href: 'https://www.linkedin.com/in/abbas-f-eddy-zuaiter-51832a9',
         type: 'linkedin',
+      }, {
+        href: 'https://www.bloomberg.com/research/stocks/private/person.asp?personId=35907985&privcapId=118300828',
+        type: 'bloomberg',
       }],
     }, {
       name: 'Saul Hudson',
@@ -562,6 +596,27 @@ module.exports = {
       links: [{
         href: 'mailto:rustam.khusyainov@jibrel.network',
         type: 'email',
+      }],
+    }, {
+      id: 13,
+      name: 'Evgeny Erohin',
+      position: 'Front-end developer',
+      description: 'Evgeny has over 10 years’ experience in web programming and project management. He is especially skilled at JS (React/Redux) and React Native. In addition to web and application development, Evgeny is also highly proficient at most front-end technologies, frameworks and libraries, such as  recompose, lodash/fp, RSCSS, SASS, ESLint, Stylelint, Webpack, ES6 and JIRA.',
+      links: [{
+        href: 'https://jibrelnetwork.slack.com/messages/@evgeny.erohin',
+        type: 'slack',
+      }],
+    }], [{
+      id: 14,
+      name: 'Yuriy Homyakov',
+      position: 'Back-end developer',
+      description: 'Yuriy has over 7 years’ experience developing  web applications. He specializes in backend development, database design, web applications architecture. He is proficient at Python, JavaScript and Solidity.',
+      links: [{
+        href: 'https://jibrelnetwork.slack.com/messages/@yuriy',
+        type: 'slack',
+      }, {
+        href: 'https://www.linkedin.com/in/yuriy-khomyakov-5203a26a',
+        type: 'linkedin',
       }],
     }, {}]],
   },

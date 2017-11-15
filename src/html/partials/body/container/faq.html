@@ -23,16 +23,9 @@
                   {% for item in tab %}<div class="item {% if (item.active) %}active{% endif %}">
                     <h3>{{ item.question }}</h3>
                     <div class="text">
-                      {% if (item.answer.length === 1) %}<p>
-                        {{ item.answer[0] }}{% if (item.a) %} <a
-                          href="{{ item.a.href }}"
-                          target="_blank"
-                        >
-                          {{ item.a.name }}
-                        </a>.{% endif %}
-                      </p>{% else %}{% for p in item.answer %}<p>
-                        {{ p }}
-                      </p>{% endfor %}{% endif %}
+                      {% for p in item.answer %}<p>
+                        {{ p | safe }}
+                      </p>{% endfor %}
                     </div>
                   </div>{% endfor %}
                 </div>{% endfor %}

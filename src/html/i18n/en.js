@@ -104,14 +104,14 @@ module.exports = {
       ],
     }, {
       class: 'right', // not translate
-      time: 'October, 2017',
+      time: 'November, 2017',
       head: 'jWallet Release',
       body: [
         'The official CryDR wallet is released under an open-source license for community use',
       ],
     }, {
-      class: 'left', // not translate
-      time: 'November, 2017',
+      class: 'right', // not translate
+      time: '',
       head: 'jCash Launch / Public Sale',
       body: [
         'Jibrel Network launches an additional five fiat currencies at the jCash launch',
@@ -120,21 +120,21 @@ module.exports = {
         'Jibrel Network Token offered publically',
       ],
     }, {
-      class: 'right', // not translate
+      class: 'left', // not translate
       time: 'Q1 2018',
       head: 'CryDR Explorer',
       body: [
         'A dedicated CryDR block explorer is released to facilitate closer / more detailed tracking of CryDRs on the network',
       ],
     }, {
-      class: 'left', // not translate
+      class: 'right', // not translate
       time: 'Q3 2018',
       head: 'Institutional Grade Banking Platform',
       body: [
         'An institutional-grade solution for banking and other financial institutions to directly tokenize and transact with their own off-chain assets',
       ],
     }, {
-      class: 'right', // not translate
+      class: 'left', // not translate
       time: 'Q4 2018',
       head: 'Jibrel DAO / Full Decentralization',
       body: [
@@ -144,25 +144,12 @@ module.exports = {
   },
   jnt: {
     title: 'Jibrel Network Token',
-    events: [{
-      time: 'July 25 — Aug 25',
-      title: 'Angel round',
-      price: 'USD 0.15',
-    }, {
-      time: 'Sept 25 — Oct 25',
-      title: 'Public Pre-Sale',
-      price: 'USD 0.20 — 0.225',
-    }, {
-      time: 'November 27th',
-      title: 'Network Launch',
-      price: 'USD 0.25 +',
-    }],
     charts: {
       image: 'assets/img/chart.png',
       items: [
         { title: 'Angel Round', percents: '10', money: '20,000,000', class: '' },
-        { title: 'Public Pre-sale', percents: '20', money: '40,000,000', class: '' },
-        { title: 'Network Launch', percents: '40', money: '80,000,000', class: '' },
+        { title: 'Token Presale', percents: '10', money: '20,000,000', class: '' },
+        { title: 'Token Main Sale', percents: '50', money: '100,000,000', class: '' },
         { title: 'Team', percents: '15', money: '30,000,000', class: 'pink' },
         { title: 'Advisors and Partners', percents: '10', money: '20,000,000', class: 'green' },
         { title: 'Bounties', percents: '5', money: '10,000,000', class: 'purple' },
@@ -172,14 +159,123 @@ module.exports = {
   faq: {
     title: 'Frequently Asked Questions',
     categories: [
+      'Token Sale',
       'General Overview',
       'CryptoDepository Receipts',
       'Jibrel Network Token (JNT)',
-      'Token Pre-sale',
-      'Token Sale',
     ],
     tabs: [[{
       active: true,
+      question: 'When is the token sale?',
+      answer: [
+        'The token sale will take place between November 27th, 2017 - 12:00PM GMT and January 26th, 2017 - 12:00PM GMT.',
+      ],
+    }, {
+      question: 'What currencies are accepted?',
+      answer: [
+        'ETH and BTC.',
+      ],
+    }, {
+      question: 'What will the token price be?',
+      answer: [
+        'Jibrel Network Token (JNT) will be offered at US$ 0.25.',
+      ],
+    }, {
+      question: 'How do I participate in the token sale?',
+      answer: [
+        'You can participate by visiting the dedicated token sale website <a href="#" target="_blank" rel="noopener noreferrer">link</a>.',
+        'For a detailed instructions on how to complete your JNT purchase, please read the full walkthrough <a href="https://medium.com" target="_blank" rel="noopener noreferrer">https://medium.com</a>.'
+      ],
+    }, {
+      question: 'Is there a minimum or maximum investment limit?',
+      answer: [
+        'Yes, the minimum accepted investment is US$ 100.',
+        'The investment limit is US$ 850,000.',
+      ],
+    }, {
+      question: 'What wallets are supported?',
+      answer: [
+        'You can use any wallet that supports Ethereum ERC-20 tokens, particularly Ethereum Wallet, MIST, MyEtherScan etc.',
+        'We recommend to use web-wallet developed by Jibrel Network: <a href="https://jwallet.network" target="_blank" rel="noopener noreferrer">https://jwallet.network</a>.',
+      ],
+    }, {
+      question: 'Will there be a KYC process?',
+      answer: [
+        'Yes. The entire process is automated and should not take longer than ~4 minutes to complete.',
+      ],
+    }, {
+      question: 'Do I need to recomplete an application to increase my purchase?',
+      answer: [
+        'No. Once your purchase is complete, you can increase your Jibrel Network Token allocation through the user portal on our token sale website <a href="#" target="_blank" rel="noopener noreferrer">link</a>.',
+      ],
+    }, {
+      question: 'When will I receive my Jibrel Network Token (JNT)?',
+      answer: [
+        'Immediately. Once your ETH or BTC transfer is complete (12 confirmations for ETH, 3 confirmations for BTC) you will immediately receive your JNT to the ETH address specified in your application.',
+      ],
+    }, {
+      question: 'When will Jibrel Network be publicly tradable?',
+      answer: [
+        'Jibrel Network Token (JNT) will be publicly traded on at least five exchanges as soon as February 1st, 2018.',
+      ],
+    }, {
+      question: 'I’m a citizen of the US, China or Singapore, why can’t I participate?',
+      answer: [
+        'Due to legal restrictions, US, China and Singapore residents are forbidden from participating in the Jibrel Network Token sale.',
+      ],
+    }, {
+      question: 'Does the project have a hardcap?',
+      answer: [
+        'Yes, the hardcap for sale is 115,000,000 Jibrel Network Token or US$ 28,750,000.',
+      ],
+    }, {
+      question: 'What will funds be used for?',
+      answer: [
+        '25% of proceeds will go towards building out the network (development, marketing and legal), with the remaining 75% used to mint the first batch of crypto-fiat tokens - jCash.',
+        'For a more detailed budget breakdown, please see this medium post <a href="#" target="_blank" rel="noopener noreferrer">link</a>.',
+      ],
+    }, {
+      question: 'I participated in Token pre-sale. How do I receive my JNT?',
+      answer: [
+        '- By the 25th of November you will receive email with the credentials for your personal account',
+        '- Open your personal account on <a href="https://sale.jibrel.network" target="_blank" rel="noopener noreferrer">https://sale.jibrel.network</a>.',
+        '- System will ask you for ETH address which will receive your JNT tokens',
+      ],
+    }, {
+      question: 'How do I sell my Jibrel Network Token after completing my purchase, can I refund my purchase?',
+      answer: [
+        'Jibrel Network token cannot be refunded after a purchase is completed, but can be resold on exchanges starting February 1st, 2018.',
+      ],
+    }], [{
+      active: true,
+      question: 'Where I can meet Jibrel Network team?',
+      answer: [
+        'You can meet us at one of the following events:',
+        '<b>N. America</b><br />' +
+          'Blockchain for Wall Street, New York, Nov 14<br />' +
+          'Consensus: Invest, New York, Nov 28<br />' +
+          'Blockchain Opportunity Summit, New York, Dec 5<br />' +
+          'The Blockchain Event, Fort Lauderdale, Feb 15-16',
+        '<b>MENA</b><br />' +
+          'Regtech MENA, Bahrain, Nov 21-22',
+        '<b>Europe</b><br />' +
+          'Blockchain Summit Kyiv, Kiev, Ukraine, Nov 25',
+        '<b>Asia</b><br />' +
+          'Inside Fintech, Seoul, Korea, Nov 30 - Dec 1',
+      ],
+    }, {
+      question: 'How does Jibrel Network protect me from cryptocurrency volatility?',
+      answer: [
+        'Jibrel provides stable coins representing real world value on the Ethereum blockchain. Using the Jibrel Decentral Bank (Jibrel DAO), you can exchange volatile ETH, BTC or other cryptocurrencies for  stable tokens like jUSD, jEUR, jGBP, jKRW and others.',
+        'These stable tokens can be exchanged for the underlying value at any point in the future, regardless of the price of ETH or BTC at the time.',
+      ],
+    }, {
+      question: 'How do I know Jibrel is secure?',
+      answer: [
+        'Jibrel Smart Contracts have been audited by our security partner, New Alchemy, the full Security Audit can be found here.',
+        'In addition, Jibrel financials are reviewed and audited by our financial transparency partner, PwC.',
+      ],
+    }, {
       question: 'What is the Jibrel Network?',
       answer: [
         'The Jibrel Network provides traditional financial assets, such as currencies, bonds, commodities and securities, as standard ERC-20 tokens on the ethereum blockchain.',
@@ -249,12 +345,8 @@ module.exports = {
     }, {
       question: 'Why is a dedicated token needed as opposed to ETH or BTC?',
       answer: [
-        'Given the extreme volatility of ETH and BTC, it would be difficult to hold liabilities in fiat currency (CryDRs) while holding volatile and uncorrelated crypto-assets. Using JNT, a closed system is established allowing for the system to self-balance. For more information, please read the full',
+        'Given the extreme volatility of ETH and BTC, it would be difficult to hold liabilities in fiat currency (CryDRs) while holding volatile and uncorrelated crypto-assets. Using JNT, a closed system is established allowing for the system to self-balance. For more information, please read the full <a href="https://medium.com/@jibrelnetwork/jibrel-network-roadmap-618d156b884c" target="_blank" rel="noopener noreferrer">Jibrel Network Roadmap</a>.',
       ],
-      a: {
-        href: 'https://medium.com/@jibrelnetwork/jibrel-network-roadmap-618d156b884c',
-        name: 'Jibrel Network Roadmap',
-      },
     }, {
       question: 'How is Jibrel Network Token consumed?',
       answer: [
@@ -265,67 +357,6 @@ module.exports = {
       answer: [
         'Jibrel intends to list JNT on numerous exchanges within 90 days of public sale close.',
       ],
-    }], [{
-      active: true,
-      question: 'When is the token presale?',
-      answer: [
-        'The token pre-sale took place between September 25th, 2017 - 12PM GMT and October 25th, 2017 - 12PM GMT.',
-      ],
-    }, {
-      question: 'What currencies are accepted?',
-      answer: [
-        'ETH, BTC and select Fiat currencies.',
-      ],
-    }, {
-      question: 'What advantages are there for participating in the pre-sale?',
-      answer: [
-        'Jibrel Network Token (JNT) will be offered at a discounted price of US$ 0.20 (vs. public sale price of US$0.25).',
-      ],
-    }, {
-      question: 'How do I participate in the pre-sale?',
-      answer: [
-        'Unfortunately, the pre-sale has concluded. The main sale, however, will start on November 27th, 2017 at 12PM GMT.',
-      ],
-    }, {
-      question: 'Can anyone participate in the token pre-sale?',
-      answer: [
-        'The pre-sale is not open to residents or citizens of the US, Singapore or China.',
-      ],
-    }], [{
-      active: true,
-      question: 'When is the token sale?',
-      answer: [
-        'The token sale will start on November 27th, 2017 at 12:00PM GMT.',
-      ],
-    }, {
-      question: 'What currencies are accepted?',
-      answer: [
-        'ETH and BTC.',
-      ],
-    }, {
-      question: 'What will the token price be?',
-      answer: [
-        'Jibrel Network Token (JNT) will be offered at US$ 0.25.',
-      ],
-    }, {
-      question: 'How do I participate in the token sale?',
-      answer: [
-        'Instructions on how to participate in the token sale will be released when the token sale opens.',
-      ],
-    }, {
-      question: 'Can anyone participate in the token sale?',
-      answer: [
-        'The public sale is not open to residents or citizens of the US, Singapore or China.',
-      ],
-    }, {
-      question: 'What will funds be used for?',
-      answer: [
-        '10% of proceeds will go towards development, marketing and legal, with the remaining 90% used to mint the first batch of fiat CryDRs - jCash. For a more detailed budget breakdown, please see our',
-      ],
-      a: {
-        href: 'https://bitcointalk.org/index.php?topic=2057487.0',
-        name: 'bitcointalk announcement',
-      },
     }]],
   },
   whitepaper: {
@@ -408,6 +439,9 @@ module.exports = {
       links: [{
         href: 'https://www.linkedin.com/in/abbas-f-eddy-zuaiter-51832a9',
         type: 'linkedin',
+      }, {
+        href: 'https://www.bloomberg.com/research/stocks/private/person.asp?personId=35907985&privcapId=118300828',
+        type: 'bloomberg',
       }],
     }, {
       name: 'Saul Hudson',
@@ -531,7 +565,7 @@ module.exports = {
       id: 8,
       name: 'Ivan Violentov',
       position: 'Developer (Front-end)',
-      description: 'Ivan has more than 5 years\' of experience in web programming. He is especially skilled at developing financial solutions and applications. He specializes in full-stack development using Node, server-side, and React/Angular/Vue, client-side.',
+      description: 'Ivan has over 5 years\' of experience in web programming. He is especially skilled at developing financial solutions and applications. He specializes in full-stack development using Node, server-side, and React/Angular/Vue, client-side.',
       links: [{
         href: 'mailto:ivan.violentov@jibrel.network',
         type: 'email',
@@ -546,7 +580,7 @@ module.exports = {
       id: 10,
       name: 'Anna Bordunova',
       position: 'Public Relations',
-      description: 'Anna is media and communications practitioner with 5+ years of experience in journalism, PR and social media. Her expertise spans traditional, experiential & digital marketing – with an emphasis on comprehensive Internet presence management.',
+      description: 'Anna is media and communications practitioner over 5 years\' of experience in journalism, PR and social media. Her expertise spans traditional, experiential & digital marketing – with an emphasis on comprehensive Internet presence management.',
       links: [{
         href: 'mailto:anna@jibrel.network',
         type: 'email',
@@ -558,10 +592,31 @@ module.exports = {
       id: 11,
       name: 'Rust Khusyainov',
       position: 'Illustrator',
-      description: 'Rust has more than 7 years’ of experience in graphic design and illustration. He has created high quality content for clients across financial services, retail and sports. He specializes in raster and vector graphic and video editing.',
+      description: 'Rust has over 7 years\' of experience in graphic design and illustration. He has created high quality content for clients across financial services, retail and sports. He specializes in raster and vector graphic and video editing.',
       links: [{
         href: 'mailto:rustam.khusyainov@jibrel.network',
         type: 'email',
+      }],
+    }, {
+      id: 13,
+      name: 'Evgeny Erohin',
+      position: 'Front-end developer',
+      description: 'Evgeny has over 10 years’ experience in web programming and project management. He is especially skilled at JS (React/Redux) and React Native. In addition to web and application development, Evgeny is also highly proficient at most front-end technologies, frameworks and libraries, such as  recompose, lodash/fp, RSCSS, SASS, ESLint, Stylelint, Webpack, ES6 and JIRA.',
+      links: [{
+        href: 'https://jibrelnetwork.slack.com/messages/@evgeny.erohin',
+        type: 'slack',
+      }],
+    }], [{
+      id: 14,
+      name: 'Yuriy Homyakov',
+      position: 'Back-end developer',
+      description: 'Yuriy has over 7 years’ experience developing  web applications. He specializes in backend development, database design, web applications architecture. He is proficient at Python, JavaScript and Solidity.',
+      links: [{
+        href: 'https://jibrelnetwork.slack.com/messages/@yuriy',
+        type: 'slack',
+      }, {
+        href: 'https://www.linkedin.com/in/yuriy-khomyakov-5203a26a',
+        type: 'linkedin',
       }],
     }, {}]],
   },
