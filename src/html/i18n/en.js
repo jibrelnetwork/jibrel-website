@@ -183,8 +183,8 @@ module.exports = {
     }, {
       question: 'How do I participate in the token sale?',
       answer: [
-        'You can participate by visiting the dedicated token sale website <a href="#" target="_blank" rel="noopener noreferrer">link</a>.',
-        'For a detailed instructions on how to complete your JNT purchase, please read the full walkthrough <a href="https://medium.com" target="_blank" rel="noopener noreferrer">https://medium.com</a>.'
+        'You can participate by visiting the dedicated token sale website <a href="https://sale.jibrel.network" target="_blank" rel="noopener noreferrer">https://sale.jibrel.network</a>.',
+        'For a detailed instructions on how to complete your JNT purchase, please read the full walkthrough <a href="https://medium.com/@jibrelnetwork" target="_blank" rel="noopener noreferrer">https://medium.com/@jibrelnetwork</a>.'
       ],
     }, {
       question: 'Is there a minimum or maximum investment limit?',
@@ -206,7 +206,7 @@ module.exports = {
     }, {
       question: 'Do I need to recomplete an application to increase my purchase?',
       answer: [
-        'No. Once your purchase is complete, you can increase your Jibrel Network Token allocation through the user portal on our token sale website <a href="#" target="_blank" rel="noopener noreferrer">link</a>.',
+        'No. Once your purchase is complete, you can increase your Jibrel Network Token allocation through the user portal on our token sale website <a href="https://sale.jibrel.network" target="_blank" rel="noopener noreferrer">https://sale.jibrel.network</a>.',
       ],
     }, {
       question: 'When will I receive my Jibrel Network Token (JNT)?',
@@ -232,7 +232,7 @@ module.exports = {
       question: 'What will funds be used for?',
       answer: [
         '25% of proceeds will go towards building out the network (development, marketing and legal), with the remaining 75% used to mint the first batch of crypto-fiat tokens - jCash.',
-        'For a more detailed budget breakdown, please see this medium post <a href="#" target="_blank" rel="noopener noreferrer">link</a>.',
+        'For a more detailed budget breakdown, please see this medium post <a href="https://medium.com/@jibrelnetwork/jibrel-network-roadmap-618d156b884c" target="_blank" rel="noopener noreferrer">https://medium.com</a>.',
       ],
     }, {
       question: 'I participated in Token pre-sale. How do I receive my JNT?',
