@@ -147,9 +147,8 @@ module.exports = {
     charts: {
       image: 'assets/img/chart.png',
       items: [
-        { title: '엔젤 라운드', percents: '10', money: '20,000,000', class: '' },
         { title: '공개 프리세일', percents: '10', money: '20,000,000', class: '' },
-        { title: '네트워크 런칭', percents: '50', money: '100,000,000', class: '' },
+        { title: '네트워크 런칭', percents: '60', money: '120,000,000', class: '' },
         { title: '팀', percents: '15', money: '30,000,000', class: 'pink' },
         { title: '자문 및 파트너', percents: '10', money: '20,000,000', class: 'green' },
         { title: '바운티', percents: '5', money: '10,000,000', class: 'purple' },

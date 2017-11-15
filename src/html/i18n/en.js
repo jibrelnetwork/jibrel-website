@@ -147,9 +147,8 @@ module.exports = {
     charts: {
       image: 'assets/img/chart.png',
       items: [
-        { title: 'Angel Round', percents: '10', money: '20,000,000', class: '' },
         { title: 'Token Presale', percents: '10', money: '20,000,000', class: '' },
-        { title: 'Token Main Sale', percents: '50', money: '100,000,000', class: '' },
+        { title: 'Token Main Sale', percents: '60', money: '120,000,000', class: '' },
         { title: 'Team', percents: '15', money: '30,000,000', class: 'pink' },
         { title: 'Advisors and Partners', percents: '10', money: '20,000,000', class: 'green' },
         { title: 'Bounties', percents: '5', money: '10,000,000', class: 'purple' },
