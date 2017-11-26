@@ -14,12 +14,12 @@ module.exports = {
     button: '메뉴',
   },
   start: {
-    title: '모든 것을 토큰화하세요',
+    title: 'Token Sale is now live',
     text: [
       'Jibrel은 ERC-20토큰으로서 이더리움 블록체인에서',
       '전통적인 금융 자산을 제공합니다',
     ],
-    cta: 'Learn more',
+    cta: 'Participate in token sale',
     iphone: 'assets/img/iphone.png',
     card: 'assets/img/card.png',
     logos: [{

@@ -14,12 +14,12 @@ module.exports = {
     button: 'Menu',
   },
   start: {
-    title: 'Tokenize Everything',
+    title: 'Token Sale is now live',
     text: [
       'Jibrel provides traditional financial assets, ',
       'as ERC-20 tokens, on the Ethereum blockchain',
     ],
-    cta: 'Learn more',
+    cta: 'Participate in token sale',
     iphone: 'assets/img/iphone.png',
     card: 'assets/img/card.png',
     logos: [{
