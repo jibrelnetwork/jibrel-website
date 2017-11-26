@@ -445,10 +445,34 @@ html.active {
 }
 
 .start {
+  position: relative;
   padding: 120px 0 0 0;
   background-color: @blue-bg;
-  position: relative;
   border-bottom: 1px solid @line-bg;
+  .bg1 {
+    width: 700px;
+    height: 289px;
+    background-image: url("../img/bg-1.png");
+    position: absolute;
+    left: 0;
+    bottom: 0;
+
+    @media (-webkit-min-device-pixel-ratio: 2) {
+      background-image: url("../img/bg-1@2x.png");
+    }
+  }
+  .bg2 {
+    width: 500px;
+    height: 297px;
+    background-image: url("../img/bg-2.png");
+    position: absolute;
+    right: 0;
+    top: 0;
+
+    @media (-webkit-min-device-pixel-ratio: 2) {
+      background-image: url("../img/bg-2@2x.png");
+    }
+  }
   .text {
     padding: 160px 0 300px 0;
     position: relative;
@@ -464,12 +488,18 @@ html.active {
       font-weight: 300;
     }
     a {
-      line-height: 28px;
       display: inline-block;
+      width: 210px;
+      height: 44px;
+      line-height: 44px;
       background-repeat: no-repeat;
       background-position: left top;
       background-size: 24px 24px;
-      font-size: 14px;
+      border: 1px solid fade(#0050DB, 25%);
+      border-radius: 29px;
+      text-align: center;
+      color: #0050DB;
+      font-size: 13px;
       font-weight: 600;
     }
   }
