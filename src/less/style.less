@@ -633,8 +633,8 @@ html.active {
 }
 
 .articles {
-  height: 505px;
-  padding: 100px 0;
+  height: 405px;
+  padding: 0;
   .article-wrap {
     /* opacity: 0.5; */
     &.slick-active {
@@ -643,6 +643,7 @@ html.active {
   }
   .article {
     position: relative;
+    display: block;
     height: 325px;
     width: 300px;
     margin: 0 auto;
@@ -685,7 +686,6 @@ html.active {
   }
   .title {
     line-height: 20px;
-    color: #0050DB;
   }
   @media only screen and (max-width: 380px) {
     .article {
