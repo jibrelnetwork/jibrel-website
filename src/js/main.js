@@ -24,9 +24,65 @@
             autoplay: true,
             autoplaySpeed: 7000,
             adaptiveHeight: true,
-            slidesPerRow: 3,
-            slidesToShow: 3,
+            slidesPerRow: 5,
+            slidesToShow: 5,
             slidesToScroll: 1,
+            centerMode: true,
+            centerPadding: '100px',
+            responsive: [{
+              breakpoint: 2000,
+              settings: {
+                slidesToShow: 4,
+              }
+            }, {
+              breakpoint: 1600,
+              settings: {
+                slidesToShow: 3,
+              }
+            }, {
+              breakpoint: 1280,
+              settings: {
+                centerPadding: '150px',
+                slidesToShow: 2,
+              }
+            }, {
+              breakpoint: 1024,
+              settings: {
+                centerPadding: '50px',
+                slidesToShow: 2,
+              }
+            }, {
+              breakpoint: 900,
+              settings: {
+                centerPadding: '30px',
+                slidesToShow: 2,
+              }
+            }, {
+              breakpoint: 768,
+              settings: {
+                centerPadding: '150px',
+                slidesToShow: 1,
+              }
+            }, {
+              breakpoint: 700,
+              settings: {
+                centerPadding: '100px',
+                slidesToShow: 1,
+              }
+            }, {
+              breakpoint: 600,
+              settings: {
+                centerPadding: '50px',
+                slidesToShow: 1,
+              }
+            }, {
+              breakpoint: 480,
+              settings: {
+                centerPadding: '0',
+                slidesToShow: 1,
+              }
+            },
+          ],
         });
 
         //Header animation

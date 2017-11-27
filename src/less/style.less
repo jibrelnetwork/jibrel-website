@@ -635,11 +635,17 @@ html.active {
 .articles {
   height: 505px;
   padding: 100px 0;
+  .article-wrap {
+    /* opacity: 0.5; */
+    &.slick-active {
+      opacity: 1;
+    }
+  }
   .article {
     position: relative;
-    height: 305px;
+    height: 325px;
     width: 300px;
-    margin-right: 62px;
+    margin: 0 auto;
     border: 1px solid #E4EBF3;
     overflow: hidden;
   }
@@ -670,7 +676,7 @@ html.active {
   .info {
     width: 100%;
     margin-top: 160px;
-    padding: 20px 30px;
+    padding: 30px;
   }
   .date {
     margin-bottom: 20px;
@@ -680,6 +686,21 @@ html.active {
   .title {
     line-height: 20px;
     color: #0050DB;
+  }
+  @media only screen and (max-width: 380px) {
+    .article {
+      width: 240px;
+    }
+    .bg,
+    .icon {
+      height: 120px;
+    }
+    .info {
+      padding: 15px;
+    }
+    .date {
+      margin-bottom: 10px;
+    }
   }
 }
 
