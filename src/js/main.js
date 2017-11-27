@@ -3,6 +3,15 @@
 
     $(document).ready(function() {
 
+        //Slider
+        $('.slider').slick({
+            dots: true,
+            infinite: true,
+            speed: 500,
+            fade: true,
+            arrows: false
+        });
+
         //Header animation
         $(window).scroll(function() {
             if ($(this).scrollTop() >= 100) {

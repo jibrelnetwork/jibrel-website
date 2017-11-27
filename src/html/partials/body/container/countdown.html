@@ -1,24 +1,34 @@
       <div class="section countdown">
         <div class="inner">
-          <div class="title">
-            <p>
-              {{ countdown.title }}<br />
-              <span>
-                {{ countdown.subtitle }} <a href="mailto:{{ countdown.email }}">{{ countdown.email }}</a>
-              </span>
-            </p>
-          </div>
-          <div class="timer"><div id="countdown"></div></div>
-          <div class="field field-email-subscriprion">
-            <input
-              type="email"
-              placeholder="{{ countdown.subscribe.placeholder }}"
-              id="email-input"
-            />
-            <a href="#" class="icons icon-send" id="email-subcribe-button"></a>
-            <div class="done in-progress hidden">{{ countdown.subscribe.progress }}</div>
-            <div class="done hidden">{{ countdown.subscribe.success }}</div>
-            <div class="done error hidden">{{ countdown.subscribe.error }}</div>
-          </div>
+            <div class="row clear">
+                <div class="col-3 benefit-1">
+                    <div class="img">
+                        <img src="assets/img/icons/sale-1.svg" alt="" />
+                    </div>
+                    <h3>USD $0.25</h3>
+                    <p>Price of the token</p>
+                </div>
+                <div class="col-3 benefit-2">
+                    <div class="img">
+                        <img src="assets/img/icons/sale-2.svg" alt="" />
+                    </div>
+                    <h3>Ethereum, Bitcoin</h3>
+                    <p>Accepted currencies</p>
+                </div>
+                <div class="col-3 benefit-3">
+                    <div class="img">
+                        <img src="assets/img/icons/sale-3.svg" alt="" />
+                    </div>
+                    <h3>Feb 1st 2017</h3>
+                    <p>Tokens will be listed</p>
+                </div>
+                <div class="col-3 benefit-4">
+                    <div class="img">
+                        <img src="assets/img/icons/sale-4.svg" alt="" />
+                    </div>
+                    <h3>United States</h3>
+                    <p>Forbidden countries</p>
+                </div>
+            </div>
         </div>
       </div>

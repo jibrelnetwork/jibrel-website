@@ -1,18 +1,77 @@
       <div class="section start" id="start">
-        <div class="bg1"></div>
-        <div class="bg2"></div>
-        <div class="inner">
-          <div class="text">
-            <h1>{{ start.title }}</h1>
-            <p>{{ start.text[0] }}<br />{{ start.text[1] }}</p>
-            <a href="https://sale.jibrel.network" target="_blank">{{ start.cta }}</a>
+          <div class="bg1"></div>
+          <div class="bg2"></div>
+          <div class="slider">
+              <div class="slide">
+                  <div class="inner">
+                      <div class="text">
+                          <h1>{{ start.title }}</h1>
+                          <p>{{ start.text[0] }}<br />{{ start.text[1] }}</p>
+                          <a href="https://sale.jibrel.network" class="button bordered" target="_blank">{{ start.cta }}</a>
+                      </div>
+                      <div class="counter">
+                          <div class="row clear">
+                              <div class="col-3 days">
+                                  <div class="bar" style="height: 50%">
+                                      <div class="wrap">
+                                          <div class="value">26</div>
+                                          <div class="title">Days</div>
+                                      </div>
+                                  </div>
+                              </div>
+                              <div class="col-3 hours">
+                                  <div class="bar" style="height: 75%">
+                                      <div class="wrap">
+                                          <div class="value">26</div>
+                                          <div class="title">Hours</div>
+                                      </div>
+                                  </div>
+                              </div>
+                              <div class="col-3 minutes">
+                                  <div class="bar" style="height: 25%">
+                                      <div class="wrap">
+                                          <div class="value">26</div>
+                                          <div class="title">Minutes</div>
+                                      </div>
+                                  </div>
+                              </div>
+                              <div class="col-3 seconds">
+                                  <div class="bar" style="height: 10%">
+                                      <div class="wrap">
+                                          <div class="value">26</div>
+                                          <div class="title">Seconds</div>
+                                      </div>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+              <div class="slide">
+                  <div class="inner">
+                      <div class="text">
+                          <h1>Introducing the jWallet</h1>
+                          <p>Massive for the crypto-community, <br />revolutionary for everyone else.</p>
+                          <a href="https://jwallet.network" class="button bordered" target="_blank">Try jWallet</a>
+                      </div>
+                      <div class="notebook"></div>
+                  </div>
+              </div>
           </div>
-          <div class="iphone floating"><img src="{{ start.iphone }}?v=1" alt="" /></div>
-          <div class="card floating2"><img src="{{ start.card }}?v=1" alt="" /></div>
-        </div>
-        <div class="logos">
-          {% for logo in start.logos %}<a href="{{ logo.href }}" target="_blank" rel="nofollow">
-            <img src="{{ logo.src }}" alt="" />
-          </a>{% endfor %}
-        </div>
+          <div class="inner progress-wrap">
+              <div class="progress">
+                  <div class="line clear">
+                      <div class="item raised">
+                          <div class="title">Raised Tokens</div>
+                          <div class="value">12.000.000</div>
+                          <div class="point"></div>
+                      </div>
+                  </div>
+                  <div class="item total">
+                      <div class="title">Available Tokens</div>
+                      <div class="value">120.000.000</div>
+                      <div class="point"></div>
+                  </div>
+              </div>
+          </div>
       </div>

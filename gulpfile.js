@@ -19,6 +19,7 @@ var vendorScripts = [
   './src/js/jquery.knob.min.js',
   './src/js/jquery.throttle.min.js',
   './src/js/jquery.classycountdown.js',
+  './src/js/slick.min.js',
 ]
 
 var scripts = [
