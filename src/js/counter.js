@@ -8,7 +8,7 @@
      * TODO
      * December has 31 days, so need to remove "+ 1" after it
      */
-    var monthsDays = (2 * 30) + 1;
+    var monthsDays = (timeLeft.months() * 30) + 1;
     var totalDays = monthsDays + timeLeft.days()
 
     $('#counter-days .value').html(totalDays);
