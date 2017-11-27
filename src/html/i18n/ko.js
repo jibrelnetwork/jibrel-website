@@ -103,14 +103,14 @@ module.exports = {
         '할인된 가격으로 JNT 제공',
       ],
     }, {
-      class: 'right', // not translate
+      class: 'right active', // not translate
       time: '2017년 11월',
       head: 'jWallet 출시',
       body: [
         '공식 CryDR 지갑은 커뮤니티 사용을 위해 오픈소스 라이센스로 배포됩니다.',
       ],
     }, {
-      class: 'right', // not translate
+      class: 'right active', // not translate
       time: '',
       head: 'jCash 출시/공개세일',
       body: [
