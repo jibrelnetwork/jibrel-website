@@ -654,7 +654,7 @@ module.exports = {
       type: 'youtube',
       title: '유투브',
     }, {
-      href: 'https://t.me/jibrelnetwork',
+      href: 'https://t.me/jibrel_network',
       type: 'telegram',
       title: '텔레그램',
     }, {
