@@ -32,7 +32,14 @@
             responsive: [{
               breakpoint: 2000,
               settings: {
+                slidesToShow: 5,
+                centerPadding: '50px',
+              }
+            }, {
+              breakpoint: 1800,
+              settings: {
                 slidesToShow: 4,
+                centerPadding: '100px',
               }
             }, {
               breakpoint: 1600,
