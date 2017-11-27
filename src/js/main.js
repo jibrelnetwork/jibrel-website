@@ -12,7 +12,21 @@
             arrows: false,
             autoplay: true,
             autoplaySpeed: 7000,
-            adaptiveHeight: true
+            adaptiveHeight: true,
+        });
+
+        //Slider2
+        $('.slider2').slick({
+            dots: false,
+            infinite: true,
+            speed: 500,
+            arrows: false,
+            autoplay: true,
+            autoplaySpeed: 7000,
+            adaptiveHeight: true,
+            slidesPerRow: 3,
+            slidesToShow: 3,
+            slidesToScroll: 1,
         });
 
         //Header animation
