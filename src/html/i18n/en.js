@@ -103,14 +103,14 @@ module.exports = {
         'Jibrel Network Token offered at a discounted price',
       ],
     }, {
-      class: 'right', // not translate
+      class: 'right active', // not translate
       time: 'November, 2017',
       head: 'jWallet Release',
       body: [
         'The official CryDR wallet is released under an open-source license for community use',
       ],
     }, {
-      class: 'right', // not translate
+      class: 'right active', // not translate
       time: '',
       head: 'jCash Launch / Public Sale',
       body: [

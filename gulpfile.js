@@ -16,14 +16,12 @@ var cssStyles = []
 var vendorScripts = [
   './src/js/jquery.min.js',
   './src/js/scroll.js',
-  './src/js/jquery.knob.min.js',
-  './src/js/jquery.throttle.min.js',
-  './src/js/jquery.classycountdown.js',
   './src/js/slick.min.js',
+  './src/js/moment-with-locales.min.js',
 ]
 
 var scripts = [
-  './src/js/subscribe.js',
+  './src/js/counter.js',
   './src/js/main.js',
 ]
 
