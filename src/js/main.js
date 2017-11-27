@@ -9,7 +9,10 @@
             infinite: true,
             speed: 500,
             fade: true,
-            arrows: false
+            arrows: false,
+            autoplay: true,
+            autoplaySpeed: 7000,
+            adaptiveHeight: true
         });
 
         //Header animation
