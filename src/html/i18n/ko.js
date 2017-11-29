@@ -182,7 +182,7 @@ module.exports = {
     }, {
       question: 'How do I participate in the token sale?',
       answer: [
-        'You can participate by visiting the dedicated token sale website <a href="https://sale.jibrel.network" target="_blank" rel="noopener noreferrer">https://sale.jibrel.network</a>.',
+        'You can participate by visiting the dedicated token sale website <a href="https://sale.jibrel.network" target="_blank">https://sale.jibrel.network</a>.',
         'For a detailed instructions on how to complete your JNT purchase, please read the full walkthrough <a href="https://medium.com/@jibrelnetwork" target="_blank" rel="noopener noreferrer">https://medium.com/@jibrelnetwork</a>.'
       ],
     }, {
@@ -195,7 +195,7 @@ module.exports = {
       question: 'What wallets are supported?',
       answer: [
         'You can use any wallet that supports Ethereum ERC-20 tokens, particularly Ethereum Wallet, MIST, MyEtherScan etc.',
-        'We recommend to use web-wallet developed by Jibrel Network: <a href="https://jwallet.network" target="_blank" rel="noopener noreferrer">https://jwallet.network</a>.',
+        'We recommend to use web-wallet developed by Jibrel Network: <a href="https://jwallet.network" target="_blank">https://jwallet.network</a>.',
       ],
     }, {
       question: 'Will there be a KYC process?',
@@ -205,7 +205,7 @@ module.exports = {
     }, {
       question: 'Do I need to recomplete an application to increase my purchase?',
       answer: [
-        'No. Once your purchase is complete, you can increase your Jibrel Network Token allocation through the user portal on our token sale website <a href="https://sale.jibrel.network" target="_blank" rel="noopener noreferrer">https://sale.jibrel.network</a>.',
+        'No. Once your purchase is complete, you can increase your Jibrel Network Token allocation through the user portal on our token sale website <a href="https://sale.jibrel.network" target="_blank">https://sale.jibrel.network</a>.',
       ],
     }, {
       question: 'When will I receive my Jibrel Network Token (JNT)?',
@@ -237,7 +237,7 @@ module.exports = {
       question: 'I participated in Token pre-sale. How do I receive my JNT?',
       answer: [
         '- By the 25th of November you will receive email with the credentials for your personal account',
-        '- Open your personal account on <a href="https://sale.jibrel.network" target="_blank" rel="noopener noreferrer">https://sale.jibrel.network</a>.',
+        '- Open your personal account on <a href="https://sale.jibrel.network" target="_blank">https://sale.jibrel.network</a>.',
         '- System will ask you for ETH address which will receive your JNT tokens',
       ],
     }, {

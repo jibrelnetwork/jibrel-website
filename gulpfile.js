@@ -21,6 +21,7 @@ var vendorScripts = [
 ]
 
 var scripts = [
+  './src/js/ga.js',
   './src/js/counter.js',
   './src/js/main.js',
 ]
