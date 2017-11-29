@@ -14,12 +14,12 @@ module.exports = {
     button: '메뉴',
   },
   start: {
-    title: 'Token Sale is now live',
+    title: '모든 것을 토큰화하세요',
     text: [
       'Jibrel은 ERC-20토큰으로서 이더리움 블록체인에서',
       '전통적인 금융 자산을 제공합니다',
     ],
-    cta: 'Participate in token sale',
+    cta: 'Learn more',
     iphone: 'assets/img/iphone.png',
     card: 'assets/img/card.png',
     logos: [{
@@ -43,7 +43,7 @@ module.exports = {
     }]
   },
   countdown: {
-    title: 'Our token sale starts on November 27, 2017 at 12:00PM GMT',
+    title: '토큰세일은 2017년 11월 27일 오후 9시에 시작합니다',
     subtitle: '질문이 있으시면 문의해주세요: ',
     email: 'info@jibrel.network',
     cta: '토큰 프리세일 참여하기',
@@ -52,10 +52,10 @@ module.exports = {
     minutes: '분',
     seconds: '초',
     subscribe: {
-      placeholder: 'Sign-up for network updates',
-      progress: 'Sending in progress...',
-      success: 'Thanks for signing-up. We\'ll keep you posted!',
-      error: 'Oops, unable to save this address',
+      placeholder: '네트워크 업데이트 소식을 받으시려면 사인업 해주세요',
+      progress: '보내는 중...',
+      success: '등록해주셔서 감사합니다. 최신 소식 업데이트 해드리겠습니다!',
+      error: '죄송합니다, 오류가 발생했습니다',
     },
   },
   about: {
@@ -63,11 +63,11 @@ module.exports = {
     benefits: [[{
       id: 1,
       head: 'Jibrel Network는 무엇입니까?',
-      body: 'Jibrel Network는 화폐, 주식, 상품 및 기타 금융 자산과 계측기를 이더리움 블록체인의 표준 ERC-20 토큰으로 제공합니다.',
+      body: 'Jibrel Network는 화폐, 채권, 상품 및 증권과 같은 전통적인 금융 자산을 이더리움 블록체인의 표준 ERC-20 토큰으로 제공합니다.',
     }, {
       id: 3,
       head: 'CryDR은 무엇입니까?',
-      body: 'CryptoDepository Receipts 또는 CryDRs는 Jibrel Network 토큰 - JNT에 있는 전통적인 금융 자산의 가치를 나타내는 토큰입니다 (예 : USD CryDR은 JNT 1 달러에 상당하는 가치를 지님)',
+      body: 'CryptoDepository Receipts 또는 CryDRs는 Jibrel Network 토큰 - JNT에 있는 전통적인 금융 자산의 가치를 나타내는 토큰입니다 (예 : 1 USD CryDR은 JNT 1 달러에 상당하는 가치를 지님)',
     }], [{
       id: 4,
       head: 'CryDR은 무엇을 위해 사용될 수 있습니까?',
@@ -114,7 +114,7 @@ module.exports = {
       time: '',
       head: 'jCash 출시/공개세일',
       body: [
-        'Jibrel Network에서 추가로 다섯가지 법정 화폐를 jCash 런칭과 선보입니다.',
+        'Jibrel Network에서 추가로 다섯 가지 법정 화폐를 jCash 런칭과 선보입니다.',
         '',
         '',
         'Jibrel Network Token이 공개적으로 제공됩니다.',
@@ -167,12 +167,12 @@ module.exports = {
       active: true,
       question: '토큰세일은 언제입니까?',
       answer: [
-        'The token sale will take place between November 27th, 2017 - 12:00PM GMT and January 26th, 2017 - 12:00PM GMT.',
+        '토큰세일 기간은  2017년 11월 27일 오후 9시~  2017년1월 26일 오후 9시 입니다',
       ],
     }, {
-      question: '어떤 가상화폐로 참여할 수 있습니까?',
+      question: '어떤 암호화폐로 참여할 수 있습니까?',
       answer: [
-        'ETH 및 BTC.',
+        'ETH 및 BTC입니다.',
       ],
     }, {
       question: '토큰 가격은 얼마입니까?',
@@ -180,99 +180,99 @@ module.exports = {
         'Jibre Network Token (JNT)은 0.25 US달러에 판매될 예정입니다.',
       ],
     }, {
-      question: 'How do I participate in the token sale?',
+      question: '토큰세일은 어떻게 참여합니까?',
       answer: [
-        'You can participate by visiting the dedicated token sale website <a href="https://sale.jibrel.network" target="_blank">https://sale.jibrel.network</a>.',
-        'For a detailed instructions on how to complete your JNT purchase, please read the full walkthrough <a href="https://medium.com/@jibrelnetwork" target="_blank" rel="noopener noreferrer">https://medium.com/@jibrelnetwork</a>.'
+        '지정된 토큰세일 사이트에서 참여하실 수 있습니다 <a href="https://sale.jibrel.network" target="_blank">https://sale.jibrel.network</a>.',
+        '더 자세한 사항은 이 링크에서 확인할 수 있으며, 전체적인 항목을 참조해주세요. <a href="https://medium.com/@jibrelnetwork" target="_blank" rel="noopener noreferrer">https://medium.com/@jibrelnetwork</a>.'
       ],
     }, {
-      question: 'Is there a minimum or maximum investment limit?',
+      question: '최소 혹은 최대 참여금액이 있습니까?',
       answer: [
-        'Yes, the minimum accepted investment is US$ 100.',
-        'The investment limit is US$ 850,000.',
+        '네, 최소 참여금액은US$ 100 입니다.',
+        '최대 참여금액은 US$ 850,000입니다',
       ],
     }, {
-      question: 'What wallets are supported?',
+      question: '어떤 지갑들이 지원되나요?',
       answer: [
-        'You can use any wallet that supports Ethereum ERC-20 tokens, particularly Ethereum Wallet, MIST, MyEtherScan etc.',
-        'We recommend to use web-wallet developed by Jibrel Network: <a href="https://jwallet.network" target="_blank">https://jwallet.network</a>.',
+        '이더리움 ERC-20 지원하는 어떠한 지갑도 사용할 수 있습니다. 대표적으로는Ethereum Wallet, MIST, MYEtherWallet 등이 있습니다. ',
+        'Jibrel Network가 개발한 웹지갑을 사용하는 것을 추천합니다.: <a href="https://jwallet.network" target="_blank" rel="noopener noreferrer">https://jwallet.network</a>.',
       ],
     }, {
-      question: 'Will there be a KYC process?',
+      question: 'KYC 프로세스가 있나요?',
       answer: [
-        'Yes. The entire process is automated and should not take longer than ~4 minutes to complete.',
+        '네, 모든 프로세스는 자동화 되며 완성하는데 4분이 초과되지 않습니다. ',
       ],
     }, {
-      question: 'Do I need to recomplete an application to increase my purchase?',
+      question: '참여를 더 하려면 처음부터 다시 해야 되나요?',
       answer: [
-        'No. Once your purchase is complete, you can increase your Jibrel Network Token allocation through the user portal on our token sale website <a href="https://sale.jibrel.network" target="_blank">https://sale.jibrel.network</a>.',
+        '아뇨. 참여를 이미 하였으면 Jibrel Network 토큰 할당액을 늘릴 때 토큰세일 웹사이트의 유저 포털을 사용하면 됩니다. <a href="https://sale.jibrel.network" target="_blank">https://sale.jibrel.network</a>.',
       ],
     }, {
-      question: 'When will I receive my Jibrel Network Token (JNT)?',
+      question: '언제 Jibrel Network Token (JNT)를 받을 수 있나요?',
       answer: [
-        'Immediately. Once your ETH or BTC transfer is complete (12 confirmations for ETH, 3 confirmations for BTC) you will immediately receive your JNT to the ETH address specified in your application.',
+        '바로 받을 수 있습니다. 이더리움 혹은 비트코인 송금이 완료된 후 (ETH -12컨펌, BTC – 3 컨펌) 신청한 ETH 주소에 JNT가 바로 지급이 될 것입니다.',
       ],
     }, {
-      question: 'When will Jibrel Network be publicly tradable?',
+      question: 'Jibrel Network 가 언제 공개적으로 거래되나요?',
       answer: [
-        'Jibrel Network Token (JNT) will be publicly traded on at least five exchanges as soon as February 1st, 2018.',
+        'Jibrel Network Token (JNT)는 2018년 2월 1일 경에 최소 5개의 거래소에서 공개적으로 거래가 될 것입니다.',
       ],
     }, {
-      question: 'I’m a citizen of the US, China or Singapore, why can’t I participate?',
+      question: '저는 미국, 중국 혹은 싱가폴의 시민입니다. 전 왜 참여할 수 없나요? ',
       answer: [
-        'Due to legal restrictions, US, China and Singapore residents are forbidden from participating in the Jibrel Network Token sale.',
+        '법적 제한으로 인해 미국, 중국, 그리고 싱가폴 국민은 Jibrel Network 토큰세일에 참여를 못합니다. ',
       ],
     }, {
-      question: 'Does the project have a hardcap?',
+      question: '프로젝트에 하드캡이 있나요? ',
       answer: [
-        'Yes, the hardcap for sale is 115,000,000 Jibrel Network Token or US$ 28,750,000.',
+        '네, 토큰세일의 하드캡은 115,000,000 Jibrel Network 토큰이며 US$28,750,000입니다.',
       ],
     }, {
-      question: 'What will funds be used for?',
+      question: '자금은 어떻게 사용될 것입니까? ',
       answer: [
-        '25% of proceeds will go towards building out the network (development, marketing and legal), with the remaining 75% used to mint the first batch of crypto-fiat tokens - jCash.',
-        'For a more detailed budget breakdown, please see this medium post <a href="https://medium.com/@jibrelnetwork/jibrel-network-roadmap-618d156b884c" target="_blank" rel="noopener noreferrer">https://medium.com</a>.',
+        '25%는 네트워크를 건설 (개발, 마케팅, 법률) 하는 것에 할당될 것이고 75%는 jCash인 첫 암호-법정 화폐를 기획하는 것에 쓰일 것입니다. ',
+        '더 자세한 예산 내역은 미디엄 포스트를 참조해주세요 <a href="https://medium.com/@jibrelnetwork/jibrel-network-roadmap-618d156b884c" target="_blank" rel="noopener noreferrer">https://medium.com</a>.',
       ],
     }, {
-      question: 'I participated in Token pre-sale. How do I receive my JNT?',
+      question: '저는 프리세일에 참여하였는데 JNT를 어떻게 받나요? ',
       answer: [
-        '- By the 25th of November you will receive email with the credentials for your personal account',
-        '- Open your personal account on <a href="https://sale.jibrel.network" target="_blank">https://sale.jibrel.network</a>.',
-        '- System will ask you for ETH address which will receive your JNT tokens',
+        '- 11월 25일 까지 개인 계좌를 위하여 증명서가 담긴 이메일을 받을 것입니다.',
+        '- 이곳에서 개인 계좌를 개설할 수 있습니다. <a href="https://sale.jibrel.network" target="_blank">https://sale.jibrel.network</a>.',
+        '-시스템이 JNT 토큰을 받을 귀하의 ETH 주소를 요청할 것입니다.',
       ],
     }, {
-      question: 'How do I sell my Jibrel Network Token after completing my purchase, can I refund my purchase?',
+      question: '구매 이후 Jibrel Network Token을 어떻게 판매할 수 있습니까? 제가 구매한 것을 환불 할 수 있습니까? ',
       answer: [
-        'Jibrel Network token cannot be refunded after a purchase is completed, but can be resold on exchanges starting February 1st, 2018.',
+        'Jibrel Network 토큰은 환불할 수 없습니다. 하지만 2018년 2월 1일 거래소에서 판매할 수 있습니다. ',
       ],
     }], [{
       active: true,
-      question: 'Where I can meet Jibrel Network team?',
+      question: 'Jibrel Network 팀을 어디서 만날 수 있나요? ',
       answer: [
-        'You can meet us at one of the following events:',
+        '해당 이벤트에서 우리를 만날 수 있습니다: ',
         '<b>N. America</b><br />' +
-          'Blockchain for Wall Street, New York, Nov 14<br />' +
-          'Consensus: Invest, New York, Nov 28<br />' +
-          'Blockchain Opportunity Summit, New York, Dec 5<br />' +
-          'The Blockchain Event, Fort Lauderdale, Feb 15-16',
+          '월스트리트 블록체인, 뉴욕, 11월 14일<br />' +
+          '컨센서스: 인베스트, 뉴욕, 11월 28일<br />' +
+          '블록체인 오퍼튜니티 서밋, 뉴욕, 12월 5일<br />' +
+          '더 블록체인 이벤트, 포트 로더데일, 2월 15일- 16일',
         '<b>MENA</b><br />' +
-          'Regtech MENA, Bahrain, Nov 21-22',
+          '레그택 MENA, 바레인, 11월 21일-22일',
         '<b>Europe</b><br />' +
-          'Blockchain Summit Kyiv, Kiev, Ukraine, Nov 25',
+          '블록체인 서밋 카이브, 키브, 우크라이나, 11월 25일',
         '<b>Asia</b><br />' +
-          'Inside Fintech, Seoul, Korea, Nov 30 - Dec 1',
+          '인사이드 핀테크, 서울, 한국, 11월 30일 - 12월 1일',
       ],
     }, {
-      question: 'How does Jibrel Network protect me from cryptocurrency volatility?',
+      question: 'Jibrel Network는 어떻게 암호화폐의 변동성으로 부터 보호할 수 있습니까? ',
       answer: [
-        'Jibrel provides stable coins representing real world value on the Ethereum blockchain. Using the Jibrel Decentral Bank (Jibrel DAO), you can exchange volatile ETH, BTC or other cryptocurrencies for  stable tokens like jUSD, jEUR, jGBP, jKRW and others.',
-        'These stable tokens can be exchanged for the underlying value at any point in the future, regardless of the price of ETH or BTC at the time.',
+        'Jibrel은  이더리움 블록체인에 현실 세상의 가치를 부여 받은 안정적인 코인을 제공합니다. Jiberl Decentral Bank (Jibrel DAO)를 사용하여 변동성의 이더리움, 비트코인 혹은 다른 암호화폐들을 jUSD, jEUR, jGBP, jKRW와 같은 안정적인 토큰으로 교환할 수 있습니다.',
+        ' 이 안정적 토큰은 이더리움과 비트코인의 가격에 관계 없이 미래 어느 시점에서도 기본 가치로 교환을 할 수 있습니다. ',
       ],
     }, {
-      question: 'How do I know Jibrel is secure?',
+      question: 'Jibrel이 안전한지 어떻게 확신할 수 있나요?',
       answer: [
-        'Jibrel Smart Contracts have been audited by our security partner, New Alchemy, the full Security Audit can be found here.',
-        'In addition, Jibrel financials are reviewed and audited by our financial transparency partner, PwC.',
+        'Jibrel 스마트 컨트렉트는 보안 파트너인, New Alchemy 에 의해 감독을 받습니다. 모든 보호 감독을 찾아볼 수 있습니다.',
+        '더 나아가, 지브렐 파이낸셜은 우리의 금융 투명 파트너인 PwC에 의해 감독 되고 감사를 받습니다.',
       ],
     }, {
       question: 'Jibrel Network는 무엇입니까?',
@@ -297,12 +297,12 @@ module.exports = {
       active: true,
       question: 'CryptDepository Receipts (CryDR) 란 무엇입니까?',
       answer: [
-        'Crypto Depository Receipt는 현실 세계 자산의 가치를 나타내는 스마트 계약입니다. 사용자는 Jibrel Network Token(JNT)를 법정 화폐, 상품, 채권 또는 유가 증권을 나타내는 CryDR로 변환 할 수 있습니다. CryDR은 Jibrel DAO를 사용하여 토큰을 JNT 기본 값으로 교환할 수 있는 다른 개인 또는 단체로 이전 될 수 있습니다. CryDR은 smart regulation이 내장되어 있어 모든 거래가 KYC / AML을 준수합니다.',
+        'Crypto Depository Receipt는 현실 세계 자산의 가치를 나타내는 스마트 계약입니다. 사용자는 Jibrel Network Token(JNT)를 법정 화폐, 상품, 채권 또는 유가 증권을 나타내는 CryDR로 변환 할 수 있습니다. CryDR은 Jibrel DAO를 사용하여 토큰을 JNT 기본 값으로 교환할 수 있는 다른 개인 또는 단체로 이전 될 수 있습니다. CryDR는 smart regulation이 내장되어 있어 모든 거래가 KYC / AML을 준수합니다.',
       ],
     }, {
       question: '어떤 CryDRs를 사용할 수 있습니까?',
       answer: [
-        '런칭 시 Jibrel Network는 USD, CNY, EUR, GBP, RUB, AED의 6 가지 화폐 화폐를 제공합니다. 앞으로 Jibrel은 다양한 화폐, 상품, 유가 증권 및 파생 상품을 제공할 것입니다.',
+        '런칭 시 Jibrel Network는 USD, CNY, EUR, GBP, RUB, AED의 6 가지 화폐를 제공합니다. 앞으로 Jibrel은 다양한 화폐, 상품, 유가 증권 및 파생 상품을 제공할 것입니다.',
       ],
     }, {
       question: 'Jibrel DAO는 무엇입니까?',
@@ -339,7 +339,7 @@ module.exports = {
       active: true,
       question: 'Jibrel Network Token (JNT)이란 무엇입니까?',
       answer: [
-        'Jibrel Network Token (JNT)은 CryDR을 구매 / 교환하는 가상 화폐입니다. 또한, Jibrel Network Token을 사용하여 증권화 된 오프 체인 자산과 관련된 모든 가치 교환이 처리됩니다. 마지막으로, CryDR 전송은 jGas 형태로 소량의 JNT를 소비합니다.',
+        'Jibrel Network Token (JNT)은 CryDR을 구매 / 교환하는 암호 화폐입니다. 또한, Jibrel Network Token을 사용하여 증권화 된 오프 체인 자산과 관련된 모든 가치 교환이 처리됩니다. 마지막으로, CryDR 전송은 jGas 형태로 소량의 JNT를 소비합니다.',
       ],
     }, {
       question: 'ETH 또는 BTC가 아닌 전용 토큰이 필요한 이유는 무엇입니까?',
@@ -425,7 +425,7 @@ module.exports = {
       }],
     }, {
       name: 'Ruslan Gavrilyuk',
-      title: '가상화폐 금융 자문',
+      title: '암호화폐 금융 자문',
       position: 'TaaS펀드의 설립자이자 CEO',
       links: [{
         href: 'https://www.linkedin.com/in/ruslan-gavrilyuk',
@@ -599,8 +599,8 @@ module.exports = {
     }, {
       id: 13,
       name: 'Evgeny Erohin',
-      position: 'Front-end developer',
-      description: 'Evgeny has over 10 years’ experience in web programming and project management. He is especially skilled at JS (React/Redux) and React Native. In addition to web and application development, Evgeny is also highly proficient at most front-end technologies, frameworks and libraries, such as  recompose, lodash/fp, RSCSS, SASS, ESLint, Stylelint, Webpack, ES6 and JIRA.',
+      position: '프론트 엔드 개발자',
+      description: 'Evgeny는 웹 프로그래밍과 프로젝트 매니지먼트에 10년 이상의 경력을 가지고 있고 JS (React/Redux)에 특히 숙달 되어 있습니다. 더 나아가 웹과 애플리케이션 개발에 있어 Evgeny는 프론트 엔드 기술, 프레임워크, recompose lodash/fp, RSCSS, SASS, ESLint, Stylelint, Webpack, ES6 그리고 JIRA와 같은 라이브러리에 대해서 전문가입니다.',
       links: [{
         href: 'https://jibrelnetwork.slack.com/messages/@evgeny.erohin',
         type: 'slack',
@@ -608,8 +608,8 @@ module.exports = {
     }], [{
       id: 14,
       name: 'Yuriy Homyakov',
-      position: 'Back-end developer',
-      description: 'Yuriy has over 7 years’ experience developing  web applications. He specializes in backend development, database design, web applications architecture. He is proficient at Python, JavaScript and Solidity.',
+      position: '백엔드 개발자',
+      description: 'Yuriy 는 웹 애플리케이션 개발에 7년 이상의 경험을 소유하고 있습니다. 백앤드 개발, 데이터베이스 디자인, 웹 애플리케이션 설계를 전공으로 하고 있습니다. Python, JavaScript 그리고 Solidity에도 숙달 되있습니다.',
       links: [{
         href: 'https://jibrelnetwork.slack.com/messages/@yuriy',
         type: 'slack',
