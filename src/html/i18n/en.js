@@ -249,9 +249,9 @@ module.exports = {
         'Jibrel Network Token (JNT) will be publicly traded on at least five exchanges as soon as February 1st, 2018.',
       ],
     }, {
-      question: 'I’m a citizen of the US, China or Singapore, why can’t I participate?',
+      question: 'I’m a citizen / resident of the US, why can’t I participate?',
       answer: [
-        'Due to legal restrictions, US, China and Singapore residents are forbidden from participating in the Jibrel Network Token sale.',
+        'Due to legal restrictions, citizens and residents of the US and US governed territories are restricted from participating in the Jibrel Network Token sale.',
       ],
     }, {
       question: 'Does the project have a hardcap?',
