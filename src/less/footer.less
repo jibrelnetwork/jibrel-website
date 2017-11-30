@@ -1,0 +1,39 @@
+.footer {
+  background-color: @white;
+  text-align: center;
+  border-top: 1px solid @line-bg;
+  .links {
+    margin-bottom: 80px;
+    li {
+      display: inline-block;
+      a {
+        color: @blue;
+        position: relative;
+        padding: 0 30px;
+        display: block;
+        font-size: 15px;
+        &:before {
+          content: '';
+          display: block;
+          width: 64px;
+          height: 64px;
+          border-radius: 32px;
+          background-color: @blue;
+          background-repeat: no-repeat;
+          margin: 0 auto;
+          margin-bottom: 15px;
+        }
+        &:hover {
+          color: @light-blue;
+          &:before {
+            background-color: @light-blue;
+          }
+        }
+      }
+    }
+  }
+  p {
+    opacity: 0.7;
+    line-height: 2;
+  }
+}
