@@ -1,6 +1,25 @@
 (function($) {
   'use strict';
 
+  $(document).ready(function() {
+    try {
+      init();
+    } catch (err) {
+      console.error(err);
+    }
+
+    setTimeout(function() {
+      var saleUrl = 'https://sale.jibrel.network';
+      $('[href="' + saleUrl + '"]').attr('href', saleUrl + getUtmQueryParams());
+    }, 1000);
+  });
+
+  function init() {
+    var newUtmData = parseUtmParams();
+
+    setUtmParams((Object.keys(newUtmData).length > 0) ? newUtmData : getUtmParamsFromStorage());
+  }
+
   function parseUtmParams() {
     var data = {};
 
@@ -43,12 +62,6 @@
     }
   }
 
-  function init() {
-    var newUtmData = parseUtmParams();
-
-    setUtmParams((Object.keys(newUtmData).length > 0) ? newUtmData : getUtmParamsFromStorage());
-  }
-
   function getUtmQueryParams() {
     try {
       var utmData = getUtmParamsFromStorage() || {};
@@ -69,17 +82,4 @@
       return '';
     }
   }
-
-  $(document).ready(function() {
-    try {
-      init();
-    } catch (err) {
-      console.error(err);
-    }
-
-    setTimeout(function() {
-      var saleUrl = 'https://sale.jibrel.network';
-      $('[href="' + saleUrl + '"]').attr('href', saleUrl + getUtmQueryParams());
-    }, 1000);
-  });
 })(jQuery);

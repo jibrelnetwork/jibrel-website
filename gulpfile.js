@@ -14,16 +14,17 @@ var i18nKO = require('./src/html/i18n/ko');
 var cssStyles = []
 
 var vendorScripts = [
-  './src/js/jquery.min.js',
-  './src/js/scroll.js',
-  './src/js/slick.min.js',
-  './src/js/moment-with-locales.min.js',
+  './src/js/vendor/jquery.min.js',
+  './src/js/vendor/scroll.js',
+  './src/js/vendor/slick.min.js',
+  './src/js/vendor/moment-with-locales.min.js',
 ]
 
 var scripts = [
-  './src/js/ga.js',
   './src/js/counter.js',
+  './src/js/ga.js',
   './src/js/main.js',
+  './src/js/tokens.js',
 ]
 
 var i18n = [
