@@ -1,716 +1,700 @@
-@media only screen and (max-width: 1100px) {
-  .section {
-    padding-left: 30px;
-    padding-right: 30px;
-  }
-  .features {
-    .timer {
-      width: 100%;
+body {
+  @media only screen and (max-width: 1100px) {
+    .section {
+      padding-left: 30px;
+      padding-right: 30px;
     }
-  }
-  .advisors {
-    .col-4 {
-      margin-bottom: 70px;
-      width: 50%;
-      &:nth-child(4) {
-        margin-bottom: 70px;
-      }
-      &:nth-child(5), &:nth-child(6) {
-        margin-bottom: 0;
+    .features {
+      .timer {
+        width: 100%;
       }
     }
-  }
-  .footer {
-    .links {
-      li {
-        a {
-          padding: 0 20px;
-        }
-      }
-    }
-  }
-  .slick-dots {
-    display: none !important;
-  }
-}
-
-@media only screen and (max-width: 1024px) {
-  .start {
-    .logos {
-      a {
-        margin: 0 20px;
-      }
-    }
-  }
-  .header {
-    li {
-      margin-left: 20px;
-    }
-    .flags {
-      margin-left: 40px;
-    }
-  }
-}
-
-@media only screen and (max-width: 800px) {
-  .roadmap {
-    .timeline {
-      .item {
-        &.left {
-          padding-left: 0;
-        }
-        &.right {
-          padding-right: 0;
-        }
-      }
-    }
-  }
-  .jnt {
-    .events {
-      .event {
-        padding: 0 25px;
-      }
-    }
-    .charts {
+    .advisors {
       .col-4 {
-        display: block;
-        float: none;
-        width: auto;
-        margin-bottom: 60px;
-        text-align: center;
-        .pie-chart img {
-          display: inline-block;
+        margin-bottom: 70px;
+        width: 50%;
+        &:nth-child(4) {
+          margin-bottom: 70px;
         }
-      }
-      .col-8 {
-        float: none;
-        width: auto;
-      }
-    }
-  }
-  .faq {
-    .col-3, .col-9 {
-      width: auto;
-      float: none;
-    }
-    li {
-      display: inline-block;
-      margin-right: 30px;
-      margin-bottom: 40px;
-    }
-  }
-  .team {
-    .col-6 {
-      &:first-child {
-        padding-right: 40px;
-      }
-      &:last-child {
-        padding-left: 40px;
-        .img {
-          left: 40px;
+        &:nth-child(5), &:nth-child(6) {
+          margin-bottom: 0;
         }
       }
     }
-  }
-  .footer {
-    .links {
-      li {
-        a {
-          font-size: 0;
-          padding: 0 15px;
+    .footer {
+      .links {
+        li {
+          a {
+            padding: 0 20px;
+          }
         }
       }
     }
-  }
-  .features {
-    padding: 80px 0;
-    .inner {
-      h3 {
-        font-size: 16px;
-      }
+    .slick-dots {
+      display: none !important;
     }
   }
-  .start {
-    .text {
-      text-align: center;
-      padding-bottom: 40px;
-    }
-    .counter, .notebook {
-      position: relative;
-      left: inherit;
-      top: inherit;
-      margin: 0 auto;
-      margin-bottom: 160px;
-    }
-    .notebook {
-      background-image: url("../img/tablet@2x.png");
-      width: 600px;
-      height: 258px;
-      background-size: 600px 258px;
-      margin-top: 60px;
-    }
-  }
-}
 
-@media only screen and (max-width: 768px) {
-  .menu-button {
-    display: block;
-    z-index: 1000;
+  @media only screen and (max-width: 800px) {
+    .roadmap {
+      .timeline {
+        .item {
+          &.left {
+            padding-left: 0;
+          }
+          &.right {
+            padding-right: 0;
+          }
+        }
+      }
+    }
+    .jnt {
+      .events {
+        .event {
+          padding: 0 25px;
+        }
+      }
+      .charts {
+        .col-4 {
+          display: block;
+          float: none;
+          width: auto;
+          margin-bottom: 60px;
+          text-align: center;
+          .pie-chart img {
+            display: inline-block;
+          }
+        }
+        .col-8 {
+          float: none;
+          width: auto;
+        }
+      }
+    }
+    .faq {
+      .col-3, .col-9 {
+        width: auto;
+        float: none;
+      }
+      li {
+        display: inline-block;
+        margin-right: 30px;
+        margin-bottom: 40px;
+      }
+    }
+    .team {
+      .col-6 {
+        &:first-child {
+          padding-right: 40px;
+        }
+        &:last-child {
+          padding-left: 40px;
+          .img {
+            left: 40px;
+          }
+        }
+      }
+    }
+    .footer {
+      .links {
+        li {
+          a {
+            font-size: 0;
+            padding: 0 15px;
+          }
+        }
+      }
+    }
+    .features {
+      padding: 80px 0;
+      .inner {
+        h3 {
+          font-size: 16px;
+        }
+      }
+    }
+    .start {
+      .text {
+        text-align: center;
+        padding-bottom: 40px;
+      }
+      .counter, .notebook {
+        position: relative;
+        left: inherit;
+        top: inherit;
+        margin: 0 auto;
+        margin-bottom: 160px;
+      }
+      .notebook {
+        background-image: url("../img/tablet@2x.png");
+        width: 600px;
+        height: 258px;
+        background-size: 600px 258px;
+        margin-top: 60px;
+      }
+    }
   }
-  .header {
-    padding-top: 0;
-    padding-bottom: 0;
-    overflow: visible;
+
+  @media only screen and (max-width: 768px) {
     .menu-button {
       display: block;
       z-index: 1000;
     }
-    .menu {
-      display: none;
-      position: fixed;
-      top: 120px;
-      left: 0;
-      width: 100%;
-      height: 100%;
-      background-color: @black;
-      padding: 30px;
-      z-index: 100;
-      li {
-        line-height: 40px;
+    .header {
+      padding-top: 0;
+      padding-bottom: 0;
+      overflow: visible;
+      .menu-button {
         display: block;
-        margin-left: 0;
-        a {
-          color: @white;
+        z-index: 1000;
+      }
+      .menu {
+        display: none;
+        position: fixed;
+        top: 120px;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: @black;
+        padding: 30px;
+        z-index: 100;
+        li {
+          line-height: 40px;
+          display: block;
+          margin-left: 0;
+          a {
+            color: @white;
+          }
+          &:last-child {
+            margin-top: 10px;
+          }
         }
-        &:last-child {
-          margin-top: 10px;
+        &.active {
+          display: block;
+        }
+        .flags a img {
+          border-color: transparent;
         }
       }
       &.active {
-        display: block;
-      }
-      .flags a img {
-        border-color: transparent;
-      }
-    }
-    &.active {
-      .menu.active {
-        top: 80px;
+        .menu.active {
+          top: 80px;
+        }
       }
     }
-  }
-  .footer {
-    .links {
-      li {
-        a {
-          padding: 0 10px;
+    .footer {
+      .links {
+        li {
+          a {
+            padding: 0 10px;
+          }
         }
       }
     }
   }
-}
 
-@media only screen and (max-width: 600px) {
-  .remodal {
-    width: 90%;
-  }
-  .section {
-    padding-top: 60px;
-    padding-bottom: 60px;
-    .inner {
-      > h2 {
-        margin-bottom: 90px;
-      }
-    }
-  }
-  .header {
-    padding-top: 0;
-    padding-bottom: 0;
-  }
-  .start {
-    padding-top: 120px;
-    padding-bottom: 0;
-    .iphone, .card {
-      display: none;
-    }
-    .text {
-      padding: 60px 0 20px;
-      text-align: center;
-    }
-    .bg1, .bg2 {
-      display: none;
-    }
-    .notebook {
-      background-image: url("../img/phone.png");
-      width: 320px;
-      height: 208px;
-      background-size: 320px 208px;
-      margin-top: 60px;
-    }
-  }
-  .features {
-    padding-bottom: 20px;
-    .col-3 {
-      width: 50%;
-      margin-bottom: 50px;
-      h3 {
-        margin-bottom: 12px;
-      }
-      .img {
-        margin-bottom: 10px;
-      }
-    }
-  }
-  .about {
-    .col-6 {
-      width: auto;
-      float: none;
-      margin-bottom: 40px;
-      &.icon-benefit-6 {
-        margin-bottom: 0;
-      }
-    }
-    .row {
-      margin-bottom: 0;
-    }
-    .icons {
-      background-position: 10px 4px;
-    }
-  }
-  .jnt {
-    .events {
-      .event {
-        h3 {
-          font-size: 16px;
-        }
-      }
-      &:before {
-        width: 60%;
-      }
-    }
-    .charts {
-      .col-4 {
-        display: block;
-        float: none;
-        width: auto;
-        margin-bottom: 60px;
-        text-align: center;
-        .pie-chart img {
-          display: inline-block;
-        }
-      }
-    }
-  }
-  .whitepaper {
-    .row {
-      margin-bottom: 0;
-      &:last-child {
-        .col-3:nth-child(3), .col-3:nth-child(4) {
-          margin-bottom: 0;
-        }
-      }
-    }
-    .col-3 {
-      width: 50%;
-      margin-bottom: 80px;
-    }
-  }
-  .roadmap {
-    padding-bottom: 0;
-    .timeline {
-      .item:last-child {
-        padding-bottom: 60px;
-      }
-    }
-  }
-  .advisors {
-    .col-4 {
-      margin-bottom: 60px;
-      width: 100%;
-      float: none;
-      &:nth-child(4) {
-        margin-bottom: 60px;
-      }
-      &:nth-child(5) {
-        margin-bottom: 60px;
-      }
-      &:last-child {
-        margin-bottom: 0;
-      }
-    }
-  }
-  .team {
-    .row {
-      margin-bottom: 0;
-      &:last-of-type {
-        .col-6:last-child {
-          margin-bottom: 0;
-        }
-      }
-    }
-    .col-6 {
-      width: auto;
-      margin-bottom: 40px;
-      &:first-child {
-        padding-right: 0;
-      }
-      &:last-child {
-        padding-left: 10px;
-        .img {
-          left: 10px;
-        }
-      }
-    }
-  }
-  .action {
-    .counter {
+  @media only screen and (max-width: 600px) {
+    .remodal {
       width: 90%;
-      padding: 50px 0;
     }
-  }
-  .footer {
-    padding-left: 0;
-    padding-right: 0;
-    .links {
-      margin-bottom: 20px;
-      li {
-        width: 23%;
-        margin-bottom: 30px;
-        a {
-          padding: 0 5px;
-          font-size: 12px;
+    .section {
+      padding-top: 60px;
+      padding-bottom: 60px;
+      .inner {
+        > h2 {
+          margin-bottom: 90px;
         }
       }
     }
-  }
-}
-
-@media only screen and (max-width: 480px) {
-  .section {
-    padding-top: 40px;
-    padding-bottom: 40px;
-    .inner {
-      > h2 {
-        margin-bottom: 80px;
-        font-size: 20px;
+    .header {
+      padding-top: 0;
+      padding-bottom: 0;
+    }
+    .start {
+      padding-top: 120px;
+      padding-bottom: 0;
+      .iphone, .card {
+        display: none;
+      }
+      .text {
+        padding: 60px 0 20px;
+        text-align: center;
+      }
+      .bg1, .bg2 {
+        display: none;
+      }
+      .notebook {
+        background-image: url("../img/phone.png");
+        width: 320px;
+        height: 208px;
+        background-size: 320px 208px;
+        margin-top: 60px;
       }
     }
-  }
-  .header {
-    padding-top: 0;
-    padding-bottom: 0;
-  }
-  .start {
-    padding: 120px 0 0 0;
-    .text {
-      padding-left: 30px;
-      padding-right: 30px;
-      p {
-        font-size: 16px;
-        font-weight: 400;
-        line-height: 26px;
-        br {
-          display: none;
+    .features {
+      padding-bottom: 20px;
+      .col-3 {
+        width: 50%;
+        margin-bottom: 50px;
+        h3 {
+          margin-bottom: 12px;
+        }
+        .img {
+          margin-bottom: 10px;
         }
       }
-      h1 {
-        font-weight: 400;
-        font-size: 24px;
+    }
+    .about {
+      .col-6 {
+        width: auto;
+        float: none;
+        margin-bottom: 40px;
+        &.icon-benefit-6 {
+          margin-bottom: 0;
+        }
       }
-    }
-    .progress-wrap {
-      padding: 0 30px;
-    }
-    .counter {
       .row {
-        padding: 0 30px;
+        margin-bottom: 0;
+      }
+      .icons {
+        background-position: 10px 4px;
       }
     }
-  }
-  .features {
-    padding-bottom: 10px;
-  }
-  .about {
-    h3, p {
-      padding-right: 10px;
-    }
-  }
-  .roadmap {
-    padding-bottom: 0;
-    .timeline {
-      .item {
-        &.left,
-        &.right {
-          .time:before {
-            right: inherit;
-            left: -7px;
+    .jnt {
+      .events {
+        .event {
+          h3 {
+            font-size: 16px;
           }
-        }
-        &.left {
-          padding-left: 30px;
-          padding-right: 0;
-          text-align: left;
-          .time {
-            padding-right: 0;
-            padding-left: 30px;
-          }
-          * {
-            padding-right: 0;
-            padding-left: 30px;
-          }
-        }
-        &.right {
-          padding-right: 0;
-          padding-left: 30px;
-        }
-        &:last-child {
-          padding-bottom: 40px;
         }
         &:before {
-          right: initial;
+          width: 60%;
+        }
+      }
+      .charts {
+        .col-4 {
+          display: block;
+          float: none;
+          width: auto;
+          margin-bottom: 60px;
+          text-align: center;
+          .pie-chart img {
+            display: inline-block;
+          }
         }
       }
     }
-  }
-  .jnt {
-    .events {
-      &:before {
-        display: none;
-      }
-      .event {
-        padding: 0 10px;
-        h3 {
-          font-size: 13px;
-        }
-      }
-    }
-    .item {
-      padding-left: 45px;
-      margin-bottom: 60px;
-      .title {
-        top: -25px;
-      }
-      .percents {
-        left: 0;
-      }
-    }
-  }
-  .faq {
-    li {
-      display: block;
-      margin-bottom: 20px;
-    }
-    .items {
-      .item {
-        h3 {
-          font-size: 16px;
-          line-height: 1.4;
-        }
-      }
-    }
-  }
-  .action {
-    .text {
-      p {
-        font-size: 16px;
-        font-weight: 400;
-        line-height: 26px;
-        br {
-          display: none;
-        }
-      }
-      h1 {
-        font-weight: 400;
-        font-size: 24px;
-      }
-      br {
-        display: none;
-      }
-    }
-    .counter {
-      width: 100%;
-      .time {
-        font-size: 32px;
-      }
-      .col-3:after {
-        display: none;
-      }
-    }
-  }
-}
-
-@media only screen and (max-width: 440px) {
-  .section {
-    .inner {
-      > h2 {
-        font-size: 18px;
-      }
-    }
-  }
-  .start {
-    .text {
-      padding-bottom: 0;
-      h1 {
-        font-weight: normal;
-        font-size: 24px;
-      }
-      p {
-        font-size: 16px;
-        font-weight: normal;
-        line-height: 26px;
-        br {
-          display: none;
-        }
-      }
-    }
-    .counter {
-      .value {
-        font-size: 20px;
-      }
+    .whitepaper {
       .row {
-        margin: 0;
+        margin-bottom: 0;
+        &:last-child {
+          .col-3:nth-child(3), .col-3:nth-child(4) {
+            margin-bottom: 0;
+          }
+        }
+      }
+      .col-3 {
+        width: 50%;
+        margin-bottom: 80px;
       }
     }
-  }
-  .about {
-    h3,
-    p {
-      padding-right: 0;
-    }
-    h3 {
-      font-size: 15px;
-      line-height: 24px;
-    }
-  }
-  .jnt {
-    .events {
-      padding-bottom: 60px;
-      &:after {
-        display: none;
-      }
-      .event {
-        display: block;
-        margin-bottom: 30px;
+    .roadmap {
+      padding-bottom: 0;
+      .timeline {
+        .item:last-child {
+          padding-bottom: 60px;
+        }
       }
     }
-    .charts {
+    .advisors {
       .col-4 {
-        .pie-chart {
-          img {
-            display: block;
-            width: 80%;
-            height: auto;
-            margin: 0 10%;
+        margin-bottom: 60px;
+        width: 100%;
+        float: none;
+        &:nth-child(4) {
+          margin-bottom: 60px;
+        }
+        &:nth-child(5) {
+          margin-bottom: 60px;
+        }
+        &:last-child {
+          margin-bottom: 0;
+        }
+      }
+    }
+    .team {
+      .row {
+        margin-bottom: 0;
+        &:last-of-type {
+          .col-6:last-child {
+            margin-bottom: 0;
+          }
+        }
+      }
+      .col-6 {
+        width: auto;
+        margin-bottom: 40px;
+        &:first-child {
+          padding-right: 0;
+        }
+        &:last-child {
+          padding-left: 10px;
+          .img {
+            left: 10px;
+          }
+        }
+      }
+    }
+    .action {
+      .counter {
+        width: 90%;
+        padding: 50px 0;
+      }
+    }
+    .footer {
+      padding-left: 0;
+      padding-right: 0;
+      .links {
+        margin-bottom: 20px;
+        li {
+          width: 23%;
+          margin-bottom: 30px;
+          a {
+            padding: 0 5px;
+            font-size: 12px;
           }
         }
       }
     }
   }
-  .whitepaper {
-    .col-3 {
-      min-height: 120px;
-      margin-bottom: 50px;
+
+  @media only screen and (max-width: 480px) {
+    .section {
+      padding-top: 40px;
+      padding-bottom: 40px;
+      .inner {
+        > h2 {
+          margin-bottom: 80px;
+          font-size: 20px;
+        }
+      }
     }
-    a {
-      span {
-        font-size: 13px;
-        line-height: 1.5;
+    .header {
+      padding-top: 0;
+      padding-bottom: 0;
+    }
+    .start {
+      padding: 120px 0 0 0;
+      .text {
+        padding-left: 30px;
+        padding-right: 30px;
+        p {
+          font-size: 16px;
+          font-weight: 400;
+          line-height: 26px;
+          br {
+            display: none;
+          }
+        }
+        h1 {
+          font-weight: 400;
+          font-size: 24px;
+        }
+      }
+      .progress-wrap {
+        padding: 0 30px;
+      }
+      .counter {
+        .row {
+          padding: 0 30px;
+        }
+      }
+    }
+    .features {
+      padding-bottom: 10px;
+    }
+    .about {
+      h3, p {
+        padding-right: 10px;
+      }
+    }
+    .roadmap {
+      padding-bottom: 0;
+      .timeline {
+        .item {
+          &.left,
+          &.right {
+            .time:before {
+              right: inherit;
+              left: -7px;
+            }
+          }
+          &.left {
+            padding-left: 30px;
+            padding-right: 0;
+            text-align: left;
+            .time {
+              padding-right: 0;
+              padding-left: 30px;
+            }
+            * {
+              padding-right: 0;
+              padding-left: 30px;
+            }
+          }
+          &.right {
+            padding-right: 0;
+            padding-left: 30px;
+          }
+          &:last-child {
+            padding-bottom: 40px;
+          }
+          &:before {
+            right: initial;
+          }
+        }
+      }
+    }
+    .jnt {
+      .events {
+        &:before {
+          display: none;
+        }
+        .event {
+          padding: 0 10px;
+          h3 {
+            font-size: 13px;
+          }
+        }
+      }
+      .item {
+        padding-left: 45px;
+        margin-bottom: 60px;
+        .title {
+          top: -25px;
+        }
+        .percents {
+          left: 0;
+        }
+      }
+    }
+    .faq {
+      li {
+        display: block;
+        margin-bottom: 20px;
+      }
+      .items {
+        .item {
+          h3 {
+            font-size: 16px;
+            line-height: 1.4;
+          }
+        }
+      }
+    }
+    .action {
+      .text {
+        p {
+          font-size: 16px;
+          font-weight: 400;
+          line-height: 26px;
+          br {
+            display: none;
+          }
+        }
+        h1 {
+          font-weight: 400;
+          font-size: 24px;
+        }
+        br {
+          display: none;
+        }
+      }
+      .counter {
+        width: 100%;
+        .time {
+          font-size: 32px;
+        }
+        .col-3:after {
+          display: none;
+        }
       }
     }
   }
-  .team {
-    .col-6 {
-      h3,
-      .position,
-      .links {
-        padding-left: 90px;
-      }
-      .img {
-        img {
-          width: 70px;
-          height: 70px;
-          border-radius: 35px;
+
+  @media only screen and (max-width: 440px) {
+    .section {
+      .inner {
+        > h2 {
+          font-size: 18px;
         }
+      }
+    }
+    .start {
+      .text {
+        padding-bottom: 0;
+        h1 {
+          font-weight: normal;
+          font-size: 24px;
+        }
+        p {
+          font-size: 16px;
+          font-weight: normal;
+          line-height: 26px;
+          br {
+            display: none;
+          }
+        }
+      }
+      .counter {
+        .value {
+          font-size: 20px;
+        }
+        .row {
+          margin: 0;
+        }
+      }
+    }
+    .about {
+      h3,
+      p {
+        padding-right: 0;
       }
       h3 {
-        margin-top: 4px;
+        font-size: 15px;
+        line-height: 24px;
       }
     }
-  }
-  .remodal {
-    width: 100%;
-    border-radius: 0;
-    .remodal-header {
-      margin: 30px 30px 0 30px;
-      h2 {
-        font-size: 16px;
-        padding-right: 30px;
-      }
-    }
-    .remodal-content {
-      padding: 30px;
-    }
-    .remodal-footer {
-      padding: 0 30px 30px 30px;
-    }
-    .field {
-      margin-bottom: 20px;
-    }
-    .notice {
-      &:before {
-        width: calc(~"100% + 60px");
-        left: -30px;
-      }
-    }
-  }
-  .faq .items {
-    padding: 0;
-    border: none;
-    background-color: transparent;
-    box-shadow: none;
-  }
-  .advisors {
-    padding-bottom: 0;
-    .col-4 {
-      margin-bottom: 30px !important;
-      .img {
-        width: 70px;
-        height: 70px;
-        img {
-          width: 70px;
-          height: 70px;
+    .jnt {
+      .events {
+        padding-bottom: 60px;
+        &:after {
+          display: none;
+        }
+        .event {
+          display: block;
+          margin-bottom: 30px;
         }
       }
-      h3, .position, .links {
-        padding-left: 90px;
+      .charts {
+        .col-4 {
+          .pie-chart {
+            img {
+              display: block;
+              width: 80%;
+              height: auto;
+              margin: 0 10%;
+            }
+          }
+        }
+      }
+    }
+    .whitepaper {
+      .col-3 {
+        min-height: 120px;
+        margin-bottom: 50px;
+      }
+      a {
+        span {
+          font-size: 13px;
+          line-height: 1.5;
+        }
+      }
+    }
+    .team {
+      .col-6 {
+        h3,
+        .position,
+        .links {
+          padding-left: 90px;
+        }
+        .img {
+          img {
+            width: 70px;
+            height: 70px;
+            border-radius: 35px;
+          }
+        }
+        h3 {
+          margin-top: 4px;
+        }
+      }
+    }
+    .remodal {
+      width: 100%;
+      border-radius: 0;
+      .remodal-header {
+        margin: 30px 30px 0 30px;
+        h2 {
+          font-size: 16px;
+          padding-right: 30px;
+        }
+      }
+      .remodal-content {
+        padding: 30px;
+      }
+      .remodal-footer {
+        padding: 0 30px 30px 30px;
+      }
+      .field {
+        margin-bottom: 20px;
+      }
+      .notice {
+        &:before {
+          width: calc(~"100% + 60px");
+          left: -30px;
+        }
+      }
+    }
+    .faq .items {
+      padding: 0;
+      border: none;
+      background-color: transparent;
+      box-shadow: none;
+    }
+    .advisors {
+      padding-bottom: 0;
+      .col-4 {
+        margin-bottom: 30px !important;
+        .img {
+          width: 70px;
+          height: 70px;
+          img {
+            width: 70px;
+            height: 70px;
+          }
+        }
+        h3, .position, .links {
+          padding-left: 90px;
+        }
       }
     }
   }
-}
 
-@media only screen and (max-width: 414px) {
-  .start {
-    .counter, .notebook {
+  @media only screen and (max-width: 414px) {
+    .start {
+      .counter, .notebook {
+        display: none;
+      }
+      .text {
+        padding-bottom: 180px;
+      }
+    }
+    .features {
+      .col-3 {
+        width: auto;
+        float: none;
+        margin-bottom: 40px;
+      }
+    }
+    .roadmap .timeline .item h3 {
+      line-height: 1.5;
+    }
+  }
+
+  @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+    .start .logos {
       display: none;
     }
-    .text {
-      padding-bottom: 180px;
-    }
-  }
-  .features {
-    .col-3 {
-      width: auto;
-      float: none;
-      margin-bottom: 40px;
-    }
-  }
-  .roadmap .timeline .item h3 {
-    line-height: 1.5;
-  }
-}
-
-@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
-  .start .logos {
-    display: none;
   }
 }
