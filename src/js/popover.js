@@ -13,6 +13,7 @@
 
     setTitle(id, title);
     initHandlers(id);
+    preloadHoverIcon();
   }
 
   function setTitle(id, title) {
@@ -52,5 +53,10 @@
     setTimeout(function() {
       $(id).removeClass('closing');
     }, POPOVER_ANIMATION_TIMEOUT);
+  }
+
+  function preloadHoverIcon() {
+    var hoverIcon = new Image();
+    hoverIcon.src = '/assets/img/icons/small-arrow-hover.svg';
   }
 })(jQuery);
