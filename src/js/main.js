@@ -16,7 +16,7 @@
 
     // Articles slider
     $('.slider2').slick({
-      dots: false,
+      dots: true,
       infinite: true,
       speed: 500,
       arrows: false,
@@ -27,6 +27,7 @@
       slidesToShow: 5,
       slidesToScroll: 1,
       centerMode: true,
+      swipeToSlide: true,
       centerPadding: '100px',
       responsive: [{
         breakpoint: 2000,
