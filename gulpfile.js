@@ -24,6 +24,7 @@ var scripts = [
   './src/js/counter.js',
   './src/js/ga.js',
   './src/js/main.js',
+  './src/js/popover.js',
   './src/js/tokens.js',
 ]
 
