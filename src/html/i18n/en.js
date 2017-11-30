@@ -219,7 +219,7 @@ module.exports = {
     }, {
       question: 'Is there a minimum or maximum investment limit?',
       answer: [
-        'Yes, the minimum accepted investment is US$ 100.',
+        'Yes, the minimum purchase is 200 JNT (US$ 50 equivalent).',
         'The investment limit is US$ 850,000.',
       ],
     }, {
