@@ -198,7 +198,7 @@ module.exports = {
       active: true,
       question: 'When is the token sale?',
       answer: [
-        'The token sale will take place between November 27th, 2017 - 12:00PM GMT and January 26th, 2017 - 12:00PM GMT.',
+        'The token sale will take place between November 27th, 2017 - 12:00PM GMT and January 26th, 2018 - 12:00PM GMT.',
       ],
     }, {
       question: 'What currencies are accepted?',
