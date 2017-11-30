@@ -1,12 +1,13 @@
 .section.header {
+  z-index: 10;
   position: fixed;
+  top: 0;
+  left: 0;
   width: 100%;
   height: 120px;
   line-height: 120px;
-  left: 0;
-  top: 0;
-  z-index: 10;
   padding: 0;
+  overflow: visible;
 
   .logo {
     margin-top: 38px;
@@ -77,33 +78,6 @@
             fill: @light-blue;
           }
         }
-      }
-    }
-  }
-
-  .flags {
-    margin-left: 80px;
-
-    a {
-      display: inline-block;
-      height: 30px;
-      margin-right: 20px;
-
-      &:last-child {
-        margin-right: 0;
-      }
-
-      &:hover img {
-        border-color: transparent;
-      }
-
-      img {
-        height: 30px;
-        width: 30px;
-        border: 1px solid @blue;
-        border-radius: 50%;
-        vertical-align: middle;
-        transition: border-color 0.3s ease 0s;
       }
     }
   }
