@@ -51,7 +51,7 @@ gulp.task('html-ko', function() {
 });
 
 gulp.task('css', function() {
-  var lessStream = gulp.src('./src/less/*.less').pipe(less());
+  var lessStream = gulp.src('./src/less/core.less').pipe(less());
   var cssStream = gulp.src(cssStyles);
 
   return merge(lessStream, cssStream)
@@ -80,7 +80,7 @@ gulp.task('i18n', function() {
 });
 
 gulp.task('css-min', function() {
-  var lessStream = gulp.src('./src/less/*.less').pipe(less());
+  var lessStream = gulp.src('./src/less/core.less').pipe(less());
   var cssStream = gulp.src(cssStyles);
 
   return merge(lessStream, cssStream)

@@ -1,0 +1,153 @@
+.section.start {
+  position: relative;
+  padding: 120px 0 0 0;
+  background-color: @white;
+  overflow: inherit;
+
+  .bg1 {
+    width: 700px;
+    height: 289px;
+    background-image: url("../img/bg-1.png");
+    position: absolute;
+    left: 0;
+    bottom: 0;
+
+    @media (-webkit-min-device-pixel-ratio: 2) {
+      background-image: url("../img/bg-1@2x.png");
+    }
+  }
+
+  .bg2 {
+    width: 500px;
+    height: 297px;
+    background-image: url("../img/bg-2.png");
+    position: absolute;
+    right: 0;
+    top: 0;
+
+    @media (-webkit-min-device-pixel-ratio: 2) {
+      background-image: url("../img/bg-2@2x.png");
+    }
+  }
+
+  .text {
+    padding: 160px 0 300px 0;
+    position: relative;
+
+    h1 {
+      font-size: 32px;
+      font-weight: 300;
+    }
+
+    p {
+      font-size: 20px;
+      opacity: 0.5;
+      margin: 30px 0;
+      line-height: 30px;
+      font-weight: 300;
+    }
+  }
+
+  .counter {
+    position: absolute;
+    right: 5px;
+    top: 100px;
+    width: 440px;
+    transition: all 500ms ease-in-out;
+    transform: scale(1.25, 1.25);
+
+    .col-3 {
+      height: 320px;
+      position: relative;
+    }
+
+    .bar {
+      border: 1px solid rgba(0,193,255,0.5);
+      text-align: center;
+      color: @blue;
+      position: absolute;
+      border-radius: 5px;
+      width: 90%;
+      bottom: 0;
+      left: 5%;
+      height: 50%;
+      background-color: rgba(0,193,255,0.03);
+    }
+
+    .wrap {
+      width: 80%;
+      bottom: 20px;
+      left: 10%;
+      position: absolute;
+    }
+
+    .value {
+      font-size: 32px;
+      padding: 0 5px;
+      font-family: "Gotham Rounded";
+      margin-bottom: 4px;
+    }
+
+    .title {
+      text-transform: uppercase;
+      font-size: 12px;
+      opacity: 0.5;
+      padding: 0 5px;
+      display: inline-block;
+    }
+  }
+
+  .notebook {
+    position: absolute;
+    right: 0;
+    top: 100px;
+    width: 636px;
+    height: 301px;
+    z-index: 1;
+    background-image: url("../img/notebook.png");
+    transition: all 500ms ease-in-out;
+    transform: scale(1.25, 1.25);
+
+    @media (-webkit-min-device-pixel-ratio: 2) {
+      background-image: url("../img/notebook@2x.png");
+      background-size: 100%;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+  }
+
+  .slider {
+    .slide {
+      &.slick-active {
+        .notebook, .counter {
+          transform: scale(1, 1);
+        }
+      }
+    }
+  }
+
+  .slick-dots {
+    position: absolute;
+    right: 20px;
+    top: 40%;
+
+    .slick-active {
+      button {
+        opacity: 1;
+      }
+    }
+
+    button {
+      border: none;
+      background-color: @blue;
+      opacity: 0.3;
+      display: block;
+      font-size: 0;
+      width: 10px;
+      height: 10px;
+      border-radius: 5px;
+      margin-bottom: 16px;
+      cursor: pointer;
+    }
+  }
+}

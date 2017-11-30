@@ -1,0 +1,110 @@
+.section.header {
+  position: fixed;
+  width: 100%;
+  height: 120px;
+  line-height: 120px;
+  left: 0;
+  top: 0;
+  z-index: 10;
+  padding: 0;
+
+  .logo {
+    margin-top: 38px;
+    display: block;
+
+    img {
+      display: block;
+      height: 44px;
+      width: 127px;
+    }
+  }
+
+  li {
+    display: inline-block;
+    font-size: 14px;
+    margin-left: 40px;
+    transition: none;
+
+    &:first-child {
+      margin-left: 0;
+    }
+
+    a {
+      transition: color 0.3s ease 0s;
+    }
+  }
+
+  .menu-button {
+    top: 46px;
+  }
+
+  &.active {
+    height: 80px;
+    line-height: 80px;
+    background-color: #F5F6FA;
+
+    .logo {
+      margin-top: 18px;
+    }
+
+    .menu-button {
+      top: 28px;
+    }
+  }
+
+  .github {
+    a {
+      display: inline-block;
+      height: 100%;
+
+      svg {
+        display: inline-block;
+        width: 24px;
+        height: 24px;
+        vertical-align: middle;
+
+        .cls-1 {
+          fill: @white;
+          opacity: 0;
+        }
+
+        .cls-2 {
+          fill: @blue;
+        }
+
+        &:hover {
+          .cls-2 {
+            fill: @light-blue;
+          }
+        }
+      }
+    }
+  }
+
+  .flags {
+    margin-left: 80px;
+
+    a {
+      display: inline-block;
+      height: 30px;
+      margin-right: 20px;
+
+      &:last-child {
+        margin-right: 0;
+      }
+
+      &:hover img {
+        border-color: transparent;
+      }
+
+      img {
+        height: 30px;
+        width: 30px;
+        border: 1px solid @blue;
+        border-radius: 50%;
+        vertical-align: middle;
+        transition: border-color 0.3s ease 0s;
+      }
+    }
+  }
+}

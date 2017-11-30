@@ -1,0 +1,283 @@
+.remodal {
+  max-width: 560px;
+  width: 100%;
+  background-color: @white;
+  text-align: left;
+  border-radius: 8px;
+  box-shadow: @shadow-2;
+  position: relative;
+  transition: all 0.3s ease 0s;
+  .remodal-header {
+    margin: 50px 50px 0 50px;
+    position: relative;
+    h2 {
+      font-weight: normal;
+      font-size: 18px;
+    }
+    .remodal-close {
+      position: absolute;
+      right: 0;
+      top: 50%;
+      width: 20px;
+      height: 20px;
+      background-image: url('../img/icons/modal-close.svg');
+      border: none;
+      background-color: transparent;
+      margin-top: -10px;
+      opacity: 0.5;
+    }
+  }
+  .remodal-content {
+    padding: 50px;
+    transition: all 0.3s ease 0s;
+  }
+  .remodal-footer {
+    padding: 0 50px 50px 50px;
+    .pull-left {
+      font-weight: bold;
+      text-transform: uppercase;
+      color: @black;
+      opacity: 0.5;
+      &:hover {
+        opacity: 1;
+      }
+    }
+    .pull-right {
+      text-transform: uppercase;
+      font-weight: bold;
+      position: relative;
+      &:before {
+        background-image: url('../img/icons/step.svg');
+        content: '';
+        background-size: 24px 24px;
+        width: 24px;
+        height: 24px;
+        position: absolute;
+        left: -32px;
+        top: -5px;
+      }
+      &:hover {
+        &:before {
+          left: -36px;
+        }
+      }
+    }
+    .disabled {
+      opacity: 0.5;
+      cursor: default;
+      &:hover {
+        color: @blue;
+      }
+      &:before {
+        display: none;
+      }
+    }
+    .hidden {
+      display: none;
+    }
+  }
+  .steps {
+    display: none;
+    transition: all 0.3s ease 0s;
+    &.step-4, &.step-5 {
+      p {
+        font-weight: 600;
+        line-height: 24px;
+        margin-bottom: 1.5em;
+        span {
+          color: @blue;
+        }
+        &:first-child {
+          margin-bottom: 40px;
+          img {
+            width: 115px;
+            height: 110px;
+            display: inline-block;
+          }
+        }
+        &:last-child {
+          font-weight: normal;
+          opacity: 0.7;
+        }
+      }
+    }
+    &.show-errors .field-input.error,
+    &.show-errors .field-select.error {
+      input {
+        color: @pink;
+        border-bottom: 1px solid @pink;
+      }
+      div.error-text {
+        display: block;
+        color: @pink;
+        text-align: right;
+        position: absolute;
+        right: 0;
+        top: 60px;
+      }
+    }
+    &.active {
+      display: block;
+    }
+  }
+  .hidden {
+    visibility: hidden;
+    opacity: 0;
+  }
+  .field {
+    position: relative;
+    margin-bottom: 30px;
+    &:last-child {
+      margin-bottom: 0;
+    }
+    &.field-checkbox {
+      input {
+        display:none;
+        & + label {
+          padding-left: 30px;
+          font-size: 13px;
+          font-weight: normal;
+          position: relative;
+          top: 0;
+          color: @black;
+          left: 0;
+          display: block;
+          line-height: 24px;
+        }
+        & + label:before {
+          top: 2px;
+          display: inline-block;
+          position: absolute;
+          left: 0px;
+          border: 2px solid @line;
+          background-color: @white;
+          width: 16px;
+          height: 16px;
+          content: '';
+          border-radius: 10px;
+        }
+        &:checked + label:before {
+          display: block;
+          position: absolute;
+          border: 2px solid @blue;
+          width: 16px;
+          height: 16px;
+          background-color: @blue;
+          background-image: url("../img/icons/checkbox.svg");
+          background-size: 9px 7px;
+          background-repeat: no-repeat;
+          background-position: center center;
+        }
+        &:checked + label {
+          color: @blue;
+        }
+      }
+    }
+    &.field-input {
+      input {
+        display: block;
+        width: 100%;
+        padding: 15px 0;
+        border: none;
+        border-bottom: 1px solid rgba(45, 44, 62, 0.1);
+        font-family: @font;
+        font-size: 13px;
+        font-weight: 600;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        appearance: none;
+        border-radius: 0;
+        &:invalid,
+        &:-moz-ui-invalid {
+          color: @pink;
+          box-shadow: none;
+        }
+      }
+      input:focus + ul {
+        display: block;
+      }
+      ul {
+        display: none;
+        position: absolute;
+        top: 45px;
+        left: 0;
+        width: 100%;
+        border: 1px solid rgba(45,44,62,0.2);
+        background-color: @white;
+        z-index: 10;
+        padding: 5px 0;
+        max-height: 160px;
+        overflow: auto;
+        &.scroll {
+          height: 136px;
+          overflow: auto;
+        }
+        a {
+          display: block;
+          line-height: 40px;
+          padding: 0 15px;
+          cursor: pointer;
+          &.active {
+            background-color: @line-bg;
+          }
+          &:hover {
+            color: @black;
+          }
+        }
+        &.active {
+          display: block;
+        }
+      }
+    }
+    &.field-input,
+    &.field-select {
+      div.error-text {
+        display: none;
+      }
+    }
+    &.field-select {
+      select {
+        display: block;
+        width: 100%;
+        padding: 15px 0;
+        border: none;
+        border-bottom: 1px solid rgba(45, 44, 62, 0.1);
+        background: transparent;
+        font-family: @font;
+        font-size: 13px;
+        font-weight: 600;
+        color: #a9a9a9;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        appearance: none;
+        &.selected {
+          color: #000;
+        }
+      }
+    }
+  }
+  .notice {
+    color: @blue;
+    position: relative;
+    line-height: 24px;
+    padding: 25px 0;
+    margin-bottom: 40px;
+    p {
+      position: relative;
+    }
+    &:before {
+      content: '';
+      background-color: @blue-bg;
+      border-top: 1px solid @line-bg;
+      border-bottom: 1px solid @line-bg;
+      position: absolute;
+      height: 100%;
+      width: calc(~"100% + 100px");
+      left: -50px;
+      top: 0;
+    }
+  }
+  .label {
+    margin-bottom: 40px;
+  }
+}

@@ -1,0 +1,73 @@
+.action {
+  background-color: @hard-blue;
+  .text {
+    color: @white;
+    text-align: center;
+    h1 {
+      font-size: 32px;
+      font-weight: 300;
+      margin-bottom: 20px;
+    }
+    p {
+      font-size: 20px;
+      line-height: 30px;
+      font-weight: 300;
+      opacity: 0.6;
+    }
+  }
+  .counter {
+    position: relative;
+    width: 66%;
+    margin: 0 auto;
+    padding: 70px 0;
+    text-align: center;
+    color: @white;
+    .time {
+      font-size: 46px;
+      font-weight: bold;
+      margin-bottom: 10px;
+      font-family: "Gotham Rounded";
+    }
+    .title {
+      font-size: 12px;
+      text-transform: uppercase;
+      opacity: 0.5;
+    }
+    .col-3 {
+      position: relative;
+      &:after {
+        content: ':';
+        font-size: 46px;
+        position: absolute;
+        right: 0;
+        top: -4px;
+        opacity: 0.3;
+        font-weight: bold;
+      }
+      &:last-child {
+        &:after {
+          display: none;
+        }
+      }
+    }
+  }
+  .link {
+    text-align: center;
+    a {
+      font-size: 15px;
+      font-weight: normal;
+      padding-left: 60px;
+      padding-right: 60px;
+      background-color: #1573E9;
+      color: @white;
+      border-color: transparent;
+      box-shadow: 0 10px 30px rgba(45,63,148,.4);
+      line-height: 48px;
+      height: 50px;
+      border-radius: 25px;
+      &:hover {
+        background-color: @light-blue;
+      }
+    }
+  }
+}
