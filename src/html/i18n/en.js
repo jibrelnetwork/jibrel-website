@@ -14,50 +14,40 @@ module.exports = {
     button: 'Menu',
   },
   start: {
-    title: 'Token Sale is now live',
-    text: [
-      'Jibrel provides traditional financial assets, ',
-      'as ERC-20 tokens, on the Ethereum blockchain',
-    ],
-    cta: 'Participate in token sale',
-    iphone: 'assets/img/iphone.png',
-    card: 'assets/img/card.png',
-    logos: [{
-      href: 'https://www.cryptoninjas.net/2017/08/03/jibrel-network-raises-3m-enable-licensed-entities-sell-tokenized-securities',
-      src: 'assets/img/logos/1.svg',
-    }, {
-      href: 'https://cointelegraph.com/news/ethereum-backed-jibrel-aims-to-contain-ico-bubble-with-new-type-of-smart-tokens',
-      src: 'assets/img/logos/7.svg',
-    }, {
-      href: 'https://www.forbes.com/sites/cbovaird/2017/09/13/cryptocurrency-5-ways-to-profit-from-a-market-crash',
-      src: 'assets/img/logos/5.svg',
-    }, {
-      href: 'http://www.huffingtonpost.com/entry/how-smart-regulation-could-help-institutional-blockchain_us_5996982be4b033e0fbdec2f1',
-      src: 'assets/img/logos/2.svg',
-    }, {
-      href: 'http://www.econotimes.com/Blockchain-startup-ArabianChain-inks-MoU-with-Jibrel-Network-874347',
-      src: 'assets/img/logos/4.svg',
-    }, {
-      href: 'https://www.finextra.com/pressarticle/70497/jibrel-network-signs-mou-with-mena-based-blockchain-platform',
-      src: 'assets/img/logos/3.svg',
-    }]
-  },
-  countdown: {
-    title: 'Our token sale starts on November 27, 2017 at 12:00PM GMT',
-    subtitle: 'If you have any questions, please contact us at',
-    email: 'info@jibrel.network',
-    cta: 'Participate in Token Pre-sale',
-    days: 'Days',
-    hours: 'Hours',
-    minutes: 'Minutes',
-    seconds: 'Seconds',
-    subscribe: {
-      placeholder: 'Sign-up for network updates',
-      progress: 'Sending in progress...',
-      success: 'Thanks for signing-up. We\'ll keep you posted!',
-      error: 'Oops, unable to save this address',
+    sale: {
+      title: 'Token Sale is now live',
+      text: [
+        'Jibrel provides traditional financial assets,',
+        'as ERC-20 tokens, on the Ethereum blockchain',
+      ],
+      link: 'Participate in token sale',
+    },
+    jwallet: {
+      title: 'Introducing the jWallet',
+      text: [
+        'Massive for the crypto-community,',
+        'revolutionary for everyone else.',
+      ],
+      link: 'Try jWallet',
+    },
+    progress: {
+      allocated: 'ALLOCATED TOKENS',
+      total: 'TOTAL SUPPLY',
     },
   },
+  features: [{
+    title: 'USD $0.25',
+    description: 'Price of the token',
+  }, {
+    title: 'Ethereum, Bitcoin',
+    description: 'Accepted currencies',
+  }, {
+    title: 'Feb 1st 2018',
+    description: 'Tokens will be listed',
+  }, {
+    title: 'United States',
+    description: 'Forbidden countries',
+  }],
   about: {
     title: 'About the Jibrel Network',
     benefits: [[{
@@ -86,6 +76,47 @@ module.exports = {
       body: 'CryDRs can be purchased from the Jibrel DAO using Jibrel Network Token (JNT).',
     }]],
   },
+  articles: [{
+    title: 'Ethereum-Backed Jibrel Aims to Contain ICO Bubble with New Type of Smart Tokens',
+    date: 'September 14, 2017',
+    href: 'https://cointelegraph.com/news/ethereum-backed-jibrel-aims-to-contain-ico-bubble-with-new-type-of-smart-tokens',
+  }, {
+    title: 'Bitcoin Approaches $8,000 As Cryptos Surge',
+    date: 'November 8, 2017',
+    href: 'https://www.forbes.com/forbes/welcome/?toURL=https://www.forbes.com/sites/cbovaird/2017/11/08/bitcoin-approaches-8000-as-cryptos-surge/&refURL=&referrer=#6e6c36903f57',
+  }, {
+    title: 'How the digital economy continues to evolve as popularity and interest grows',
+    date: 'November 16, 2017',
+    href: 'https://thenextweb.com/contributors/2017/11/16/digital-economy-continues-evolve-popularity-interest-grows/',
+  }, {
+    title: 'Crypto Trading and Traditional Assets: New Options for Investors',
+    date: 'November 17, 2017',
+    href: 'https://bitcoinmagazine.com/articles/crypto-trading-and-traditional-assets-new-options-investors/',
+  }, {
+    title: 'Fresh from a Success Token Pre-Sale, the Jibrel Network Launches Their New Cryptowallet for Users',
+    date: 'November 25, 2017',
+    href: 'https://www.huffingtonpost.com/entry/fresh-from-a-success-token-pre-sale-the-jibrel-network_us_5a19aa74e4b0bf1467a846d6',
+  }, {
+    title: 'Jibrel Network Announces a Highly Successful Pre-sale Round',
+    date: 'November 20, 2017',
+    href: 'http://www.the-blockchain.com/2017/11/20/jibrel-network-announces-highly-successful-pre-sale-round/',
+  }, {
+    title: 'With Ethereum wallets under constant attack, Jibrel Network decided to build their own',
+    date: 'November 22, 2017',
+    href: 'https://techcrunch.com/2017/11/22/with-ethereum-wallets-under-constant-attack-jibrel-network-decided-to-build-their-own/',
+  }, {
+    title: 'What Is jWallet?',
+    date: 'November 24, 2017',
+    href: 'https://themerkle.com/what-is-jwallet/',
+  }, {
+    title: 'Crypto Trading and Traditional Assets: New Options for Investors',
+    date: 'November 17, 2017',
+    href: 'http://www.nasdaq.com/article/crypto-trading-and-traditional-assets-new-options-for-investors-cm879469',
+  }, {
+    title: 'Blockchain and Payments Take Center Stage at Inside Fintech Conference & Expo 2017 in Seoul, South Korea, November 30 - December 1, 2017',
+    date: 'November 15, 2017',
+    href: 'http://markets.businessinsider.com/news/stocks/Blockchain-and-Payments-Take-Center-Stage-at-Inside-Fintech-Conference-Expo-2017-in-Seoul-South-Korea-November-30-December-1-2017-1008202248',
+  }],
   roadmap: {
     title: 'Roadmap',
     timeline: [{
@@ -599,7 +630,7 @@ module.exports = {
     }, {
       id: 13,
       name: 'Evgeny Erohin',
-      position: 'Front-end developer',
+      position: 'Developer (Front-end)',
       description: 'Evgeny has over 10 years’ experience in web programming and project management. He is especially skilled at JS (React/Redux) and React Native. In addition to web and application development, Evgeny is also highly proficient at most front-end technologies, frameworks and libraries, such as  recompose, lodash/fp, RSCSS, SASS, ESLint, Stylelint, Webpack, ES6 and JIRA.',
       links: [{
         href: 'https://jibrelnetwork.slack.com/messages/@evgeny.erohin',
@@ -608,7 +639,7 @@ module.exports = {
     }], [{
       id: 14,
       name: 'Yuriy Homyakov',
-      position: 'Back-end developer',
+      position: 'Developer (Back-end)',
       description: 'Yuriy has over 7 years’ experience developing  web applications. He specializes in backend development, database design, web applications architecture. He is proficient at Python, JavaScript and Solidity.',
       links: [{
         href: 'https://jibrelnetwork.slack.com/messages/@yuriy',
@@ -627,6 +658,14 @@ module.exports = {
       'Front-End Developer',
       'Front-End Developer',
     ],
+  },
+  action: {
+    title: 'Tokenize Everything',
+    subtitle: [
+      'Jibrel provides traditional financial assets, as ERC-20 tokens,',
+      'on the Ethereum blockchain',
+    ],
+    link: 'Get Tokens',
   },
   footer: {
     links: [{
@@ -667,6 +706,19 @@ module.exports = {
       'Baarerstrasse 10, 6302 Zug, Switzerland',
     ],
   },
+  counterUnits: [{
+    name: 'days', // not translate
+    title: 'Days',
+  }, {
+    name: 'hours', // not translate
+    title: 'Hours',
+  }, {
+    name: 'minutes', // not translate
+    title: 'Minutes',
+  }, {
+    name: 'seconds', // not translate
+    title: 'Seconds',
+  }],
   remodal: {
     title: 'Jibrel Network Token Pre-sale',
     step: 'Step',

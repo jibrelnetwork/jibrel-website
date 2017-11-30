@@ -1,0 +1,13 @@
+      <div class="section features">
+        <div class="inner">
+          <div class="row clear">
+            {% for feature in features %}<div class="col-3 benefit-{{ loop.index }}">
+              <div class="img">
+                <img src="assets/img/icons/sale-{{ loop.index }}.svg" alt="" />
+              </div>
+              <h3>{{ feature.title }}</h3>
+              <p>{{ feature.description }}</p>
+            </div>{% endfor %}
+          </div>
+        </div>
+      </div>

@@ -1,77 +1,57 @@
       <div class="section start" id="start">
-          <div class="bg1"></div>
-          <div class="bg2"></div>
-          <div class="slider">
-              <div class="slide">
-                  <div class="inner">
-                      <div class="text">
-                          <h1>{{ start.title }}</h1>
-                          <p>{{ start.text[0] }}<br />{{ start.text[1] }}</p>
-                          <a href="https://sale.jibrel.network" class="button bordered" target="_blank">{{ start.cta }}</a>
-                      </div>
-                      <div class="counter hidden" id="counter">
-                          <div class="row clear">
-                              <div class="col-3 days" id="counter-days">
-                                  <div class="bar">
-                                      <div class="wrap">
-                                          <div class="value"></div>
-                                          <div class="title">Days</div>
-                                      </div>
-                                  </div>
-                              </div>
-                              <div class="col-3 hours" id="counter-hours">
-                                  <div class="bar">
-                                      <div class="wrap">
-                                          <div class="value"></div>
-                                          <div class="title">Hours</div>
-                                      </div>
-                                  </div>
-                              </div>
-                              <div class="col-3 minutes" id="counter-minutes">
-                                  <div class="bar">
-                                      <div class="wrap">
-                                          <div class="value"></div>
-                                          <div class="title">Minutes</div>
-                                      </div>
-                                  </div>
-                              </div>
-                              <div class="col-3 seconds" id="counter-seconds">
-                                  <div class="bar">
-                                      <div class="wrap">
-                                          <div class="value"></div>
-                                          <div class="title">Seconds</div>
-                                      </div>
-                                  </div>
-                              </div>
-                          </div>
-                      </div>
-                  </div>
+        <div class="bg1"></div>
+        <div class="bg2"></div>
+        <div class="slider">
+          <div class="slide">
+            <div class="inner">
+              <div class="text">
+                <h1>{{ start.sale.title }}</h1>
+                <p>{{ start.sale.text[0] }} <br />{{ start.sale.text[1] }}</p>
+                <a href="https://sale.jibrel.network" class="button bordered" target="_blank">
+                  {{ start.sale.link }}
+                </a>
               </div>
-              <div class="slide">
-                  <div class="inner">
-                      <div class="text">
-                          <h1>Introducing the jWallet</h1>
-                          <p>Massive for the crypto-community, <br />revolutionary for everyone else.</p>
-                          <a href="https://jwallet.network" class="button bordered" target="_blank">Try jWallet</a>
+              <div class="counter hidden" id="counter">
+                <div class="row clear">
+                  {% for unit in counterUnits %}<div class="col-3" id="counter-{{ unit.name }}">
+                    <div class="bar">
+                      <div class="wrap">
+                        <div class="value"></div>
+                        <div class="title">{{ unit.title }}</div>
                       </div>
-                      <div class="notebook"></div>
-                  </div>
+                    </div>
+                  </div>{% endfor %}
+                </div>
               </div>
+            </div>
           </div>
-          <div class="inner progress-wrap">
-              <div class="progress">
-                  <div class="line clear">
-                      <div class="item raised">
-                          <div class="title">ALLOCATED TOKENS</div>
-                          <div class="value">85,054,559</div>
-                          <div class="point"></div>
-                      </div>
-                  </div>
-                  <div class="item total">
-                      <div class="title">TOTAL SUPPLY</div>
-                      <div class="value">200,000,000</div>
-                      <div class="point"></div>
-                  </div>
+          <div class="slide">
+            <div class="inner">
+              <div class="text">
+                <h1>{{ start.jwallet.title }}</h1>
+                <p>{{ start.jwallet.text[0] }} <br />{{ start.jwallet.text[1] }}</p>
+                <a href="https://jwallet.network" class="button bordered" target="_blank">
+                  {{ start.jwallet.link }}
+                </a>
               </div>
+              <div class="notebook"></div>
+            </div>
           </div>
+        </div>
+        <div class="inner progress-wrap">
+          <div class="progress">
+            <div class="line clear">
+              <div class="item raised">
+                <div class="title">{{ start.progress.allocated }}</div>
+                <div class="value">85,054,559</div>
+                <div class="point"></div>
+              </div>
+            </div>
+            <div class="item total">
+              <div class="title">{{ start.progress.total }}</div>
+              <div class="value">200,000,000</div>
+              <div class="point"></div>
+            </div>
+          </div>
+        </div>
       </div>
