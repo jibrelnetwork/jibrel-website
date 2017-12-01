@@ -3,7 +3,7 @@
           <p>
             {{ remodal.step5.message[0] }}<br />
             {{ remodal.step5.message[1] }}<br />
-            {% if (language === 'ko') %}<a href="mailto:{{ remodal.step5.email }}">
+            {% if (language.code === 'ko') %}<a href="mailto:{{ remodal.step5.email }}">
               {{ remodal.step5.message[2] }}
             </a> {{ remodal.step5.message[3] }}{% else %}{{ remodal.step5.message[2] }} <a
               href="mailto:{{ remodal.step5.email }}"

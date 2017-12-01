@@ -13,11 +13,10 @@
 
     setTitle(id, title);
     initHandlers(id);
-    preloadHoverIcon();
   }
 
   function setTitle(id, title) {
-    $(id + ' .popover-title').html(title);
+    $(id + ' .popover-title .text').html(title);
   }
 
   function initHandlers(id) {
@@ -39,11 +38,12 @@
 
   function openPopover(id) {
     $(id).addClass('opening');
-    $(id).addClass('open');
 
+    // need some delay to show opening animation
     setTimeout(function() {
+      $(id).addClass('open');
       $(id).removeClass('opening');
-    }, POPOVER_ANIMATION_TIMEOUT);
+    }, 50);
   }
 
   function closePopover(id) {
@@ -53,10 +53,5 @@
     setTimeout(function() {
       $(id).removeClass('closing');
     }, POPOVER_ANIMATION_TIMEOUT);
-  }
-
-  function preloadHoverIcon() {
-    var hoverIcon = new Image();
-    hoverIcon.src = '/assets/img/icons/small-arrow-hover.svg';
   }
 })(jQuery);

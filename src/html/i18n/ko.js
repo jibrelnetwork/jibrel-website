@@ -1,5 +1,8 @@
 module.exports = {
-  language: 'ko',
+  language: {
+    code: 'ko',
+    title: 'Korean',
+  },
   meta: {
     title: 'Jibrel Network',
   },
@@ -12,6 +15,13 @@ module.exports = {
     whitepaper: '백서',
     team: '팀',
     button: '메뉴',
+    languages: [{
+      href: '/',
+      title: 'English',
+    }, {
+      href: '/ko.html',
+      title: 'Korean',
+    }],
   },
   start: {
     sale: {

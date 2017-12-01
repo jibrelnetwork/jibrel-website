@@ -1,5 +1,8 @@
 window.i18n = {
-  language: 'en',
+  language: {
+    code: 'en',
+    title: 'English',
+  },
   countdown: {
     lang: {
       days: 'Days',
