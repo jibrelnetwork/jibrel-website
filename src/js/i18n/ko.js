@@ -1,5 +1,8 @@
 window.i18n = {
-  language: 'ko',
+  language: {
+    code: 'ko',
+    title: 'Korean',
+  },
   countdown: {
     lang: {
       days: '일',

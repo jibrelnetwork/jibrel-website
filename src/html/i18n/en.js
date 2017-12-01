@@ -1,5 +1,8 @@
 module.exports = {
-  language: 'en',
+  language: {
+    code: 'en',
+    title: 'English',
+  },
   meta: {
     title: 'Jibrel Network',
   },
@@ -12,6 +15,13 @@ module.exports = {
     whitepaper: 'White Paper',
     team: 'Team',
     button: 'Menu',
+    languages: [{
+      href: '/',
+      title: 'English',
+    }, {
+      href: '/ko.html',
+      title: 'Korean',
+    }],
   },
   start: {
     sale: {

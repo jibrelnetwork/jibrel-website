@@ -6,31 +6,38 @@
     position: relative;
     display: inline;
     line-height: 19px;
-    padding-right: 20px;
-    font-size: 14px;
-    color: @blue;
     cursor: pointer;
 
-    &:hover {
-      color: @light-blue;
-
-      &:after {
-        background-image: url("../img/icons/small-arrow-hover.svg");
-      }
+    .text {
+      padding-right: 20px;
+      font-size: 14px;
+      color: @blue;
     }
 
-    &:after {
+    .icon {
       position: absolute;
-      top: 1.5px;
+      top: 50%;
       right: 0;
       display: block;
       width: 16px;
       height: 16px;
-      background-image: url("../img/icons/small-arrow.svg");
-      background-position: 100%;
-      background-size: cover;
-      background-repeat: no-repeat;
-      content: "";
+      margin-top: -8px;
+
+      svg {
+        position: absolute;
+        top: 0;
+        left: 0;
+      }
+    }
+
+    &:hover {
+      .text {
+        color: @light-blue;
+      }
+
+      .icon svg .b {
+        fill: @light-blue;
+      }
     }
   }
 
@@ -119,10 +126,12 @@
     .popover-item {
       &,
       &:hover {
-        color: @white;
+        .text {
+          color: @white;
+        }
 
-        &:after {
-          background-image: url("../img/icons/small-arrow-mobile.svg");
+        .icon svg .b {
+          fill: @white;
         }
       }
     }
