@@ -112,3 +112,44 @@
     top: 0;
   }
 }
+
+@media only screen and (max-width: 768px) {
+  .language-popover {
+    .popover-title,
+    .popover-item {
+      &,
+      &:hover {
+        color: @white;
+
+        &:after {
+          background-image: url("../img/icons/small-arrow-mobile.svg");
+        }
+      }
+    }
+
+    .popover {
+      left: 0;
+      right: initial;
+      background-color: @black;
+      border: none;
+      box-shadow: none;
+    }
+
+    &.opening.open .popover {
+      top: 20px;
+    }
+
+    &.open .popover {
+      top: 0;
+    }
+
+    .popover-content {
+      padding: 0 20px 0 0;
+    }
+
+    .popover-item {
+      line-height: 40px;
+      margin: 0;
+    }
+  }
+}
