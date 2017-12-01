@@ -42,7 +42,7 @@
 
       var parsedData = JSON.parse(data);
 
-      if (Object.keys(parsedData).length === 0) {
+      if (Object.keys(parsedData || {}).length === 0) {
         return null;
       }
 
