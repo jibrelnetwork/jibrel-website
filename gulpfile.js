@@ -22,10 +22,10 @@ var vendorScripts = [
 
 var scripts = [
   './src/js/counter.js',
-  './src/js/ga.js',
   './src/js/main.js',
   './src/js/popover.js',
   './src/js/tokens.js',
+  './src/js/tracking.js',
 ]
 
 var i18n = [
