@@ -80,10 +80,30 @@
 
   @media only screen and (max-width: 480px) {
     .links {
-      max-width: 270px;
+      max-width: 280px;
 
-      li a {
-        width: 90px;
+      li {
+        margin-bottom: 0;
+
+        a {
+          width: 70px;
+          font-size: 0;
+        }
+      }
+    }
+  }
+
+  @media only screen and (max-width: 380px) {
+    .links {
+      max-width: 180px;
+
+      li {
+        margin-bottom: 20px;
+
+        a {
+          width: 90px;
+          font-size: 12px;
+        }
       }
     }
   }
