@@ -154,4 +154,136 @@
       cursor: pointer;
     }
   }
+
+  @media only screen and (max-width: 800px) {
+    .text {
+      text-align: center;
+      padding-bottom: 40px;
+    }
+
+    .counter,
+    .notebook {
+      position: relative;
+      left: inherit;
+      top: inherit;
+      margin: 0 auto;
+      margin-bottom: 160px;
+    }
+
+    .notebook {
+      background-image: url("../img/tablet@2x.png");
+      width: 600px;
+      height: 258px;
+      background-size: 600px 258px;
+      margin-top: 60px;
+    }
+  }
+
+  @media only screen and (max-width: 768px) {
+    .bg1 {
+      display: none;
+    }
+  }
+
+  @media only screen and (max-width: 600px) {
+    padding-top: 120px;
+    padding-bottom: 0;
+
+    .iphone,
+    .card {
+      display: none;
+    }
+
+    .bg2 {
+      display: none;
+    }
+
+    .text {
+      padding: 60px 0 20px;
+      text-align: center;
+    }
+
+    .notebook {
+      background-image: url("../img/phone.png");
+      width: 320px;
+      height: 208px;
+      background-size: 320px 208px;
+      margin-top: 60px;
+    }
+  }
+
+  @media only screen and (max-width: 480px) {
+    padding: 120px 0 0 0;
+
+    .text {
+      padding-left: 30px;
+      padding-right: 30px;
+
+      p {
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 26px;
+
+        br {
+          display: none;
+        }
+      }
+
+      h1 {
+        font-weight: 400;
+        font-size: 24px;
+      }
+    }
+
+    .progress-wrap {
+      padding: 0 30px;
+    }
+
+    .counter {
+      .row {
+        padding: 0 30px;
+      }
+    }
+  }
+
+  @media only screen and (max-width: 440px) {
+    .text {
+      padding-bottom: 0;
+
+      h1 {
+        font-weight: normal;
+        font-size: 24px;
+      }
+
+      p {
+        font-size: 16px;
+        font-weight: normal;
+        line-height: 26px;
+
+        br {
+          display: none;
+        }
+      }
+    }
+    .counter {
+      .value {
+        font-size: 20px;
+      }
+
+      .row {
+        margin: 0;
+      }
+    }
+  }
+
+  @media only screen and (max-width: 414px) {
+    .counter,
+    .notebook {
+      display: none;
+    }
+
+    .text {
+      padding-bottom: 180px;
+    }
+  }
 }
