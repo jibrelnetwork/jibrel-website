@@ -2,16 +2,35 @@
   background-color: @white;
   text-align: center;
   border-top: 1px solid @line-bg;
+
   .links {
+    margin: 0 auto;
     margin-bottom: 80px;
+
     li {
       display: inline-block;
+
       a {
-        color: @blue;
         position: relative;
-        padding: 0 30px;
         display: block;
+        width: 120px;
+        padding: 0;
         font-size: 15px;
+        color: @blue;
+
+        @media only screen and (max-width: 1100px) {
+          width: 100px;
+        }
+
+        @media only screen and (max-width: 900px) {
+          width: 90px;
+          font-size: 0;
+        }
+
+        @media only screen and (max-width: 800px) {
+          width: 80px;
+        }
+
         &:before {
           content: '';
           display: block;
@@ -23,8 +42,10 @@
           margin: 0 auto;
           margin-bottom: 15px;
         }
+
         &:hover {
           color: @light-blue;
+
           &:before {
             background-color: @light-blue;
           }
@@ -32,8 +53,38 @@
       }
     }
   }
+
   p {
     opacity: 0.7;
     line-height: 2;
+  }
+
+  @media only screen and (max-width: 768px) {
+    padding-left: 0;
+    padding-right: 0;
+
+    .links {
+      max-width: 400px;
+      margin-bottom: 20px;
+
+      li {
+        margin-bottom: 30px;
+
+        a {
+          width: 100px;
+          font-size: 12px;
+        }
+      }
+    }
+  }
+
+  @media only screen and (max-width: 480px) {
+    .links {
+      max-width: 270px;
+
+      li a {
+        width: 90px;
+      }
+    }
   }
 }
