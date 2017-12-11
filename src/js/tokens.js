@@ -1,7 +1,8 @@
 (function($) {
   'use strict';
 
-  var GET_TOKENS_INTERVAL = 60000;
+  var TOTAL_SUPPLY = 200 * 1000 * 1000;
+  var GET_TOKENS_INTERVAL = 60 * 1000;
   var TOKENS_ID = 'allocated-tokens-value';
 
   $(document).ready(function() {
@@ -9,11 +10,20 @@
     setInterval(getTokens, GET_TOKENS_INTERVAL);
   });
 
+  function getTokens() {
+    $.ajax({
+      url: 'https://saleapi.jibrel.network/api/raised-tokens/',
+      dataType: 'json',
+      success: handleSuccess,
+      error: handleError,
+    });
+  }
+
   function handleSuccess(response) {
     try {
       var tokens = parseInt(response.raised_tokens, 10);
-      var digits = /^(\d{2,3})(\d{3})(\d{3})/.exec(tokens);
-      $('#' + TOKENS_ID).html(digits[1] + ',' + digits[2] + ',' + digits[3]);
+      setRaised(tokens);
+      setProgressWidth(tokens);
     } catch (err) {
       handleError(null, null, err);
     }
@@ -24,12 +34,14 @@
     console.error(errorThrown);
   }
 
-  function getTokens() {
-    $.ajax({
-      url: 'https://saleapi.jibrel.network/api/raised-tokens/',
-      dataType: 'json',
-      success: handleSuccess,
-      error: handleError,
-    });
+  function setRaised(tokens) {
+    var digits = /^(\d{2,3})(\d{3})(\d{3})/.exec(tokens);
+    $('#' + TOKENS_ID).html(digits[1] + ',' + digits[2] + ',' + digits[3]);
+  }
+
+  function setProgressWidth(tokens) {
+    var raisedPercent = (tokens / TOTAL_SUPPLY) * 100;
+    $('#progress-before').css('width', (raisedPercent + 1) + '%');
+    $('#progress-after').css('width', (100 - raisedPercent) + '%');
   }
 })(jQuery);

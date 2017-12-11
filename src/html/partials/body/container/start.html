@@ -40,7 +40,8 @@
         </div>
         <div class="inner progress-wrap" id="tokens-progress">
           <div class="progress">
-            <div class="line clear">
+            <div class="line" id="progress-before"></div>
+            <div class="line clear" id="progress-after">
               <div class="item raised">
                 <div class="title">{{ start.progress.allocated }}</div>
                 <div class="value" id="allocated-tokens-value"></div>
