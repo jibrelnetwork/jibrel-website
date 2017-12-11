@@ -4,15 +4,18 @@
   $(document).ready(function() {
     // Start slider
     $('.slider').slick({
+      autoplaySpeed: 7000,
+      speed: 500,
       dots: true,
       infinite: true,
-      speed: 500,
       fade: true,
       arrows: false,
       autoplay: true,
-      autoplaySpeed: 7000,
       adaptiveHeight: true,
+      initialSlide: isFromSale() ? 1 : 0,
     });
+
+    $('.slider').addClass('show');
 
     // Articles slider
     $('.slider2').slick({
@@ -137,4 +140,12 @@
     // Popover
     initPopover({ id: 'language-popover' });
   });
+
+  function isFromSale() {
+    try {
+      return (window.location.search === '?from-sale=1');
+    } catch (err) {
+      return false;
+    }
+  }
 })(jQuery);
