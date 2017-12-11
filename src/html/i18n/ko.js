@@ -1,7 +1,7 @@
 module.exports = {
   language: {
     code: 'ko',
-    title: 'Korean',
+    title: '한국어',
   },
   meta: {
     title: 'Jibrel Network',
@@ -20,7 +20,10 @@ module.exports = {
       title: 'English',
     }, {
       href: '/ko.html',
-      title: 'Korean',
+      title: '한국어',
+    }, {
+      href: '/zh.html',
+      title: '漢語',
     }],
   },
   start: {
@@ -279,7 +282,7 @@ module.exports = {
       answer: [
         '- 11월 25일 까지 개인 계좌를 위하여 증명서가 담긴 이메일을 받을 것입니다.',
         '- 이곳에서 개인 계좌를 개설할 수 있습니다. <a href="https://sale.jibrel.network" target="_blank">https://sale.jibrel.network</a>.',
-        '-시스템이 JNT 토큰을 받을 귀하의 ETH 주소를 요청할 것입니다.',
+        '- 시스템이 JNT 토큰을 받을 귀하의 ETH 주소를 요청할 것입니다.',
       ],
     }, {
       question: '구매 이후 Jibrel Network Token을 어떻게 판매할 수 있습니까? 제가 구매한 것을 환불 할 수 있습니까? ',
@@ -729,108 +732,5 @@ module.exports = {
     name: 'seconds', // not translate
     title: 'Seconds',
   }],
-  remodal: {
-    title: 'Jibrel Network 토큰 프리세일',
-    step: '단계',
-    previous: '이전 단계',
-    next: '다음 단계',
-    submit: '제출',
-    step1: {
-      notice: [
-        '주의 - BTC 또는 ETH를 통해서만 참여할 수 있습니다.',
-        '법정화폐를 사용하여 참여할 경우US$ 250,000이상의 금액부터 참여할 수 있습니다.',
-        '법정화폐를 사용하여 참여할 경우 연락해주세요.',
-        '다음 사항을 확인해주세요',
-      ],
-      checkbox1: [
-        '본인은 미국, 싱가포르 또는 중국 또는 Jibrel Network Token (JNT) 구매가 명시적으로 금지되거나 불법인 관할 구역의 시민, 영주권자가 아닙니다.',
-      ],
-      checkbox2: [
-        '본인은 Jibrel Network Token 프리세일 및 세일 ',
-        '약관을 읽고 이에 동의하며',
-        '본인은 토큰의 궁극적인 수익 소유자임을 확인합니다.',
-      ],
-    },
-    step2: {
-      notice: [
-        '*표시가 된 항목은 필수입니다.',
-      ],
-      placeholders: {
-        fullname: '성명',
-        email: '이메일',
-        emailconfirm: '이메일 확인',
-        phone: '휴대폰번호: +1 (234) 5678900',
-        country: '거주 국가',
-        citizenship: '국적',
-      },
-      errors: {
-        fullname: [
-          '유효한 성명을 입력해주세요.',
-        ],
-        email: [
-          '유효한 이메일 주소를 입력해주세요.',
-        ],
-        emailconfirm: [
-          '이메일이 일치하지 않습니다.',
-        ],
-        phone: [
-          '유효한 휴대폰번호를 입력해주세요.',
-        ],
-        country: [
-          '유효한 국가를 입력해주세요.',
-          '참여가 금지된 국가입니다.',
-        ],
-        citizenship: [
-          '유효한 국적을 입력해주세요.',
-          '참여가 금지된 국가입니다.',
-        ],
-      },
-    },
-    step3: {
-      notice: [
-        '프리세일 참여의 최소 금액은 5,000 달러입니다.',
-      ],
-      label: '지브렐 네트워크 참여를 희망합니다',
-      placeholders: {
-        currency: '화폐',
-        amount: '금액',
-      },
-      errors: {
-        currency: [
-          '유효한 화폐를 입력해주세요.',
-        ],
-        amount: [
-          '유효한 숫자를 입력해주세요.',
-          '최소 참여금액은 15 ETH입니다.',
-          '최소 참여금액은 1 BTC입니다.',
-          '최대 참가 액은 2500ETH입니다.',
-          '최대 참가 액은 150BTC입니다.',
-        ],
-        captcha: [
-          '위 항목을 확인 후 체크해주세요.',
-        ],
-      },
-    },
-    step4: {
-      message: [
-        'Jibrel Network 프리세일에 참여해주셔서 감사합니다.',
-        '신청하신 이메일 주소로 Jibrel Network Token (JNT) 프리세일 참여방법 지침서를 전송하였습니다.',
-        'Jibrel Network에 관심을 가져주셔서 다시 한번 감사드립니다.',
-        '',
-        'Jibrel Network팀 올림',
-      ],
-    },
-    step5: {
-      message: [
-        '',
-        '오류가 생겼습니다',
-        'presale@jibrel.network로',
-        '메일을 보내주세요.',
-        '',
-        'Jibrel Network팀 올림',
-      ],
-      email: 'presale@jibrel.network',
-    },
-  },
   timestamp: Date.now(),
 };

@@ -9,14 +9,8 @@
     }
 
     var id = '#' + (props.id || '');
-    var title = props.title || '';
 
-    setTitle(id, title);
     initHandlers(id);
-  }
-
-  function setTitle(id, title) {
-    $(id + ' .popover-title .text').html(title);
   }
 
   function initHandlers(id) {

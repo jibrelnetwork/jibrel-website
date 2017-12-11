@@ -1,6 +1,6 @@
 window.i18n = {
   language: {
-    code: 'en',
-    title: 'English',
+    code: 'zh',
+    title: 'Chinese',
   },
 };

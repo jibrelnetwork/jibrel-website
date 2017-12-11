@@ -20,7 +20,10 @@ module.exports = {
       title: 'English',
     }, {
       href: '/ko.html',
-      title: 'Korean',
+      title: '한국어',
+    }, {
+      href: '/zh.html',
+      title: '漢語',
     }],
   },
   start: {
@@ -729,108 +732,5 @@ module.exports = {
     name: 'seconds', // not translate
     title: 'Seconds',
   }],
-  remodal: {
-    title: 'Jibrel Network Token Pre-sale',
-    step: 'Step',
-    previous: 'Previous step',
-    next: 'Next step',
-    submit: 'Submit form',
-    step1: {
-      notice: [
-        'Please note - contributions can be made using BTC or ETH.',
-        'Fiat contributions are accepted for amounts in excess of US$ 250,000.',
-        'To contribute using fiat currencies, please contact ',
-        'Please confirm the following:',
-      ],
-      checkbox1: [
-        'I am not a citizen, permanent resident, or granted indefinite leave to remain in the US, Singapore or China - or any jurisdiction in which the purchase of Jibrel Network Token (JNT) is explicitly prohibited or outlawed.',
-      ],
-      checkbox2: [
-        'I hereby confirm that I have read and agree to the Jibrel Network Token Pre-sale and Sale ',
-        'Terms & Conditions',
-        'and that I am the ultimate beneficial owner (UBO) of the tokens.',
-      ],
-    },
-    step2: {
-      notice: [
-        'Fields marked with * are mandatory.',
-      ],
-      placeholders: {
-        fullname: 'Full Name',
-        email: 'Email',
-        emailconfirm: 'Confirm Email Address',
-        phone: 'Phone Number: +1 (234) 5678900',
-        country: 'Country of Residence',
-        citizenship: 'Citizenship',
-      },
-      errors: {
-        fullname: [
-          'The field should be valid full name.',
-        ],
-        email: [
-          'The field should be valid email address.',
-        ],
-        emailconfirm: [
-          'Emails should match to proceed.',
-        ],
-        phone: [
-          'The field should be valid phone number.',
-        ],
-        country: [
-          'The field should be valid country.',
-          'The country is prohibited.',
-        ],
-        citizenship: [
-          'The field should be valid citizenship.',
-          'The country is prohibited.',
-        ],
-      },
-    },
-    step3: {
-      notice: [
-        'Please note, the minimum value for pre-sale participation is US$ 5,000.',
-      ],
-      label: 'I would like to contribute',
-      placeholders: {
-        currency: 'Currency',
-        amount: 'Amount',
-      },
-      errors: {
-        currency: [
-          'The field should be valid currency.',
-        ],
-        amount: [
-          'The field should be valid number.',
-          'Minimum investment is 15 ETH.',
-          'Minimum investment is 1 BTC.',
-          'Maximum investment is 2500 ETH.',
-          'Maximum investment is 150 BTC.',
-        ],
-        captcha: [
-          'The captcha should be checked.',
-        ],
-      },
-    },
-    step4: {
-      message: [
-        'Thank you for your application to the Jibrel Network Public Pre-sale.',
-        'Instructions on how to complete your Jibrel Network Token (JNT) pre-sale purchase have been sent to the provided email address.',
-        'Thank you again for your interest in the Jibrel Network.',
-        'Sincerely,',
-        'Jibrel Network Team',
-      ],
-    },
-    step5: {
-      message: [
-        'Ooops…',
-        'Something is wrong on the line',
-        'Please, send us email',
-        '',
-        'Sincerely,',
-        'Jibrel Network Team',
-      ],
-      email: 'presale@jibrel.network',
-    },
-  },
   timestamp: Date.now(),
 };

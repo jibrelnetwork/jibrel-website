@@ -135,7 +135,6 @@
     });
 
     // Popover
-    var title = (window.location.pathname.indexOf('/ko.html') > -1) ? 'Korean' : 'English';
-    initPopover({ id: 'language-popover', title: title });
+    initPopover({ id: 'language-popover' });
   });
 })(jQuery);
