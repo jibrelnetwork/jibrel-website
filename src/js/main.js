@@ -4,7 +4,7 @@
   $(document).ready(function() {
     // Start slider
     $('.slider').slick({
-      autoplaySpeed: 7000,
+      autoplaySpeed: 30000,
       speed: 500,
       dots: true,
       infinite: true,
