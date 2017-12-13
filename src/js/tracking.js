@@ -1,7 +1,7 @@
 (function($) {
   'use strict';
 
-  var AFFILIATE_NETWORKS = ['clicksureclickid', 'track_id', 'actionpay'];
+  var AFFILIATE_NETWORKS = ['clicksureclickid', 'track_id', 'actionpay', 'adpump'];
 
   $(document).ready(function() {
     try {
