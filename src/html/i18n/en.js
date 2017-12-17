@@ -269,7 +269,7 @@ module.exports = {
     }, {
       question: 'Does the project have a hardcap?',
       answer: [
-        'Yes, the hardcap for sale is 115,000,000 Jibrel Network Token or US$ 28,750,000.',
+        'Yes, the hardcap for sale is 120,000,000 Jibrel Network Token or US$ 30,000,000.',
       ],
     }, {
       question: 'What will funds be used for?',
