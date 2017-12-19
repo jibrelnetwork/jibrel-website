@@ -8,8 +8,8 @@ node_modules
 npm-debug.log
 
 # produced by gulp
-/index*.html
-/ko.html
-/zh.html
-assets/css
-assets/js
+public/assets/css
+public/assets/js
+public/index.html
+public/ko.html
+public/zh.html
