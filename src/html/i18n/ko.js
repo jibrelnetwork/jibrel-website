@@ -661,7 +661,19 @@ module.exports = {
         href: 'https://www.linkedin.com/in/yuriy-khomyakov-5203a26a',
         type: 'linkedin',
       }],
-    }, {}]],
+    }, {
+      id: 15,
+      name: 'Nikita Shchipanov',
+      position: 'Web Analyst',
+      description: 'Nikita has 5 years’ of experience in digital marketing and analytics. He specializes in сonfiguring analytics tools, user acquisition through paid channels and traffic quality analysis.',
+      links: [{
+        href: 'nikita.shchipanov@jibrel.network',
+        type: 'email',
+      }, {
+        href: 'https://www.linkedin.com/in/nikitschip',
+        type: 'linkedin',
+      }],
+    }]],
   },
   careers: {
     title: '커리어',

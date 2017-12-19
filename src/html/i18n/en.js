@@ -518,7 +518,7 @@ module.exports = {
       id: 1,
       name: 'Yazan Barghuthi',
       position: 'Project Lead (Co-founder)',
-      description: 'Yazan has over 9 years\' financial services experience at top management consultancies such as Oliver Wyman and Deloitte. He is proficient at Javascript, HTML, CSS, React and most front-end frameworks.',
+      description: 'Yazan has over 9 years’ financial services experience at top management consultancies such as Oliver Wyman and Deloitte. He is proficient at Javascript, HTML, CSS, React and most front-end frameworks.',
       links: [{
         href: 'mailto:yazan@jibrel.network',
         type: 'email',
@@ -533,7 +533,7 @@ module.exports = {
       id: 2,
       name: 'Victor Mezrin',
       position: 'Technical Lead (Co-founder)',
-      description: 'Victor has over 10 years\' development experience and ran a top-3 altcoin mining pool (pool.mn) between 2014 and 2016. He is proficient at C++/C, Python, Java, C#, PHP, JavaScript, Solidity.',
+      description: 'Victor has over 10 years’ development experience and ran a top-3 altcoin mining pool (pool.mn) between 2014 and 2016. He is proficient at C++/C, Python, Java, C#, PHP, JavaScript, Solidity.',
       links: [{
         href: 'mailto:victor@jibrel.network',
         type: 'email',
@@ -548,7 +548,7 @@ module.exports = {
       id: 3,
       name: 'Talal Tabbaa',
       position: 'BizDev Lead (Co-founder)',
-      description: 'Talal has over 6 years\' experience in financial advisory roles at top tier consultancies (PwC) as well as private investment funds. He is proficient at Python and SQL and is learning front-end development.',
+      description: 'Talal has over 6 years’ experience in financial advisory roles at top tier consultancies (PwC) as well as private investment funds. He is proficient at Python and SQL and is learning front-end development.',
       links: [{
         href: 'mailto:talal@jibrel.network',
         type: 'email',
@@ -593,7 +593,7 @@ module.exports = {
       id: 6,
       name: 'Aleksey Selikhov',
       position: 'Developer (Back-end)',
-      description: 'Aleksey has over 12 years\' experience developing tech solutions for financial institutions. He has delivered full-stack solutions for both banks and investment funds. He is proficient at C++/C, Java, Python, JavaScript, Solidity.',
+      description: 'Aleksey has over 12 years’ experience developing tech solutions for financial institutions. He has delivered full-stack solutions for both banks and investment funds. He is proficient at C++/C, Java, Python, JavaScript, Solidity.',
       links: [{
         href: 'mailto:aleksey@jibrel.network',
         type: 'email',
@@ -608,7 +608,7 @@ module.exports = {
       id: 8,
       name: 'Ivan Violentov',
       position: 'Developer (Front-end)',
-      description: 'Ivan has over 5 years\' of experience in web programming. He is especially skilled at developing financial solutions and applications. He specializes in full-stack development using Node, server-side, and React/Angular/Vue, client-side.',
+      description: 'Ivan has over 5 years’ of experience in web programming. He is especially skilled at developing financial solutions and applications. He specializes in full-stack development using Node, server-side, and React/Angular/Vue, client-side.',
       links: [{
         href: 'mailto:ivan.violentov@jibrel.network',
         type: 'email',
@@ -623,7 +623,7 @@ module.exports = {
       id: 10,
       name: 'Anna Bordunova',
       position: 'Public Relations',
-      description: 'Anna is media and communications practitioner over 5 years\' of experience in journalism, PR and social media. Her expertise spans traditional, experiential & digital marketing – with an emphasis on comprehensive Internet presence management.',
+      description: 'Anna is media and communications practitioner over 5 years’ of experience in journalism, PR and social media. Her expertise spans traditional, experiential & digital marketing – with an emphasis on comprehensive Internet presence management.',
       links: [{
         href: 'mailto:anna@jibrel.network',
         type: 'email',
@@ -635,7 +635,7 @@ module.exports = {
       id: 11,
       name: 'Rust Khusyainov',
       position: 'Illustrator',
-      description: 'Rust has over 7 years\' of experience in graphic design and illustration. He has created high quality content for clients across financial services, retail and sports. He specializes in raster and vector graphic and video editing.',
+      description: 'Rust has over 7 years’ of experience in graphic design and illustration. He has created high quality content for clients across financial services, retail and sports. He specializes in raster and vector graphic and video editing.',
       links: [{
         href: 'mailto:rustam.khusyainov@jibrel.network',
         type: 'email',
@@ -661,7 +661,19 @@ module.exports = {
         href: 'https://www.linkedin.com/in/yuriy-khomyakov-5203a26a',
         type: 'linkedin',
       }],
-    }, {}]],
+    }, {
+      id: 15,
+      name: 'Nikita Shchipanov',
+      position: 'Web Analyst',
+      description: 'Nikita has 5 years’ of experience in digital marketing and analytics. He specializes in сonfiguring analytics tools, user acquisition through paid channels and traffic quality analysis.',
+      links: [{
+        href: 'nikita.shchipanov@jibrel.network',
+        type: 'email',
+      }, {
+        href: 'https://www.linkedin.com/in/nikitschip',
+        type: 'linkedin',
+      }],
+    }]],
   },
   careers: {
     title: 'Careers',
