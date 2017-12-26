@@ -40,17 +40,17 @@
         </div>
         <div class="inner progress-wrap" id="tokens-progress">
           <div class="progress">
+            <div class="mark" style="left: 0">150M</div>
+            <div class="mark" style="left: 20%">160M</div>
+            <div class="mark" style="left: 40%">170M</div>
+            <div class="mark" style="left: 60%">180M</div>
+            <div class="mark" style="left: 80%">190M</div>
+            <div class="mark" style="left: 100%">200M</div>
             <div class="line" id="progress-before"></div>
-            <div class="line clear" id="progress-after">
-              <div class="item raised">
-                <div class="title">{{ start.progress.allocated }}</div>
-                <div class="value" id="allocated-tokens-value"></div>
-                <div class="point"></div>
-              </div>
-            </div>
-            <div class="item total">
-              <div class="title">{{ start.progress.total }}</div>
-              <div class="value">200,000,000</div>
+            <div class="line clear" id="progress-after"></div>
+            <div class="item" id="progress-raised">
+              <div class="title">{{ start.progress.allocated }}</div>
+              <div class="value" id="allocated-tokens-value"></div>
               <div class="point"></div>
             </div>
           </div>

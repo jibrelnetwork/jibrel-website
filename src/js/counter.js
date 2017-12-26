@@ -3,13 +3,7 @@
 
   function onCounterTick() {
     var timeLeft = moment.duration(moment.utc('2018-01-26T12:00') - moment.utc());
-
-    /**
-     * TODO
-     * December has 31 days, so need to remove "+ 1" after it
-     */
-    var monthsDays = (timeLeft.months() * 30) + 1;
-    var totalDays = monthsDays + timeLeft.days();
+    var totalDays = timeLeft.days();
 
     $('#counter-days .value').html(totalDays);
     $('#counter-hours .value').html(timeLeft.hours());

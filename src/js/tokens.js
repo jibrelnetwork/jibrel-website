@@ -2,6 +2,7 @@
   'use strict';
 
   var TOTAL_SUPPLY = 200 * 1000 * 1000;
+  var INITIAL_VALUE = 150 * 1000 * 1000;
   var GET_TOKENS_INTERVAL = 60 * 1000;
   var TOKENS_ID = 'allocated-tokens-value';
 
@@ -40,8 +41,9 @@
   }
 
   function setProgressWidth(tokens) {
-    var raisedPercent = (tokens / TOTAL_SUPPLY) * 100;
+    var raisedPercent = ((tokens - INITIAL_VALUE) / (TOTAL_SUPPLY - INITIAL_VALUE)) * 100;
     $('#progress-before').css('width', (raisedPercent + 1) + '%');
     $('#progress-after').css('width', (100 - raisedPercent) + '%');
+    $('#progress-raised').css('left', raisedPercent + '%');
   }
 })(jQuery);
