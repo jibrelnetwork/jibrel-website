@@ -18,14 +18,11 @@ var vendorScripts = [
   './src/js/vendor/jquery.min.js',
   './src/js/vendor/scroll.js',
   './src/js/vendor/slick.min.js',
-  './src/js/vendor/moment-with-locales.min.js',
-]
+];
 
 var scripts = [
-  './src/js/counter.js',
   './src/js/main.js',
   './src/js/popover.js',
-  './src/js/tokens.js',
   './src/js/tracking.js',
 ]
 

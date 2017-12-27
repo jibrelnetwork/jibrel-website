@@ -5,29 +5,6 @@
           <div class="slide">
             <div class="inner">
               <div class="text">
-                <h1>{{ start.sale.title }}</h1>
-                <p>{{ start.sale.text[0] }} <br />{{ start.sale.text[1] }}</p>
-                <a href="https://sale.jibrel.network" class="button bordered" target="_blank">
-                  {{ start.sale.link }}
-                </a>
-              </div>
-              <div class="counter hidden" id="counter">
-                <div class="row clear">
-                  {% for unit in counterUnits %}<div class="col-3" id="counter-{{ unit.name }}">
-                    <div class="bar">
-                      <div class="wrap">
-                        <div class="value"></div>
-                        <div class="title">{{ unit.title }}</div>
-                      </div>
-                    </div>
-                  </div>{% endfor %}
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="slide">
-            <div class="inner">
-              <div class="text">
                 <h1>{{ start.jwallet.title }}</h1>
                 <p>{{ start.jwallet.text[0] }} <br />{{ start.jwallet.text[1] }}</p>
                 <a href="https://jwallet.network" class="button bordered" target="_blank">
@@ -35,23 +12,6 @@
                 </a>
               </div>
               <div class="notebook"></div>
-            </div>
-          </div>
-        </div>
-        <div class="inner progress-wrap" id="tokens-progress">
-          <div class="progress">
-            <div class="mark" style="left: 0">150M</div>
-            <div class="mark" style="left: 20%">160M</div>
-            <div class="mark" style="left: 40%">170M</div>
-            <div class="mark" style="left: 60%">180M</div>
-            <div class="mark" style="left: 80%">190M</div>
-            <div class="mark" style="left: 100%">200M</div>
-            <div class="line" id="progress-before"></div>
-            <div class="line clear" id="progress-after"></div>
-            <div class="item" id="progress-raised">
-              <div class="title">{{ start.progress.allocated }}</div>
-              <div class="value" id="allocated-tokens-value"></div>
-              <div class="point"></div>
             </div>
           </div>
         </div>
