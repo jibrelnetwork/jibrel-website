@@ -10,12 +10,16 @@ const copy = require('gulp-copy')
 
 const i18n = require('./src/html/i18n')
 
-const cssStyles = []
+const cssStyles = [
+  './src/css/remodal.css',
+  './src/css/remodal-default-theme.css',
+]
 
 const vendorScripts = [
   './src/js/vendor/jquery.min.js',
   './src/js/vendor/scroll.js',
   './src/js/vendor/slick.min.js',
+  './src/js/vendor/remodal.min.js',
 ]
 
 const scripts = [

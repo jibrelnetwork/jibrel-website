@@ -717,9 +717,10 @@ module.exports = {
       type: 'slack',
       title: 'Slack',
     }, {
-      href: 'https://www.wechat.com',
+      href: '#qrcode',
       type: 'wechat',
       title: 'WeChat',
+      target: '_self',
     }],
     copy: [
       '© 2017 Jibrel Network. All Rights Reserved.',
