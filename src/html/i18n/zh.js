@@ -48,19 +48,10 @@ module.exports = {
       total: '代币发行总量',
     },
   },
-  features: [{
-    title: '$0.25美元',
-    description: '代币价格',
-  }, {
-    title: '以太币、比特币',
-    description: '众售支持代币',
-  }, {
-    title: '2018年2月1日',
-    description: '代币在交易所上市',
-  }, {
-    title: '美国',
-    description: '禁止参与众售',
-  }],
+  info: {
+    title: 'Our token sale has ended. Thank you for your support.',
+    button: 'Manage JNT Tokens',
+  },
   about: {
     title: '关于Jibrel网络',
     benefits: [[{

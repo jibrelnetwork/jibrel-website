@@ -48,19 +48,10 @@ module.exports = {
       total: 'TOTAL SUPPLY',
     },
   },
-  features: [{
-    title: 'USD $0.25',
-    description: 'Price of the token',
-  }, {
-    title: 'Ethereum, Bitcoin',
-    description: 'Accepted currencies',
-  }, {
-    title: 'Feb 1st 2018',
-    description: 'Tokens will be listed',
-  }, {
-    title: 'United States',
-    description: 'Forbidden countries',
-  }],
+  info: {
+    title: 'Our token sale has ended. Thank you for your support.',
+    button: 'Manage JNT Tokens',
+  },
   about: {
     title: 'Jibrel Network 소개',
     benefits: [[{
