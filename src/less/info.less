@@ -7,6 +7,7 @@
   }
 
   .title {
+    line-height: 1.5;
     margin-bottom: 50px;
     font-size: 20px;
     font-weight: 300;
@@ -29,6 +30,17 @@
 
     &:hover {
       background-color: #00c1ff;
+    }
+  }
+
+  @media only screen and (max-width: 600px) {
+    .title {
+      margin-bottom: 35px;
+      font-size: 18px;
+    }
+
+    .button {
+      font-size: 13px;
     }
   }
 }
