@@ -12,7 +12,6 @@
       arrows: false,
       autoplay: true,
       adaptiveHeight: true,
-      initialSlide: isFromSale() ? 1 : 0,
     });
 
     $('.slider').addClass('show');
@@ -140,12 +139,4 @@
     // Popover
     initPopover({ id: 'language-popover' });
   });
-
-  function isFromSale() {
-    try {
-      return (window.location.search === '?from-sale=1');
-    } catch (err) {
-      return false;
-    }
-  }
 })(jQuery);
