@@ -49,8 +49,8 @@ module.exports = {
     },
   },
   info: {
-    title: 'Our token sale has ended. Thank you for your support.',
-    button: 'Manage JNT Tokens',
+    title: '众售已结束。感谢您的支持。',
+    button: '管理代币JNT',
   },
   about: {
     title: '关于Jibrel网络',
