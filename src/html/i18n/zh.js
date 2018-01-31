@@ -575,13 +575,28 @@ module.exports = {
       position: 'Web Analyst',
       description: 'Nikita has 5 years’ of experience in digital marketing and analytics. He specializes in сonfiguring analytics tools, user acquisition through paid channels and traffic quality analysis.',
       links: [{
-        href: 'nikita.shchipanov@jibrel.network',
+        href: 'mailto:nikita.shchipanov@jibrel.network',
         type: 'email',
       }, {
         href: 'https://www.linkedin.com/in/nikitschip',
         type: 'linkedin',
       }],
-    }]],
+    }], [{
+      id: 16,
+      name: 'Aleksey Smirnov',
+      position: 'DevOps Engineer',
+      description: 'DevOps and System Architech Engineer with a 10-years experience in development and building high-load projects. Proficient with Linux systems, clouds and infrastructure solutions. Uses Python as main work tool.',
+      links: [{
+        href: 'mailto:aleksey.smyrnov@jibrel.network',
+        type: 'email',
+      }, {
+        href: 'https://jibrelnetwork.slack.com/team/U8L6B5C7R',
+        type: 'slack',
+      }, {
+        href: 'https://linkedin.com/in/AlekseySmyrnov',
+        type: 'linkedin',
+      }],
+    }, {}]],
   },
   careers: {
     title: '工作机会',
