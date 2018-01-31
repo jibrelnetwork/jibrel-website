@@ -193,94 +193,11 @@ module.exports = {
   faq: {
     title: 'Frequently Asked Questions',
     categories: [
-      'Token Sale',
       'General Overview',
       'CryptoDepository Receipts',
       'Jibrel Network Token (JNT)',
     ],
     tabs: [[{
-      active: true,
-      question: 'When is the token sale?',
-      answer: [
-        'The token sale will take place between November 27th, 2017 - 12:00PM GMT and January 26th, 2018 - 12:00PM GMT.',
-      ],
-    }, {
-      question: 'What currencies are accepted?',
-      answer: [
-        'ETH and BTC.',
-      ],
-    }, {
-      question: 'What will the token price be?',
-      answer: [
-        'Jibrel Network Token (JNT) will be offered at US$ 0.25.',
-      ],
-    }, {
-      question: 'How do I participate in the token sale?',
-      answer: [
-        'You can participate by visiting the dedicated token sale website <a href="https://sale.jibrel.network" target="_blank">https://sale.jibrel.network</a>.',
-        'For a detailed instructions on how to complete your JNT purchase, please read the full walkthrough <a href="https://medium.com/@jibrelnetwork" target="_blank" rel="noopener noreferrer">https://medium.com/@jibrelnetwork</a>.'
-      ],
-    }, {
-      question: 'Is there a minimum or maximum investment limit?',
-      answer: [
-        'Yes, the minimum purchase is 200 JNT (US$ 50 equivalent).',
-        'The investment limit is US$ 850,000.',
-      ],
-    }, {
-      question: 'What wallets are supported?',
-      answer: [
-        'You can use any wallet that supports Ethereum ERC-20 tokens, particularly Ethereum Wallet, MIST, MyEtherScan etc.',
-        'We recommend to use web-wallet developed by Jibrel Network: <a href="https://jwallet.network" target="_blank">https://jwallet.network</a>.',
-      ],
-    }, {
-      question: 'Will there be a KYC process?',
-      answer: [
-        'Yes. The entire process is automated and should not take longer than ~4 minutes to complete.',
-      ],
-    }, {
-      question: 'Do I need to recomplete an application to increase my purchase?',
-      answer: [
-        'No. Once your purchase is complete, you can increase your Jibrel Network Token allocation through the user portal on our token sale website <a href="https://sale.jibrel.network" target="_blank">https://sale.jibrel.network</a>.',
-      ],
-    }, {
-      question: 'When will I receive my Jibrel Network Token (JNT)?',
-      answer: [
-        'Immediately. Once your ETH or BTC transfer is complete (12 confirmations for ETH, 3 confirmations for BTC) you will immediately receive your JNT to the ETH address specified in your application.',
-      ],
-    }, {
-      question: 'When will Jibrel Network be publicly tradable?',
-      answer: [
-        'Jibrel Network Token (JNT) will be publicly traded on at least five exchanges as soon as February 1st, 2018.',
-      ],
-    }, {
-      question: 'I’m a citizen / resident of the US, why can’t I participate?',
-      answer: [
-        'Due to legal restrictions, citizens and residents of the US and US governed territories are restricted from participating in the Jibrel Network Token sale.',
-      ],
-    }, {
-      question: 'Does the project have a hardcap?',
-      answer: [
-        'Yes, the hardcap for sale is 120,000,000 Jibrel Network Token or US$ 30,000,000.',
-      ],
-    }, {
-      question: 'What will funds be used for?',
-      answer: [
-        '25% of proceeds will go towards building out the network (development, marketing and legal), with the remaining 75% used to mint the first batch of crypto-fiat tokens - jCash.',
-        'For a more detailed budget breakdown, please see this medium post <a href="https://medium.com/@jibrelnetwork/jibrel-network-roadmap-618d156b884c" target="_blank" rel="noopener noreferrer">https://medium.com</a>.',
-      ],
-    }, {
-      question: 'I participated in Token pre-sale. How do I receive my JNT?',
-      answer: [
-        '- By the 25th of November you will receive email with the credentials for your personal account',
-        '- Open your personal account on <a href="https://sale.jibrel.network" target="_blank">https://sale.jibrel.network</a>.',
-        '- System will ask you for ETH address which will receive your JNT tokens',
-      ],
-    }, {
-      question: 'How do I sell my Jibrel Network Token after completing my purchase, can I refund my purchase?',
-      answer: [
-        'Jibrel Network token cannot be refunded after a purchase is completed, but can be resold on exchanges starting February 1st, 2018.',
-      ],
-    }], [{
       active: true,
       question: 'Where I can meet Jibrel Network team?',
       answer: [

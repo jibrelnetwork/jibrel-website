@@ -193,94 +193,11 @@ module.exports = {
   faq: {
     title: '常见问题解答',
     categories: [
-      '代币出售',
       '整体概览',
       '密码编译存托凭证(CryDRs)',
       'Jibrel网络代币(JNT)',
     ],
     tabs: [[{
-      active: true,
-      question: '代币众售的时间是什么时候？',
-      answer: [
-        '代币众售于2017年11月27日标准时中午12点(GMT 12:00PM)开始，于2018年1月26日标准时中午12点(GMT 12:00PM)结束。',
-      ],
-    }, {
-      question: '接收哪些代币购买？',
-      answer: [
-        '以太币和比特币。',
-      ],
-    }, {
-      question: '代币价格多少？',
-      answer: [
-        'Jibrel网络代币JNT众售价格为0.25美元。',
-      ],
-    }, {
-      question: '如何参加代币购买？',
-      answer: [
-        '用户可通过访问该网页来购买代币。 <a href="https://sale.jibrel.network" target="_blank">https://sale.jibrel.network</a>.',
-        '如果需要更详细的JNT代币购买指示，请阅读完整指南 <a href="https://medium.com/@jibrelnetwork" target="_blank" rel="noopener noreferrer">https://medium.com/@jibrelnetwork</a>.'
-      ],
-    }, {
-      question: '是否存在最低或最高投资额？',
-      answer: [
-        '有的，最低投资额为200JNT，即50美元。',
-        '最高投资额为85万美元。',
-      ],
-    }, {
-      question: '支持哪些钱包？',
-      answer: [
-        '任何支持以太币ERC-20代币的钱包都可以，尤其是以太坊钱包(Ethereum Wallet)、MIST钱包、MyEtherScan等。',
-        '我们建议用户使用Jibrel网络推出的j钱包: <a href="https://jwallet.network" target="_blank">https://jwallet.network</a>.',
-      ],
-    }, {
-      question: '需要KYC验证流程吗？',
-      answer: [
-        '需要，不过整个流程已实现自动化，大概不用4分钟就可以完成。',
-      ],
-    }, {
-      question: '如果我要多买代币，需要重新申请吗？',
-      answer: [
-        '不需要。第一次买过代币之后，用户可以在Jibrel代币出售网页继续购买JNT <a href="https://sale.jibrel.network" target="_blank">https://sale.jibrel.network</a>.',
-      ],
-    }, {
-      question: '什么时候可以收到Jibrel的代币JNT？',
-      answer: [
-        '马上。一旦用户的以太币或比特币交易完成，用户可立马在申请的ETH地址收到JNT。注意：以太币需要12个确认，比特币需要3个确认。',
-      ],
-    }, {
-      question: 'Jibrel网络什么时候可以公开交易？',
-      answer: [
-        'Jibrel网络代币JNT将于2018年2月1日上市，至少有5间交易所可以交易。',
-      ],
-    }, {
-      question: '我是美国公民/居民，为什么我不能参与代币购买？ ',
-      answer: [
-        '由于法律限制，美国公民和居住在美国的民众都不能参与JNT代币出售。',
-      ],
-    }, {
-      question: '这个项目有硬封顶吗？',
-      answer: [
-        '有的，出售的硬封顶是120,000,000个Jibrel网络代币，即30,000,000美元。',
-      ],
-    }, {
-      question: '众售资金将用于何处？',
-      answer: [
-        '25%用于网络的搭建比如开发、市场营销和法律规范，剩下的75%用于打造第一批加密法币j现金(jCash)。',
-        '如需了解更详细的资金分配，请查看以下链接。<a href="https://medium.com/@jibrelnetwork/jibrel-network-roadmap-618d156b884c" target="_blank" rel="noopener noreferrer">https://medium.com</a>.',
-      ],
-    }, {
-      question: '我参与了代币预售，如何收到JNT？',
-      answer: [
-        '- 11月25日之前，您会收到邮件，里面会提供您的个人账户信用证书。',
-        '- 在以下网址打开您的个人账户 <a href="https://sale.jibrel.network" target="_blank">https://sale.jibrel.network</a>.',
-        '- 系统会指示您提供接收JNT的ETH地址。',
-      ],
-    }, {
-      question: '代币购买后，我该如何出售我的代币？可以要求退款吗？ ',
-      answer: [
-        'Jibrel网络代币售出后不能退款，不过在2018年2月1日上市后就可以在交易所买卖。',
-      ],
-    }], [{
       active: true,
       question: '我在哪里可以会见Jibrel团队成员？',
       answer: [

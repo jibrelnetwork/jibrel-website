@@ -193,94 +193,11 @@ module.exports = {
   faq: {
     title: '자주 묻는 질문',
     categories: [
-      '토큰세일',
       '개요',
       'CryptoDepository Receipts',
       'Jibrel Network토큰 (JNT)',
     ],
     tabs: [[{
-      active: true,
-      question: '토큰세일은 언제입니까?',
-      answer: [
-        '토큰세일 기간은  2017년 11월 27일 오후 9시~  2018년1월 26일 오후 9시 입니다',
-      ],
-    }, {
-      question: '어떤 암호화폐로 참여할 수 있습니까?',
-      answer: [
-        'ETH 및 BTC입니다.',
-      ],
-    }, {
-      question: '토큰 가격은 얼마입니까?',
-      answer: [
-        'Jibre Network Token (JNT)은 0.25 US달러에 판매될 예정입니다.',
-      ],
-    }, {
-      question: '토큰세일은 어떻게 참여합니까?',
-      answer: [
-        '지정된 토큰세일 사이트에서 참여하실 수 있습니다 <a href="https://sale.jibrel.network" target="_blank">https://sale.jibrel.network</a>.',
-        '더 자세한 사항은 이 링크에서 확인할 수 있으며, 전체적인 항목을 참조해주세요. <a href="https://medium.com/@jibrelnetwork" target="_blank" rel="noopener noreferrer">https://medium.com/@jibrelnetwork</a>.'
-      ],
-    }, {
-      question: '최소 혹은 최대 참여금액이 있습니까?',
-      answer: [
-        '네, 최소 참여금액은US$ 100 입니다.',
-        '최대 참여금액은 US$ 850,000입니다',
-      ],
-    }, {
-      question: '어떤 지갑들이 지원되나요?',
-      answer: [
-        '이더리움 ERC-20 지원하는 어떠한 지갑도 사용할 수 있습니다. 대표적으로는Ethereum Wallet, MIST, MYEtherWallet 등이 있습니다. ',
-        'Jibrel Network가 개발한 웹지갑을 사용하는 것을 추천합니다.: <a href="https://jwallet.network" target="_blank" rel="noopener noreferrer">https://jwallet.network</a>.',
-      ],
-    }, {
-      question: 'KYC 프로세스가 있나요?',
-      answer: [
-        '네, 모든 프로세스는 자동화 되며 완성하는데 4분이 초과되지 않습니다. ',
-      ],
-    }, {
-      question: '참여를 더 하려면 처음부터 다시 해야 되나요?',
-      answer: [
-        '아뇨. 참여를 이미 하였으면 Jibrel Network 토큰 할당액을 늘릴 때 토큰세일 웹사이트의 유저 포털을 사용하면 됩니다. <a href="https://sale.jibrel.network" target="_blank">https://sale.jibrel.network</a>.',
-      ],
-    }, {
-      question: '언제 Jibrel Network Token (JNT)를 받을 수 있나요?',
-      answer: [
-        '바로 받을 수 있습니다. 이더리움 혹은 비트코인 송금이 완료된 후 (ETH -12컨펌, BTC – 3 컨펌) 신청한 ETH 주소에 JNT가 바로 지급이 될 것입니다.',
-      ],
-    }, {
-      question: 'Jibrel Network 가 언제 공개적으로 거래되나요?',
-      answer: [
-        'Jibrel Network Token (JNT)는 2018년 2월 1일 경에 최소 5개의 거래소에서 공개적으로 거래가 될 것입니다.',
-      ],
-    }, {
-      question: '저는 미국, 중국 혹은 싱가폴의 시민입니다. 전 왜 참여할 수 없나요? ',
-      answer: [
-        '법적 제한으로 인해 미국, 중국, 그리고 싱가폴 국민은 Jibrel Network 토큰세일에 참여를 못합니다. ',
-      ],
-    }, {
-      question: '프로젝트에 하드캡이 있나요? ',
-      answer: [
-        '네, 토큰세일의 하드캡은 120,000,000 Jibrel Network 토큰이며 US$30,000,000입니다.',
-      ],
-    }, {
-      question: '자금은 어떻게 사용될 것입니까? ',
-      answer: [
-        '25%는 네트워크를 건설 (개발, 마케팅, 법률) 하는 것에 할당될 것이고 75%는 jCash인 첫 암호-법정 화폐를 기획하는 것에 쓰일 것입니다. ',
-        '더 자세한 예산 내역은 미디엄 포스트를 참조해주세요 <a href="https://medium.com/@jibrelnetwork/jibrel-network-roadmap-618d156b884c" target="_blank" rel="noopener noreferrer">https://medium.com</a>.',
-      ],
-    }, {
-      question: '저는 프리세일에 참여하였는데 JNT를 어떻게 받나요? ',
-      answer: [
-        '- 11월 25일 까지 개인 계좌를 위하여 증명서가 담긴 이메일을 받을 것입니다.',
-        '- 이곳에서 개인 계좌를 개설할 수 있습니다. <a href="https://sale.jibrel.network" target="_blank">https://sale.jibrel.network</a>.',
-        '- 시스템이 JNT 토큰을 받을 귀하의 ETH 주소를 요청할 것입니다.',
-      ],
-    }, {
-      question: '구매 이후 Jibrel Network Token을 어떻게 판매할 수 있습니까? 제가 구매한 것을 환불 할 수 있습니까? ',
-      answer: [
-        'Jibrel Network 토큰은 환불할 수 없습니다. 하지만 2018년 2월 1일 거래소에서 판매할 수 있습니다. ',
-      ],
-    }], [{
       active: true,
       question: 'Jibrel Network 팀을 어디서 만날 수 있나요? ',
       answer: [
