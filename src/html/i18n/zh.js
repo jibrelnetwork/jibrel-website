@@ -585,7 +585,7 @@ module.exports = {
       id: 16,
       name: 'Aleksey Smirnov',
       position: 'DevOps Engineer',
-      description: 'DevOps and System Architech Engineer with a 10-years experience in development and building high-load projects. Proficient with Linux systems, clouds and infrastructure solutions. Uses Python as main work tool.',
+      description: 'Aleksey has over 10 years’ experience as a DevOps Engineer and Systems Architect. He specializes in the designing and developing high-load architectures. He is proficient in Linux, cloud and infrastructure solutions. He uses python as his main work tool.',
       links: [{
         href: 'mailto:aleksey.smyrnov@jibrel.network',
         type: 'email',
