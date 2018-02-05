@@ -199,22 +199,6 @@ module.exports = {
     ],
     tabs: [[{
       active: true,
-      question: '我在哪里可以会见Jibrel团队成员？',
-      answer: [
-        '你可以在以下任何一个场合跟我们团队见面：',
-        '<b>北美地区</b><br />' +
-          'Blockchain for Wall Street, 纽约 11月14日<br />' +
-          'Consensus: Invest, 纽约 11月28日<br />' +
-          'Blockchain Opportunity Summit, 纽约 12月5日<br />' +
-          'The Blockchain Event, 劳德代尔堡 2月15-16日',
-        '<b>中东与北非地区</b><br />' +
-          'Regtech MENA, 巴林 11月21-22日',
-        '<b>欧洲</b><br />' +
-          'Blockchain Summit Kyiv, 基辅 乌克兰 11月25日',
-        '<b>Asia</b><br />' +
-          'Inside Fintech, 首尔 韩国 11月30日-12月1日',
-      ],
-    }, {
       question: 'Jibrel网络能如何帮我规避加密货币波动性的风险？',
       answer: [
         'Jibrel所提供的链上代币具有稳定性，有现实世界资产担保。用户可使用Jibrel去中心化银行(Jibrel DAO)交换波动性大的以太币、比特币或其他加密货币，也可以换成像jUSD、jEUR、jGBP、jKRW之类的稳定代币。',

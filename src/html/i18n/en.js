@@ -199,22 +199,6 @@ module.exports = {
     ],
     tabs: [[{
       active: true,
-      question: 'Where I can meet Jibrel Network team?',
-      answer: [
-        'You can meet us at one of the following events:',
-        '<b>N. America</b><br />' +
-          'Blockchain for Wall Street, New York, Nov 14<br />' +
-          'Consensus: Invest, New York, Nov 28<br />' +
-          'Blockchain Opportunity Summit, New York, Dec 5<br />' +
-          'The Blockchain Event, Fort Lauderdale, Feb 15-16',
-        '<b>MENA</b><br />' +
-          'Regtech MENA, Bahrain, Nov 21-22',
-        '<b>Europe</b><br />' +
-          'Blockchain Summit Kyiv, Kiev, Ukraine, Nov 25',
-        '<b>Asia</b><br />' +
-          'Inside Fintech, Seoul, Korea, Nov 30 - Dec 1',
-      ],
-    }, {
       question: 'How does Jibrel Network protect me from cryptocurrency volatility?',
       answer: [
         'Jibrel provides stable coins representing real world value on the Ethereum blockchain. Using the Jibrel Decentral Bank (Jibrel DAO), you can exchange volatile ETH, BTC or other cryptocurrencies for  stable tokens like jUSD, jEUR, jGBP, jKRW and others.',
