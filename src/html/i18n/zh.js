@@ -207,7 +207,7 @@ module.exports = {
     }, {
       question: '我怎么知道Jibrel是安全的呢？',
       answer: [
-        'Jibrel智能合约已通过安全合作伙伴New Alchemy的审计，您可查看完整的安全审计报告。',
+        'Jibrel智能合约已通过安全合作伙伴New Alchemy的审计，<a href="https://medium.com/@jibrelnetwork/new-alchemy-security-audit-findings-302357ea49e5" target="_blank" rel="noopener noreferrer">您可查看完整的安全审计报告。</a>',
         '此外，我们的财务透明合作伙伴普华永道(PwC)也审查并审计了Jibrel的财务状况。',
       ],
     }, {

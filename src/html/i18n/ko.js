@@ -207,7 +207,7 @@ module.exports = {
     }, {
       question: 'Jibrel이 안전한지 어떻게 확신할 수 있나요?',
       answer: [
-        'Jibrel 스마트 컨트렉트는 보안 파트너인, New Alchemy 에 의해 감독을 받습니다. 모든 보호 감독을 찾아볼 수 있습니다.',
+        'Jibrel 스마트 컨트렉트는 보안 파트너인, New Alchemy 에 의해 감독을 받습니다. <a href="https://medium.com/@jibrelnetwork/new-alchemy-security-audit-findings-302357ea49e5" target="_blank" rel="noopener noreferrer">모든 보호 감독을 찾아볼 수 있습니다</a>.',
         '더 나아가, 지브렐 파이낸셜은 우리의 금융 투명 파트너인 PwC에 의해 감독 되고 감사를 받습니다.',
       ],
     }, {

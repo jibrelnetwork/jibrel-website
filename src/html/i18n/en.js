@@ -152,7 +152,7 @@ module.exports = {
         'Jibrel Network launches an additional five fiat currencies at the jCash launch',
         '',
         '',
-        'Jibrel Network Token offered publically',
+        'Jibrel Network Token offered publicly',
       ],
     }, {
       class: 'left', // not translate
@@ -207,7 +207,7 @@ module.exports = {
     }, {
       question: 'How do I know Jibrel is secure?',
       answer: [
-        'Jibrel Smart Contracts have been audited by our security partner, New Alchemy, the full Security Audit can be found here.',
+        'Jibrel Smart Contracts have been audited by our security partner, New Alchemy, <a href="https://medium.com/@jibrelnetwork/new-alchemy-security-audit-findings-302357ea49e5" target="_blank" rel="noopener noreferrer">the full Security Audit can be found here</a>.',
         'In addition, Jibrel financials are reviewed and audited by our financial transparency partner, PwC.',
       ],
     }, {
