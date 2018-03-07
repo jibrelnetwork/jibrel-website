@@ -85,9 +85,9 @@ module.exports = {
     date: 'September 14, 2017',
     href: 'https://cointelegraph.com/news/ethereum-backed-jibrel-aims-to-contain-ico-bubble-with-new-type-of-smart-tokens',
   }, {
-    title: 'Bitcoin Approaches $8,000 As Cryptos Surge',
-    date: 'November 8, 2017',
-    href: 'https://www.forbes.com/forbes/welcome/?toURL=https://www.forbes.com/sites/cbovaird/2017/11/08/bitcoin-approaches-8000-as-cryptos-surge/&refURL=&referrer=#6e6c36903f57',
+    title: 'Jibrel Network Is Bridging The Gap Between Crypto And Traditional Markets',
+    date: 'January 22, 2018',
+    href: 'https://www.forbes.com/sites/jessedamiani/2018/01/22/jibrel-network-is-bridging-the-gap-between-crypto-and-traditional-markets/#104d235f67d3',
   }, {
     title: 'How the digital economy continues to evolve as popularity and interest grows',
     date: 'November 16, 2017',
@@ -97,9 +97,9 @@ module.exports = {
     date: 'November 17, 2017',
     href: 'https://bitcoinmagazine.com/articles/crypto-trading-and-traditional-assets-new-options-investors/',
   }, {
-    title: 'Fresh from a Success Token Pre-Sale, the Jibrel Network Launches Their New Cryptowallet for Users',
-    date: 'November 25, 2017',
-    href: 'https://www.huffingtonpost.com/entry/fresh-from-a-success-token-pre-sale-the-jibrel-network_us_5a19aa74e4b0bf1467a846d6',
+    title: 'The Future of Investing: Tokenizing Traditional Assets on The Blockchain',
+    date: 'November 17, 2017',
+    href: 'https://www.huffingtonpost.com/entry/5a0f4aaee4b023121e0e927d',
   }, {
     title: 'Jibrel Network Announces a Highly Successful Pre-sale Round',
     date: 'November 20, 2017',

@@ -85,9 +85,9 @@ module.exports = {
     date: '2017年 9月14日',
     href: 'https://cointelegraph.com/news/ethereum-backed-jibrel-aims-to-contain-ico-bubble-with-new-type-of-smart-tokens',
   }, {
-    title: '加密货币暴涨 比特币突破8000美元',
-    date: '2017年11月8日',
-    href: 'https://www.forbes.com/forbes/welcome/?toURL=https://www.forbes.com/sites/cbovaird/2017/11/08/bitcoin-approaches-8000-as-cryptos-surge/&refURL=&referrer=#6e6c36903f57',
+    title: 'Jibrel Network Is Bridging The Gap Between Crypto And Traditional Markets',
+    date: 'January 22, 2018',
+    href: 'https://www.forbes.com/sites/jessedamiani/2018/01/22/jibrel-network-is-bridging-the-gap-between-crypto-and-traditional-markets/#104d235f67d3',
   }, {
     title: '民众兴趣和参与度提高 数字经济该如何继续发展',
     date: '2017年11月16日',
@@ -97,9 +97,9 @@ module.exports = {
     date: '2017年11月17日',
     href: 'https://bitcoinmagazine.com/articles/crypto-trading-and-traditional-assets-new-options-investors/',
   }, {
-    title: '代币预售成功 Jibrel网络发布新型加密钱包',
-    date: '2017年11月25日',
-    href: 'https://www.huffingtonpost.com/entry/fresh-from-a-success-token-pre-sale-the-jibrel-network_us_5a19aa74e4b0bf1467a846d6',
+    title: 'The Future of Investing: Tokenizing Traditional Assets on The Blockchain',
+    date: 'November 17, 2017',
+    href: 'https://www.huffingtonpost.com/entry/5a0f4aaee4b023121e0e927d',
   }, {
     title: 'Jibrel网络宣布其预售轮大获成功',
     date: '2017年11月20日',
