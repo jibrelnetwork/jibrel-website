@@ -1,20 +1,20 @@
 module.exports = {
   language: {
-    code: 'zh',
-    title: '漢語',
+    code: 'en',
+    title: 'English',
   },
   meta: {
     title: 'Jibrel Network',
   },
   header: {
     logo: 'assets/img/logo.svg',
-    about: '关于Jibrel',
-    roadmap: '发展蓝图',
-    jnt: '代币',
+    about: 'About',
+    roadmap: 'Roadmap',
+    jnt: 'Token',
     faq: 'FAQ',
-    whitepaper: '白皮书',
-    team: '团队',
-    button: '菜单',
+    whitepaper: 'White Paper',
+    team: 'Team',
+    button: 'Menu',
     languages: [{
       href: '/',
       title: 'English',
@@ -28,330 +28,330 @@ module.exports = {
   },
   start: {
     sale: {
-      title: '代币众售中',
+      title: 'Token Sale is now live',
       text: [
-        'Jibrel按照ERC-20代币合约标准',
-        '在以太坊区块链上提供传统金融资产',
+        'Jibrel provides traditional financial assets,',
+        'as ERC-20 tokens, on the Ethereum blockchain',
       ],
-      link: '购买代币',
+      link: 'Participate in token sale',
     },
     jwallet: {
-      title: '了解j钱包',
+      title: 'Introducing the jWallet',
       text: [
-        '虚拟币界的大新闻，',
-        '全人类的革命性产品。',
+        'Massive for the crypto-community,',
+        'revolutionary for everyone else.',
       ],
-      link: '使用j钱包',
+      link: 'Try jWallet',
     },
     progress: {
-      allocated: '已分配代币',
-      total: '代币发行总量',
+      allocated: 'ALLOCATED TOKENS',
+      total: 'TOTAL SUPPLY',
     },
   },
   info: {
-    title: '众售已结束。感谢您的支持。',
-    button: '管理代币JNT',
+    title: 'Our token sale has ended. Thank you for your support.',
+    button: 'Manage JNT Tokens',
   },
   about: {
-    title: '关于Jibrel网络',
+    title: 'About the Jibrel Network',
     benefits: [[{
       id: 1,
-      head: '什么是Jibrel网络？',
-      body: 'Jibrel网络按照ERC-20代币合约标准，在以太网区块链上提供货币、股票、商品以及其他金融资产和工具。',
+      head: 'What is the Jibrel Network?',
+      body: 'The Jibrel Network provides currencies, equities, commodities and other financial assets and instruments as standard ERC-20 tokens on the Ethereum blockchain.',
     }, {
       id: 3,
-      head: '什么是CryDRs?',
-      body: '密码编译存托凭证(CryDRs)是代表传统金融资产价值的代币，使用Jibrel网络的代币JNT计价（1 USD CryDR相当于 1美元的JNT）。',
+      head: 'What are CryDRs?',
+      body: 'CryptoDepository Receipts or CryDRs are tokens representing a traditional financial asset’s value, denominated in Jibrel Network Token - JNT (e.g. a USD CryDR holds 1 dollar worth of JNT).',
     }], [{
       id: 4,
-      head: 'CryDRs的用途是什么？',
-      body: 'CryDRs可用于汇款、交易、境外支付及套期保值，还可以用于创造自动化、去中心化的金融工具比如债券、证券、商品、债务工具等。',
+      head: 'What can CryDRs be used for?',
+      body: 'Fiat CryDRs can be used for remittances, global payments, trading and hedging. CryDRs can also be used to create automated and decentralized financial instruments - such as bonds, commodities, debt instruments and securities.',
     }, {
       id: 2,
-      head: '什么是智能规则？',
-      body: 'CryDRs本身部署了智能合约，利用编程语言Solidity将现实世界的规章制度引入以太坊区块链上并得以实施。这样一来，CryDRs在去中心化的同时也能保证其遵守现实世界的规章制度。',
+      head: 'What is Smart Regulation?',
+      body: 'CryDRs have smart regulation built in, real-world rules and regulations translated into solidity code and deployed on the ethereum blockchain. Ensuring that while decentralized, CryDRs always follow real world rules and regulations.',
     }], [{
       id: 5,
-      head: '什么是j现金？',
-      body: 'j现金是指Jibrel第一批支持的法币CryDRs，包括美元、英镑、欧元、俄罗斯卢布、阿联酋迪拉姆和人民币。',
+      head: 'What is jCash?',
+      body: 'jCash is the first roll-out of currencies. USD, GBP, EUR, RUB, AED, CNY CryDRs will be made available.',
     }, {
       id: 6,
-      head: '如何购买CryDRs？',
-      body: '用户可在Jibrel去中心化自治组织(DAO)上使用Jibrel网络代币JNT购买CryDRs。',
+      head: 'How can I purchase CryDRs?',
+      body: 'CryDRs can be purchased from the Jibrel DAO using Jibrel Network Token (JNT).',
     }]],
   },
   articles: [{
-    title: '以太坊平台Jibrel计划使用新型智能代币防止ICO泡沫',
-    date: '2017年 9月14日',
+    title: 'Ethereum-Backed Jibrel Aims to Contain ICO Bubble with New Type of Smart Tokens',
+    date: 'September 14, 2017',
     href: 'https://cointelegraph.com/news/ethereum-backed-jibrel-aims-to-contain-ico-bubble-with-new-type-of-smart-tokens',
   }, {
     title: 'Jibrel Network Is Bridging The Gap Between Crypto And Traditional Markets',
     date: 'January 22, 2018',
     href: 'https://www.forbes.com/sites/jessedamiani/2018/01/22/jibrel-network-is-bridging-the-gap-between-crypto-and-traditional-markets/#104d235f67d3',
   }, {
-    title: '民众兴趣和参与度提高 数字经济该如何继续发展',
-    date: '2017年11月16日',
+    title: 'How the digital economy continues to evolve as popularity and interest grows',
+    date: 'November 16, 2017',
     href: 'https://thenextweb.com/contributors/2017/11/16/digital-economy-continues-evolve-popularity-interest-grows/',
   }, {
-    title: '投资者新选择：加密货币交易与传统资产的结合',
-    date: '2017年11月17日',
+    title: 'Crypto Trading and Traditional Assets: New Options for Investors',
+    date: 'November 17, 2017',
     href: 'https://bitcoinmagazine.com/articles/crypto-trading-and-traditional-assets-new-options-investors/',
   }, {
     title: 'The Future of Investing: Tokenizing Traditional Assets on The Blockchain',
     date: 'November 17, 2017',
     href: 'https://www.huffingtonpost.com/entry/5a0f4aaee4b023121e0e927d',
   }, {
-    title: 'Jibrel网络宣布其预售轮大获成功',
-    date: '2017年11月20日',
+    title: 'Jibrel Network Announces a Highly Successful Pre-sale Round',
+    date: 'November 20, 2017',
     href: 'http://www.the-blockchain.com/2017/11/20/jibrel-network-announces-highly-successful-pre-sale-round/',
   }, {
-    title: '以太坊钱包攻击不断 Jibrel网络决定另起炉灶推出j钱包',
-    date: '2017年11月22日',
+    title: 'With Ethereum wallets under constant attack, Jibrel Network decided to build their own',
+    date: 'November 22, 2017',
     href: 'https://techcrunch.com/2017/11/22/with-ethereum-wallets-under-constant-attack-jibrel-network-decided-to-build-their-own/',
   }, {
-    title: '什么是j钱包？',
-    date: '2017年11月24日',
+    title: 'What Is jWallet?',
+    date: 'November 24, 2017',
     href: 'https://themerkle.com/what-is-jwallet/',
   }, {
-    title: '投资者新选择：加密货币交易与传统资产的结合',
-    date: '2017年11月17日',
+    title: 'Crypto Trading and Traditional Assets: New Options for Investors',
+    date: 'November 17, 2017',
     href: 'http://www.nasdaq.com/article/crypto-trading-and-traditional-assets-new-options-for-investors-cm879469',
   }, {
-    title: '韩国Inside Fintech 2017于12月30日在首尔成功举行 区块链和支付方式大热  -  2017年12月1日',
-    date: '2017年11月15日',
+    title: 'Blockchain and Payments Take Center Stage at Inside Fintech Conference & Expo 2017 in Seoul, South Korea, November 30 - December 1, 2017',
+    date: 'November 15, 2017',
     href: 'http://markets.businessinsider.com/news/stocks/Blockchain-and-Payments-Take-Center-Stage-at-Inside-Fintech-Conference-Expo-2017-in-Seoul-South-Korea-November-30-December-1-2017-1008202248',
   }],
   roadmap: {
-    title: '发展蓝图',
+    title: 'Roadmap',
     timeline: [{
       class: 'right active', // not translate
-      time: '2017年5月',
-      head: '测试网络',
+      time: 'May, 2017',
+      head: 'Ropsten Alpha',
       body: [
-        'Jibrel网络在以太坊测试网络Ropsten进行Alpha测试。',
+        'The Jibrel Network Limited Alpha goes live on Ropsten',
       ],
     }, {
       class: 'left active', // not translate
-      time: '2017年9月',
-      head: 'Jibrel网络代币JNT预售',
+      time: 'September, 2017',
+      head: 'Jibrel Network Token (JNT) Pre-sale',
       body: [
-        '投资者可享受代币JNT折扣。',
+        'Jibrel Network Token offered at a discounted price',
       ],
     }, {
       class: 'right active', // not translate
-      time: '2017年11月',
-      head: '发布j钱包',
+      time: 'November, 2017',
+      head: 'jWallet Release',
       body: [
-        'j钱包由官方发布，开放给Jibrel网络用户群体。',
+        'The official CryDR wallet is released under an open-source license for community use',
       ],
     }, {
       class: 'right active', // not translate
       time: '',
-      head: '发布j现金/开放众售',
+      head: 'jCash Launch / Public Sale',
       body: [
-        'Jibrel网络发布j现金，表示支持6种法定货币。', 
+        'Jibrel Network launches an additional five fiat currencies at the jCash launch',
         '',
         '',
-        'Jibrel网络代币开放众售。',
+        'Jibrel Network Token offered publicly',
       ],
     }, {
       class: 'left', // not translate
-      time: '2018年第一季度',
-      head: 'CryDR区块浏览器',
+      time: 'Q1 2018',
+      head: 'CryDR Explorer',
       body: [
-        '发布专用的CryDR区块浏览器，用户可以在这个网络上更详细的追踪CryDRs的记录。',
+        'A dedicated CryDR block explorer is released to facilitate closer / more detailed tracking of CryDRs on the network',
       ],
     }, {
       class: 'right', // not translate
-      time: '2018年第三季度',
-      head: '机构级别的银行平台Institutional Grade Banking Platform',
+      time: 'Q3 2018',
+      head: 'Institutional Grade Banking Platform',
       body: [
-        '建立机构级别的平台，帮助银行及其他金融机构直接将传统资产代币化以及与链外的资产进行交易。',
+        'An institutional-grade solution for banking and other financial institutions to directly tokenize and transact with their own off-chain assets',
       ],
     }, {
       class: 'left', // not translate
-      time: '2018年第四季度',
-      head: 'Jibrel DAO / 实现充分去中心化',
+      time: 'Q4 2018',
+      head: 'Jibrel DAO / Full Decentralization',
       body: [
-        '建立Jibrel去中心化自治组织(DAO)，整个网络实现充分去中心化 (匹诺曹项目Project Pinocchio)。',
+        'Jibrel DAO is launched and the network begins full decentralization (Project Pinocchio)',
       ],
     }],
   },
   jnt: {
-    title: 'Jibrel网络代币',
+    title: 'Jibrel Network Token',
     charts: {
       image: 'assets/img/chart.png',
       items: [
-        { title: '代币预售', percents: '10', money: '20,000,000', class: '' },
-        { title: '代币主要销售', percents: '60', money: '120,000,000', class: '' },
-        { title: '团队', percents: '15', money: '30,000,000', class: 'pink' },
-        { title: '顾问及合伙人', percents: '10', money: '20,000,000', class: 'green' },
-        { title: '奖金', percents: '5', money: '10,000,000', class: 'purple' },
+        { title: 'Token Presale', percents: '10', money: '20,000,000', class: '' },
+        { title: 'Token Main Sale', percents: '60', money: '120,000,000', class: '' },
+        { title: 'Team', percents: '15', money: '30,000,000', class: 'pink' },
+        { title: 'Advisors and Partners', percents: '10', money: '20,000,000', class: 'green' },
+        { title: 'Bounties', percents: '5', money: '10,000,000', class: 'purple' },
       ],
     },
   },
   faq: {
-    title: '常见问题解答',
+    title: 'Frequently Asked Questions',
     categories: [
-      '整体概览',
-      '密码编译存托凭证(CryDRs)',
-      'Jibrel网络代币(JNT)',
+      'General Overview',
+      'CryptoDepository Receipts',
+      'Jibrel Network Token (JNT)',
     ],
     tabs: [[{
       active: true,
-      question: 'Jibrel网络能如何帮我规避加密货币波动性的风险？',
+      question: 'How does Jibrel Network protect me from cryptocurrency volatility?',
       answer: [
-        'Jibrel所提供的链上代币具有稳定性，有现实世界资产担保。用户可使用Jibrel去中心化银行(Jibrel DAO)交换波动性大的以太币、比特币或其他加密货币，也可以换成像jUSD、jEUR、jGBP、jKRW之类的稳定代币。',
-        '不管以太币和比特币的价格是多少，j现金是价值稳定的代币，随时都能按照其本身代表的价值进行交易。',
+        'Jibrel provides stable coins representing real world value on the Ethereum blockchain. Using the Jibrel Decentral Bank (Jibrel DAO), you can exchange volatile ETH, BTC or other cryptocurrencies for  stable tokens like jUSD, jEUR, jGBP, jKRW and others.',
+        'These stable tokens can be exchanged for the underlying value at any point in the future, regardless of the price of ETH or BTC at the time.',
       ],
     }, {
-      question: '我怎么知道Jibrel是安全的呢？',
+      question: 'How do I know Jibrel is secure?',
       answer: [
-        'Jibrel智能合约已通过安全合作伙伴New Alchemy的审计，<a href="https://medium.com/@jibrelnetwork/new-alchemy-security-audit-findings-302357ea49e5" target="_blank" rel="noopener noreferrer">您可查看完整的安全审计报告。</a>',
-        '此外，我们的财务透明合作伙伴普华永道(PwC)也审查并审计了Jibrel的财务状况。',
+        'Jibrel Smart Contracts have been audited by our security partner, New Alchemy, <a href="https://medium.com/@jibrelnetwork/new-alchemy-security-audit-findings-302357ea49e5" target="_blank" rel="noopener noreferrer">the full Security Audit can be found here</a>.',
+        'In addition, Jibrel financials are reviewed and audited by our financial transparency partner, PwC.',
       ],
     }, {
-      question: '什么是Jibrel网络？',
+      question: 'What is the Jibrel Network?',
       answer: [
-        'Jibrel网络按照ERC-20代币合约标准，在以太网区块链上提供货币、债券、商品、证券等传统金融资产。',
-        'Jibrel网络的长远目标是充分实现自动化、去中心化的消费者银行业务。',
+        'The Jibrel Network provides traditional financial assets, such as currencies, bonds, commodities and securities, as standard ERC-20 tokens on the ethereum blockchain.',
+        'In the longer-term, the Jibrel Network aims to fully automate and decentralize consumer banking.',
       ],
     }, {
-      question: 'Jibrel网络的公司是谁？',
+      question: 'Who is the Jibrel Network?',
       answer: [
-        'Jibrel网络是Jibrel AG和Qubist Labs Inc公司联合发起的项目。Jibrel AG于瑞士楚格市完成注册，Qubist Labs Inc.是一家位于美国纽约的区块链发展公司。',
-        '整个团队人才济济，充分结合了资深的金融经验和前沿的区块链和智能合约发展技术。',
+        'The Jibrel Network is a Jibrel AG - Qubist Labs Inc initiative. Jibrel AG is registered in Zug, Switzerland. Qubist Labs Inc. is a blockchain development company based out of New York, US.',
+        'The team combines financial services experience with deep knowledge of blockchain and smart contract development.',
       ],
     }, {
-      question: 'Jibrel网络想解决的问题是什么？',
+      question: 'What problems does the Jibrel Network aim to solve?',
       answer: [
-        '将传统金融资产放到区块链上，解决传统银行业普遍存在的收费高、时效慢等问题。',
-        '通过使用加密法币，用户可以在几乎零手续费的条件下储存、发送和接收当地货币。',
-        '此外，使用有资产背书的CryDR，去中心化组织和基金可以使传统资产实现多样化。',
+        'By bringing traditional financial assets to the blockchain, problems plaguing traditional banking such as high fees and slow transfer times can be eliminated.',
+        'Using crypto-fiat tokens, users can store, send and receive value in their local currency with near-zero fees.',
+        'In addition, decentralized organizations and funds can diversify into traditional assets, using asset backed CryptoDepository Receipts (CryDRs).',
       ],
     }], [{
       active: true,
-      question: '什么是密码编译存托凭证(CryDRs)？',
+      question: 'What are CryptoDepository Receipts (CryDRs)?',
       answer: [
-        '密码编译存托凭证(CryDRs)是代表真实世界资产价值的智能合约。用户可使用Jibrel网络代币JNT购买具有资产价值的CryDRs，这里的CryDRs可以是法定货币、商品、债券、甚至是证券。CryDRs拥有权可转移到个人或组织，后者可以在Jibrel去中心化银行根据其价值赎回凭证。CryDRs内嵌智能规则，所有交易都满足KYC/AML规范。',
+        'Crypto Depository Receipts are smart contracts that represent the value of a real-world asset.  Users can convert Jibrel Network Token (JNT) into CryDRs representing fiat currencies, commodities, bonds or even securities.  CryDRs can be transferred to another individual or entity, who can redeem the token for the underlying value in JNT with the Jibrel DAO. CryDRs have smart regulation embedded, meaning all transactions are KYC / AML compliant.',
       ],
     }, {
-      question: '哪些CryDRs可以使用？',
+      question: 'What CryDRs will be available?',
       answer: [
-        '发行当时，Jibrel会支持6种法币，包括美元、英镑、欧元、俄罗斯卢布、阿联酋迪拉姆和人民币，日后规划将新增其他货币、商品、证券和金融衍生产品。',
+        'At launch, the Jibrel Network will offer six fiat currencies - USD, CNY, EUR, GBP, RUB, AED. In the future, Jibrel will offer a wide range of currencies, commodities, securities and derivatives.',
       ],
     }, {
-      question: '什么是Jibrel DAO？',
+      question: 'What is the Jibrel DAO?',
       answer: [
-        'Jibrel DAO或Jibrel去中心化银行可以实现JNT和CryDRs的交易。用户可以用JNT创造新的CryDRs或者按照CryDRs的价值赎回等值的JNT。',
+        'The Jibrel DAO or the Jibrel Decentral Bank is a decentralized entity that exchanges JNT for CryDRs. Users can either mint new CryDRs using JNT or redeem CryDRs for the underlying value in JNT.',
       ],
     }, {
-      question: '什么是智能规则？',
+      question: 'What is Smart Regulation?',
       answer: [
-        'CryDRs本身就是部署至以太坊区块链的智能合约，保证其符合相应的法律法规。',
+        'CryDRs are governed by a set of rules deployed to the blockchain to ensure they are compliant with any relevant regulation based on asset class and jurisdiction.',
       ],
     }, {
-      question: '智能规则如何运作？',
+      question: 'How does Smart Regulation work?',
       answer: [
-        'Jibrel网络用编程语言Solidity将现实世界的规章制度引入以太坊区块链上并得以实施。这样一来，CryDRs在去中心化的同时也能保证其遵守现实世界的规章制度。,',
-        '',
+        'Real-world rules are translated into solidity code which is deployed as a rule-book for CryDRs to follow on the ethereum blockchain.',
+        'Smart Regulation ensures that while CryDRs are decentralized, they always follow real-world regulation. Governance without governments.',
       ],
     }, {
-      question: '投资者如何将金融资产代币化？ ',
+      question: 'How does an investor tokenize a financial asset?',
       answer: [
-        '流动性资产将转移到瑞士楚格市的Jibrel AG基金并由其掌管，非流动性资产以JNT计价来证券化。所有涉及代币化资产的交易都是用JNT完成。',
+        'Liquid assets are transferred to and held by the Jibrel AG Fund in Zug, Switzerland. Illiquid assets are securitized using JNT as the underlying currency. All transactions involving the tokenized asset are conducted using JNT.',
       ],
     }, {
-      question: '用户如何用代币化资产交易？',
+      question: 'How do users transact with tokenized assets?',
       answer: [
-        '代币化资产是标准的ERC-20代币，所有ERC-20钱包都可以发送、接收和交易CryDRs。',
+        'Tokenized assets are standard ERC-20 tokens. Any ERC-20 wallet can be used to send, receive or exchange CryDRs.',
       ],
     }, {
-      question: '什么是区块链上/区块链外差价？',
+      question: 'What is on-chain / off-chain arbitrage?',
       answer: [
-        '加密货币具有高波动性，主要是因为其流动性瓶颈和人们的投机心理。如此一来，区块链上稳定的传统资产就显得格外有价值。如果传统资产能成功实现代币化，用户群体对该代币将来的可赎回性会更有信心。由于区块链上的稳定资产的稀缺，链上的资产价值会高于该资产在区块链外的价值。这就是区块链上和区块链外的差价。',
+        'Due to the volatility of crypto-currencies, primarily driven by speculation and liquidity bottlenecks, stable on-chain assets become especially valuable. If a traditional asset is tokenized successfully, and the community has a strong belief that this token is redeemable at any future date for the underlying asset, the value of the asset on-chain becomes more valuable than the original off-chain purchase price. This is due to the scarcity of stable assets on-chain. We call this on-chain / off-chain arbitrage.',
       ],
     }], [{
       active: true,
-      question: '什么是Jibrel网络代币JNT？',
+      question: 'What is Jibrel Network Token (JNT)?',
       answer: [
-        'Jibrel网络代币JNT是用于购买和赎回CryDRs的虚拟货币。此外，任何区块链外证券化资产都可通过代币JNT进行价值交易。转移CryDRs也需要花费小额的JNT作为交易费。',
+        'Jibrel Network Token (JNT) is a virtual currency used to purchase / redeem CryDRs. In addition, any value exchange associated with the securitized off-chain assets are transacted using Jibrel Network Token. Finally, CryDR transfers consume small amounts of JNT in the form of jGas.',
       ],
     }, {
-      question: '为什么有了以太币或比特币还有做一个专门的代币呢？ ',
+      question: 'Why is a dedicated token needed as opposed to ETH or BTC?',
       answer: [
-        '因为以太币和比特币的价格波动大，很难代表CryDRs这种具有现实世界价值的代币。JNT代币系统相对封闭，能够实现自我平衡。想要查看更多信息，请阅读完整的 <a href="https://medium.com/@jibrelnetwork/jibrel-network-roadmap-618d156b884c" target="_blank" rel="noopener noreferrer">Jibrel发展蓝图</a>。',
+        'Given the extreme volatility of ETH and BTC, it would be difficult to hold liabilities in fiat currency (CryDRs) while holding volatile and uncorrelated crypto-assets. Using JNT, a closed system is established allowing for the system to self-balance. For more information, please read the full <a href="https://medium.com/@jibrelnetwork/jibrel-network-roadmap-618d156b884c" target="_blank" rel="noopener noreferrer">Jibrel Network Roadmap</a>.',
       ],
     }, {
-      question: '如何使用Jibrel网络代币？',
+      question: 'How is Jibrel Network Token consumed?',
       answer: [
-        'Jibrel网络代币主要用于在Jibrel DAO上购买CryDRs。此外，转移CryDRs也需要花费小额的JNT作为交易费。',
+        'Jibrel Network Token is primarily consumed through CryDR purchases with the Jibrel DAO. In addition, CryDR transfers consume JNT in the form of jGas.',
       ],
     }, {
-      question: 'Jibrel网络代币会在交易所上市吗？',
+      question: 'Will Jibrel Network Token be listed on exchanges?',
       answer: [
-        'Jibrel计划定于众售结束90天内在多家交易所上市。',
+        'Jibrel intends to list JNT on numerous exchanges within 90 days of public sale close.',
       ],
     }]],
   },
   whitepaper: {
-    title: '白皮书',
+    title: 'White Paper',
     items: [[{
-      title: '英语白皮书',
+      title: 'English White Paper',
       a: '2nd%20Draft',
       img: 'eng',
     }, {
-      title: '法语白皮书',
+      title: 'French White Paper',
       a: 'French',
       img: 'fra',
     }, {
-      title: '德语白皮书',
+      title: 'German White Paper',
       a: 'German',
       img: 'ger',
     }, {
-      title: '荷兰语白皮书',
+      title: 'Dutch White Paper',
       a: 'Dutch',
       img: 'ned',
     }], [{
-      title: '葡萄牙语白皮书',
+      title: 'Portuguese White Paper',
       a: 'Portuguese',
       img: 'por',
     }, {
-      title: '西班牙语白皮书',
+      title: 'Spanish White Paper',
       a: 'Spanish',
       img: 'spa',
     }, {
-      title: '阿拉伯语白皮书',
+      title: 'Arabic White Paper',
       a: 'Arabic',
       img: 'ara',
     }, {
-      title: '印度语白皮书',
+      title: 'Hindi White Paper',
       a: 'Hindi',
       img: 'hin',
     }], [{
-      title: '日语白皮书',
+      title: 'Japanese White Paper',
       a: 'Japanese',
       img: 'jap',
     }, {
-      title: '韩语白皮书',
+      title: 'Korean White Paper',
       a: 'Korean',
       img: 'kor',
     }, {
-      title: '汉语简体白皮书',
+      title: 'Chinese Simplified White Paper',
       a: 'Chinese%20Simplified%20zh-CN',
       img: 'chi',
     }, {
-      title: '汉语繁体白皮书',
+      title: 'Chinese Traditional White Paper',
       a: 'Chinese%20Traditional%20zh-TW',
       img: 'chi',
     }]],
   },
   advisors: {
-    title: '顾问团',
+    title: 'Our Advisors',
     persons: [{
       name: 'Don Tapscott',
-      title: '策略顾问',
-      position: 'Tapscott集团CEO',
+      title: 'Strategy Advisor',
+      position: 'CEO of Tapscott Group',
       links: [{
         href: 'https://www.linkedin.com/in/dontapscott',
         type: 'linkedin',
@@ -361,16 +361,16 @@ module.exports = {
       }],
     }, {
       name: 'Ruslan Gavrilyuk',
-      title: '加密金融顾问',
-      position: 'TaaS基金CEO及创始人',
+      title: 'CryptoFinance Advisor',
+      position: 'CEO & Founder of TaaS Fund',
       links: [{
         href: 'https://www.linkedin.com/in/ruslan-gavrilyuk',
         type: 'linkedin',
       }],
     }, {
       name: 'Abbas Zuaiter',
-      title: '资本市场顾问',
-      position: 'Soros基金前COO',
+      title: 'Capital Markets Advisor',
+      position: 'Former COO Soros Fund',
       links: [{
         href: 'https://www.linkedin.com/in/abbas-f-eddy-zuaiter-51832a9',
         type: 'linkedin',
@@ -380,24 +380,24 @@ module.exports = {
       }],
     }, {
       name: 'Saul Hudson',
-      title: '交流顾问',
-      position: '汤森路透公GM',
+      title: 'Communications Advisor',
+      position: 'GM at Thomson Reuters',
       links: [{
         href: 'https://www.linkedin.com/in/saul-hudson-2ab9228',
         type: 'linkedin',
       }],
     }, {
       name: 'Mohammad Al Sehli',
-      title: '中东北非地区顾问',
-      position: 'Arabian Chain CEO及创始人',
+      title: 'MENA Advisor',
+      position: 'CEO & Founder of Arabian Chain',
       links: [{
         href: 'https://www.linkedin.com/in/mohammed-alsehli-7520a626',
         type: 'linkedin',
       }],
     }, {
       name: 'Dr. Moe Levin',
-      title: '公关领域顾问',
-      position: 'Keynote CEO',
+      title: 'Public Sector Advisor',
+      position: 'CEO of Keynote',
       links: [{
         href: 'https://www.linkedin.com/in/moelevin',
         type: 'linkedin',
@@ -405,12 +405,12 @@ module.exports = {
     }],
   },
   team: {
-    title: '团队成员',
+    title: 'Our Team',
     persons: [[{
       id: 1,
       name: 'Yazan Barghuthi',
-      position: '项目主管（联合创始人）',
-      description: 'Yazan从事金融服务领域超过9年，曾就职于奥纬咨询(oliver wyman)和德勤(Deloitte)等高级管理咨询公司。他本人精通Javascript、HTML、CSS、React和大部分前端开发框架。',
+      position: 'Project Lead (Co-founder)',
+      description: 'Yazan has over 9 years’ financial services experience at top management consultancies such as Oliver Wyman and Deloitte. He is proficient at Javascript, HTML, CSS, React and most front-end frameworks.',
       links: [{
         href: 'mailto:yazan@jibrel.network',
         type: 'email',
@@ -424,8 +424,8 @@ module.exports = {
     }, {
       id: 2,
       name: 'Victor Mezrin',
-      position: '技术主管（联合创始人）',
-      description: 'Victor拥有长达10年的研发工作经验。2014年至2016年期间，他曾管理排名前三的山寨币矿池(pool.mn)。他本人精通C++/C、Python、Java、C#、PHP、JavaScript、和Solidity语言。',
+      position: 'Technical Lead (Co-founder)',
+      description: 'Victor has over 10 years’ development experience and ran a top-3 altcoin mining pool (pool.mn) between 2014 and 2016. He is proficient at C++/C, Python, Java, C#, PHP, JavaScript, Solidity.',
       links: [{
         href: 'mailto:victor@jibrel.network',
         type: 'email',
@@ -439,8 +439,8 @@ module.exports = {
     }], [{
       id: 3,
       name: 'Talal Tabbaa',
-      position: '商务拓展主管（联合创始人）',
-      description: 'Talal在顶级咨询公司普华永道(PwC)以及私募股权投资有超过6年的财务顾问经验。他本人精通Python和SQL语言，目前正在研究前端开发。',
+      position: 'BizDev Lead (Co-founder)',
+      description: 'Talal has over 6 years’ experience in financial advisory roles at top tier consultancies (PwC) as well as private investment funds. He is proficient at Python and SQL and is learning front-end development.',
       links: [{
         href: 'mailto:talal@jibrel.network',
         type: 'email',
@@ -454,8 +454,8 @@ module.exports = {
     }, {
       id: 7,
       name: 'Nick Marinin',
-      position: 'UX/UI开发人员',
-      description: 'Nick在设计和开发金融用户界面方面有超过9年的工作经验，曾分别为金融机构、零售企业和制造商开发过UX/UI。他本人精通HTML、CSS和JavaScript语言。',
+      position: 'Developer (UX/UI)',
+      description: 'Nick has over 9 years’ experience in designing and developing financial user interfaces. He has developed UI/UX for financial institutions, retail businesses and manufacturers. He is proficient at HTML, CSS and JavaScript.',
       links: [{
         href: 'mailto:nick@jibrel.network',
         type: 'email',
@@ -469,8 +469,8 @@ module.exports = {
     }], [{
       id: 12,
       name: 'Hamzeh Kolaghassi',
-      position: '运营主管',
-      description: 'Hamzeh曾在Alcazar Capital和安永(Ernst & Young)等顶级私募和金融咨询公司拥有超过6年的财务经验 。他本人擅长财务管理和数据分析，侧重企业战略、计划和程序的设计和执行。',
+      position: 'Operations',
+      description: 'Hamzeh has over 6 years’ financial experience at top private equity and financial consultancy firms such as Alcazar Capital and Ernst & Young. He is proficient in financial management and data analysis, with an emphasis on designing and implementing business strategies, plans and procedures.',
       links: [{
         href: 'mailto:hamzeh@jibrel.network',
         type: 'email',
@@ -484,8 +484,8 @@ module.exports = {
     }, {
       id: 6,
       name: 'Aleksey Selikhov',
-      position: '后端开发人员',
-      description: 'Aleksey在金融机构技术解决方案开发领域拥有长达12年的工作经验，为银行和投资基金都提供过全栈框架。他本人精通C++/C、Java、Python、JavaScript和Solidity语言。',
+      position: 'Developer (Back-end)',
+      description: 'Aleksey has over 12 years’ experience developing tech solutions for financial institutions. He has delivered full-stack solutions for both banks and investment funds. He is proficient at C++/C, Java, Python, JavaScript, Solidity.',
       links: [{
         href: 'mailto:aleksey@jibrel.network',
         type: 'email',
@@ -499,8 +499,8 @@ module.exports = {
     }], [{
       id: 8,
       name: 'Ivan Violentov',
-      position: '前端开发人员',
-      description: 'Ivan在网络编程方面有5年的工作经验，专业开发金融解决方案和应用程序。他本人擅长用服务器端的Node和客户端的React/Angular/Vue进行全栈开发。',
+      position: 'Developer (Front-end)',
+      description: 'Ivan has over 5 years’ of experience in web programming. He is especially skilled at developing financial solutions and applications. He specializes in full-stack development using Node, server-side, and React/Angular/Vue, client-side.',
       links: [{
         href: 'mailto:ivan.violentov@jibrel.network',
         type: 'email',
@@ -514,8 +514,8 @@ module.exports = {
     }, {
       id: 10,
       name: 'Anna Bordunova',
-      position: '公共关系',
-      description: 'Anna从事媒体传播行业长达5年，专注领域为新闻、公关和社交媒体。她本人专业知识涵盖传统营销、体验营销和数字营销，擅长全方位的互联网在线管理。',
+      position: 'Public Relations',
+      description: 'Anna is media and communications practitioner over 5 years’ of experience in journalism, PR and social media. Her expertise spans traditional, experiential & digital marketing – with an emphasis on comprehensive Internet presence management.',
       links: [{
         href: 'mailto:anna@jibrel.network',
         type: 'email',
@@ -526,8 +526,8 @@ module.exports = {
     }], [{
       id: 11,
       name: 'Rust Khusyainov',
-      position: '视觉设计',
-      description: 'Rust在平面设计和插图领域有7年的工作经验，曾为金融、零售和体育方面的客户创造了高质量的内容。他本人擅长光栅和矢量图形以及视频编辑。',
+      position: 'Illustrator',
+      description: 'Rust has over 7 years’ of experience in graphic design and illustration. He has created high quality content for clients across financial services, retail and sports. He specializes in raster and vector graphic and video editing.',
       links: [{
         href: 'mailto:rustam.khusyainov@jibrel.network',
         type: 'email',
@@ -535,8 +535,8 @@ module.exports = {
     }, {
       id: 13,
       name: 'Evgeny Erohin',
-      position: '前端开发人员',
-      description: 'Evgeny在Web编程和项目管理方面拥有长达10年的工作经验，擅长使用JS(React/Redux)和React Native。除了Web和应用开发外，他本人还精通大部分前端技术、框架和库，包括recompose、lodash/fp、RSCSS、SASS、ESLint、Stylelint、Webpack、ES6和JIRA。',
+      position: 'Developer (Front-end)',
+      description: 'Evgeny has over 10 years’ experience in web programming and project management. He is especially skilled at JS (React/Redux) and React Native. In addition to web and application development, Evgeny is also highly proficient at most front-end technologies, frameworks and libraries, such as  recompose, lodash/fp, RSCSS, SASS, ESLint, Stylelint, Webpack, ES6 and JIRA.',
       links: [{
         href: 'https://jibrelnetwork.slack.com/messages/@evgeny.erohin',
         type: 'slack',
@@ -544,8 +544,8 @@ module.exports = {
     }], [{
       id: 14,
       name: 'Yuriy Homyakov',
-      position: '后端开发人员',
-      description: 'Yuriy在开发Web应用程序方面拥有超过7年的工作经验，擅长后端开发、数据库设计和Web应用程序框架。他本人精通Python、JavaScript和Solidity语言。',
+      position: 'Developer (Back-end)',
+      description: 'Yuriy has over 7 years’ experience developing  web applications. He specializes in backend development, database design, web applications architecture. He is proficient at Python, JavaScript and Solidity.',
       links: [{
         href: 'https://jibrelnetwork.slack.com/messages/@yuriy',
         type: 'slack',
@@ -583,21 +583,21 @@ module.exports = {
     }, {}]],
   },
   careers: {
-    title: '工作机会',
+    title: 'Careers',
     items: [
-      '前端开发人员',
-      '前端开发人员',
-      '前端开发人员',
-      '前端开发人员',
+      'Front-End Developer',
+      'Front-End Developer',
+      'Front-End Developer',
+      'Front-End Developer',
     ],
   },
   action: {
-    title: '所有资产代币化',
+    title: 'Tokenize Everything',
     subtitle: [
-      'Jibrel按照ERC-20代币合约标准，',
-      '在以太坊区块链上提供传统金融资产。',
+      'Jibrel provides traditional financial assets, as ERC-20 tokens,',
+      'on the Ethereum blockchain',
     ],
-    link: '获取代币',
+    link: 'Get Tokens',
   },
   footer: {
     links: [{
@@ -634,22 +634,22 @@ module.exports = {
       title: 'Slack',
     }],
     copy: [
-      '所有版权归© 2017 Jibrel Network所有',
-      'Baarerstrasse 10, 6302 瑞士 楚格市',
+      '© 2017 Jibrel Network. All Rights Reserved.',
+      'Baarerstrasse 10, 6302 Zug, Switzerland',
     ],
   },
   counterUnits: [{
     name: 'days', // not translate
-    title: '天',
+    title: 'Days',
   }, {
     name: 'hours', // not translate
-    title: '时',
+    title: 'Hours',
   }, {
     name: 'minutes', // not translate
-    title: '分',
+    title: 'Minutes',
   }, {
     name: 'seconds', // not translate
-    title: '秒',
+    title: 'Seconds',
   }],
   timestamp: Date.now(),
 };
