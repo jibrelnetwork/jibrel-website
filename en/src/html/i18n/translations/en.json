@@ -264,28 +264,28 @@
           "active": true,
           "question": "How does Jibrel Network protect me from cryptocurrency volatility?",
           "answer": [
-            "Jibrel provides stable coins representing real world value on the Ethereum blockchain. Using the Jibrel Decentral Bank (Jibrel DAO), you can exchange volatile ETH, BTC or other cryptocurrencies for  stable tokens like jUSD, jEUR, jGBP, jKRW and others.",
+            "Jibrel provides stable coins representing real world value on the Ethereum blockchain. Using the Jibrel Decentralized Bank (Jibrel DAO), you can exchange volatile ETH, BTC or other cryptocurrencies for stable tokens like jUSD, jEUR, jGBP, jKRW and others.",
             "These stable tokens can be exchanged for the underlying value at any point in the future, regardless of the price of ETH or BTC at the time."
           ]
         },
         {
           "question": "How do I know Jibrel is secure?",
           "answer": [
-            "Jibrel Smart Contracts have been audited by our security partner, New Alchemy, <a href=\"https://medium.com/@jibrelnetwork/new-alchemy-security-audit-findings-302357ea49e5\" target=\"_blank\" rel=\"noopener noreferrer\">the full Security Audit can be found here</a>.",
+            "Jibrel Smart Contracts have been audited by our security partner, New Alchemy: <a href=\"https://medium.com/@jibrelnetwork/new-alchemy-security-audit-findings-302357ea49e5\" target=\"_blank\" rel=\"noopener noreferrer\">the full Security Audit can be found here</a>.",
             "In addition, Jibrel financials are reviewed and audited by our financial transparency partner, PwC."
           ]
         },
         {
           "question": "What is the Jibrel Network?",
           "answer": [
-            "The Jibrel Network provides traditional financial assets, such as currencies, bonds, commodities and securities, as standard ERC-20 tokens on the ethereum blockchain.",
-            "In the longer-term, the Jibrel Network aims to fully automate and decentralize consumer banking."
+            "The Jibrel Network provides traditional financial assets, such as currencies, bonds, commodities and securities, as standard ERC-20 tokens on the Ethereum blockchain.",
+            "In the longer term, the Jibrel Network aims to fully automate and decentralize consumer banking."
           ]
         },
         {
           "question": "Who is the Jibrel Network?",
           "answer": [
-            "The Jibrel Network is a Jibrel AG - Qubist Labs Inc initiative. Jibrel AG is registered in Zug, Switzerland. Qubist Labs Inc. is a blockchain development company based out of New York, US.",
+            "The Jibrel Network is a Jibrel AG – Qubist Labs Inc initiative. Jibrel AG is registered in Zug, Switzerland. Qubist Labs Inc. is a blockchain development company based out of New York, US.",
             "The team combines financial services experience with deep knowledge of blockchain and smart contract development."
           ]
         },
@@ -293,7 +293,7 @@
           "question": "What problems does the Jibrel Network aim to solve?",
           "answer": [
             "By bringing traditional financial assets to the blockchain, problems plaguing traditional banking such as high fees and slow transfer times can be eliminated.",
-            "Using crypto-fiat tokens, users can store, send and receive value in their local currency with near-zero fees.",
+            "Using crypto fiat tokens, users can store, send and receive value in their local currency with near-zero fees.",
             "In addition, decentralized organizations and funds can diversify into traditional assets, using asset backed CryptoDepository Receipts (CryDRs)."
           ]
         }
