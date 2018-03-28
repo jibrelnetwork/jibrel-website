@@ -713,7 +713,7 @@
           "id": 13,
           "name": "Evgeny Erohin",
           "position": "Developer (Front-end)",
-          "description": "Evgeny has over 10 years’ experience in web programming and project management. He is especially skilled at JS (React/Redux) and React Native. In addition to web and application development, Evgeny is also highly proficient at most front-end technologies, frameworks and libraries, such as  recompose, lodash/fp, RSCSS, SASS, ESLint, Stylelint, Webpack, ES6 and JIRA.",
+          "description": "Evgeny has over 10 years’ experience in web programming and project management. He is especially skilled at JS (React/Redux) and React Native. In addition to web and application development, Evgeny is also highly proficient at most front-end technologies, frameworks and libraries, such as recompose, lodash/fp, RSCSS, SASS, ESLint, Stylelint, Webpack, ES6 and JIRA.",
           "links": [
             {
               "href": "https://jibrelnetwork.slack.com/messages/@evgeny.erohin",
@@ -795,7 +795,7 @@
   "action": {
     "title": "Tokenize Everything",
     "subtitle": [
-      "Jibrel provides traditional financial assets, as ERC-20 tokens,",
+      "Jibrel provides traditional financial assets as ERC-20 tokens",
       "on the Ethereum blockchain"
     ],
     "link": "Get Tokens"
