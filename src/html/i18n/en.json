@@ -124,28 +124,28 @@
   "roadmap": {
     "title": "Roadmap",
     "timeline": [{
-      "class": "right active", // not translate
+      "class": "right active",
       "time": "May, 2017",
       "head": "Ropsten Alpha",
       "body": [
         "The Jibrel Network Limited Alpha goes live on Ropsten"
       ]
     }, {
-      "class": "left active", // not translate
+      "class": "left active",
       "time": "September, 2017",
       "head": "Jibrel Network Token (JNT) Pre-sale",
       "body": [
         "Jibrel Network Token offered at a discounted price"
       ]
     }, {
-      "class": "right active", // not translate
+      "class": "right active",
       "time": "November, 2017",
       "head": "jWallet Release",
       "body": [
         "The official CryDR wallet is released under an open-source license for community use"
       ]
     }, {
-      "class": "right active", // not translate
+      "class": "right active",
       "time": "",
       "head": "jCash Launch / Public Sale",
       "body": [
@@ -155,21 +155,21 @@
         "Jibrel Network Token offered publicly"
       ]
     }, {
-      "class": "left", // not translate
+      "class": "left",
       "time": "Q1 2018",
       "head": "CryDR Explorer",
       "body": [
         "A dedicated CryDR block explorer is released to facilitate closer / more detailed tracking of CryDRs on the network"
       ]
     }, {
-      "class": "right", // not translate
+      "class": "right",
       "time": "Q3 2018",
       "head": "Institutional Grade Banking Platform",
       "body": [
         "An institutional-grade solution for banking and other financial institutions to directly tokenize and transact with their own off-chain assets"
       ]
     }, {
-      "class": "left", // not translate
+      "class": "left",
       "time": "Q4 2018",
       "head": "Jibrel DAO / Full Decentralization",
       "body": [
@@ -639,16 +639,16 @@
     ]
   },
   "counterUnits": [{
-    "name": "days", // not translate
+    "name": "days",
     "title": "Days"
   }, {
-    "name": "hours", // not translate
+    "name": "hours",
     "title": "Hours"
   }, {
-    "name": "minutes", // not translate
+    "name": "minutes",
     "title": "Minutes"
   }, {
-    "name": "seconds", // not translate
+    "name": "seconds",
     "title": "Seconds"
   }],
   "timestamp": "TODO change it !!!"
