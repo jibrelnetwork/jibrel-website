@@ -1,4 +1,4 @@
-module.exports = {
+{
   language: {
     code: 'en',
     title: 'English',
