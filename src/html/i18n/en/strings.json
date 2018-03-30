@@ -1,0 +1,870 @@
+{
+  "language": {
+    "code": "en",
+    "title": "English"
+  },
+  "meta": {
+    "title": "Jibrel Network"
+  },
+  "header": {
+    "logo": "assets/img/logo.svg",
+    "about": "About",
+    "roadmap": "Roadmap",
+    "jnt": "Token",
+    "faq": "FAQ",
+    "whitepaper": "White Paper",
+    "team": "Team",
+    "button": "Menu",
+    "languages": [
+      {
+        "href": "/",
+        "title": "English"
+      },
+      {
+        "href": "/ko.html",
+        "title": "한국어"
+      },
+      {
+        "href": "/zh.html",
+        "title": "漢語"
+      }
+    ]
+  },
+  "start": {
+    "sale": {
+      "title": "Token Sale is now live",
+      "text": [
+        "Jibrel provides traditional financial assets",
+        "as ERC-20 tokens on the Ethereum blockchain"
+      ],
+      "link": "Participate in token sale"
+    },
+    "jwallet": {
+      "title": "Introducing the jWallet",
+      "text": [
+        "Massive for the crypto community,",
+        "revolutionary for everyone else."
+      ],
+      "link": "Try jWallet"
+    },
+    "progress": {
+      "allocated": "ALLOCATED TOKENS",
+      "total": "TOTAL SUPPLY"
+    }
+  },
+  "info": {
+    "title": "Our token sale has ended. Thank you for your support.",
+    "button": "Manage JNT Tokens"
+  },
+  "about": {
+    "title": "About the Jibrel Network",
+    "benefits": [
+      [
+        {
+          "id": 1,
+          "head": "What is the Jibrel Network?",
+          "body": "The Jibrel Network provides currencies, equities, commodities and other financial assets and instruments as standard ERC-20 tokens on the Ethereum blockchain."
+        },
+        {
+          "id": 3,
+          "head": "What are CryDRs?",
+          "body": "CryptoDepository Receipts or CryDRs are tokens representing a traditional financial asset’s value, denominated in Jibrel Network Tokens or JNT (e.g. a USD CryDR holds 1 dollar’s worth of JNT)."
+        }
+      ],
+      [
+        {
+          "id": 4,
+          "head": "What can CryDRs be used for?",
+          "body": "Fiat CryDRs can be used for remittances, global payments, trading and hedging. CryDRs can also be used to create automated and decentralized financial instruments, such as bonds, commodities, debt instruments and securities."
+        },
+        {
+          "id": 2,
+          "head": "What is Smart Regulation?",
+          "body": "CryDRs have smart regulation built in: real world rules and regulations translated into Solidity code and deployed on the Ethereum blockchain. Ensuring that, while decentralized, CryDRs always follow real world rules and regulations."
+        }
+      ],
+      [
+        {
+          "id": 5,
+          "head": "What is jCash?",
+          "body": "jCash is the first currency roll-out. USD, GBP, EUR, RUB, AED, and CNY CryDRs will be made available."
+        },
+        {
+          "id": 6,
+          "head": "How can I purchase CryDRs?",
+          "body": "CryDRs can be purchased from the Jibrel DAO using the Jibrel Network Token (JNT)."
+        }
+      ]
+    ]
+  },
+  "articles": [
+    {
+      "title": "Ethereum-Backed Jibrel Aims to Contain ICO Bubble with New Type of Smart Tokens",
+      "date": "September 14, 2017",
+      "href": "https://cointelegraph.com/news/ethereum-backed-jibrel-aims-to-contain-ico-bubble-with-new-type-of-smart-tokens"
+    },
+    {
+      "title": "Jibrel Network Is Bridging The Gap Between Crypto And Traditional Markets",
+      "date": "January 22, 2018",
+      "href": "https://www.forbes.com/sites/jessedamiani/2018/01/22/jibrel-network-is-bridging-the-gap-between-crypto-and-traditional-markets/#104d235f67d3"
+    },
+    {
+      "title": "How the digital economy continues to evolve as popularity and interest grows",
+      "date": "November 16, 2017",
+      "href": "https://thenextweb.com/contributors/2017/11/16/digital-economy-continues-evolve-popularity-interest-grows/"
+    },
+    {
+      "title": "Crypto Trading and Traditional Assets: New Options for Investors",
+      "date": "November 17, 2017",
+      "href": "https://bitcoinmagazine.com/articles/crypto-trading-and-traditional-assets-new-options-investors/"
+    },
+    {
+      "title": "The Future of Investing: Tokenizing Traditional Assets on The Blockchain",
+      "date": "November 17, 2017",
+      "href": "https://www.huffingtonpost.com/entry/5a0f4aaee4b023121e0e927d"
+    },
+    {
+      "title": "Jibrel Network Announces a Highly Successful Pre-sale Round",
+      "date": "November 20, 2017",
+      "href": "http://www.the-blockchain.com/2017/11/20/jibrel-network-announces-highly-successful-pre-sale-round/"
+    },
+    {
+      "title": "With Ethereum wallets under constant attack, Jibrel Network decided to build their own",
+      "date": "November 22, 2017",
+      "href": "https://techcrunch.com/2017/11/22/with-ethereum-wallets-under-constant-attack-jibrel-network-decided-to-build-their-own/"
+    },
+    {
+      "title": "What Is jWallet?",
+      "date": "November 24, 2017",
+      "href": "https://themerkle.com/what-is-jwallet/"
+    },
+    {
+      "title": "Crypto Trading and Traditional Assets: New Options for Investors",
+      "date": "November 17, 2017",
+      "href": "http://www.nasdaq.com/article/crypto-trading-and-traditional-assets-new-options-for-investors-cm879469"
+    },
+    {
+      "title": "Blockchain and Payments Take Center Stage at Inside Fintech Conference & Expo 2017 in Seoul, South Korea, November 30 - December 1, 2017",
+      "date": "November 15, 2017",
+      "href": "http://markets.businessinsider.com/news/stocks/Blockchain-and-Payments-Take-Center-Stage-at-Inside-Fintech-Conference-Expo-2017-in-Seoul-South-Korea-November-30-December-1-2017-1008202248"
+    }
+  ],
+  "roadmap": {
+    "title": "Roadmap",
+    "timeline": [
+      {
+        "class": "right active",
+        "time": "May, 2017",
+        "head": "Ropsten Alpha",
+        "body": [
+          "The Jibrel Network Limited Alpha goes live on Ropsten"
+        ]
+      },
+      {
+        "class": "left active",
+        "time": "September, 2017",
+        "head": "Jibrel Network Token (JNT) Pre-sale",
+        "body": [
+          "Jibrel Network Token offered at a discounted price"
+        ]
+      },
+      {
+        "class": "right active",
+        "time": "November, 2017",
+        "head": "jWallet Release",
+        "body": [
+          "The official CryDR wallet is released under an open-source license for community use"
+        ]
+      },
+      {
+        "class": "right active",
+        "time": "",
+        "head": "jCash Launch / Public Sale",
+        "body": [
+          "Jibrel Network launches an additional five fiat currencies at the jCash launch",
+          "",
+          "",
+          "Jibrel Network Token offered publicly"
+        ]
+      },
+      {
+        "class": "left",
+        "time": "Q1 2018",
+        "head": "CryDR Explorer",
+        "body": [
+          "A dedicated CryDR block explorer is released to facilitate closer / more detailed tracking of CryDRs on the network"
+        ]
+      },
+      {
+        "class": "right",
+        "time": "Q3 2018",
+        "head": "Institutional Grade Banking Platform",
+        "body": [
+          "An institutional-grade solution for banks and other financial institutions to directly tokenize and transact with their own off-chain assets"
+        ]
+      },
+      {
+        "class": "left",
+        "time": "Q4 2018",
+        "head": "Jibrel DAO / Full Decentralization",
+        "body": [
+          "Jibrel DAO is launched and the network begins full decentralization (Project Pinocchio)"
+        ]
+      }
+    ]
+  },
+  "jnt": {
+    "title": "Jibrel Network Token",
+    "charts": {
+      "image": "assets/img/chart.png",
+      "items": [
+        {
+          "title": "Token Presale",
+          "percents": "10",
+          "money": "20,000,000",
+          "class": ""
+        },
+        {
+          "title": "Token Main Sale",
+          "percents": "60",
+          "money": "120,000,000",
+          "class": ""
+        },
+        {
+          "title": "Team",
+          "percents": "15",
+          "money": "30,000,000",
+          "class": "pink"
+        },
+        {
+          "title": "Advisors and Partners",
+          "percents": "10",
+          "money": "20,000,000",
+          "class": "green"
+        },
+        {
+          "title": "Bounties",
+          "percents": "5",
+          "money": "10,000,000",
+          "class": "purple"
+        }
+      ]
+    }
+  },
+  "faq": {
+    "title": "Frequently Asked Questions",
+    "categories": [
+      "General Overview",
+      "CryptoDepository Receipts",
+      "Jibrel Network Token (JNT)"
+    ],
+    "tabs": [
+      [
+        {
+          "active": true,
+          "question": "How does Jibrel Network protect me from cryptocurrency volatility?",
+          "answer": [
+            "Jibrel provides stable coins representing real world value on the Ethereum blockchain. Using the Jibrel Decentral Bank (Jibrel DAO), you can exchange volatile ETH, BTC or other cryptocurrencies for stable tokens like jUSD, jEUR, jGBP, jKRW and others.",
+            "These stable tokens can be exchanged for the underlying value at any point in the future, regardless of the price of ETH or BTC at the time."
+          ]
+        },
+        {
+          "question": "How do I know Jibrel is secure?",
+          "answer": [
+            "Jibrel Smart Contracts have been audited by our security partner, New Alchemy: <a href=\"https://medium.com/@jibrelnetwork/new-alchemy-security-audit-findings-302357ea49e5\" target=\"_blank\" rel=\"noopener noreferrer\">the full Security Audit can be found here</a>.",
+            "In addition, Jibrel financials are reviewed and audited by our financial transparency partner, PwC."
+          ]
+        },
+        {
+          "question": "What is the Jibrel Network?",
+          "answer": [
+            "The Jibrel Network provides traditional financial assets, such as currencies, bonds, commodities and securities, as standard ERC-20 tokens on the Ethereum blockchain.",
+            "In the longer term, the Jibrel Network aims to fully automate and decentralize consumer banking."
+          ]
+        },
+        {
+          "question": "Who is the Jibrel Network?",
+          "answer": [
+            "The Jibrel Network is a Jibrel AG – Qubist Labs Inc initiative. Jibrel AG is registered in Zug, Switzerland. Qubist Labs Inc. is a blockchain development company based out of New York, US.",
+            "The team combines financial services experience with deep knowledge of blockchain and smart contract development."
+          ]
+        },
+        {
+          "question": "What problems does the Jibrel Network aim to solve?",
+          "answer": [
+            "By bringing traditional financial assets to the blockchain, problems plaguing traditional banking such as high fees and slow transfer times can be eliminated.",
+            "Using crypto fiat tokens, users can store, send and receive value in their local currency with near-zero fees.",
+            "In addition, decentralized organizations and funds can diversify into traditional assets, using asset backed CryptoDepository Receipts (CryDRs)."
+          ]
+        }
+      ],
+      [
+        {
+          "active": true,
+          "question": "What are CryptoDepository Receipts (CryDRs)?",
+          "answer": [
+            "Crypto Depository Receipts are smart contracts that represent the value of a real-world asset.  Users can convert Jibrel Network Tokens (JNT) into CryDRs representing fiat currencies, commodities, bonds or even securities.  CryDRs can be transferred to another individual or entity, who can redeem the token for the underlying value in JNT with the Jibrel DAO. CryDRs have smart regulation embedded, meaning all transactions are KYC / AML compliant."
+          ]
+        },
+        {
+          "question": "What CryDRs will be available?",
+          "answer": [
+            "At launch, the Jibrel Network will offer six fiat currencies: USD, CNY, EUR, GBP, RUB, AED. In the future, Jibrel will offer a wide range of currencies, commodities, securities and derivatives."
+          ]
+        },
+        {
+          "question": "What is the Jibrel DAO?",
+          "answer": [
+            "The Jibrel DAO or the Jibrel Decentral Bank is a decentralized entity that exchanges JNT for CryDRs. Users can either mint new CryDRs using JNT or redeem CryDRs for the underlying value in JNT."
+          ]
+        },
+        {
+          "question": "What is Smart Regulation?",
+          "answer": [
+            "CryDRs are governed by a set of rules deployed to the blockchain to ensure they are compliant with any relevant regulation based on asset class and jurisdiction."
+          ]
+        },
+        {
+          "question": "How does Smart Regulation work?",
+          "answer": [
+            "Real world rules are translated into Solidity code which is deployed as a rulebook for CryDRs to follow on the Ethereum blockchain.",
+            "Smart Regulation ensures that while CryDRs are decentralized, they always follow real world regulation. Governance without governments."
+          ]
+        },
+        {
+          "question": "How does an investor tokenize a financial asset?",
+          "answer": [
+            "Liquid assets are transferred to and held by the Jibrel AG Fund in Zug, Switzerland. Illiquid assets are securitized using JNT as the underlying currency. All transactions involving the tokenized asset are conducted using JNT."
+          ]
+        },
+        {
+          "question": "How do users transact with tokenized assets?",
+          "answer": [
+            "Tokenized assets are standard ERC-20 tokens. Any ERC-20 wallet can be used to send, receive or exchange CryDRs."
+          ]
+        },
+        {
+          "question": "What is on-chain / off-chain arbitrage?",
+          "answer": [
+            "Due to the volatility of cryptocurrencies, primarily driven by speculation and liquidity bottlenecks, stable on-chain assets become especially valuable. If a traditional asset is tokenized successfully, and the community has a strong belief that this token is redeemable at any future date for the underlying asset, the value of the asset on-chain becomes more valuable than the original off-chain purchase price. This is due to the scarcity of stable assets on-chain. We call this on-chain / off-chain arbitrage."
+          ]
+        }
+      ],
+      [
+        {
+          "active": true,
+          "question": "What is the Jibrel Network Token (JNT)?",
+          "answer": [
+            "The Jibrel Network Token (JNT) is a virtual currency used to purchase / redeem CryDRs. In addition, any value exchange associated with the securitized off-chain assets are transacted using Jibrel Network Token. Finally, CryDR transfers consume small amounts of JNT in the form of jGas."
+          ]
+        },
+        {
+          "question": "Why is a dedicated token needed as opposed to ETH or BTC?",
+          "answer": [
+            "Given the extreme volatility of ETH and BTC, it would be difficult to hold liabilities in fiat currency (CryDRs) while holding volatile and uncorrelated crypto assets. Using JNT, a closed system is established allowing for the system to self-balance. For more information, please read the full <a href=\"https://medium.com/@jibrelnetwork/jibrel-network-roadmap-618d156b884c\" target=\"_blank\" rel=\"noopener noreferrer\">Jibrel Network Roadmap</a>."
+          ]
+        },
+        {
+          "question": "How are Jibrel Network Tokens consumed?",
+          "answer": [
+            "Jibrel Network Tokens are primarily consumed through CryDR purchases with the Jibrel DAO. In addition, CryDR transfers consume JNT in the form of jGas."
+          ]
+        },
+        {
+          "question": "Will the Jibrel Network Token be listed on exchanges?",
+          "answer": [
+            "Jibrel intends to list JNT on numerous exchanges within 90 days of the close of public sale."
+          ]
+        }
+      ]
+    ]
+  },
+  "whitepaper": {
+    "title": "White Paper",
+    "items": [
+      [
+        {
+          "title": "English White Paper",
+          "a": "2nd%20Draft",
+          "img": "eng"
+        },
+        {
+          "title": "French White Paper",
+          "a": "French",
+          "img": "fra"
+        },
+        {
+          "title": "German White Paper",
+          "a": "German",
+          "img": "ger"
+        },
+        {
+          "title": "Dutch White Paper",
+          "a": "Dutch",
+          "img": "ned"
+        }
+      ],
+      [
+        {
+          "title": "Portuguese White Paper",
+          "a": "Portuguese",
+          "img": "por"
+        },
+        {
+          "title": "Spanish White Paper",
+          "a": "Spanish",
+          "img": "spa"
+        },
+        {
+          "title": "Arabic White Paper",
+          "a": "Arabic",
+          "img": "ara"
+        },
+        {
+          "title": "Hindi White Paper",
+          "a": "Hindi",
+          "img": "hin"
+        }
+      ],
+      [
+        {
+          "title": "Japanese White Paper",
+          "a": "Japanese",
+          "img": "jap"
+        },
+        {
+          "title": "Korean White Paper",
+          "a": "Korean",
+          "img": "kor"
+        },
+        {
+          "title": "Chinese Simplified White Paper",
+          "a": "Chinese%20Simplified%20zh-CN",
+          "img": "chi"
+        },
+        {
+          "title": "Chinese Traditional White Paper",
+          "a": "Chinese%20Traditional%20zh-TW",
+          "img": "chi"
+        }
+      ]
+    ]
+  },
+  "advisors": {
+    "title": "Our Advisors",
+    "persons": [
+      {
+        "name": "Don Tapscott",
+        "title": "Strategy Advisor",
+        "position": "CEO of Tapscott Group",
+        "links": [
+          {
+            "href": "https://www.linkedin.com/in/dontapscott",
+            "type": "linkedin"
+          },
+          {
+            "href": "https://en.wikipedia.org/wiki/Don_Tapscott",
+            "type": "wiki"
+          }
+        ]
+      },
+      {
+        "name": "Ruslan Gavrilyuk",
+        "title": "CryptoFinance Advisor",
+        "position": "CEO & Founder of TaaS Fund",
+        "links": [
+          {
+            "href": "https://www.linkedin.com/in/ruslan-gavrilyuk",
+            "type": "linkedin"
+          }
+        ]
+      },
+      {
+        "name": "Abbas Zuaiter",
+        "title": "Capital Markets Advisor",
+        "position": "Former COO Soros Fund",
+        "links": [
+          {
+            "href": "https://www.linkedin.com/in/abbas-f-eddy-zuaiter-51832a9",
+            "type": "linkedin"
+          },
+          {
+            "href": "https://www.bloomberg.com/research/stocks/private/person.asp?personId=35907985&privcapId=118300828",
+            "type": "bloomberg"
+          }
+        ]
+      },
+      {
+        "name": "Saul Hudson",
+        "title": "Communications Advisor",
+        "position": "GM at Thomson Reuters",
+        "links": [
+          {
+            "href": "https://www.linkedin.com/in/saul-hudson-2ab9228",
+            "type": "linkedin"
+          }
+        ]
+      },
+      {
+        "name": "Mohammad Al Sehli",
+        "title": "MENA Advisor",
+        "position": "CEO & Founder of Arabian Chain",
+        "links": [
+          {
+            "href": "https://www.linkedin.com/in/mohammed-alsehli-7520a626",
+            "type": "linkedin"
+          }
+        ]
+      },
+      {
+        "name": "Dr. Moe Levin",
+        "title": "Public Sector Advisor",
+        "position": "CEO of Keynote",
+        "links": [
+          {
+            "href": "https://www.linkedin.com/in/moelevin",
+            "type": "linkedin"
+          }
+        ]
+      }
+    ]
+  },
+  "team": {
+    "title": "Our Team",
+    "persons": [
+      [
+        {
+          "id": 1,
+          "name": "Yazan Barghuthi",
+          "position": "Project Lead (Co-founder)",
+          "description": "Yazan has over 9 years’ financial services experience at top management consultancies such as Oliver Wyman and Deloitte. He is proficient at Javascript, HTML, CSS, React and most front-end frameworks.",
+          "links": [
+            {
+              "href": "mailto:yazan@jibrel.network",
+              "type": "email"
+            },
+            {
+              "href": "https://jibrelnetwork.slack.com/messages/@yazan",
+              "type": "slack"
+            },
+            {
+              "href": "https://www.linkedin.com/in/yazanbarghuthi",
+              "type": "linkedin"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "name": "Victor Mezrin",
+          "position": "Technical Lead (Co-founder)",
+          "description": "Victor has over 10 years’ development experience and ran a top-3 altcoin mining pool (pool.mn) between 2014 and 2016. He is proficient at C++/C, Python, Java, C#, PHP, JavaScript, Solidity.",
+          "links": [
+            {
+              "href": "mailto:victor@jibrel.network",
+              "type": "email"
+            },
+            {
+              "href": "https://jibrelnetwork.slack.com/messages/@victor",
+              "type": "slack"
+            },
+            {
+              "href": "https://github.com/mezrin",
+              "type": "github"
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "id": 3,
+          "name": "Talal Tabbaa",
+          "position": "BizDev Lead (Co-founder)",
+          "description": "Talal has over 6 years’ experience in financial advisory roles at top tier consultancies (PwC) as well as private investment funds. He is proficient at Python and SQL and is learning front-end development.",
+          "links": [
+            {
+              "href": "mailto:talal@jibrel.network",
+              "type": "email"
+            },
+            {
+              "href": "https://jibrelnetwork.slack.com/messages/@talal.io",
+              "type": "slack"
+            },
+            {
+              "href": "https://www.linkedin.com/in/talaltabbaa",
+              "type": "linkedin"
+            }
+          ]
+        },
+        {
+          "id": 7,
+          "name": "Nick Marinin",
+          "position": "Developer (UX/UI)",
+          "description": "Nick has over 9 years’ experience in designing and developing financial user interfaces. He has developed UI/UX for financial institutions, retail businesses and manufacturers. He is proficient at HTML, CSS and JavaScript.",
+          "links": [
+            {
+              "href": "mailto:nick@jibrel.network",
+              "type": "email"
+            },
+            {
+              "href": "https://jibrelnetwork.slack.com/messages/@marinin",
+              "type": "slack"
+            },
+            {
+              "href": "https://www.linkedin.com/in/nmarinin",
+              "type": "linkedin"
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "id": 12,
+          "name": "Hamzeh Kolaghassi",
+          "position": "Operations",
+          "description": "Hamzeh has over 6 years’ financial experience at top private equity and financial consultancy firms such as Alcazar Capital and Ernst & Young. He is proficient in financial management and data analysis, with an emphasis on designing and implementing business strategies, plans and procedures.",
+          "links": [
+            {
+              "href": "mailto:hamzeh@jibrel.network",
+              "type": "email"
+            },
+            {
+              "href": "https://jibrelnetwork.slack.com/messages/@hamzeh",
+              "type": "slack"
+            },
+            {
+              "href": "https://www.linkedin.com/in/hamzeh-kolaghassi-61505131",
+              "type": "linkedin"
+            }
+          ]
+        },
+        {
+          "id": 6,
+          "name": "Aleksey Selikhov",
+          "position": "Developer (Back-end)",
+          "description": "Aleksey has over 12 years’ experience developing tech solutions for financial institutions. He has delivered full-stack solutions for both banks and investment funds. He is proficient at C++/C, Java, Python, JavaScript, Solidity.",
+          "links": [
+            {
+              "href": "mailto:aleksey@jibrel.network",
+              "type": "email"
+            },
+            {
+              "href": "https://jibrelnetwork.slack.com/messages/@aleksey",
+              "type": "slack"
+            },
+            {
+              "href": "https://www.linkedin.com/in/alexey-selikhov-341473b6",
+              "type": "linkedin"
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "id": 8,
+          "name": "Ivan Violentov",
+          "position": "Developer (Front-end)",
+          "description": "Ivan has over 5 years’ experience in web programming. He is especially skilled at developing financial solutions and applications. He specializes in full-stack development using Node server-side, and React/Angular/Vue client-side.",
+          "links": [
+            {
+              "href": "mailto:ivan.violentov@jibrel.network",
+              "type": "email"
+            },
+            {
+              "href": "https://jibrelnetwork.slack.com/messages/@ivanviolentov",
+              "type": "slack"
+            },
+            {
+              "href": "https://www.linkedin.com/in/ivanviolentov",
+              "type": "linkedin"
+            }
+          ]
+        },
+        {
+          "id": 10,
+          "name": "Anna Bordunova",
+          "position": "Public Relations",
+          "description": "Anna is media and communications practitioner over 5 years’ of experience in journalism, PR and social media. Her expertise spans traditional, experiential & digital marketing, with an emphasis on comprehensive internet presence management.",
+          "links": [
+            {
+              "href": "mailto:anna@jibrel.network",
+              "type": "email"
+            },
+            {
+              "href": "https://www.linkedin.com/in/anna-bordunova-54002467",
+              "type": "linkedin"
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "id": 11,
+          "name": "Rust Khusyainov",
+          "position": "Illustrator",
+          "description": "Rust has over 7 years’ of experience in graphic design and illustration. He has created high quality content for clients across financial services, retail and sports. He specializes in raster and vector graphics and video editing.",
+          "links": [
+            {
+              "href": "mailto:rustam.khusyainov@jibrel.network",
+              "type": "email"
+            }
+          ]
+        },
+        {
+          "id": 13,
+          "name": "Evgeny Erohin",
+          "position": "Developer (Front-end)",
+          "description": "Evgeny has over 10 years’ experience in web programming and project management. He is especially skilled at JS (React/Redux) and React Native. In addition to web and application development, Evgeny is also highly proficient at most front-end technologies, frameworks and libraries, such as recompose, lodash/fp, RSCSS, SASS, ESLint, Stylelint, Webpack, ES6 and JIRA.",
+          "links": [
+            {
+              "href": "https://jibrelnetwork.slack.com/messages/@evgeny.erohin",
+              "type": "slack"
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "id": 14,
+          "name": "Yuriy Homyakov",
+          "position": "Developer (Back-end)",
+          "description": "Yuriy has over 7 years’ experience developing  web applications. He specializes in backend development, database design, web applications architecture. He is proficient at Python, JavaScript and Solidity.",
+          "links": [
+            {
+              "href": "https://jibrelnetwork.slack.com/messages/@yuriy",
+              "type": "slack"
+            },
+            {
+              "href": "https://www.linkedin.com/in/yuriy-khomyakov-5203a26a",
+              "type": "linkedin"
+            }
+          ]
+        },
+        {
+          "id": 15,
+          "name": "Nikita Shchipanov",
+          "position": "Web Analyst",
+          "description": "Nikita has 5 years’ of experience in digital marketing and analytics. He specializes in сonfiguring analytics tools, user acquisition through paid channels and traffic quality analysis.",
+          "links": [
+            {
+              "href": "mailto:nikita.shchipanov@jibrel.network",
+              "type": "email"
+            },
+            {
+              "href": "https://www.linkedin.com/in/nikitschip",
+              "type": "linkedin"
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "id": 16,
+          "name": "Aleksey Smirnov",
+          "position": "DevOps Engineer",
+          "description": "Aleksey has over 10 years’ experience as a DevOps Engineer and Systems Architect. He specializes in designing and developing high-load architectures. He is proficient in Linux, cloud and infrastructure solutions. He uses Python as his main work tool.",
+          "links": [
+            {
+              "href": "mailto:aleksey.smyrnov@jibrel.network",
+              "type": "email"
+            },
+            {
+              "href": "https://jibrelnetwork.slack.com/team/U8L6B5C7R",
+              "type": "slack"
+            },
+            {
+              "href": "https://linkedin.com/in/AlekseySmyrnov",
+              "type": "linkedin"
+            }
+          ]
+        },
+        {
+
+        }
+      ]
+    ]
+  },
+  "careers": {
+    "title": "Careers",
+    "items": [
+      "Front-End Developer",
+      "Front-End Developer",
+      "Front-End Developer",
+      "Front-End Developer"
+    ]
+  },
+  "action": {
+    "title": "Tokenize Everything",
+    "subtitle": [
+      "Jibrel provides traditional financial assets as ERC-20 tokens",
+      "on the Ethereum blockchain"
+    ],
+    "link": "Get Tokens"
+  },
+  "footer": {
+    "links": [
+      {
+        "href": "https://twitter.com/JibrelNetwork",
+        "type": "twitter",
+        "title": "Twitter"
+      },
+      {
+        "href": "https://www.reddit.com/r/JibrelNetwork",
+        "type": "reddit",
+        "title": "Reddit"
+      },
+      {
+        "href": "https://bitcointalk.org/index.php?topic=2057487.0",
+        "type": "bitcointalk",
+        "title": "Bitcointalk"
+      },
+      {
+        "href": "https://open.kakao.com/o/ghfXgFE",
+        "type": "kakaotalk",
+        "title": "Kakaotalk"
+      },
+      {
+        "href": "https://medium.com/@jibrelnetwork",
+        "type": "medium",
+        "title": "Medium"
+      },
+      {
+        "href": "https://www.youtube.com/watch?v=LBMyd7Ql8QU",
+        "type": "youtube",
+        "title": "Youtube"
+      },
+      {
+        "href": "https://t.me/jibrel_network",
+        "type": "telegram",
+        "title": "Telegram"
+      },
+      {
+        "href": "https://jibrelnetwork.slack.com",
+        "type": "slack",
+        "title": "Slack"
+      }
+    ],
+    "copy": [
+      "© 2017 Jibrel Network. All Rights Reserved.",
+      "Baarerstrasse 10, 6302 Zug, Switzerland"
+    ]
+  },
+  "counterUnits": [
+    {
+      "name": "days",
+      "title": "Days"
+    },
+    {
+      "name": "hours",
+      "title": "Hours"
+    },
+    {
+      "name": "minutes",
+      "title": "Minutes"
+    },
+    {
+      "name": "seconds",
+      "title": "Seconds"
+    }
+  ],
+  "timestamp": "TODO change it !!!"
+}
