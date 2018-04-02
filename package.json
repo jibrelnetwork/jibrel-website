@@ -22,6 +22,7 @@
     "start": "node server.js",
     "build": "./node_modules/.bin/gulp",
     "build:prod": "./node_modules/.bin/gulp prod",
+    "watch": "./node_modules/.bin/gulp watch",
     "postinstall": "npm run build:prod"
   },
   "devDependencies": {
