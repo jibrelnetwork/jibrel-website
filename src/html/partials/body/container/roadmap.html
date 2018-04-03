@@ -3,7 +3,7 @@
         <div class="inner">
           <h2>{{ roadmap.title }}</h2>
           <div class="timeline">
-            {% for item in roadmap.timeline %}<div class="item {{ item.class }}">
+            {% for item in roadmap.timeline %}<div class="item {{ data.roadmap.timeline[loop.index0].class }}">
               <div class="time">{{ item.time }}</div>
               <h3>{{ item.head }}</h3>
               <p>{% for line in item.body %}

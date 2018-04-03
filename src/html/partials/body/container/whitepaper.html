@@ -1,7 +1,8 @@
       <div class="section whitepaper" id="whitepaper">
         <div class="inner">
           <h2>{{ whitepaper.title }}</h2>
-          <div class="items">{% for row in whitepaper.items %}
+          <div class="items">{% for row in data.whitepaper.items %}
+            {% set mainLoopIndex = loop.index0 %}
             <div class="row clear">{% for item in row %}
               <div class="col-3">
                 <a
@@ -9,7 +10,7 @@
                   target="_blank"
                 >
                   <img src="assets/img/countries/{{ item.img }}.svg" alt="" />
-                  <span>{{ item.title }}</span>
+                  <span>{{ whitepaper.items[mainLoopIndex][loop.index0].title }}</span>
                 </a>
               </div>{% endfor %}
             </div>{% endfor %}

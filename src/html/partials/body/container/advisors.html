@@ -9,7 +9,7 @@
               <h3>{{ person.name }}</h3>
               <div class="position">{{ person.title }}<br />{{ person.position }}</div>
               <ul class="links">
-                {% for link in person.links %}<li>
+                {% for link in data.advisors.persons[loop.index0].links %}<li>
                   <a
                     href="{{ link.href }}"
                     class="icons icon-{{ link.type }}"

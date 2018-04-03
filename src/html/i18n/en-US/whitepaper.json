@@ -1,0 +1,47 @@
+{
+  "title": "White Paper",
+  "items": [
+    [
+      {
+        "title": "English White Paper"
+      },
+      {
+        "title": "French White Paper"
+      },
+      {
+        "title": "German White Paper"
+      },
+      {
+        "title": "Dutch White Paper"
+      }
+    ],
+    [
+      {
+        "title": "Portuguese White Paper"
+      },
+      {
+        "title": "Spanish White Paper"
+      },
+      {
+        "title": "Arabic White Paper"
+      },
+      {
+        "title": "Hindi White Paper"
+      }
+    ],
+    [
+      {
+        "title": "Japanese White Paper"
+      },
+      {
+        "title": "Korean White Paper"
+      },
+      {
+        "title": "Chinese Simplified White Paper"
+      },
+      {
+        "title": "Chinese Traditional White Paper"
+      }
+    ]
+  ]
+}
