@@ -1,29 +1,233 @@
       <div class="section team">
         <div class="inner">
           <h2>{{ team.title }}</h2>
-          {% for row in team.persons %}<div class="row clear">
-            {% set mainLoopIndex = loop.index0 %}
-            {% for person in row %}<div class="col-6">
+          <div class="row clear">
+            <div class="col-6">
               <div class="img">
-                {% if (data.team.persons[mainLoopIndex][loop.index0].id) %}<img
-                  src="assets/img/team/{{ data.team.persons[mainLoopIndex][loop.index0].id }}.png"
-                  alt=""
-                />{% endif %}
+                <img src="assets/img/team/{{ data.team.persons.barghuthi.id }}.png" alt="" />
               </div>
-              <h3>{{ person.name }}</h3>
-              <div class="position">{{ person.position }}</div>
-              <ul class="links">{% for link in data.team.persons[mainLoopIndex][loop.index0].links %}
-                <li>
+              <h3>{{ team.persons.barghuthi.name }}</h3>
+              <div class="position">{{ team.persons.barghuthi.position }}</div>
+              <ul class="links">
+                {% for link in data.team.persons.barghuthi.links %}<li>
                   <a
                     href="{{ link.href }}"
                     class="icons icon-{{ link.type }}"
                     target="_blank"
                     rel="nofollow"
                   ></a>
-                </li>
-              {% endfor %}</ul>
-              <p>{{ person.description }}</p>
-            </div>{% endfor %}
-          </div>{% endfor %}
+                </li>{% endfor %}
+              </ul>
+              <p>{{ team.persons.barghuthi.description }}</p>
+            </div>
+            <div class="col-6">
+              <div class="img">
+                <img src="assets/img/team/{{ data.team.persons.mezrin.id }}.png" alt="" />
+              </div>
+              <h3>{{ team.persons.mezrin.name }}</h3>
+              <div class="position">{{ team.persons.mezrin.position }}</div>
+              <ul class="links">
+                {% for link in data.team.persons.mezrin.links %}<li>
+                  <a
+                    href="{{ link.href }}"
+                    class="icons icon-{{ link.type }}"
+                    target="_blank"
+                    rel="nofollow"
+                  ></a>
+                </li>{% endfor %}
+              </ul>
+              <p>{{ team.persons.mezrin.description }}</p>
+            </div>
+          </div>
+          <div class="row clear">
+            <div class="col-6">
+              <div class="img">
+                <img src="assets/img/team/{{ data.team.persons.tabbaa.id }}.png" alt="" />
+              </div>
+              <h3>{{ team.persons.tabbaa.name }}</h3>
+              <div class="position">{{ team.persons.tabbaa.position }}</div>
+              <ul class="links">
+                {% for link in data.team.persons.tabbaa.links %}<li>
+                  <a
+                    href="{{ link.href }}"
+                    class="icons icon-{{ link.type }}"
+                    target="_blank"
+                    rel="nofollow"
+                  ></a>
+                </li>{% endfor %}
+              </ul>
+              <p>{{ team.persons.tabbaa.description }}</p>
+            </div>
+            <div class="col-6">
+              <div class="img">
+                <img src="assets/img/team/{{ data.team.persons.marinin.id }}.png" alt="" />
+              </div>
+              <h3>{{ team.persons.marinin.name }}</h3>
+              <div class="position">{{ team.persons.marinin.position }}</div>
+              <ul class="links">
+                {% for link in data.team.persons.marinin.links %}<li>
+                  <a
+                    href="{{ link.href }}"
+                    class="icons icon-{{ link.type }}"
+                    target="_blank"
+                    rel="nofollow"
+                  ></a>
+                </li>{% endfor %}
+              </ul>
+              <p>{{ team.persons.marinin.description }}</p>
+            </div>
+          </div>
+          <div class="row clear">
+            <div class="col-6">
+              <div class="img">
+                <img src="assets/img/team/{{ data.team.persons.kolaghassi.id }}.png" alt="" />
+              </div>
+              <h3>{{ team.persons.kolaghassi.name }}</h3>
+              <div class="position">{{ team.persons.kolaghassi.position }}</div>
+              <ul class="links">
+                {% for link in data.team.persons.kolaghassi.links %}<li>
+                  <a
+                    href="{{ link.href }}"
+                    class="icons icon-{{ link.type }}"
+                    target="_blank"
+                    rel="nofollow"
+                  ></a>
+                </li>{% endfor %}
+              </ul>
+              <p>{{ team.persons.kolaghassi.description }}</p>
+            </div>
+            <div class="col-6">
+              <div class="img">
+                <img src="assets/img/team/{{ data.team.persons.selikhov.id }}.png" alt="" />
+              </div>
+              <h3>{{ team.persons.selikhov.name }}</h3>
+              <div class="position">{{ team.persons.selikhov.position }}</div>
+              <ul class="links">
+                {% for link in data.team.persons.selikhov.links %}<li>
+                  <a
+                    href="{{ link.href }}"
+                    class="icons icon-{{ link.type }}"
+                    target="_blank"
+                    rel="nofollow"
+                  ></a>
+                </li>{% endfor %}
+              </ul>
+              <p>{{ team.persons.selikhov.description }}</p>
+            </div>
+          </div>
+          <div class="row clear">
+            <div class="col-6">
+              <div class="img">
+                <img src="assets/img/team/{{ data.team.persons.violentov.id }}.png" alt="" />
+              </div>
+              <h3>{{ team.persons.violentov.name }}</h3>
+              <div class="position">{{ team.persons.violentov.position }}</div>
+              <ul class="links">
+                {% for link in data.team.persons.violentov.links %}<li>
+                  <a
+                    href="{{ link.href }}"
+                    class="icons icon-{{ link.type }}"
+                    target="_blank"
+                    rel="nofollow"
+                  ></a>
+                </li>{% endfor %}
+              </ul>
+              <p>{{ team.persons.violentov.description }}</p>
+            </div>
+            <div class="col-6">
+              <div class="img">
+                <img src="assets/img/team/{{ data.team.persons.bordunova.id }}.png" alt="" />
+              </div>
+              <h3>{{ team.persons.bordunova.name }}</h3>
+              <div class="position">{{ team.persons.bordunova.position }}</div>
+              <ul class="links">
+                {% for link in data.team.persons.bordunova.links %}<li>
+                  <a
+                    href="{{ link.href }}"
+                    class="icons icon-{{ link.type }}"
+                    target="_blank"
+                    rel="nofollow"
+                  ></a>
+                </li>{% endfor %}
+              </ul>
+              <p>{{ team.persons.bordunova.description }}</p>
+            </div>
+          </div>
+          <div class="row clear">
+            <div class="col-6">
+              <div class="img">
+                <img src="assets/img/team/{{ data.team.persons.khusyainov.id }}.png" alt="" />
+              </div>
+              <h3>{{ team.persons.khusyainov.name }}</h3>
+              <div class="position">{{ team.persons.khusyainov.position }}</div>
+              <ul class="links">
+                {% for link in data.team.persons.khusyainov.links %}<li>
+                  <a
+                    href="{{ link.href }}"
+                    class="icons icon-{{ link.type }}"
+                    target="_blank"
+                    rel="nofollow"
+                  ></a>
+                </li>{% endfor %}
+              </ul>
+              <p>{{ team.persons.khusyainov.description }}</p>
+            </div>
+            <div class="col-6">
+              <div class="img">
+                <img src="assets/img/team/{{ data.team.persons.homyakov.id }}.png" alt="" />
+              </div>
+              <h3>{{ team.persons.homyakov.name }}</h3>
+              <div class="position">{{ team.persons.homyakov.position }}</div>
+              <ul class="links">
+                {% for link in data.team.persons.homyakov.links %}<li>
+                  <a
+                    href="{{ link.href }}"
+                    class="icons icon-{{ link.type }}"
+                    target="_blank"
+                    rel="nofollow"
+                  ></a>
+                </li>{% endfor %}
+              </ul>
+              <p>{{ team.persons.homyakov.description }}</p>
+            </div>
+          </div>
+          <div class="row clear">
+            <div class="col-6">
+              <div class="img">
+                <img src="assets/img/team/{{ data.team.persons.shchipanov.id }}.png" alt="" />
+              </div>
+              <h3>{{ team.persons.shchipanov.name }}</h3>
+              <div class="position">{{ team.persons.shchipanov.position }}</div>
+              <ul class="links">
+                {% for link in data.team.persons.shchipanov.links %}<li>
+                  <a
+                    href="{{ link.href }}"
+                    class="icons icon-{{ link.type }}"
+                    target="_blank"
+                    rel="nofollow"
+                  ></a>
+                </li>{% endfor %}
+              </ul>
+              <p>{{ team.persons.shchipanov.description }}</p>
+            </div>
+            <div class="col-6">
+              <div class="img">
+                <img src="assets/img/team/{{ data.team.persons.smirnov.id }}.png" alt="" />
+              </div>
+              <h3>{{ team.persons.smirnov.name }}</h3>
+              <div class="position">{{ team.persons.smirnov.position }}</div>
+              <ul class="links">
+                {% for link in data.team.persons.smirnov.links %}<li>
+                  <a
+                    href="{{ link.href }}"
+                    class="icons icon-{{ link.type }}"
+                    target="_blank"
+                    rel="nofollow"
+                  ></a>
+                </li>{% endfor %}
+              </ul>
+              <p>{{ team.persons.smirnov.description }}</p>
+            </div>
+          </div>
         </div>
       </div>

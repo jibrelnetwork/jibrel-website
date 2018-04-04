@@ -1,35 +1,35 @@
 {
   "title": "Our Advisors",
-  "persons": [
-    {
+  "persons": {
+    "tapscott": {
       "name": "Don Tapscott",
       "title": "Strategy Advisor",
       "position": "CEO of Tapscott Group"
     },
-    {
+    "gavrilyuk": {
       "name": "Ruslan Gavrilyuk",
       "title": "CryptoFinance Advisor",
       "position": "CEO & Founder of TaaS Fund"
     },
-    {
+    "zuaiter": {
       "name": "Abbas Zuaiter",
       "title": "Capital Markets Advisor",
       "position": "Former COO Soros Fund"
     },
-    {
+    "hudson": {
       "name": "Saul Hudson",
       "title": "Communications Advisor",
       "position": "GM at Thomson Reuters"
     },
-    {
+    "sehli": {
       "name": "Mohammad Al Sehli",
       "title": "MENA Advisor",
       "position": "CEO & Founder of Arabian Chain"
     },
-    {
+    "levin": {
       "name": "Dr. Moe Levin",
       "title": "Public Sector Advisor",
       "position": "CEO of Keynote"
     }
-  ]
+  }
 }

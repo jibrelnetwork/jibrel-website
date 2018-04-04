@@ -2,13 +2,36 @@
         <div class="inner">
           <h2>{{ about.title }}</h2>
           <div class="benefits">
-            {% for row in about.benefits %}<div class="row clear">
-              {% set mainLoopIndex = loop.index0 %}
-              {% for benefit in row %}<div class="col-6 icons icon-benefit-{{ (mainLoopIndex * 2) + loop.index }}">
-                <h3>{{ benefit.head }}</h3>
-                <p>{{ benefit.body }}</p>
-              </div>{% endfor %}
-            </div>{% endfor %}
+            <div class="row clear">
+              <div class="col-6 icons icon-benefit-1">
+                <h3>{{ about.benefits.a.head }}</h3>
+                <p>{{ about.benefits.a.body }}</p>
+              </div>
+              <div class="col-6 icons icon-benefit-2">
+                <h3>{{ about.benefits.b.head }}</h3>
+                <p>{{ about.benefits.b.body }}</p>
+              </div>
+            </div>
+            <div class="row clear">
+              <div class="col-6 icons icon-benefit-3">
+                <h3>{{ about.benefits.c.head }}</h3>
+                <p>{{ about.benefits.c.body }}</p>
+              </div>
+              <div class="col-6 icons icon-benefit-4">
+                <h3>{{ about.benefits.d.head }}</h3>
+                <p>{{ about.benefits.d.body }}</p>
+              </div>
+            </div>
+            <div class="row clear">
+              <div class="col-6 icons icon-benefit-5">
+                <h3>{{ about.benefits.e.head }}</h3>
+                <p>{{ about.benefits.e.body }}</p>
+              </div>
+              <div class="col-6 icons icon-benefit-6">
+                <h3>{{ about.benefits.f.head }}</h3>
+                <p>{{ about.benefits.f.body }}</p>
+              </div>
+            </div>
           </div>
         </div>
       </div>

@@ -3,13 +3,46 @@
         <div class="inner">
           <h2>{{ roadmap.title }}</h2>
           <div class="timeline">
-            {% for item in roadmap.timeline %}<div class="item {{ data.roadmap.timeline[loop.index0].class }}">
-              <div class="time">{{ item.time }}</div>
-              <h3>{{ item.head }}</h3>
-              <p>{% for line in item.body %}
-                {% if (line === '') %}<br />{% else %}{{ line }}{% endif %}
-              {% endfor %}</p>
-            </div>{% endfor %}
+            <div class="item right active">
+              <div class="time">{{ roadmap.timeline.may17.time }}</div>
+              <h3>{{ roadmap.timeline.may17.head }}</h3>
+              <p>{{ roadmap.timeline.may17.body.one }}</p>
+            </div>
+            <div class="item left active">
+              <div class="time">{{ roadmap.timeline.sep17.time }}</div>
+              <h3>{{ roadmap.timeline.sep17.head }}</h3>
+              <p>{{ roadmap.timeline.sep17.body.one }}</p>
+            </div>
+            <div class="item right active">
+              <div class="time">{{ roadmap.timeline.nov17first.time }}</div>
+              <h3>{{ roadmap.timeline.nov17first.head }}</h3>
+              <p>{{ roadmap.timeline.nov17first.body.one }}</p>
+            </div>
+            <div class="item right active">
+              <div class="time">{{ roadmap.timeline.nov17second.time }}</div>
+              <h3>{{ roadmap.timeline.nov17second.head }}</h3>
+              <p>
+                {{ roadmap.timeline.nov17second.body.one }}
+                <br />
+                <br />
+                {{ roadmap.timeline.nov17second.body.two }}
+              </p>
+            </div>
+            <div class="item left">
+              <div class="time">{{ roadmap.timeline.1q18.time }}</div>
+              <h3>{{ roadmap.timeline.1q18.head }}</h3>
+              <p>{{ roadmap.timeline.1q18.body.one }}</p>
+            </div>
+            <div class="item right">
+              <div class="time">{{ roadmap.timeline.3q18.time }}</div>
+              <h3>{{ roadmap.timeline.3q18.head }}</h3>
+              <p>{{ roadmap.timeline.3q18.body.one }}</p>
+            </div>
+            <div class="item left">
+              <div class="time">{{ roadmap.timeline.4q18.time }}</div>
+              <h3>{{ roadmap.timeline.4q18.head }}</h3>
+              <p>{{ roadmap.timeline.4q18.body.one }}</p>
+            </div>
           </div>
         </div>
       </div>

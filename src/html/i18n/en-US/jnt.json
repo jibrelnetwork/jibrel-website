@@ -1,20 +1,20 @@
 {
   "title": "Jibrel Network Token",
-  "items": [
-    {
+  "items": {
+    "presale": {
       "title": "Token Presale"
     },
-    {
+    "sale": {
       "title": "Token Main Sale"
     },
-    {
+    "team": {
       "title": "Team"
     },
-    {
+    "partners": {
       "title": "Advisors and Partners"
     },
-    {
+    "bounties": {
       "title": "Bounties"
     }
-  ]
+  }
 }

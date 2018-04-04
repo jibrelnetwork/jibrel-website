@@ -1,7 +1,7 @@
 {
   "advisors": {
-    "persons": [
-      {
+    "persons": {
+      "tapscott": {
         "links": [
           {
             "href": "https://www.linkedin.com/in/dontapscott",
@@ -13,7 +13,7 @@
           }
         ]
       },
-      {
+      "gavrilyuk": {
         "links": [
           {
             "href": "https://www.linkedin.com/in/ruslan-gavrilyuk",
@@ -21,7 +21,7 @@
           }
         ]
       },
-      {
+      "zuaiter": {
         "links": [
           {
             "href": "https://www.linkedin.com/in/abbas-f-eddy-zuaiter-51832a9",
@@ -33,7 +33,7 @@
           }
         ]
       },
-      {
+      "hudson": {
         "links": [
           {
             "href": "https://www.linkedin.com/in/saul-hudson-2ab9228",
@@ -41,7 +41,7 @@
           }
         ]
       },
-      {
+      "sehli": {
         "links": [
           {
             "href": "https://www.linkedin.com/in/mohammed-alsehli-7520a626",
@@ -49,7 +49,7 @@
           }
         ]
       },
-      {
+      "levin": {
         "links": [
           {
             "href": "https://www.linkedin.com/in/moelevin",
@@ -57,40 +57,40 @@
           }
         ]
       }
-    ]
+    }
   },
-  "articles": [
-    {
+  "articles": {
+    "cointelegraph": {
       "href": "https://cointelegraph.com/news/ethereum-backed-jibrel-aims-to-contain-ico-bubble-with-new-type-of-smart-tokens"
     },
-    {
+    "forbes": {
       "href": "https://www.forbes.com/sites/jessedamiani/2018/01/22/jibrel-network-is-bridging-the-gap-between-crypto-and-traditional-markets/#104d235f67d3"
     },
-    {
+    "thenextweb": {
       "href": "https://thenextweb.com/contributors/2017/11/16/digital-economy-continues-evolve-popularity-interest-grows/"
     },
-    {
+    "bitcoinmagazine": {
       "href": "https://bitcoinmagazine.com/articles/crypto-trading-and-traditional-assets-new-options-investors/"
     },
-    {
+    "huffingtonpost": {
       "href": "https://www.huffingtonpost.com/entry/5a0f4aaee4b023121e0e927d"
     },
-    {
+    "blockchain": {
       "href": "http://www.the-blockchain.com/2017/11/20/jibrel-network-announces-highly-successful-pre-sale-round/"
     },
-    {
+    "techcrunch": {
       "href": "https://techcrunch.com/2017/11/22/with-ethereum-wallets-under-constant-attack-jibrel-network-decided-to-build-their-own/"
     },
-    {
+    "themerkle": {
       "href": "https://themerkle.com/what-is-jwallet/"
     },
-    {
+    "nasdaq": {
       "href": "http://www.nasdaq.com/article/crypto-trading-and-traditional-assets-new-options-for-investors-cm879469"
     },
-    {
+    "businessinsider": {
       "href": "http://markets.businessinsider.com/news/stocks/Blockchain-and-Payments-Take-Center-Stage-at-Inside-Fintech-Conference-Expo-2017-in-Seoul-South-Korea-November-30-December-1-2017-1008202248"
     }
-  ],
+  },
   "footer": {
     "links": [
       {
@@ -153,330 +153,194 @@
     ]
   },
   "jnt": {
-    "image": "assets/img/chart.png",
-    "items": [
-      {
-        "percents": "10",
-        "money": "20,000,000",
-        "class": ""
-      },
-      {
-        "percents": "60",
-        "money": "120,000,000",
-        "class": ""
-      },
-      {
-        "percents": "15",
-        "money": "30,000,000",
-        "class": "pink"
-      },
-      {
-        "percents": "10",
-        "money": "20,000,000",
-        "class": "green"
-      },
-      {
-        "percents": "5",
-        "money": "10,000,000",
-        "class": "purple"
-      }
-    ]
-  },
-  "roadmap": {
-    "timeline": [
-      {
-        "class": "right active"
-      },
-      {
-        "class": "left active"
-      },
-      {
-        "class": "right active"
-      },
-      {
-        "class": "right active"
-      },
-      {
-        "class": "left"
-      },
-      {
-        "class": "right"
-      },
-      {
-        "class": "left"
-      }
-    ]
+    "image": "assets/img/chart.png"
   },
   "team": {
-    "persons": [
-      [
-        {
-          "id": 1,
-          "links": [
-            {
-              "href": "mailto:yazan@jibrel.network",
-              "type": "email"
-            },
-            {
-              "href": "https://jibrelnetwork.slack.com/messages/@yazan",
-              "type": "slack"
-            },
-            {
-              "href": "https://www.linkedin.com/in/yazanbarghuthi",
-              "type": "linkedin"
-            }
-          ]
-        },
-        {
-          "id": 2,
-          "links": [
-            {
-              "href": "mailto:victor@jibrel.network",
-              "type": "email"
-            },
-            {
-              "href": "https://jibrelnetwork.slack.com/messages/@victor",
-              "type": "slack"
-            },
-            {
-              "href": "https://github.com/mezrin",
-              "type": "github"
-            }
-          ]
-        }
-      ],
-      [
-        {
-          "id": 3,
-          "links": [
-            {
-              "href": "mailto:talal@jibrel.network",
-              "type": "email"
-            },
-            {
-              "href": "https://jibrelnetwork.slack.com/messages/@talal.io",
-              "type": "slack"
-            },
-            {
-              "href": "https://www.linkedin.com/in/talaltabbaa",
-              "type": "linkedin"
-            }
-          ]
-        },
-        {
-          "id": 7,
-          "links": [
-            {
-              "href": "mailto:nick@jibrel.network",
-              "type": "email"
-            },
-            {
-              "href": "https://jibrelnetwork.slack.com/messages/@marinin",
-              "type": "slack"
-            },
-            {
-              "href": "https://www.linkedin.com/in/nmarinin",
-              "type": "linkedin"
-            }
-          ]
-        }
-      ],
-      [
-        {
-          "id": 12,
-          "links": [
-            {
-              "href": "mailto:hamzeh@jibrel.network",
-              "type": "email"
-            },
-            {
-              "href": "https://jibrelnetwork.slack.com/messages/@hamzeh",
-              "type": "slack"
-            },
-            {
-              "href": "https://www.linkedin.com/in/hamzeh-kolaghassi-61505131",
-              "type": "linkedin"
-            }
-          ]
-        },
-        {
-          "id": 6,
-          "links": [
-            {
-              "href": "mailto:aleksey@jibrel.network",
-              "type": "email"
-            },
-            {
-              "href": "https://jibrelnetwork.slack.com/messages/@aleksey",
-              "type": "slack"
-            },
-            {
-              "href": "https://www.linkedin.com/in/alexey-selikhov-341473b6",
-              "type": "linkedin"
-            }
-          ]
-        }
-      ],
-      [
-        {
-          "id": 8,
-          "links": [
-            {
-              "href": "mailto:ivan.violentov@jibrel.network",
-              "type": "email"
-            },
-            {
-              "href": "https://jibrelnetwork.slack.com/messages/@ivanviolentov",
-              "type": "slack"
-            },
-            {
-              "href": "https://www.linkedin.com/in/ivanviolentov",
-              "type": "linkedin"
-            }
-          ]
-        },
-        {
-          "id": 10,
-          "links": [
-            {
-              "href": "mailto:anna@jibrel.network",
-              "type": "email"
-            },
-            {
-              "href": "https://www.linkedin.com/in/anna-bordunova-54002467",
-              "type": "linkedin"
-            }
-          ]
-        }
-      ],
-      [
-        {
-          "id": 11,
-          "links": [
-            {
-              "href": "mailto:rustam.khusyainov@jibrel.network",
-              "type": "email"
-            }
-          ]
-        },
-        {
-          "id": 13,
-          "links": [
-            {
-              "href": "https://jibrelnetwork.slack.com/messages/@evgeny.erohin",
-              "type": "slack"
-            }
-          ]
-        }
-      ],
-      [
-        {
-          "id": 14,
-          "links": [
-            {
-              "href": "https://jibrelnetwork.slack.com/messages/@yuriy",
-              "type": "slack"
-            },
-            {
-              "href": "https://www.linkedin.com/in/yuriy-khomyakov-5203a26a",
-              "type": "linkedin"
-            }
-          ]
-        },
-        {
-          "id": 15,
-          "links": [
-            {
-              "href": "mailto:nikita.shchipanov@jibrel.network",
-              "type": "email"
-            },
-            {
-              "href": "https://www.linkedin.com/in/nikitschip",
-              "type": "linkedin"
-            }
-          ]
-        }
-      ],
-      [
-        {
-          "id": 16,
-          "links": [
-            {
-              "href": "mailto:aleksey.smyrnov@jibrel.network",
-              "type": "email"
-            },
-            {
-              "href": "https://jibrelnetwork.slack.com/team/U8L6B5C7R",
-              "type": "slack"
-            },
-            {
-              "href": "https://linkedin.com/in/AlekseySmyrnov",
-              "type": "linkedin"
-            }
-          ]
-        },
-        {
-
-        }
-      ]
-    ]
-  },
-  "whitepaper": {
-    "items": [
-      [
-        {
-          "a": "2nd%20Draft",
-          "img": "eng"
-        },
-        {
-          "a": "French",
-          "img": "fra"
-        },
-        {
-          "a": "German",
-          "img": "ger"
-        },
-        {
-          "a": "Dutch",
-          "img": "ned"
-        }
-      ],
-      [
-        {
-          "a": "Portuguese",
-          "img": "por"
-        },
-        {
-          "a": "Spanish",
-          "img": "spa"
-        },
-        {
-          "a": "Arabic",
-          "img": "ara"
-        },
-        {
-          "a": "Hindi",
-          "img": "hin"
-        }
-      ],
-      [
-        {
-          "a": "Japanese",
-          "img": "jap"
-        },
-        {
-          "a": "Korean",
-          "img": "kor"
-        },
-        {
-          "a": "Chinese%20Simplified%20zh-CN",
-          "img": "chi"
-        },
-        {
-          "a": "Chinese%20Traditional%20zh-TW",
-          "img": "chi"
-        }
-      ]
-    ]
+    "persons": {
+      "barghuthi": {
+        "id": 1,
+        "links": [
+          {
+            "href": "mailto:yazan@jibrel.network",
+            "type": "email"
+          },
+          {
+            "href": "https://jibrelnetwork.slack.com/messages/@yazan",
+            "type": "slack"
+          },
+          {
+            "href": "https://www.linkedin.com/in/yazanbarghuthi",
+            "type": "linkedin"
+          }
+        ]
+      },
+      "mezrin": {
+        "id": 2,
+        "links": [
+          {
+            "href": "mailto:victor@jibrel.network",
+            "type": "email"
+          },
+          {
+            "href": "https://jibrelnetwork.slack.com/messages/@victor",
+            "type": "slack"
+          },
+          {
+            "href": "https://github.com/mezrin",
+            "type": "github"
+          }
+        ]
+      },
+      "tabbaa": {
+        "id": 3,
+        "links": [
+          {
+            "href": "mailto:talal@jibrel.network",
+            "type": "email"
+          },
+          {
+            "href": "https://jibrelnetwork.slack.com/messages/@talal.io",
+            "type": "slack"
+          },
+          {
+            "href": "https://www.linkedin.com/in/talaltabbaa",
+            "type": "linkedin"
+          }
+        ]
+      },
+      "marinin": {
+        "id": 7,
+        "links": [
+          {
+            "href": "mailto:nick@jibrel.network",
+            "type": "email"
+          },
+          {
+            "href": "https://jibrelnetwork.slack.com/messages/@marinin",
+            "type": "slack"
+          },
+          {
+            "href": "https://www.linkedin.com/in/nmarinin",
+            "type": "linkedin"
+          }
+        ]
+      },
+      "kolaghassi": {
+        "id": 12,
+        "links": [
+          {
+            "href": "mailto:hamzeh@jibrel.network",
+            "type": "email"
+          },
+          {
+            "href": "https://jibrelnetwork.slack.com/messages/@hamzeh",
+            "type": "slack"
+          },
+          {
+            "href": "https://www.linkedin.com/in/hamzeh-kolaghassi-61505131",
+            "type": "linkedin"
+          }
+        ]
+      },
+      "selikhov": {
+        "id": 6,
+        "links": [
+          {
+            "href": "mailto:aleksey@jibrel.network",
+            "type": "email"
+          },
+          {
+            "href": "https://jibrelnetwork.slack.com/messages/@aleksey",
+            "type": "slack"
+          },
+          {
+            "href": "https://www.linkedin.com/in/alexey-selikhov-341473b6",
+            "type": "linkedin"
+          }
+        ]
+      },
+      "violentov": {
+        "id": 8,
+        "links": [
+          {
+            "href": "mailto:ivan.violentov@jibrel.network",
+            "type": "email"
+          },
+          {
+            "href": "https://jibrelnetwork.slack.com/messages/@ivanviolentov",
+            "type": "slack"
+          },
+          {
+            "href": "https://www.linkedin.com/in/ivanviolentov",
+            "type": "linkedin"
+          }
+        ]
+      },
+      "bordunova": {
+        "id": 10,
+        "links": [
+          {
+            "href": "mailto:anna@jibrel.network",
+            "type": "email"
+          },
+          {
+            "href": "https://www.linkedin.com/in/anna-bordunova-54002467",
+            "type": "linkedin"
+          }
+        ]
+      },
+      "khusyainov": {
+        "id": 11,
+        "links": [
+          {
+            "href": "mailto:rustam.khusyainov@jibrel.network",
+            "type": "email"
+          }
+        ]
+      },
+      "homyakov": {
+        "id": 14,
+        "links": [
+          {
+            "href": "https://jibrelnetwork.slack.com/messages/@yuriy",
+            "type": "slack"
+          },
+          {
+            "href": "https://www.linkedin.com/in/yuriy-khomyakov-5203a26a",
+            "type": "linkedin"
+          }
+        ]
+      },
+      "shchipanov": {
+        "id": 15,
+        "links": [
+          {
+            "href": "mailto:nikita.shchipanov@jibrel.network",
+            "type": "email"
+          },
+          {
+            "href": "https://www.linkedin.com/in/nikitschip",
+            "type": "linkedin"
+          }
+        ]
+      },
+      "smirnov": {
+        "id": 16,
+        "links": [
+          {
+            "href": "mailto:aleksey.smyrnov@jibrel.network",
+            "type": "email"
+          },
+          {
+            "href": "https://jibrelnetwork.slack.com/team/U8L6B5C7R",
+            "type": "slack"
+          },
+          {
+            "href": "https://linkedin.com/in/AlekseySmyrnov",
+            "type": "linkedin"
+          }
+        ]
+      }
+    }
   }
 }

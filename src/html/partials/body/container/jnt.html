@@ -7,12 +7,36 @@
                 <div class="pie-chart"><img src="{{ data.jnt.image }}" alt="" /></div>
               </div>
               <div class="col-8">
-                {% for item in data.jnt.items %}<div class="item {{ item.class }}">
-                  <div class="title">{{ jnt.items[loop.index0].title }}</div>
-                  <div class="percents">{{ item.percents }}%</div>
-                  <div class="bar bar-{{ item.percents }}"></div>
-                  <div class="money">{{ item.money }} <span>JNT</span></div>
-                </div>{% endfor %}
+                <div class="item">
+                  <div class="title">{{ jnt.items.presale.title }}</div>
+                  <div class="percents">10%</div>
+                  <div class="bar bar-10"></div>
+                  <div class="money">20,000,000 <span>JNT</span></div>
+                </div>
+                <div class="item">
+                  <div class="title">{{ jnt.items.sale.title }}</div>
+                  <div class="percents">60%</div>
+                  <div class="bar bar-60"></div>
+                  <div class="money">120,000,000 <span>JNT</span></div>
+                </div>
+                <div class="item pink">
+                  <div class="title">{{ jnt.items.team.title }}</div>
+                  <div class="percents">15%</div>
+                  <div class="bar bar-15"></div>
+                  <div class="money">30,000,000 <span>JNT</span></div>
+                </div>
+                <div class="item green">
+                  <div class="title">{{ jnt.items.partners.title }}</div>
+                  <div class="percents">10%</div>
+                  <div class="bar bar-10"></div>
+                  <div class="money">20,000,000 <span>JNT</span></div>
+                </div>
+                <div class="item purple">
+                  <div class="title">{{ jnt.items.bounties.title }}</div>
+                  <div class="percents">5%</div>
+                  <div class="bar bar-5"></div>
+                  <div class="money">10,000,000 <span>JNT</span></div>
+                </div>
               </div>
             </div>
           </div>
