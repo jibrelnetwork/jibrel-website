@@ -37,6 +37,7 @@
     "gulp-rename": "1.2.2",
     "gulp-uglify": "3.0.0",
     "merge-stream": "1.0.1",
+    "ramda": "0.25.0",
     "serve-static": "1.12.3"
   }
 }
