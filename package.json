@@ -19,6 +19,7 @@
     "url": "https://github.com/jibrelnetwork/jibrel-website/issues"
   },
   "scripts": {
+    "test": "node ./src/html/i18n/test/keysTest.js && node ./src/html/i18n/test/translationsTest.js",
     "start": "node server.js",
     "build": "./node_modules/.bin/gulp",
     "build:prod": "./node_modules/.bin/gulp prod",
