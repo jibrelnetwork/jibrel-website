@@ -1,22 +1,154 @@
       <div class="section articles">
         <div class="slider2">
-          {% for article in articles %}<div class="article-wrap">
+          <div class="article-wrap">
             <a
               class="article"
               target="_blank"
               rel="noopener noreferrer"
-              href="{{ data.articles[loop.index0].href }}"
+              href="{{ data.articles.cointelegraph.href }}"
             >
               <div class="bg"></div>
-              <div
-                class="icon"
-                style="background-image: url('assets/img/logos/{{ loop.index }}.svg')"
-              ></div>
+              <div class="icon" style="background-image: url('assets/img/logos/1.svg')"></div>
               <div class="info">
-                <div class="date">{{ article.date }}</div>
-                <div class="title">{{ article.title }}</div>
+                <div class="date">{{ articles.cointelegraph.date }}</div>
+                <div class="title">{{ articles.cointelegraph.title }}</div>
               </div>
             </a>
-          </div>{% endfor %}
+          </div>
+          <div class="article-wrap">
+            <a
+              class="article"
+              target="_blank"
+              rel="noopener noreferrer"
+              href="{{ data.articles.forbes.href }}"
+            >
+              <div class="bg"></div>
+              <div class="icon" style="background-image: url('assets/img/logos/2.svg')"></div>
+              <div class="info">
+                <div class="date">{{ articles.forbes.date }}</div>
+                <div class="title">{{ articles.forbes.title }}</div>
+              </div>
+            </a>
+          </div>
+          <div class="article-wrap">
+            <a
+              class="article"
+              target="_blank"
+              rel="noopener noreferrer"
+              href="{{ data.articles.thenextweb.href }}"
+            >
+              <div class="bg"></div>
+              <div class="icon" style="background-image: url('assets/img/logos/3.svg')"></div>
+              <div class="info">
+                <div class="date">{{ articles.thenextweb.date }}</div>
+                <div class="title">{{ articles.thenextweb.title }}</div>
+              </div>
+            </a>
+          </div>
+          <div class="article-wrap">
+            <a
+              class="article"
+              target="_blank"
+              rel="noopener noreferrer"
+              href="{{ data.articles.bitcoinmagazine.href }}"
+            >
+              <div class="bg"></div>
+              <div class="icon" style="background-image: url('assets/img/logos/4.svg')"></div>
+              <div class="info">
+                <div class="date">{{ articles.bitcoinmagazine.date }}</div>
+                <div class="title">{{ articles.bitcoinmagazine.title }}</div>
+              </div>
+            </a>
+          </div>
+          <div class="article-wrap">
+            <a
+              class="article"
+              target="_blank"
+              rel="noopener noreferrer"
+              href="{{ data.articles.huffingtonpost.href }}"
+            >
+              <div class="bg"></div>
+              <div class="icon" style="background-image: url('assets/img/logos/5.svg')"></div>
+              <div class="info">
+                <div class="date">{{ articles.huffingtonpost.date }}</div>
+                <div class="title">{{ articles.huffingtonpost.title }}</div>
+              </div>
+            </a>
+          </div>
+          <div class="article-wrap">
+            <a
+              class="article"
+              target="_blank"
+              rel="noopener noreferrer"
+              href="{{ data.articles.blockchain.href }}"
+            >
+              <div class="bg"></div>
+              <div class="icon" style="background-image: url('assets/img/logos/6.svg')"></div>
+              <div class="info">
+                <div class="date">{{ articles.blockchain.date }}</div>
+                <div class="title">{{ articles.blockchain.title }}</div>
+              </div>
+            </a>
+          </div>
+          <div class="article-wrap">
+            <a
+              class="article"
+              target="_blank"
+              rel="noopener noreferrer"
+              href="{{ data.articles.techcrunch.href }}"
+            >
+              <div class="bg"></div>
+              <div class="icon" style="background-image: url('assets/img/logos/7.svg')"></div>
+              <div class="info">
+                <div class="date">{{ articles.techcrunch.date }}</div>
+                <div class="title">{{ articles.techcrunch.title }}</div>
+              </div>
+            </a>
+          </div>
+          <div class="article-wrap">
+            <a
+              class="article"
+              target="_blank"
+              rel="noopener noreferrer"
+              href="{{ data.articles.themerkle.href }}"
+            >
+              <div class="bg"></div>
+              <div class="icon" style="background-image: url('assets/img/logos/8.svg')"></div>
+              <div class="info">
+                <div class="date">{{ articles.themerkle.date }}</div>
+                <div class="title">{{ articles.themerkle.title }}</div>
+              </div>
+            </a>
+          </div>
+          <div class="article-wrap">
+            <a
+              class="article"
+              target="_blank"
+              rel="noopener noreferrer"
+              href="{{ data.articles.nasdaq.href }}"
+            >
+              <div class="bg"></div>
+              <div class="icon" style="background-image: url('assets/img/logos/9.svg')"></div>
+              <div class="info">
+                <div class="date">{{ articles.nasdaq.date }}</div>
+                <div class="title">{{ articles.nasdaq.title }}</div>
+              </div>
+            </a>
+          </div>
+          <div class="article-wrap">
+            <a
+              class="article"
+              target="_blank"
+              rel="noopener noreferrer"
+              href="{{ data.articles.businessinsider.href }}"
+            >
+              <div class="bg"></div>
+              <div class="icon" style="background-image: url('assets/img/logos/10.svg')"></div>
+              <div class="info">
+                <div class="date">{{ articles.businessinsider.date }}</div>
+                <div class="title">{{ articles.businessinsider.title }}</div>
+              </div>
+            </a>
+          </div>
         </div>
       </div>

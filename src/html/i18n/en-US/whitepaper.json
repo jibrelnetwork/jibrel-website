@@ -1,47 +1,41 @@
 {
   "title": "White Paper",
-  "items": [
-    [
-      {
-        "title": "English White Paper"
-      },
-      {
-        "title": "French White Paper"
-      },
-      {
-        "title": "German White Paper"
-      },
-      {
-        "title": "Dutch White Paper"
-      }
-    ],
-    [
-      {
-        "title": "Portuguese White Paper"
-      },
-      {
-        "title": "Spanish White Paper"
-      },
-      {
-        "title": "Arabic White Paper"
-      },
-      {
-        "title": "Hindi White Paper"
-      }
-    ],
-    [
-      {
-        "title": "Japanese White Paper"
-      },
-      {
-        "title": "Korean White Paper"
-      },
-      {
-        "title": "Chinese Simplified White Paper"
-      },
-      {
-        "title": "Chinese Traditional White Paper"
-      }
-    ]
-  ]
+  "items": {
+    "eng": {
+      "title": "English White Paper"
+    },
+    "fra": {
+      "title": "French White Paper"
+    },
+    "ger": {
+      "title": "German White Paper"
+    },
+    "ned": {
+      "title": "Dutch White Paper"
+    },
+    "por": {
+      "title": "Portuguese White Paper"
+    },
+    "spa": {
+      "title": "Spanish White Paper"
+    },
+    "ara": {
+      "title": "Arabic White Paper"
+    },
+    "hin": {
+      "title": "Hindi White Paper"
+    },
+    "jap": {
+      "title": "Japanese White Paper"
+    },
+    "kor": {
+      "title": "Korean White Paper"
+    },
+    "chi": {
+      "title": "Chinese Simplified White Paper"
+    },
+    "chi": {
+      "title": "Chinese Traditional White Paper"
+    }
+  }
 }

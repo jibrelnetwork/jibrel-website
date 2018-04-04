@@ -2,14 +2,16 @@
         <div class="inner">
           <h2>{{ advisors.title }}</h2>
           <div class="row clear">
-            {% for person in advisors.persons %}<div class="col-4">
+            <div class="col-4">
               <div class="img">
-                <img src="assets/img/advisors/{{ loop.index }}.png" alt="" />
+                <img src="assets/img/advisors/1.png" alt="" />
               </div>
-              <h3>{{ person.name }}</h3>
-              <div class="position">{{ person.title }}<br />{{ person.position }}</div>
+              <h3>{{ advisors.persons.tapscott.name }}</h3>
+              <div class="position">
+                {{ advisors.persons.tapscott.title }}<br />{{ advisors.persons.tapscott.position }}
+              </div>
               <ul class="links">
-                {% for link in data.advisors.persons[loop.index0].links %}<li>
+                {% for link in data.advisors.persons.tapscott.links %}<li>
                   <a
                     href="{{ link.href }}"
                     class="icons icon-{{ link.type }}"
@@ -18,7 +20,102 @@
                   ></a>
                 </li>{% endfor %}
               </ul>
-            </div>{% endfor %}
+            </div>
+            <div class="col-4">
+              <div class="img">
+                <img src="assets/img/advisors/2.png" alt="" />
+              </div>
+              <h3>{{ advisors.persons.gavrilyuk.name }}</h3>
+              <div class="position">
+                {{ advisors.persons.gavrilyuk.title }}<br />{{ advisors.persons.gavrilyuk.position }}
+              </div>
+              <ul class="links">
+                {% for link in data.advisors.persons.gavrilyuk.links %}<li>
+                  <a
+                    href="{{ link.href }}"
+                    class="icons icon-{{ link.type }}"
+                    target="_blank"
+                    rel="nofollow"
+                  ></a>
+                </li>{% endfor %}
+              </ul>
+            </div>
+            <div class="col-4">
+              <div class="img">
+                <img src="assets/img/advisors/3.png" alt="" />
+              </div>
+              <h3>{{ advisors.persons.zuaiter.name }}</h3>
+              <div class="position">
+                {{ advisors.persons.zuaiter.title }}<br />{{ advisors.persons.zuaiter.position }}
+              </div>
+              <ul class="links">
+                {% for link in data.advisors.persons.zuaiter.links %}<li>
+                  <a
+                    href="{{ link.href }}"
+                    class="icons icon-{{ link.type }}"
+                    target="_blank"
+                    rel="nofollow"
+                  ></a>
+                </li>{% endfor %}
+              </ul>
+            </div>
+            <div class="col-4">
+              <div class="img">
+                <img src="assets/img/advisors/4.png" alt="" />
+              </div>
+              <h3>{{ advisors.persons.hudson.name }}</h3>
+              <div class="position">
+                {{ advisors.persons.hudson.title }}<br />{{ advisors.persons.hudson.position }}
+              </div>
+              <ul class="links">
+                {% for link in data.advisors.persons.hudson.links %}<li>
+                  <a
+                    href="{{ link.href }}"
+                    class="icons icon-{{ link.type }}"
+                    target="_blank"
+                    rel="nofollow"
+                  ></a>
+                </li>{% endfor %}
+              </ul>
+            </div>
+            <div class="col-4">
+              <div class="img">
+                <img src="assets/img/advisors/5.png" alt="" />
+              </div>
+              <h3>{{ advisors.persons.sehli.name }}</h3>
+              <div class="position">
+                {{ advisors.persons.sehli.title }}<br />{{ advisors.persons.sehli.position }}
+              </div>
+              <ul class="links">
+                {% for link in data.advisors.persons.sehli.links %}<li>
+                  <a
+                    href="{{ link.href }}"
+                    class="icons icon-{{ link.type }}"
+                    target="_blank"
+                    rel="nofollow"
+                  ></a>
+                </li>{% endfor %}
+              </ul>
+            </div>
+            <div class="col-4">
+              <div class="img">
+                <img src="assets/img/advisors/6.png" alt="" />
+              </div>
+              <h3>{{ advisors.persons.levin.name }}</h3>
+              <div class="position">
+                {{ advisors.persons.levin.title }}<br />{{ advisors.persons.levin.position }}
+              </div>
+              <ul class="links">
+                {% for link in data.advisors.persons.levin.links %}<li>
+                  <a
+                    href="{{ link.href }}"
+                    class="icons icon-{{ link.type }}"
+                    target="_blank"
+                    rel="nofollow"
+                  ></a>
+                </li>{% endfor %}
+              </ul>
+            </div>
           </div>
         </div>
       </div>

@@ -4,31 +4,151 @@
           <div class="row clear">
             <div class="col-3">
               <ul>
-                {% for category in faq.categories %}<li>
-                  <a
-                    href="#"
-                    data-id="{{ loop.index }}"
-                    class="item-{{ loop.index }} {% if (loop.index === 1) %}active{% endif %}"
-                  >
-                    {{ category }}
-                  </a>
-                </li>{% endfor %}
+                <li>
+                  <a href="#" data-id="1" class="item-1 active">{{ faq.categories.general }}</a>
+                </li>
+                <li>
+                  <a href="#" data-id="2" class="item-2">{{ faq.categories.receipts }}</a>
+                </li>
+                <li>
+                  <a href="#" data-id="3" class="item-3">{{ faq.categories.jnt }}</a>
+                </li>
               </ul>
             </div>
             <div class="col-9">
               <div class="items">
-                {% for tab in faq.tabs %}<div
-                  class="tab tab-{{ loop.index }} {% if (loop.index === 1) %}active{% endif %}"
-                >
-                  {% for item in tab %}<div class="item {% if (loop.index === 1) %}active{% endif %}">
-                    <h3>{{ item.question }}</h3>
+                <div class="tab tab-1 active">
+                  <div class="item active">
+                    <h3>{{ faq.tabs.general.a.question }}</h3>
                     <div class="text">
-                      {% for p in item.answer %}<p>
-                        {{ p | safe }}
-                      </p>{% endfor %}
+                      <p>{{ faq.tabs.general.a.answer.one }}</p>
+                      <p>{{ faq.tabs.general.a.answer.two }}</p>
                     </div>
-                  </div>{% endfor %}
-                </div>{% endfor %}
+                  </div>
+                  <div class="item">
+                    <h3>{{ faq.tabs.general.b.question }}</h3>
+                    <div class="text">
+                      <p>
+                        {{ faq.tabs.general.b.answer.one }}
+                        <a
+                          href="https://medium.com/@jibrelnetwork/new-alchemy-security-audit-findings-302357ea49e5"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                        >
+                          {{ faq.tabs.general.b.answer.two }}
+                        </a>
+                      </p>
+                      <p>{{ faq.tabs.general.b.answer.three }}</p>
+                    </div>
+                  </div>
+                  <div class="item">
+                    <h3>{{ faq.tabs.general.c.question }}</h3>
+                    <div class="text">
+                      <p>{{ faq.tabs.general.c.answer.one }}</p>
+                      <p>{{ faq.tabs.general.c.answer.two }}</p>
+                    </div>
+                  </div>
+                  <div class="item">
+                    <h3>{{ faq.tabs.general.d.question }}</h3>
+                    <div class="text">
+                      <p>{{ faq.tabs.general.d.answer.one }}</p>
+                      <p>{{ faq.tabs.general.d.answer.two }}</p>
+                    </div>
+                  </div>
+                  <div class="item">
+                    <h3>{{ faq.tabs.general.e.question }}</h3>
+                    <div class="text">
+                      <p>{{ faq.tabs.general.e.answer.one }}</p>
+                      <p>{{ faq.tabs.general.e.answer.two }}</p>
+                      <p>{{ faq.tabs.general.e.answer.three }}</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="tab tab-2">
+                  <div class="item active">
+                    <h3>{{ faq.tabs.receipts.a.question }}</h3>
+                    <div class="text">
+                      <p>{{ faq.tabs.receipts.a.answer.one }}</p>
+                    </div>
+                  </div>
+                  <div class="item">
+                    <h3>{{ faq.tabs.receipts.b.question }}</h3>
+                    <div class="text">
+                      <p>{{ faq.tabs.receipts.b.answer.one }}</p>
+                    </div>
+                  </div>
+                  <div class="item">
+                    <h3>{{ faq.tabs.receipts.c.question }}</h3>
+                    <div class="text">
+                      <p>{{ faq.tabs.receipts.c.answer.one }}</p>
+                    </div>
+                  </div>
+                  <div class="item">
+                    <h3>{{ faq.tabs.receipts.d.question }}</h3>
+                    <div class="text">
+                      <p>{{ faq.tabs.receipts.d.answer.one }}</p>
+                    </div>
+                  </div>
+                  <div class="item">
+                    <h3>{{ faq.tabs.receipts.e.question }}</h3>
+                    <div class="text">
+                      <p>{{ faq.tabs.receipts.e.answer.one }}</p>
+                    </div>
+                  </div>
+                  <div class="item">
+                    <h3>{{ faq.tabs.receipts.f.question }}</h3>
+                    <div class="text">
+                      <p>{{ faq.tabs.receipts.f.answer.one }}</p>
+                    </div>
+                  </div>
+                  <div class="item">
+                    <h3>{{ faq.tabs.receipts.g.question }}</h3>
+                    <div class="text">
+                      <p>{{ faq.tabs.receipts.g.answer.one }}</p>
+                    </div>
+                  </div>
+                  <div class="item">
+                    <h3>{{ faq.tabs.receipts.h.question }}</h3>
+                    <div class="text">
+                      <p>{{ faq.tabs.receipts.h.answer.one }}</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="tab tab-3">
+                  <div class="item active">
+                    <h3>{{ faq.tabs.jnt.a.question }}</h3>
+                    <div class="text">
+                      <p>{{ faq.tabs.jnt.a.answer.one }}</p>
+                    </div>
+                  </div>
+                  <div class="item">
+                    <h3>{{ faq.tabs.jnt.b.question }}</h3>
+                    <div class="text">
+                      <p>
+                        {{ faq.tabs.jnt.b.answer.one }}
+                        <a
+                          href=\"https://medium.com/@jibrelnetwork/jibrel-network-roadmap-618d156b884c\"
+                          target=\"_blank\"
+                          rel=\"noopener noreferrer\"
+                        >
+                          {{ faq.tabs.jnt.b.answer.two }}
+                        </a>
+                      </p>
+                    </div>
+                  </div>
+                  <div class="item">
+                    <h3>{{ faq.tabs.jnt.c.question }}</h3>
+                    <div class="text">
+                      <p>{{ faq.tabs.jnt.c.answer.one }}</p>
+                    </div>
+                  </div>
+                  <div class="item">
+                    <h3>{{ faq.tabs.jnt.d.question }}</h3>
+                    <div class="text">
+                      <p>{{ faq.tabs.jnt.d.answer.one }}</p>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
