@@ -30,4 +30,5 @@ module.exports = {
   start: start,
   team: team,
   whitepaper: whitepaper,
+  timestamp: Date.now(),
 }
