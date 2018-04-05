@@ -1,0 +1,55 @@
+{
+  "title": "Roadmap",
+  "timeline": {
+    "may17": {
+      "time": "May, 2017",
+      "head": "Ropsten Alpha",
+      "body": {
+        "one": "The Jibrel Network Limited Alpha goes live on Ropsten"
+      }
+    },
+    "sep17": {
+      "time": "September, 2017",
+      "head": "Jibrel Network Token (JNT) Pre-sale",
+      "body": {
+        "one": "Jibrel Network Token offered at a discounted price"
+      }
+    },
+    "nov17first": {
+      "time": "November, 2017",
+      "head": "jWallet Release",
+      "body": {
+        "one": "The official CryDR wallet is released under an open-source license for community use"
+      }
+    },
+    "nov17second": {
+      "time": "",
+      "head": "jCash Launch / Public Sale",
+      "body": {
+        "one": "Jibrel Network launches an additional five fiat currencies at the jCash launch",
+        "two": "Jibrel Network Token offered publicly"
+      }
+    },
+    "1q18": {
+      "time": "Q1 2018",
+      "head": "CryDR Explorer",
+      "body": {
+        "one": "A dedicated CryDR block explorer is released to facilitate closer / more detailed tracking of CryDRs on the network"
+      }
+    },
+    "3q18": {
+      "time": "Q3 2018",
+      "head": "Institutional Grade Banking Platform",
+      "body": {
+        "one": "An institutional-grade solution for banks and other financial institutions to directly tokenize and transact with their own off-chain assets"
+      }
+    },
+    "4q18": {
+      "time": "Q4 2018",
+      "head": "Jibrel DAO / Full Decentralization",
+      "body": {
+        "one": "Jibrel DAO is launched and the network begins full decentralization (Project Pinocchio)"
+      }
+    }
+  }
+}
