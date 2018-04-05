@@ -1,3 +1,7 @@
+/**
+ * Check that all keys presented in main i18n .json file are present in others
+ */
+
 const { path } = require('ramda')
 
 const i18n = require('..')
@@ -24,22 +28,9 @@ const checkKeyExist = (lang, key) => {
 }
 
 const checkTranslations = () => {
-  try {
-    allLangNames.forEach(lang => {
-      Object.keys(mainLang).forEach(key => checkKeyExist(lang, [key]))
-    })
-
-    console.log('Checking of translations was successfully finished')
-  } catch (err) {
-    console.error()
-    console.error()
-    console.error('Checking of i18n files was finished with error')
-    console.error()
-    console.error(err.message)
-    console.error()
-
-    process.exit(1)
-  }
+  allLangNames.forEach(lang => {
+    Object.keys(mainLang).forEach(key => checkKeyExist(lang, [key]))
+  })
 }
 
-checkTranslations()
+module.exports = checkTranslations

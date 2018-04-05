@@ -1,3 +1,7 @@
+/**
+ * Check that all keys used in html partials are exist in i18n .json files
+ */
+
 const { path } = require('ramda')
 const { resolve } = require('path')
 const { readFileSync, readdirSync, statSync } = require('fs')
@@ -7,6 +11,9 @@ const mainLang = require('../en-US')
 const partialsDir = resolve(__dirname, '..', '..', 'partials')
 
 const checkKeyExist = (partial, key) => {
+  /**
+   * if key, that was found in html, is not included in main json lang file
+   */
   if (path(key)(mainLang) == null) {
     throw new Error(
       `${key.join('.')} that found in '${partial}' does not exist in 'en-US' language file`,
@@ -38,6 +45,9 @@ const parseFile = fileName => {
 const parseFiles = dirName => {
   const files = readdirSync(dirName)
 
+  /**
+   * parse all html files recursively
+   */
   files.forEach(file => {
     const childFileName = resolve(dirName, file)
 
@@ -49,20 +59,8 @@ const parseFiles = dirName => {
   })
 }
 
-const checkKeys = () => {
-  try {
-    parseFiles(partialsDir)
-    console.log('Checking of i18n keys was successfully finished')
-  } catch (err) {
-    console.error()
-    console.error()
-    console.error('Checking of i18n files was finished with error')
-    console.error()
-    console.error(err.message)
-    console.error()
-
-    process.exit(1)
-  }
+const checkKeysInPartials = () => {
+  parseFiles(partialsDir)
 }
 
-checkKeys()
+module.exports = checkKeysInPartials
