@@ -6,7 +6,6 @@ const articles = require('./articles')
 const faq = require('./faq')
 const footer = require('./footer')
 const header = require('./header')
-const info = require('./info')
 const meta = require('./meta')
 const roadmap = require('./roadmap')
 const start = require('./start')
@@ -22,7 +21,6 @@ module.exports = {
   faq: faq,
   footer: footer,
   header: header,
-  info: info,
   meta: meta,
   roadmap: roadmap,
   start: start,
