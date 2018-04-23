@@ -36,6 +36,17 @@
 
     a {
       transition: color 0.3s ease 0s;
+
+      &.sale {
+        padding: 12px 30px;
+        border: 1px solid fade(@blue, 20%);
+        border-radius: 20px;
+
+        &:hover {
+          color: @blue-2;
+          border-color: fade(@blue-2, 20%)
+        }
+      }
     }
   }
 
@@ -54,35 +65,6 @@
 
     .menu-button {
       top: 28px;
-    }
-  }
-
-  .github {
-    a {
-      display: inline-block;
-      height: 100%;
-
-      svg {
-        display: inline-block;
-        width: 24px;
-        height: 24px;
-        vertical-align: middle;
-
-        .cls-1 {
-          fill: @white;
-          opacity: 0;
-        }
-
-        .cls-2 {
-          fill: @blue;
-        }
-
-        &:hover {
-          .cls-2 {
-            fill: @light-blue;
-          }
-        }
-      }
     }
   }
 
