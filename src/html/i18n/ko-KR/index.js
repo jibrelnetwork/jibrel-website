@@ -1,5 +1,3 @@
-const data = require('../data')
-
 const about = require('./about')
 const advisors = require('./advisors')
 const articles = require('./articles')
@@ -14,7 +12,6 @@ const whitepaper = require('./whitepaper')
 
 module.exports = {
   languageCode: 'ko-KR',
-  data: data,
   about: about,
   advisors: advisors,
   articles: articles,
