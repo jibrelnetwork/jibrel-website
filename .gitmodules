@@ -1,0 +1,3 @@
+[submodule "white_paper"]
+	path = white_paper
+	url = git@github.com:jibrelnetwork/white_paper.git
