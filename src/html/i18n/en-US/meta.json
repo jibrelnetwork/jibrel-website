@@ -1,10 +1,12 @@
 {
-  "title": "Jibrel Network",
-  "languages": {
-    "en-US": "English",
-    "ja-JP": "Japanese",
-    "ko-KR": "Korean",
-    "zh-CN": "Chinese Simplified",
-    "zh-TW": "Chinese Traditional"
+  "meta": {
+    "title": "Jibrel Network",
+    "languages": {
+      "en-US": "English",
+      "ja-JP": "Japanese",
+      "ko-KR": "Korean",
+      "zh-CN": "Chinese Simplified",
+      "zh-TW": "Chinese Traditional"
+    }
   }
 }
