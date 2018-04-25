@@ -1,0 +1,123 @@
+{
+    "faq": {
+        "title": "",
+        "categories": {
+            "general": "",
+            "receipts": "",
+            "jnt": ""
+        },
+        "tabs": {
+            "general": {
+                "a": {
+                    "question": "",
+                    "answer": {
+                        "one": "",
+                        "two": ""
+                    }
+                },
+                "b": {
+                    "question": "",
+                    "answer": {
+                        "one": "",
+                        "two": "",
+                        "three": ""
+                    }
+                },
+                "c": {
+                    "question": "",
+                    "answer": {
+                        "one": "",
+                        "two": ""
+                    }
+                },
+                "d": {
+                    "question": "",
+                    "answer": {
+                        "one": "",
+                        "two": ""
+                    }
+                },
+                "e": {
+                    "question": "",
+                    "answer": {
+                        "one": "",
+                        "two": "",
+                        "three": ""
+                    }
+                }
+            },
+            "receipts": {
+                "a": {
+                    "question": "",
+                    "answer": {
+                        "one": ""
+                    }
+                },
+                "b": {
+                    "question": "",
+                    "answer": {
+                        "one": ""
+                    }
+                },
+                "c": {
+                    "question": "",
+                    "answer": {
+                        "one": ""
+                    }
+                },
+                "d": {
+                    "question": "",
+                    "answer": {
+                        "one": ""
+                    }
+                },
+                "e": {
+                    "question": "",
+                    "answer": {
+                        "one": "",
+                        "two": ""
+                    }
+                },
+                "f": {
+                    "question": "",
+                    "answer": {
+                        "one": ""
+                    }
+                },
+                "g": {
+                    "question": "",
+                    "answer": {
+                        "one": ""
+                    }
+                },
+                "h": {
+                    "question": "",
+                    "answer": {
+                        "one": ""
+                    }
+                }
+            },
+            "jnt": {
+                "a": {
+                    "question": "",
+                    "answer": {
+                        "one": ""
+                    }
+                },
+                "b": {
+                    "question": "",
+                    "answer": {
+                        "one": "",
+                        "two": ""
+                    }
+                },
+                "c": {
+                    "question": "",
+                    "answer": {
+                        "one": ""
+                    }
+                }
+            }
+        }
+    }
+}
