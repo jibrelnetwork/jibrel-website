@@ -1,0 +1,44 @@
+{
+    "articles": {
+        "cointelegraph": {
+            "title": "",
+            "date": ""
+        },
+        "forbes": {
+            "title": "",
+            "date": ""
+        },
+        "thenextweb": {
+            "title": "",
+            "date": ""
+        },
+        "bitcoinmagazine": {
+            "title": "",
+            "date": ""
+        },
+        "huffingtonpost": {
+            "title": "",
+            "date": ""
+        },
+        "blockchain": {
+            "title": "",
+            "date": ""
+        },
+        "techcrunch": {
+            "title": "",
+            "date": ""
+        },
+        "themerkle": {
+            "title": "",
+            "date": ""
+        },
+        "nasdaq": {
+            "title": "",
+            "date": ""
+        },
+        "businessinsider": {
+            "title": "",
+            "date": ""
+        }
+    }
+}
