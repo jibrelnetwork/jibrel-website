@@ -1,0 +1,67 @@
+{
+    "team": {
+        "title": "",
+        "persons": {
+            "barghuthi": {
+                "name": "",
+                "position": "",
+                "description": ""
+            },
+            "mezrin": {
+                "name": "",
+                "position": "",
+                "description": ""
+            },
+            "tabbaa": {
+                "name": "",
+                "position": "",
+                "description": ""
+            },
+            "marinin": {
+                "name": "",
+                "position": "",
+                "description": ""
+            },
+            "kolaghassi": {
+                "name": "",
+                "position": "",
+                "description": ""
+            },
+            "selikhov": {
+                "name": "",
+                "position": "",
+                "description": ""
+            },
+            "violentov": {
+                "name": "",
+                "position": "",
+                "description": ""
+            },
+            "bordunova": {
+                "name": "",
+                "position": "",
+                "description": ""
+            },
+            "khusyainov": {
+                "name": "",
+                "position": "",
+                "description": ""
+            },
+            "homyakov": {
+                "name": "",
+                "position": "",
+                "description": ""
+            },
+            "shchipanov": {
+                "name": "",
+                "position": "",
+                "description": ""
+            },
+            "smirnov": {
+                "name": "",
+                "position": "",
+                "description": ""
+            }
+        }
+    }
+}
