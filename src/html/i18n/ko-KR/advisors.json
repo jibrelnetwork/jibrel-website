@@ -1,0 +1,37 @@
+{
+    "advisors": {
+        "title": "본사 자문",
+        "persons": {
+            "tapscott": {
+                "name": "Don Tapscott",
+                "title": "전략 자문",
+                "position": "Tapscott Group의 CEO"
+            },
+            "gavrilyuk": {
+                "name": "Ruslan Gavrilyuk",
+                "title": "암호화금융 자문",
+                "position": "TaaS Fund의 CEO 겸 설립자"
+            },
+            "zuaiter": {
+                "name": "Abbas Zuaiter",
+                "title": "자본시장 자문",
+                "position": "전 Soros Fund COO"
+            },
+            "hudson": {
+                "name": "Saul Hudson",
+                "title": "커뮤니케이션 자문",
+                "position": "Thomson Reuters의 GM"
+            },
+            "sehli": {
+                "name": "Mohammad Al Sehli",
+                "title": "MENA 자문",
+                "position": "Arabian Chain의 CEO겸 설립자 "
+            },
+            "levin": {
+                "name": "Dr. Moe Levin",
+                "title": "공공부문 자문",
+                "position": "CEO 기조연설"
+            }
+        }
+    }
+}

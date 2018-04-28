@@ -1,0 +1,3 @@
+files:
+  - source: /src/html/i18n/en-US/*.json
+    translation: /src/html/i18n/%locale%/%original_file_name%

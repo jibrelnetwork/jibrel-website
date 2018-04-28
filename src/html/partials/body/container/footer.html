@@ -1,16 +1,79 @@
       <div class="section footer">
         <div class="inner">
           <ul class="links">
-            {% for link in footer.links %}<li>
+            <li>
               <a
-                href="{{ link.href }}"
-                class="icons big icon-big-{{ link.type }}"
+                href="https://twitter.com/JibrelNetwork"
+                class="icons big icon-big-twitter"
                 target="_blank"
               >
-                {{ link.title }}
+                Twitter
               </a>
-            </li>{% endfor %}
+            </li>
+            <li>
+              <a
+                href="https://www.reddit.com/r/JibrelNetwork"
+                class="icons big icon-big-reddit"
+                target="_blank"
+              >
+                Reddit
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://bitcointalk.org/index.php?topic=2057487.0"
+                class="icons big icon-big-bitcointalk"
+                target="_blank"
+              >
+                Bitcointalk
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://open.kakao.com/o/ghfXgFE"
+                class="icons big icon-big-kakaotalk"
+                target="_blank"
+              >
+                Kakaotalk
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://medium.com/@jibrelnetwork"
+                class="icons big icon-big-medium"
+                target="_blank"
+              >
+                Medium
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://www.youtube.com/watch?v=LBMyd7Ql8QU"
+                class="icons big icon-big-youtube"
+                target="_blank"
+              >
+                Youtube
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://t.me/jibrel_network"
+                class="icons big icon-big-telegram"
+                target="_blank"
+              >
+                Telegram
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://jibrelnetwork.slack.com"
+                class="icons big icon-big-slack"
+                target="_blank"
+              >
+                Slack
+              </a>
+            </li>
           </ul>
-          <p class="copy">{{ footer.copy[0] }}<br />{{ footer.copy[1] }}</p>
+          <p class="copy">{{ footer.copy.one }}<br />{{ footer.copy.two }}</p>
         </div>
       </div>

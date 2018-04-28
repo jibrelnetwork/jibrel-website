@@ -2,23 +2,136 @@
         <div class="inner">
           <h2>{{ advisors.title }}</h2>
           <div class="row clear">
-            {% for person in advisors.persons %}<div class="col-4">
+            <div class="col-4">
               <div class="img">
-                <img src="assets/img/advisors/{{ loop.index }}.png" alt="" />
+                <img src="assets/img/advisors/1.png" alt="" />
               </div>
-              <h3>{{ person.name }}</h3>
-              <div class="position">{{ person.title }}<br />{{ person.position }}</div>
+              <h3>{{ advisors.persons.tapscott.name }}</h3>
+              <div class="position">
+                {{ advisors.persons.tapscott.title }}<br />{{ advisors.persons.tapscott.position }}
+              </div>
               <ul class="links">
-                {% for link in person.links %}<li>
+                <li>
                   <a
-                    href="{{ link.href }}"
-                    class="icons icon-{{ link.type }}"
+                    href="https://www.linkedin.com/in/dontapscott"
+                    class="icons icon-linkedin"
                     target="_blank"
                     rel="nofollow"
                   ></a>
-                </li>{% endfor %}
+                </li>
+                <li>
+                  <a
+                    href="https://en.wikipedia.org/wiki/Don_Tapscott"
+                    class="icons icon-wiki"
+                    target="_blank"
+                    rel="nofollow"
+                  ></a>
+                </li>
               </ul>
-            </div>{% endfor %}
+            </div>
+            <div class="col-4">
+              <div class="img">
+                <img src="assets/img/advisors/2.png" alt="" />
+              </div>
+              <h3>{{ advisors.persons.gavrilyuk.name }}</h3>
+              <div class="position">
+                {{ advisors.persons.gavrilyuk.title }}<br />{{ advisors.persons.gavrilyuk.position }}
+              </div>
+              <ul class="links">
+                <li>
+                  <a
+                    href="https://www.linkedin.com/in/ruslan-gavrilyuk"
+                    class="icons icon-linkedin"
+                    target="_blank"
+                    rel="nofollow"
+                  ></a>
+                </li>
+              </ul>
+            </div>
+            <div class="col-4">
+              <div class="img">
+                <img src="assets/img/advisors/3.png" alt="" />
+              </div>
+              <h3>{{ advisors.persons.zuaiter.name }}</h3>
+              <div class="position">
+                {{ advisors.persons.zuaiter.title }}<br />{{ advisors.persons.zuaiter.position }}
+              </div>
+              <ul class="links">
+                <li>
+                  <a
+                    href="https://www.linkedin.com/in/abbas-f-eddy-zuaiter-51832a9"
+                    class="icons icon-linkedin"
+                    target="_blank"
+                    rel="nofollow"
+                  ></a>
+                </li>
+                <li>
+                  <a
+                    href="https://www.bloomberg.com/research/stocks/private/person.asp?personId=35907985&privcapId=118300828"
+                    class="icons icon-bloomberg"
+                    target="_blank"
+                    rel="nofollow"
+                  ></a>
+                </li>
+              </ul>
+            </div>
+            <div class="col-4">
+              <div class="img">
+                <img src="assets/img/advisors/4.png" alt="" />
+              </div>
+              <h3>{{ advisors.persons.hudson.name }}</h3>
+              <div class="position">
+                {{ advisors.persons.hudson.title }}<br />{{ advisors.persons.hudson.position }}
+              </div>
+              <ul class="links">
+                <li>
+                  <a
+                    href="https://www.linkedin.com/in/saul-hudson-2ab9228"
+                    class="icons icon-linkedin"
+                    target="_blank"
+                    rel="nofollow"
+                  ></a>
+                </li>
+              </ul>
+            </div>
+            <div class="col-4">
+              <div class="img">
+                <img src="assets/img/advisors/5.png" alt="" />
+              </div>
+              <h3>{{ advisors.persons.sehli.name }}</h3>
+              <div class="position">
+                {{ advisors.persons.sehli.title }}<br />{{ advisors.persons.sehli.position }}
+              </div>
+              <ul class="links">
+                <li>
+                  <a
+                    href="https://www.linkedin.com/in/mohammed-alsehli-7520a626"
+                    class="icons icon-linkedin"
+                    target="_blank"
+                    rel="nofollow"
+                  ></a>
+                </li>
+              </ul>
+            </div>
+            <div class="col-4">
+              <div class="img">
+                <img src="assets/img/advisors/6.png" alt="" />
+              </div>
+              <h3>{{ advisors.persons.levin.name }}</h3>
+              <div class="position">
+                {{ advisors.persons.levin.title }}<br />{{ advisors.persons.levin.position }}
+              </div>
+              <ul class="links">
+                <li>
+                  <a
+                    href="https://www.linkedin.com/in/moelevin"
+                    class="icons icon-linkedin"
+                    target="_blank"
+                    rel="nofollow"
+                  ></a>
+                </li>
+              </ul>
+            </div>
           </div>
         </div>
       </div>

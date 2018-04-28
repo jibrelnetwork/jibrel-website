@@ -1,0 +1,44 @@
+{
+    "articles": {
+        "cointelegraph": {
+            "title": "以太坊平台 Jibrel 计划使用新型智能代币防止 ICO 泡沫",
+            "date": "2017 年 9 月 14 日"
+        },
+        "forbes": {
+            "title": "Jibrel 网络将缩小加密交易与传统市场之间的差距",
+            "date": "2018 年 1 月 22 日"
+        },
+        "thenextweb": {
+            "title": "民众兴趣和参与度提高，数字经济该如何继续发展",
+            "date": "2017 年 11 月 16 日"
+        },
+        "bitcoinmagazine": {
+            "title": "投资者的新选择：加密货币交易与传统资产的结合",
+            "date": "2017 年 11 月 17 日"
+        },
+        "huffingtonpost": {
+            "title": "投资的未来：在区块链时代实现传统资产代币化",
+            "date": "2017 年 11 月 17 日"
+        },
+        "blockchain": {
+            "title": "Jibrel 网络宣布其预售轮大获成功",
+            "date": "2017 年 11 月 20 日"
+        },
+        "techcrunch": {
+            "title": "以太坊钱包攻击不断，Jibrel 决定另起炉灶",
+            "date": "2017 年 11 月 22 日"
+        },
+        "themerkle": {
+            "title": "什么是 j 钱包？",
+            "date": "2017 年 11 月 24 日"
+        },
+        "nasdaq": {
+            "title": "加密货币交易与传统资产的结合：投资者的新选择",
+            "date": "2017 年 11 月 17 日"
+        },
+        "businessinsider": {
+            "title": "Inside Fintech 2017 于 2017 年 11 月 30 日至 12 月 1 日在韩国首尔举行，区块链和支付大热",
+            "date": "2017 年 11 月 15 日"
+        }
+    }
+}

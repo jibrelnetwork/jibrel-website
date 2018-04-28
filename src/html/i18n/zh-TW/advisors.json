@@ -1,0 +1,37 @@
+{
+    "advisors": {
+        "title": "我們的顧問團隊",
+        "persons": {
+            "tapscott": {
+                "name": "Don Tapscott",
+                "title": "策略顧問",
+                "position": "Tapscott 集團執行長"
+            },
+            "gavrilyuk": {
+                "name": "Ruslan Gavrilyuk",
+                "title": "金融加密顧問",
+                "position": "TaaS 基金執行長兼創始人"
+            },
+            "zuaiter": {
+                "name": "Abbas Zuaiter",
+                "title": "資本市場顧問",
+                "position": "索羅斯基金前首席營運長"
+            },
+            "hudson": {
+                "name": "Saul Hudson",
+                "title": "通訊顧問",
+                "position": "Thomson Reuters 總經理"
+            },
+            "sehli": {
+                "name": "Mohammad Al Sehli",
+                "title": "MENA 顧問",
+                "position": "阿拉伯鏈執行長兼創始人"
+            },
+            "levin": {
+                "name": "Moe Levin 博士",
+                "title": "公共部門顧問",
+                "position": "Keynote 執行長"
+            }
+        }
+    }
+}

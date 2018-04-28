@@ -1,18 +1,121 @@
       <div class="section whitepaper" id="whitepaper">
         <div class="inner">
           <h2>{{ whitepaper.title }}</h2>
-          <div class="items">{% for row in whitepaper.items %}
-            <div class="row clear">{% for item in row %}
+          <div class="items">
+            <div class="row clear">
               <div class="col-3">
                 <a
-                  href="assets/white_paper/Jibrel%20Network%20-%20White%20Paper%20({{ item.a }}).pdf"
+                  href="assets/white_paper/Jibrel%20Network%20-%20White%20Paper%20(2nd%20Draft).pdf"
                   target="_blank"
                 >
-                  <img src="assets/img/countries/{{ item.img }}.svg" alt="" />
-                  <span>{{ item.title }}</span>
+                  <img src="assets/img/countries/eng.svg" alt="" />
+                  <span>{{ whitepaper.items.eng.title }}</span>
                 </a>
-              </div>{% endfor %}
-            </div>{% endfor %}
+              </div>
+              <div class="col-3">
+                <a
+                  href="assets/white_paper/Jibrel%20Network%20-%20White%20Paper%20(French).pdf"
+                  target="_blank"
+                >
+                  <img src="assets/img/countries/fra.svg" alt="" />
+                  <span>{{ whitepaper.items.fra.title }}</span>
+                </a>
+              </div>
+              <div class="col-3">
+                <a
+                  href="assets/white_paper/Jibrel%20Network%20-%20White%20Paper%20(German).pdf"
+                  target="_blank"
+                >
+                  <img src="assets/img/countries/ger.svg" alt="" />
+                  <span>{{ whitepaper.items.ger.title }}</span>
+                </a>
+              </div>
+              <div class="col-3">
+                <a
+                  href="assets/white_paper/Jibrel%20Network%20-%20White%20Paper%20(Dutch).pdf"
+                  target="_blank"
+                >
+                  <img src="assets/img/countries/ned.svg" alt="" />
+                  <span>{{ whitepaper.items.ned.title }}</span>
+                </a>
+              </div>
+            </div>
+            <div class="row clear">
+              <div class="col-3">
+                <a
+                  href="assets/white_paper/Jibrel%20Network%20-%20White%20Paper%20(Portuguese).pdf"
+                  target="_blank"
+                >
+                  <img src="assets/img/countries/por.svg" alt="" />
+                  <span>{{ whitepaper.items.por.title }}</span>
+                </a>
+              </div>
+              <div class="col-3">
+                <a
+                  href="assets/white_paper/Jibrel%20Network%20-%20White%20Paper%20(Spanish).pdf"
+                  target="_blank"
+                >
+                  <img src="assets/img/countries/spa.svg" alt="" />
+                  <span>{{ whitepaper.items.spa.title }}</span>
+                </a>
+              </div>
+              <div class="col-3">
+                <a
+                  href="assets/white_paper/Jibrel%20Network%20-%20White%20Paper%20(Arabic).pdf"
+                  target="_blank"
+                >
+                  <img src="assets/img/countries/ara.svg" alt="" />
+                  <span>{{ whitepaper.items.ara.title }}</span>
+                </a>
+              </div>
+              <div class="col-3">
+                <a
+                  href="assets/white_paper/Jibrel%20Network%20-%20White%20Paper%20(Hindi).pdf"
+                  target="_blank"
+                >
+                  <img src="assets/img/countries/hin.svg" alt="" />
+                  <span>{{ whitepaper.items.hin.title }}</span>
+                </a>
+              </div>
+            </div>
+            <div class="row clear">
+              <div class="col-3">
+                <a
+                  href="assets/white_paper/Jibrel%20Network%20-%20White%20Paper%20(Japanese).pdf"
+                  target="_blank"
+                >
+                  <img src="assets/img/countries/jap.svg" alt="" />
+                  <span>{{ whitepaper.items.jap.title }}</span>
+                </a>
+              </div>
+              <div class="col-3">
+                <a
+                  href="assets/white_paper/Jibrel%20Network%20-%20White%20Paper%20(Korean).pdf"
+                  target="_blank"
+                >
+                  <img src="assets/img/countries/kor.svg" alt="" />
+                  <span>{{ whitepaper.items.kor.title }}</span>
+                </a>
+              </div>
+              <div class="col-3">
+                <a
+                  href="assets/white_paper/Jibrel%20Network%20-%20White%20Paper%20(Chinese%20Simplified%20zh-CN).pdf"
+                  target="_blank"
+                >
+                  <img src="assets/img/countries/chi.svg" alt="" />
+                  <span>{{ whitepaper.items.chi.title }}</span>
+                </a>
+              </div>
+              <div class="col-3">
+                <a
+                  href="assets/white_paper/Jibrel%20Network%20-%20White%20Paper%20(Chinese%20Traditional%20zh-TW).pdf"
+                  target="_blank"
+                >
+                  <img src="assets/img/countries/chi.svg" alt="" />
+                  <span>{{ whitepaper.items.chi.title }}</span>
+                </a>
+              </div>
+            </div>
           </div>
         </div>
       </div>

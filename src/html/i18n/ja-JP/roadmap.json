@@ -1,0 +1,57 @@
+{
+    "roadmap": {
+        "title": "ロードマップ",
+        "timeline": {
+            "may17": {
+                "time": "2017年5月",
+                "head": "Ropsten Alpha",
+                "body": {
+                    "one": "Jibrel Network Limited AlphaをRopsten上で立ち上げます。"
+                }
+            },
+            "sep17": {
+                "time": "2017年9月",
+                "head": "Jibrel Networkトークン（JNT）の事前販売",
+                "body": {
+                    "one": "Jibrel Networkトークンを割引価格で提供"
+                }
+            },
+            "nov17first": {
+                "time": "2017年11月",
+                "head": "jWalletのリリース",
+                "body": {
+                    "one": "公式のCryDRウォレットを、コミュニティで使用できるようにオープンソース・ライセンスの下でリリースします。"
+                }
+            },
+            "nov17second": {
+                "time": " ",
+                "head": "jCash発売 \/ 競売",
+                "body": {
+                    "one": "Jibrel Networkは、jCashの発売時に5種類の不換通貨を追加的に発売します。",
+                    "two": "Jibrel Networkトークンを公式に提供します。"
+                }
+            },
+            "1q18": {
+                "time": "2018年第1四半期",
+                "head": "CryDRエクスプローラ",
+                "body": {
+                    "one": "専用のCryDRブロック・エクスプローラをリリースして、ネットワーク上のCryDRに対するより詳細な追跡を可能にします。"
+                }
+            },
+            "3q18": {
+                "time": "2018年第3四半期",
+                "head": "機関グレードの銀行取引プラットフォーム",
+                "body": {
+                    "one": "銀行や他の金融機関が独自のオフチェーン資産を直接トークン化して取引できるようにする機関グレードのソリューション"
+                }
+            },
+            "4q18": {
+                "time": "2018年第4四半期",
+                "head": "Jibrel DAO \/ 完全な分散化",
+                "body": {
+                    "one": "Jibrel DAOをリリースし、ネットワークは完全な分散化を開始します（Pinocchioプロジェクト）。"
+                }
+            }
+        }
+    }
+}

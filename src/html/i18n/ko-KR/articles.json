@@ -1,0 +1,44 @@
+{
+    "articles": {
+        "cointelegraph": {
+            "title": "이더리움에 기반한 Jibrel, 새로운 유형의 스마트 토큰으로 ICO 버블 억제 추진",
+            "date": "2017년 9월 14일"
+        },
+        "forbes": {
+            "title": "Jibrel 네트워크, 암호화폐와 전통적 시장 간의 격차 해소",
+            "date": "2018년 1월 22일"
+        },
+        "thenextweb": {
+            "title": "높아지는 인기와 관심과 함께 디지털 경제는 어떻게 진화하는가",
+            "date": "2017년 11월 16일"
+        },
+        "bitcoinmagazine": {
+            "title": "암호화 거래와 전통 자산: 투자자를 위한 새로운 옵션",
+            "date": "2017년 11월 17일"
+        },
+        "huffingtonpost": {
+            "title": "투자의 미래 : 블록 체인에서 전통 자산의 토큰화",
+            "date": "2017년 11월 17일"
+        },
+        "blockchain": {
+            "title": "Jibrel Network, 성공적인 사전 판매 라운드 발표",
+            "date": "2017년 11월 20일"
+        },
+        "techcrunch": {
+            "title": "이더리움 지갑이 끊임없이 공격을 받음에 따라 Jibrel Network는 자체적으로 지갑을 구축하기로 결정하였습니다",
+            "date": "2017년 11월 22일"
+        },
+        "themerkle": {
+            "title": "jWallet이란 무엇입니까?",
+            "date": "2017년 11월 24일"
+        },
+        "nasdaq": {
+            "title": "암호화 거래와 전통적 자산: 투자자를 위한 새로운 옵션",
+            "date": "2017년 11월 17일"
+        },
+        "businessinsider": {
+            "title": "2017년 11월 31일부터 2017년 12월 1일까지 대한민국 서울에서 열린 인사이드 핀테크 (Inside Fintech Conference & Expo)에서 블록체인과 결제 시스템이 무대에 올랐습니다",
+            "date": "2017년 11월 15일"
+        }
+    }
+}

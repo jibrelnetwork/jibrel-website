@@ -1,0 +1,37 @@
+{
+    "advisors": {
+        "title": "顾问团",
+        "persons": {
+            "tapscott": {
+                "name": "Don Tapscott",
+                "title": "策略顾问",
+                "position": "Tapscott 集团 CEO"
+            },
+            "gavrilyuk": {
+                "name": "Ruslan Gavrilyuk",
+                "title": "加密金融顾问",
+                "position": "TaaS 基金 CEO 及创始人"
+            },
+            "zuaiter": {
+                "name": "Abbas Zuaiter",
+                "title": "资本市场顾问",
+                "position": "Soros 基金前 COO"
+            },
+            "hudson": {
+                "name": "Saul Hudson",
+                "title": "交流顾问",
+                "position": "汤森路透公司总裁"
+            },
+            "sehli": {
+                "name": "Mohammad Al Sehli",
+                "title": "中东北非地区顾问",
+                "position": "Arabian Chain CEO 及创始人"
+            },
+            "levin": {
+                "name": "Dr. Moe Levin",
+                "title": "公关领域顾问",
+                "position": "Keynote CEO"
+            }
+        }
+    }
+}
