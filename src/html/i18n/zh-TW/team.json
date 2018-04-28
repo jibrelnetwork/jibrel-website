@@ -1,0 +1,67 @@
+{
+    "team": {
+        "title": "我們的團隊",
+        "persons": {
+            "barghuthi": {
+                "name": "Yazan Barghuthi",
+                "position": "專案負責人（共同創辦人）",
+                "description": "Yazan 在 Oliver Wyman 及 Deloitte 等高級管理顧問公司擁有超過 9 年的金融服務經驗，精通 Javascript、HTML、CSS、React 和大多數前端框架。"
+            },
+            "mezrin": {
+                "name": "Victor Mezrin",
+                "position": "技術主管（共同創辦人）",
+                "description": "Victor 擁有超過 10 年開發經驗，且在 2014 至 2016 年間經營一家前三名的 Altcoin 礦池（pool.mn），精通 C++\/C、Python、Java、C#、PHP、JavaScript、Solidity。"
+            },
+            "tabbaa": {
+                "name": "Talal Tabbaa",
+                "position": "BizDev 領導人（共同創辦人）",
+                "description": "Talal 在頂級顧問公司 (PwC）及私人投資基金擔任金融顧問擁有超過 6 年經驗，精通 Python 及 SQL，目前正在學習前端開發。"
+            },
+            "marinin": {
+                "name": "Nick Marinin",
+                "position": "UX \/ UI 開發人員",
+                "description": "Nick 在設計與開發金融用戶介面擁有超過 9 年經驗，他為金融機構、零售商和製造商開發 UI\/UX，精通 HTML、CSS 和 JavaScript。"
+            },
+            "kolaghassi": {
+                "name": "Hamzeh Kolaghassi",
+                "position": "營運人員",
+                "description": "Hamzeh 在頂級私募股權和金融顧問公司，如 Alcazar Capital 及 Ernst & Young，擁有超過 6 年金融經驗，精通財務管理與數據分析，尤其擅長設計與執行商業策略、計劃與程序。"
+            },
+            "selikhov": {
+                "name": "Aleksey Selikhov",
+                "position": "後端開發人員",
+                "description": "Aleksey 在金融機構開發技術解決方案方面擁有超過 12 年的經驗。他已經為銀行和投資基金提供了全套解決方案。他精通 C ++ \/ C、Java、Python、JavaScript、Solidity。"
+            },
+            "violentov": {
+                "name": "Ivan Violentov",
+                "position": "前端開發人員",
+                "description": "Ivan 擁有超過 5 年網頁程式設計經驗，善於開發金融解決方案與應用程式，專長使用伺服器端 Node 及用戶端 React\/Angular\/Vue 進行全端開發。"
+            },
+            "bordunova": {
+                "name": "Anna Bordunova",
+                "position": "公關",
+                "description": "Anna 是媒體與傳播從業者，在新聞業、公關及社群媒體有超過 5 年經驗。她的專業知識涵蓋傳統、體驗式與數位行銷，尤其是網際網路全面曝光管理。"
+            },
+            "khusyainov": {
+                "name": "Rust Khusyainov",
+                "position": "插畫家",
+                "description": "Rust 在平面設計和插圖方面有超過 7 年經驗，他為金融服務、零售和體育客戶創造高品質的內容，專長光柵與向量圖形及影片剪輯。"
+            },
+            "homyakov": {
+                "name": "Yuriy Homyakov",
+                "position": "後端開發人員",
+                "description": "Yuriy 在網頁應用程式開發有超過 7 年經驗，專長後端開發、資料庫設計及網頁應用程式架構，精通 Python、JavaScript 和 Solidity。"
+            },
+            "shchipanov": {
+                "name": "Nikita Shchipanov",
+                "position": "網路分析師",
+                "description": "Nikita 擁有 5 年的數位行銷與分析經驗，專長組態分析工具、透過付費管道獲得用戶及流量品質分析。"
+            },
+            "smirnov": {
+                "name": "Aleksey Smirnov",
+                "position": "開發營運工程師",
+                "description": "Aleksey 擁有超過 10 年的工程師和系統架構師經驗，專長設計與開發高負荷架構，精通 Linux、雲端及基礎架構解決方案，主要工作工具為 Python。"
+            }
+        }
+    }
+}

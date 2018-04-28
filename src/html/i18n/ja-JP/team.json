@@ -1,0 +1,67 @@
+{
+    "team": {
+        "title": "当社のチーム",
+        "persons": {
+            "barghuthi": {
+                "name": "Yazan Barghuthi",
+                "position": "プロジェクト責任者（共同創設者）",
+                "description": "Yazanは、Oliver WymanやDeloitteなどの一流の経営コンサルタント会社の金融サービス部門で9年以上働いた経験があります。\nJavascript、HTML、CSS、React、そしてほとんどのフロントエンド・フレームワークに堪能です。"
+            },
+            "mezrin": {
+                "name": "Victor Mezrin",
+                "position": "技術責任者（共同創設者）",
+                "description": "Victorは、10年以上の開発経験があり、2014年から2016年の間にトップ3のaltcoin採掘プール（pool.mn）を運営しました。\nC++\/C、Python、Java、C#、PHP、JavaScript、Solidityに堪能です。"
+            },
+            "tabbaa": {
+                "name": "Talal Tabbaa",
+                "position": "BizDevのリーダー（共同創設者）",
+                "description": "Talalは、一流のコンサルタント会社（PwC）と民間投資ファンドで財務顧問として6年以上働いた経験があります。PythonとSQLに堪能であり、フロントエンドの開発を学んでいます。"
+            },
+            "marinin": {
+                "name": "Nick Marinin",
+                "position": "開発者（UX\/UI）",
+                "description": "Nickは、財務ユーザーインターフェイスの設計と開発で9年以上の経験を持っています。金融機関、小売業、および製造業者のためのUI\/UXを開発してきました。\nHTML、CSS、JavaScriptに堪能です。"
+            },
+            "kolaghassi": {
+                "name": "Hamzeh Kolaghassi",
+                "position": "業務",
+                "description": "Hamzehは、Alcazar CapitalやErnst＆Youngなどの一流の未公開株式投資および金融コンサルタント会社の財務部門で6年以上働いた経験があります。\nビジネス戦略、計画、手続きの設計と実施に重点を置いた、財務管理とデータ分析に堪能す。"
+            },
+            "selikhov": {
+                "name": "Aleksey Selikhov",
+                "position": "開発者（バックエンド）",
+                "description": "Alekseyは、金融機関向けの技術ソリューションの開発で12年以上の経験があります。銀行と投資資金のフルスタック・ソリューションを提供しています。\nC++\/C、Java、Python、JavaScript、Solidityに堪能です。"
+            },
+            "violentov": {
+                "name": "Ivan Violentov",
+                "position": "開発者（フロントエンド）",
+                "description": "Ivanは、ウェブプログラミングで5年以上の経験を持っています。\n彼は特に金融ソリューションおよびアプリケーションの開発に長けています。\nNodeサーバー側とReact\/Angular\/Vueクライアント側を使用したフル・スタック開発を専門としています。"
+            },
+            "bordunova": {
+                "name": "Anna Bordunova",
+                "position": "パブリック・リレーションズ",
+                "description": "Annaは、ジャーナリズム、PR、ソーシャルメディアで5年以上の経験を持っているメディアおよびコミュニケーションの実務家です。\n彼女は、包括的なインターネットプレゼンス管理に重点を置いた、伝統的、経験的、およびデジタル・マーケティングの専門知識を持っています。"
+            },
+            "khusyainov": {
+                "name": "Rust Khusyainov",
+                "position": "イラストレーター",
+                "description": "Rustは、グラフィック・デザインとイラストレーションで7年以上の経験を持っています。金融サービス、小売、スポーツ分野の顧客のために高品質のコンテンツを作成しました。ラスターおよびベクターグラフィックス、ビデオ編集を専門としています。"
+            },
+            "homyakov": {
+                "name": "Yuriy Homyakov",
+                "position": "開発者（バックエンド）",
+                "description": "Yuriyは、ウェブアプリケーションの開発で7年以上の経験があります。\nバックエンドの開発、データベース設計、ウェブアプリケーションのアーキテクチャを専門としています。Python、JavaScript、Solidityに堪能です。"
+            },
+            "shchipanov": {
+                "name": "Nikita Shchipanov",
+                "position": "ウェブ・アナリスト",
+                "description": "Nikitaは、デジタル・マーケティングおよび分析で5年の経験を持っています。\n彼は、分析ツールの設定、有料チャンネルによるユーザー獲得、およびトラフィック品質分析を専門としています。"
+            },
+            "smirnov": {
+                "name": "Aleksey Smirnov",
+                "position": "DevOpsのエンジニア",
+                "description": "Alekseyは、DevOpsのエンジニアおよびシステム設計者として10年以上の経験を持っています。Alekseyは、高負荷アーキテクチャの設計と開発を専門としています。\nLinux、クラウド、インフラストラクチャのソリューションに熟達しています。\nPythonを主な作業ツールとして使用しています。"
+            }
+        }
+    }
+}
