@@ -1,0 +1,31 @@
+{
+    "about": {
+        "title": "關於 Jibrel Network",
+        "benefits": {
+            "a": {
+                "head": "什麼是 Jibrel Network？",
+                "body": "Jibrel Network 在以太坊區塊鍊以標準 ERC-20 虛擬貨幣提供貨幣、股票、商品和其他金融資產與工具。"
+            },
+            "b": {
+                "head": "什麼是 CryDR？",
+                "body": "加密存託憑證或稱 CryDR 都是代表傳統金融資產價值的虛擬貨幣，命名為 Jibrel Network 虛擬貨幣或 JNT（例如：一美元的 CryDR 有 1 美元價值的 JNT）。"
+            },
+            "c": {
+                "head": "如何運用 CryDR？",
+                "body": "Fiat CryDR 可用於匯款、全球支付、交易和套期保值，CryDR 也可用於建立自動化及去中心化的金融工具，如債券、商品、債務工具和證券。"
+            },
+            "d": {
+                "head": "什麼是智慧規範？",
+                "body": "CryDR 內建智慧規範：真實世界的條款與條件被轉譯為 Solidity 代碼，並部署在以太坊區塊鍊，以確保 CryDR 在去中心化的同時永遠遵循真實世界的條款與條件。"
+            },
+            "e": {
+                "head": "什麼是 jCash？",
+                "body": "jCash 是第一個推出的貨幣。以後將會開放美元、英鎊、歐元、俄羅斯盧布、阿聯酋迪拉姆和人民幣 CryDR。"
+            },
+            "f": {
+                "head": "如何購買 CryDR？",
+                "body": "透過 Jibrel Network 虛擬貨幣 (JNT)，可以從 Jibrel DAO 購買加密存托憑證 (CryDRs）。"
+            }
+        }
+    }
+}
