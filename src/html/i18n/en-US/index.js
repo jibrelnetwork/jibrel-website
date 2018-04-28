@@ -1,27 +1,28 @@
-const about = require('./about')
-const advisors = require('./advisors')
-const articles = require('./articles')
-const faq = require('./faq')
-const footer = require('./footer')
-const header = require('./header')
-const meta = require('./meta')
-const roadmap = require('./roadmap')
-const start = require('./start')
-const team = require('./team')
-const whitepaper = require('./whitepaper')
+const meta = require('../meta')
+
+const about = require('./about').about
+const advisors = require('./advisors').advisors
+const articles = require('./articles').articles
+const faq = require('./faq').faq
+const footer = require('./footer').footer
+const header = require('./header').header
+const roadmap = require('./roadmap').roadmap
+const start = require('./start').start
+const team = require('./team').team
+const whitepaper = require('./whitepaper').whitepaper
 
 module.exports = {
   languageCode: 'en-US',
-  about: about.about,
-  advisors: advisors.advisors,
-  articles: articles.articles,
-  faq: faq.faq,
-  footer: footer.footer,
-  header: header.header,
-  meta: meta.meta,
-  roadmap: roadmap.roadmap,
-  start: start.start,
-  team: team.team,
-  whitepaper: whitepaper.whitepaper,
+  meta: meta,
+  about: about,
+  advisors: advisors,
+  articles: articles,
+  faq: faq,
+  footer: footer,
+  header: header,
+  roadmap: roadmap,
+  start: start,
+  team: team,
+  whitepaper: whitepaper,
   timestamp: Date.now(),
 }
