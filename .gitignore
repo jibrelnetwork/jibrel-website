@@ -11,6 +11,7 @@ npm-debug.log
 public/assets/css
 public/assets/js
 public/index.html
-public/zh.html
-public/ko.html
-public/ja.html
+public/ja-JP.html
+public/ko-KR.html
+public/zh-CN.html
+public/zh-TW.html
