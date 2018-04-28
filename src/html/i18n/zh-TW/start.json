@@ -1,0 +1,12 @@
+{
+    "start": {
+        "jwallet": {
+            "title": "為您介紹 jWallet",
+            "text": {
+                "one": "加密社群 的大事，",
+                "two": "為大眾所做的革命。"
+            },
+            "link": "試試 jWallet"
+        }
+    }
+}
