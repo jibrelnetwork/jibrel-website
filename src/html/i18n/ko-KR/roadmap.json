@@ -1,0 +1,57 @@
+{
+    "roadmap": {
+        "title": "로드맵",
+        "timeline": {
+            "may17": {
+                "time": "2017년 5월",
+                "head": "Ropsten Alpha",
+                "body": {
+                    "one": "Jibrel Network Limited Alpha가 Ropsten에서 라이브로 진행됩니다"
+                }
+            },
+            "sep17": {
+                "time": "2017년 9월",
+                "head": "Jibrel Network 토큰 (JNT) 사전 판매",
+                "body": {
+                    "one": "Jibrel Network 토큰이 할인된 가격으로 제공되었습니다"
+                }
+            },
+            "nov17first": {
+                "time": "2017년 11월",
+                "head": "jWallet 출시",
+                "body": {
+                    "one": "공식 CryDR 지갑이 커뮤니티에서 이용할 수 있는 오픈소스 라이센스로 배포됩니다."
+                }
+            },
+            "nov17second": {
+                "time": "",
+                "head": "jCash 출시 \/ 공개 판매",
+                "body": {
+                    "one": "Jibrel Network는 jCash 런칭에서 5 가지 법정 화폐 통화를 추가로 선보입니다.",
+                    "two": "Jibrel Network 토큰 공개"
+                }
+            },
+            "1q18": {
+                "time": "2018년 1분기",
+                "head": "CryDR 익스플로러",
+                "body": {
+                    "one": "CryDR 전용 블록 익스플로러가 출시되어 네트워크에서 CryDR을 보다 가까이, 자세히 추적할 수 있게 됩니다."
+                }
+            },
+            "3q18": {
+                "time": "2018년 3분기",
+                "head": "기관 등급의 은행 플랫폼",
+                "body": {
+                    "one": "은행을 비롯한 금융기관들이 오프체인 자산을 직접 토큰화하고 거래하는 기관 등급의 솔루션"
+                }
+            },
+            "4q18": {
+                "time": "208년 4분기",
+                "head": "Jibrel DAO \/ 완전 분권화",
+                "body": {
+                    "one": "Jibrel DAO가 시작되고 네트워크가 완전한 분권화를 시작합니다 (Project Pinocchio)"
+                }
+            }
+        }
+    }
+}
