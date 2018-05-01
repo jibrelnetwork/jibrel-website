@@ -32,10 +32,10 @@
             "kor": {
                 "title": "韓文白皮書"
             },
-            "chi-tw": {
+            "chitw": {
                 "title": "繁體中文白皮書"
             },
-            "chi-cn": {
+            "chicn": {
                 "title": "Chinese Simplified White Paper"
             }
         }
