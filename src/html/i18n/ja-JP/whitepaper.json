@@ -32,8 +32,11 @@
             "kor": {
                 "title": "韓国語ホワイトペーパー"
             },
-            "chi": {
+            "chitw": {
                 "title": "繁体字中国語ホワイトペーパー"
+            },
+            "chicn": {
+                "title": "Chinese Simplified White Paper"
             }
         }
     }

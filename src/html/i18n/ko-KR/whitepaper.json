@@ -32,8 +32,11 @@
             "kor": {
                 "title": "한국어 백서"
             },
-            "chi": {
+            "chitw": {
                 "title": "중국어 번체 백서"
+            },
+            "chicn": {
+                "title": "Chinese Simplified White Paper"
             }
         }
     }
