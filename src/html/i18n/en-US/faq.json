@@ -11,7 +11,7 @@
                 "a": {
                     "question": "How does Jibrel Network protect me from cryptocurrency volatility?",
                     "answer": {
-                        "one": "Jibrel provides stable coins representing real world value on the Ethereum blockchain. Using the Jibrel Decentral Bank (Jibrel DAO), you can exchange volatile ETH, BTC or other cryptocurrencies for stable tokens like jUSD, jEUR, jGBP, jKRW and others.",
+                        "one": "Jibrel provides stable coins representing real world value on the Ethereum blockchain. Using the Jibrel DAO, you can exchange volatile ETH, BTC or other cryptocurrencies for stable tokens like jUSD, jEUR, jGBP, jKRW and others.",
                         "two": "These stable tokens can be exchanged for the underlying value at any point in the future, regardless of the price of ETH or BTC at the time."
                     }
                 },
@@ -27,7 +27,7 @@
                     "question": "What is the Jibrel Network?",
                     "answer": {
                         "one": "The Jibrel Network provides traditional financial assets, such as currencies, bonds, commodities and securities, as standard ERC-20 tokens on the Ethereum blockchain.",
-                        "two": "In the longer term, the Jibrel Network aims to fully automate and decentralize consumer banking."
+                        "two": "In the longer term, the Jibrel Network aims to fully automate and decentralize consumer financial services."
                     }
                 },
                 "d": {
@@ -40,7 +40,7 @@
                 "e": {
                     "question": "What problems does the Jibrel Network aim to solve?",
                     "answer": {
-                        "one": "By bringing traditional financial assets to the blockchain, problems plaguing traditional banking such as high fees and slow transfer times can be eliminated.",
+                        "one": "By bringing traditional financial assets to the blockchain, problems plaguing traditional financial services such as high fees and slow transfer times can be eliminated.",
                         "two": "Using crypto fiat tokens, users can store, send and receive value in their local currency with near-zero fees.",
                         "three": "In addition, decentralized organizations and funds can diversify into traditional assets, using asset backed CryptoDepository Receipts (CryDRs)."
                     }
@@ -62,7 +62,7 @@
                 "c": {
                     "question": "What is the Jibrel DAO?",
                     "answer": {
-                        "one": "The Jibrel DAO or the Jibrel Decentral Bank is a decentralized entity that exchanges JNT for CryDRs. Users can either mint new CryDRs using JNT or redeem CryDRs for the underlying value in JNT."
+                        "one": "The Jibrel DAO is a decentralized entity that exchanges JNT for CryDRs. Users can either mint new CryDRs using JNT or redeem CryDRs for the underlying value in JNT."
                     }
                 },
                 "d": {
