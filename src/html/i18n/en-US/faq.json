@@ -19,8 +19,7 @@
                     "question": "How do I know Jibrel is secure?",
                     "answer": {
                         "one": "Jibrel Smart Contracts have been audited by our security partner, New Alchemy: ",
-                        "two": "the full Security Audit can be found here.",
-                        "three": "In addition, Jibrel financials are reviewed and audited by our financial transparency partner, PwC."
+                        "two": "the full Security Audit can be found here."
                     }
                 },
                 "c": {
