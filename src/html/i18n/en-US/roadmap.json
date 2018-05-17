@@ -1,54 +1,54 @@
 {
     "roadmap": {
-        "roadmap_title": "Roadmap",
+        "title": { "qesgdgwgho": "Roadmap" },
         "timeline": {
             "may17": {
-                "may17_time": "May, 2017",
-                "may17_head": "Ropsten Alpha",
+                "time": { "bkricehhet": "May, 2017" },
+                "head": { "gaotmvlqbv": "Ropsten Alpha" },
                 "body": {
-                    "may17_a": "The Jibrel Network Limited Alpha goes live on Ropsten"
+                    "a": { "ytumyfewat": "The Jibrel Network Limited Alpha goes live on Ropsten" }
                 }
             },
             "sep17": {
-                "sep17_time": "September, 2017",
-                "sep17_head": "Jibrel Network Token (JNT) Pre-sale",
+                "time": { "ghwbgwxomu": "September, 2017" },
+                "head": { "wkujymblqw": "Jibrel Network Token (JNT) Pre-sale" },
                 "body": {
-                    "sep17_a": "Jibrel Network Token offered at a discounted price"
+                    "a": { "flzuwwvfou": "Jibrel Network Token offered at a discounted price" }
                 }
             },
             "nov17first": {
-                "nov17first_time": "November, 2017",
-                "nov17first_head": "jWallet Release",
+                "time": { "rpklvolckr": "November, 2017" },
+                "head": { "amxcfwsqwe": "jWallet Release" },
                 "body": {
-                    "nov17first_a": "The official CryDR wallet is released under an open-source license for community use"
+                    "a": { "whclvgrhfi": "The official CryDR wallet is released under an open-source license for community use" }
                 }
             },
             "nov17second": {
-                "nov17second_time": "",
-                "nov17second_head": "jCash Launch \/ Public Sale",
+                "time": { "neyjafcmul": "" },
+                "head": { "cmzkbtupua": "jCash Launch \/ Public Sale" },
                 "body": {
-                    "nov17second_a": "Jibrel Network Token offered publicly"
+                    "a": { "jtoedahtkb": "Jibrel Network Token offered publicly" }
                 }
             },
             "1q18": {
-                "1q18_time": "Q1 2018",
-                "1q18_head": "CryDR Explorer",
+                "time": { "ozfzvcxsvh": "Q1 2018" },
+                "head": { "icifxvcvkp": "CryDR Explorer" },
                 "body": {
-                    "1q18_a": "A dedicated CryDR block explorer is released to facilitate closer \/ more detailed tracking of CryDRs on the network"
+                    "a": { "solcnqrrvs": "A dedicated CryDR block explorer is released to facilitate closer \/ more detailed tracking of CryDRs on the network" }
                 }
             },
             "3q18": {
-                "3q18_time": "Q3 2018",
-                "3q18_head": "Institutional Grade Platform",
+                "time": { "kgapszosrw": "Q3 2018" },
+                "head": { "oovhosywor": "Institutional Grade Platform" },
                 "body": {
-                    "3q18_a": "An institutional-grade solution for enterprises and financial institutions to directly tokenize and transact with their own off-chain assets"
+                    "a": { "ybvrafkwby": "An institutional-grade solution for enterprises and financial institutions to directly tokenize and transact with their own off-chain assets" }
                 }
             },
             "4q18": {
-                "4q18_time": "Q4 2018",
-                "4q18_head": "Jibrel DAO \/ Full Decentralization",
+                "time": { "pvkfnysadb": "Q4 2018" },
+                "head": { "oivvigkyaq": "Jibrel DAO \/ Full Decentralization" },
                 "body": {
-                    "4q18_a": "Jibrel DAO is launched and the network begins full decentralization (Project Pinocchio)"
+                    "a": { "atgnejbqca": "Jibrel DAO is launched and the network begins full decentralization (Project Pinocchio)" }
                 }
             }
         }
