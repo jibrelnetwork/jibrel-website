@@ -1,36 +1,36 @@
 {
     "advisors": {
-        "title": "当社の顧問",
+        "advisors_title": "当社の顧問",
         "persons": {
             "tapscott": {
-                "name": "Don Tapscott",
-                "title": "戦略顧問",
-                "position": "Tapscott GroupのCEO"
+                "tapscott_name": "Don Tapscott",
+                "tapscott_title": "戦略顧問",
+                "tapscott_position": "Tapscott GroupのCEO"
             },
             "gavrilyuk": {
-                "name": "Ruslan Gavrilyuk",
-                "title": "暗号金融顧問",
-                "position": "TaaS FundのCEO＆創設者"
+                "gavrilyuk_name": "Ruslan Gavrilyuk",
+                "gavrilyuk_title": "暗号金融顧問",
+                "gavrilyuk_position": "TaaS FundのCEO＆創設者"
             },
             "zuaiter": {
-                "name": "Abbas Zuaiter",
-                "title": "資本市場顧問",
-                "position": "Soros Fundの元COO"
+                "zuaiter_name": "Abbas Zuaiter",
+                "zuaiter_title": "資本市場顧問",
+                "zuaiter_position": "Soros Fundの元COO"
             },
             "hudson": {
-                "name": "Saul Hudson",
-                "title": "コミュニケーション顧問",
-                "position": "Thomson Reutersの本部長"
+                "hudson_name": "Saul Hudson",
+                "hudson_title": "コミュニケーション顧問",
+                "hudson_position": "Thomson Reutersの本部長"
             },
             "sehli": {
-                "name": "Mohammad Al Sehli",
-                "title": "MENAの顧問",
-                "position": "Arabian ChainのCEO＆創設者"
+                "sehli_name": "Mohammad Al Sehli",
+                "sehli_title": "MENAの顧問",
+                "sehli_position": "Arabian ChainのCEO＆創設者"
             },
             "levin": {
-                "name": "Moe Levin博士",
-                "title": "公共部門顧問",
-                "position": "KeynoteのCEO"
+                "levin_name": "Moe Levin博士",
+                "levin_title": "公共部門顧問",
+                "levin_position": "KeynoteのCEO"
             }
         }
     }

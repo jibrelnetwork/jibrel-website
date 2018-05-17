@@ -1,119 +1,119 @@
 {
     "faq": {
-        "title": "常見問題",
+        "faq_title": "常見問題",
         "categories": {
-            "general": "總體概觀",
-            "receipts": "加密存託憑證",
-            "jnt": "Jibrel Network 虛擬貨幣 (JNT)"
+            "categories_general": "總體概觀",
+            "categories_receipts": "加密存託憑證",
+            "categories_jnt": "Jibrel Network 虛擬貨幣 (JNT)"
         },
         "tabs": {
             "general": {
                 "a": {
-                    "question": "Jibrel Network 如何保護我免受加密貨幣波動的影響？",
+                    "general_a_question": "Jibrel Network 如何保護我免受加密貨幣波動的影響？",
                     "answer": {
-                        "a": "Jibrel 提供穩定硬幣代表以太坊區塊鍊上的真實世界價值，使用 Jibrel 去中心銀行 (Jibrel DAO)，您可以將不穩定的 ETH、BTC 或其他加密貨幣，交換成穩定的虛擬貨幣，如 jUSD、jEUR、jGBP、jKRW 等。",
-                        "b": "無論當時 ETH 或 BTC 的價格如何，這些穩定的虛擬貨幣都可以在未來的任何時間點兌換回基礎價值。"
+                        "general_a_a": "Jibrel 提供穩定硬幣代表以太坊區塊鍊上的真實世界價值，使用 Jibrel 去中心銀行 (Jibrel DAO)，您可以將不穩定的 ETH、BTC 或其他加密貨幣，交換成穩定的虛擬貨幣，如 jUSD、jEUR、jGBP、jKRW 等。",
+                        "general_a_b": "無論當時 ETH 或 BTC 的價格如何，這些穩定的虛擬貨幣都可以在未來的任何時間點兌換回基礎價值。"
                     }
                 },
                 "b": {
-                    "question": "我怎麼知道 Jibrel 是否安全？",
+                    "general_b_question": "我怎麼知道 Jibrel 是否安全？",
                     "answer": {
-                        "a": "Jibrel 智慧合約已由我們的安全合作夥伴 New Alchemy 審核通過：",
-                        "b": "在這裡可以找到完整的安全審核。"
+                        "general_b_a": "Jibrel 智慧合約已由我們的安全合作夥伴 New Alchemy 審核通過：",
+                        "general_b_b": "在這裡可以找到完整的安全審核。"
                     }
                 },
                 "c": {
-                    "question": "什麼是 Jibrel Network？",
+                    "general_c_question": "什麼是 Jibrel Network？",
                     "answer": {
-                        "a": "Jibrel Network 在以太坊區塊鍊以標準 ERC-20 虛擬貨幣形式，提供傳統金融資產，如貨幣、債券、商品和證券。",
-                        "b": "從長遠來看，Jibrel Network 旨在讓消費者在銀行業務方面能夠達到全面自動化和分散化。"
+                        "general_c_a": "Jibrel Network 在以太坊區塊鍊以標準 ERC-20 虛擬貨幣形式，提供傳統金融資產，如貨幣、債券、商品和證券。",
+                        "general_c_b": "從長遠來看，Jibrel Network 旨在讓消費者在銀行業務方面能夠達到全面自動化和分散化。"
                     }
                 },
                 "d": {
-                    "question": "Jibrel Network 是誰？",
+                    "general_d_question": "Jibrel Network 是誰？",
                     "answer": {
-                        "a": "Jibrel Network 最初是 Jibrel AG  -  Qubist Labs Inc。 Jibrel AG 在瑞士 Zug 註冊。 Qubist Labs Inc. 則是一家總部位於美國紐約的區塊鏈開發公司。",
-                        "b": "團隊將金融服務經驗與對區塊鍊的深度知識和智慧合約開發相結合。"
+                        "general_d_a": "Jibrel Network 最初是 Jibrel AG  -  Qubist Labs Inc。 Jibrel AG 在瑞士 Zug 註冊。 Qubist Labs Inc. 則是一家總部位於美國紐約的區塊鏈開發公司。",
+                        "general_d_b": "團隊將金融服務經驗與對區塊鍊的深度知識和智慧合約開發相結合。"
                     }
                 },
                 "e": {
-                    "question": "Jibrel Network 想要解決什麼問題？",
+                    "general_e_question": "Jibrel Network 想要解決什麼問題？",
                     "answer": {
-                        "a": "將傳統金融資產帶入區塊鍊，可以消除困擾傳統銀行的問題，如高收費及轉帳時間緩慢。",
-                        "b": "使用加密法令虛擬貨幣，用戶可以以接近零的費用以本國貨幣儲存、傳送和接收價值。",
-                        "c": "此外，去中心化組織和基金可以利用資產支持的加密存託憑證 (CryDR) 投入傳統資產以多樣化。"
+                        "general_e_a": "將傳統金融資產帶入區塊鍊，可以消除困擾傳統銀行的問題，如高收費及轉帳時間緩慢。",
+                        "general_e_b": "使用加密法令虛擬貨幣，用戶可以以接近零的費用以本國貨幣儲存、傳送和接收價值。",
+                        "general_e_c": "此外，去中心化組織和基金可以利用資產支持的加密存託憑證 (CryDR) 投入傳統資產以多樣化。"
                     }
                 }
             },
             "receipts": {
                 "a": {
-                    "question": "加密存託憑證 (CryDRs) 是什麼形式？",
+                    "receipts_a_question": "加密存託憑證 (CryDRs) 是什麼形式？",
                     "answer": {
-                        "a": "加密存託憑證 (CryDRs) 是代表真實世界資產價值的智慧合約，用戶可以將 Jibrel Network 虛擬貨幣 (JNT）轉換為 CryDR 代表的法定貨幣、商品、債券甚至證券。CryDR 可轉換為其他個體或實體，向 Jibrel DAO 贖回虛擬貨幣的 JNT 基礎價值。CryDR 內嵌智慧規範，表示一切交易符合 KYC \/ AML。"
+                        "receipts_a_a": "加密存託憑證 (CryDRs) 是代表真實世界資產價值的智慧合約，用戶可以將 Jibrel Network 虛擬貨幣 (JNT）轉換為 CryDR 代表的法定貨幣、商品、債券甚至證券。CryDR 可轉換為其他個體或實體，向 Jibrel DAO 贖回虛擬貨幣的 JNT 基礎價值。CryDR 內嵌智慧規範，表示一切交易符合 KYC \/ AML。"
                     }
                 },
                 "b": {
-                    "question": "什麼樣的貨幣可以在 CryDR 上使用？",
+                    "receipts_b_question": "什麼樣的貨幣可以在 CryDR 上使用？",
                     "answer": {
-                        "a": "在推出時，Jibrel Network 將提供六種法定貨幣：美元、人民幣、歐元、英鎊、盧布、AED。未來，Jibrel 將提供各種貨幣、商品、證券和衍生商品。"
+                        "receipts_b_a": "在推出時，Jibrel Network 將提供六種法定貨幣：美元、人民幣、歐元、英鎊、盧布、AED。未來，Jibrel 將提供各種貨幣、商品、證券和衍生商品。"
                     }
                 },
                 "c": {
-                    "question": "什麼是Jibrel DAO？",
+                    "receipts_c_question": "什麼是Jibrel DAO？",
                     "answer": {
-                        "a": "Jibrel DAO 或 Jibrel 去中心銀行是一個去中心化實體，以 JNT 交換 CryDR。用戶可用 JNT 製作新的 CryDR，或贖回 CryDR 的 JNT 基礎價值。"
+                        "receipts_c_a": "Jibrel DAO 或 Jibrel 去中心銀行是一個去中心化實體，以 JNT 交換 CryDR。用戶可用 JNT 製作新的 CryDR，或贖回 CryDR 的 JNT 基礎價值。"
                     }
                 },
                 "d": {
-                    "question": "什麼是智慧規範？",
+                    "receipts_d_question": "什麼是智慧規範？",
                     "answer": {
-                        "a": "CryDR 受制於部署在區塊鏈的一系列規則，以確保它們符合基於資產類別和管轄權的任何相關法規。"
+                        "receipts_d_a": "CryDR 受制於部署在區塊鏈的一系列規則，以確保它們符合基於資產類別和管轄權的任何相關法規。"
                     }
                 },
                 "e": {
-                    "question": "智慧規範如何運作？",
+                    "receipts_e_question": "智慧規範如何運作？",
                     "answer": {
-                        "a": "真實世界法規被轉譯為 Solidity 代碼，部署為 CryDR 在以太坊區塊鏈的規則手冊。",
-                        "b": "智慧規範確保 CryDRs 在去中心化的同時始終遵循真實世界法規，即無政府的治理。"
+                        "receipts_e_a": "真實世界法規被轉譯為 Solidity 代碼，部署為 CryDR 在以太坊區塊鏈的規則手冊。",
+                        "receipts_e_b": "智慧規範確保 CryDRs 在去中心化的同時始終遵循真實世界法規，即無政府的治理。"
                     }
                 },
                 "f": {
-                    "question": "投資者如何將金融資產標記化？",
+                    "receipts_f_question": "投資者如何將金融資產標記化？",
                     "answer": {
-                        "a": "流動資產將轉移至位在瑞士楚格的 Jibrel AG 基金，並由其持有。流動資產是使用 JNT 作為基礎貨幣進行證券化，一切涉及標記化資產的交易都將使用 JNT 進行。"
+                        "receipts_f_a": "流動資產將轉移至位在瑞士楚格的 Jibrel AG 基金，並由其持有。流動資產是使用 JNT 作為基礎貨幣進行證券化，一切涉及標記化資產的交易都將使用 JNT 進行。"
                     }
                 },
                 "g": {
-                    "question": "用戶如何辦理虛擬帳戶？",
+                    "receipts_g_question": "用戶如何辦理虛擬帳戶？",
                     "answer": {
-                        "a": "標記化的資產是標準 ERC-20 虛擬貨幣，任何 ERC-20 錢包都可用於傳送、接收和交換 CryDR。"
+                        "receipts_g_a": "標記化的資產是標準 ERC-20 虛擬貨幣，任何 ERC-20 錢包都可用於傳送、接收和交換 CryDR。"
                     }
                 },
                 "h": {
-                    "question": "什麼是區塊鍊上 \/ 區塊鍊外套利？",
+                    "receipts_h_question": "什麼是區塊鍊上 \/ 區塊鍊外套利？",
                     "answer": {
-                        "a": "由於加密貨幣擁有主要受到投機、流動性瓶頸驅動的波動性，穩定的鍊上資產變得特別有價值。若成功標記化傳統資產，而社群也堅信該虛擬貨幣可在未來的任何日期贖回標的資產，區塊鍊上資產價值將會變得比原始的區塊鍊外購買價格更高，起因於穩定的區塊鍊上資產稀缺，我們稱之為區塊區塊鍊上 \/ 區塊鍊外套利。"
+                        "receipts_h_a": "由於加密貨幣擁有主要受到投機、流動性瓶頸驅動的波動性，穩定的鍊上資產變得特別有價值。若成功標記化傳統資產，而社群也堅信該虛擬貨幣可在未來的任何日期贖回標的資產，區塊鍊上資產價值將會變得比原始的區塊鍊外購買價格更高，起因於穩定的區塊鍊上資產稀缺，我們稱之為區塊區塊鍊上 \/ 區塊鍊外套利。"
                     }
                 }
             },
             "jnt": {
                 "a": {
-                    "question": "什麼是 Jibrel Network 虛擬貨幣（JNT）？",
+                    "jnt_a_question": "什麼是 Jibrel Network 虛擬貨幣（JNT）？",
                     "answer": {
-                        "a": "Jibrel Network 虛擬貨幣 (JNT) 是用來購買 \/ 贖回 CryDR 的虛擬貨幣。此外，任何有關證券化區塊鍊外資產的價值交換交易，都將使用 Jibrel Network 虛擬貨幣進行。最後，CryDR 傳輸將以 jGas 的形式小額消耗 JNT。"
+                        "jnt_a_a": "Jibrel Network 虛擬貨幣 (JNT) 是用來購買 \/ 贖回 CryDR 的虛擬貨幣。此外，任何有關證券化區塊鍊外資產的價值交換交易，都將使用 Jibrel Network 虛擬貨幣進行。最後，CryDR 傳輸將以 jGas 的形式小額消耗 JNT。"
                     }
                 },
                 "b": {
-                    "question": "為什麼要用我們的代幣而不是 ETH 或 BTC ？",
+                    "jnt_b_question": "為什麼要用我們的代幣而不是 ETH 或 BTC ？",
                     "answer": {
-                        "a": "考量 ETH 和 BTC 的極端波動性，在持有波動且不相關的加密資產的同時，很難以法定貨幣持有負債 (CryDR）。使用 JNT，該封閉的系統允許系統自我平衡。請閱讀全文了解更多詳細資訊。",
-                        "b": "Jibrel Network 開發計畫"
+                        "jnt_b_a": "考量 ETH 和 BTC 的極端波動性，在持有波動且不相關的加密資產的同時，很難以法定貨幣持有負債 (CryDR）。使用 JNT，該封閉的系統允許系統自我平衡。請閱讀全文了解更多詳細資訊。",
+                        "jnt_b_b": "Jibrel Network 開發計畫"
                     }
                 },
                 "c": {
-                    "question": "如何消費 Jibrel Network 虛擬貨幣？",
+                    "jnt_c_question": "如何消費 Jibrel Network 虛擬貨幣？",
                     "answer": {
-                        "a": "使用 Jibrel DAO 購買 CryDR 為 Jibrel Network 虛擬貨幣主要的消費方式。此外，CryDR 傳輸將以 jGas 的形式消耗 JNT。"
+                        "jnt_c_a": "使用 Jibrel DAO 購買 CryDR 為 Jibrel Network 虛擬貨幣主要的消費方式。此外，CryDR 傳輸將以 jGas 的形式消耗 JNT。"
                     }
                 }
             }

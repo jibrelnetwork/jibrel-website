@@ -1,12 +1,12 @@
 {
     "start": {
         "jwallet": {
-            "title": "jWallet 소개",
+            "jwallet_title": "jWallet 소개",
             "text": {
-                "a": "암호화폐 커뮤니티를 위한 거대한 변화",
-                "b": "다른 모든 이들을 위한 혁명"
+                "jwallet_a": "암호화폐 커뮤니티를 위한 거대한 변화",
+                "jwallet_b": "다른 모든 이들을 위한 혁명"
             },
-            "link": " jWallet 사용해보기"
+            "jwallet_link": " jWallet 사용해보기"
         }
     }
 }

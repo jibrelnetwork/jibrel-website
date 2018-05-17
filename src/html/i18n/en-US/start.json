@@ -1,12 +1,12 @@
 {
     "start": {
         "jwallet": {
-            "title": "Introducing the jWallet",
+            "jwallet_title": "Introducing the jWallet",
             "text": {
-                "a": "Massive for the crypto community,",
-                "b": "revolutionary for everyone else."
+                "jwallet_a": "Massive for the crypto community,",
+                "jwallet_b": "revolutionary for everyone else."
             },
-            "link": "Try jWallet"
+            "jwallet_link": "Try jWallet"
         }
     }
 }

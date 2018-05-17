@@ -1,12 +1,12 @@
 {
     "start": {
         "jwallet": {
-            "title": "jWalletの導入",
+            "jwallet_title": "jWalletの導入",
             "text": {
-                "a": "暗号コミュニティの大規模なプラットフォームであり、",
-                "b": "すべての人々にとっても画期的です。"
+                "jwallet_a": "暗号コミュニティの大規模なプラットフォームであり、",
+                "jwallet_b": "すべての人々にとっても画期的です。"
             },
-            "link": "jWalletを試す"
+            "jwallet_link": "jWalletを試す"
         }
     }
 }
