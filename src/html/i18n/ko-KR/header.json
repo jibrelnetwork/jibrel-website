@@ -1,11 +1,11 @@
 {
     "header": {
-        "about": "소개",
-        "roadmap": "로드맵",
-        "faq": "자주 묻는 질문",
-        "whitepaper": "백서",
-        "team": "팀",
-        "sale": "로그인",
-        "button": "메뉴"
+        "menu_about": "소개",
+        "menu_roadmap": "로드맵",
+        "menu_faq": "자주 묻는 질문",
+        "menu_whitepaper": "백서",
+        "menu_team": "팀",
+        "menu_sale": "로그인",
+        "menu_button": "메뉴"
     }
 }

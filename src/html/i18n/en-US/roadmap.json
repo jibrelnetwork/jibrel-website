@@ -1,54 +1,54 @@
 {
     "roadmap": {
-        "title": "Roadmap",
+        "title": { "qesgdgwgho": "Roadmap" },
         "timeline": {
             "may17": {
-                "time": "May, 2017",
-                "head": "Ropsten Alpha",
+                "time": { "bkricehhet": "May, 2017" },
+                "head": { "gaotmvlqbv": "Ropsten Alpha" },
                 "body": {
-                    "one": "The Jibrel Network Limited Alpha goes live on Ropsten"
+                    "a": { "ytumyfewat": "The Jibrel Network Limited Alpha goes live on Ropsten" }
                 }
             },
             "sep17": {
-                "time": "September, 2017",
-                "head": "Jibrel Network Token (JNT) Pre-sale",
+                "time": { "ghwbgwxomu": "September, 2017" },
+                "head": { "wkujymblqw": "Jibrel Network Token (JNT) Pre-sale" },
                 "body": {
-                    "one": "Jibrel Network Token offered at a discounted price"
+                    "a": { "flzuwwvfou": "Jibrel Network Token offered at a discounted price" }
                 }
             },
             "nov17first": {
-                "time": "November, 2017",
-                "head": "jWallet Release",
+                "time": { "rpklvolckr": "November, 2017" },
+                "head": { "amxcfwsqwe": "jWallet Release" },
                 "body": {
-                    "one": "The official CryDR wallet is released under an open-source license for community use"
+                    "a": { "whclvgrhfi": "The official CryDR wallet is released under an open-source license for community use" }
                 }
             },
             "nov17second": {
-                "time": "",
-                "head": "jCash Launch \/ Public Sale",
+                "time": { "neyjafcmul": "" },
+                "head": { "cmzkbtupua": "jCash Launch \/ Public Sale" },
                 "body": {
-                    "one": "Jibrel Network Token offered publicly"
+                    "a": { "jtoedahtkb": "Jibrel Network Token offered publicly" }
                 }
             },
             "1q18": {
-                "time": "Q1 2018",
-                "head": "CryDR Explorer",
+                "time": { "ozfzvcxsvh": "Q1 2018" },
+                "head": { "icifxvcvkp": "CryDR Explorer" },
                 "body": {
-                    "one": "A dedicated CryDR block explorer is released to facilitate closer \/ more detailed tracking of CryDRs on the network"
+                    "a": { "solcnqrrvs": "A dedicated CryDR block explorer is released to facilitate closer \/ more detailed tracking of CryDRs on the network" }
                 }
             },
             "3q18": {
-                "time": "Q3 2018",
-                "head": "Institutional Grade Platform",
+                "time": { "kgapszosrw": "Q3 2018" },
+                "head": { "oovhosywor": "Institutional Grade Platform" },
                 "body": {
-                    "one": "An institutional-grade solution for enterprises and financial institutions to directly tokenize and transact with their own off-chain assets"
+                    "a": { "ybvrafkwby": "An institutional-grade solution for enterprises and financial institutions to directly tokenize and transact with their own off-chain assets" }
                 }
             },
             "4q18": {
-                "time": "Q4 2018",
-                "head": "Jibrel DAO \/ Full Decentralization",
+                "time": { "pvkfnysadb": "Q4 2018" },
+                "head": { "oivvigkyaq": "Jibrel DAO \/ Full Decentralization" },
                 "body": {
-                    "one": "Jibrel DAO is launched and the network begins full decentralization (Project Pinocchio)"
+                    "a": { "atgnejbqca": "Jibrel DAO is launched and the network begins full decentralization (Project Pinocchio)" }
                 }
             }
         }

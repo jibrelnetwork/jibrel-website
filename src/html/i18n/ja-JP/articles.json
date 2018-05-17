@@ -1,44 +1,44 @@
 {
     "articles": {
         "cointelegraph": {
-            "title": "Ethereumが支援するJibrelは、新しいタイプのスマートトークンを使用するICO Bubbleを含むことを目標としています。",
-            "date": "2017年9月14日"
+            "cointelegraph_title": "Ethereumが支援するJibrelは、新しいタイプのスマートトークンを使用するICO Bubbleを含むことを目標としています。",
+            "cointelegraph_date": "2017年9月14日"
         },
         "forbes": {
-            "title": "Jibrel Networkは、暗号市場と伝統市場のギャップを埋めています。",
-            "date": "2018年1月22日"
+            "forbes_title": "Jibrel Networkは、暗号市場と伝統市場のギャップを埋めています。",
+            "forbes_date": "2018年1月22日"
         },
         "thenextweb": {
-            "title": "人気と関心が高まるにつれてデジタル経済はどのように進化し続けていますか？",
-            "date": "2017年11月16日"
+            "thenextweb_title": "人気と関心が高まるにつれてデジタル経済はどのように進化し続けていますか？",
+            "thenextweb_date": "2017年11月16日"
         },
         "bitcoinmagazine": {
-            "title": "暗号取引と伝統的資産：",
-            "date": "2017年11月17日"
+            "bitcoinmagazine_title": "暗号取引と伝統的資産：",
+            "bitcoinmagazine_date": "2017年11月17日"
         },
         "huffingtonpost": {
-            "title": "投資の未来：ブロックチェーン上で伝統資産をトークン化します。",
-            "date": "2017年11月17日"
+            "huffingtonpost_title": "投資の未来：ブロックチェーン上で伝統資産をトークン化します。",
+            "huffingtonpost_date": "2017年11月17日"
         },
         "blockchain": {
-            "title": "Jibrel Networkは、事前販売期間に大成功を収めたと発表しました。",
-            "date": "2017年11月20日"
+            "blockchain_title": "Jibrel Networkは、事前販売期間に大成功を収めたと発表しました。",
+            "blockchain_date": "2017年11月20日"
         },
         "techcrunch": {
-            "title": "Ethereumウォレットは絶えず攻撃を受けているため、Jibrel Networkは独自のウォレットを開発することに決めました。",
-            "date": "2017年11月22日"
+            "techcrunch_title": "Ethereumウォレットは絶えず攻撃を受けているため、Jibrel Networkは独自のウォレットを開発することに決めました。",
+            "techcrunch_date": "2017年11月22日"
         },
         "themerkle": {
-            "title": "jWalletとは何ですか？",
-            "date": "2017年11月24日"
+            "themerkle_title": "jWalletとは何ですか？",
+            "themerkle_date": "2017年11月24日"
         },
         "nasdaq": {
-            "title": "暗号取引と伝統的資産：",
-            "date": "2017年11月17日"
+            "nasdaq_title": "暗号取引と伝統的資産：",
+            "nasdaq_date": "2017年11月17日"
         },
         "businessinsider": {
-            "title": "ブロックチェインとペイメントは、2017年11月30日から12月1日まで韓国のソウルで開催された「インサイド金融工学会議および展覧会2017」で中心的な話題となりました。",
-            "date": "2017年11月15日"
+            "businessinsider_title": "ブロックチェインとペイメントは、2017年11月30日から12月1日まで韓国のソウルで開催された「インサイド金融工学会議および展覧会2017」で中心的な話題となりました。",
+            "businessinsider_date": "2017年11月15日"
         }
     }
 }

@@ -1,44 +1,44 @@
 {
     "articles": {
         "cointelegraph": {
-            "title": "Ethereum-Backed Jibrel Aims to Contain ICO Bubble with New Type of Smart Tokens",
-            "date": "September 14, 2017"
+            "cointelegraph_title": "Ethereum-Backed Jibrel Aims to Contain ICO Bubble with New Type of Smart Tokens",
+            "cointelegraph_date": "September 14, 2017"
         },
         "forbes": {
-            "title": "Jibrel Network Is Bridging The Gap Between Crypto And Traditional Markets",
-            "date": "January 22, 2018"
+            "forbes_title": "Jibrel Network Is Bridging The Gap Between Crypto And Traditional Markets",
+            "forbes_date": "January 22, 2018"
         },
         "thenextweb": {
-            "title": "How the digital economy continues to evolve as popularity and interest grows",
-            "date": "November 16, 2017"
+            "thenextweb_title": "How the digital economy continues to evolve as popularity and interest grows",
+            "thenextweb_date": "November 16, 2017"
         },
         "bitcoinmagazine": {
-            "title": "Crypto Trading and Traditional Assets: New Options for Investors",
-            "date": "November 17, 2017"
+            "bitcoinmagazine_title": "Crypto Trading and Traditional Assets: New Options for Investors",
+            "bitcoinmagazine_date": "November 17, 2017"
         },
         "huffingtonpost": {
-            "title": "The Future of Investing: Tokenizing Traditional Assets on The Blockchain",
-            "date": "November 17, 2017"
+            "huffingtonpost_title": "The Future of Investing: Tokenizing Traditional Assets on The Blockchain",
+            "huffingtonpost_date": "November 17, 2017"
         },
         "blockchain": {
-            "title": "Jibrel Network Announces a Highly Successful Pre-sale Round",
-            "date": "November 20, 2017"
+            "blockchain_title": "Jibrel Network Announces a Highly Successful Pre-sale Round",
+            "blockchain_date": "November 20, 2017"
         },
         "techcrunch": {
-            "title": "With Ethereum wallets under constant attack, Jibrel Network decided to build their own",
-            "date": "November 22, 2017"
+            "techcrunch_title": "With Ethereum wallets under constant attack, Jibrel Network decided to build their own",
+            "techcrunch_date": "November 22, 2017"
         },
         "themerkle": {
-            "title": "What Is jWallet?",
-            "date": "November 24, 2017"
+            "themerkle_title": "What Is jWallet?",
+            "themerkle_date": "November 24, 2017"
         },
         "nasdaq": {
-            "title": "Crypto Trading and Traditional Assets: New Options for Investors",
-            "date": "November 17, 2017"
+            "nasdaq_title": "Crypto Trading and Traditional Assets: New Options for Investors",
+            "nasdaq_date": "November 17, 2017"
         },
         "businessinsider": {
-            "title": "Blockchain and Payments Take Center Stage at Inside Fintech Conference & Expo 2017 in Seoul, South Korea, November 30 - December 1, 2017",
-            "date": "November 15, 2017"
+            "businessinsider_title": "Blockchain and Payments Take Center Stage at Inside Fintech Conference & Expo 2017 in Seoul, South Korea, November 30 - December 1, 2017",
+            "businessinsider_date": "November 15, 2017"
         }
     }
 }
