@@ -11,7 +11,7 @@
                 "a": {
                     "general_a_question": "Jibrel Network 如何保護我免受加密貨幣波動的影響？",
                     "answer": {
-                        "general_a_a": "Jibrel 提供穩定硬幣代表以太坊區塊鍊上的真實世界價值，使用 Jibrel 去中心銀行 (Jibrel DAO)，您可以將不穩定的 ETH、BTC 或其他加密貨幣，交換成穩定的虛擬貨幣，如 jUSD、jEUR、jGBP、jKRW 等。",
+                        "general_a_a": "Jibrel 提供穩定硬幣代表以太坊區塊鍊上的真實世界價值，使用 Jibrel DAO，您可以將不穩定的 ETH、BTC 或其他加密貨幣，交換成穩定的虛擬貨幣，如 jUSD、jEUR、jGBP、jKRW 等。",
                         "general_a_b": "無論當時 ETH 或 BTC 的價格如何，這些穩定的虛擬貨幣都可以在未來的任何時間點兌換回基礎價值。"
                     }
                 },
@@ -26,7 +26,7 @@
                     "general_c_question": "什麼是 Jibrel Network？",
                     "answer": {
                         "general_c_a": "Jibrel Network 在以太坊區塊鍊以標準 ERC-20 虛擬貨幣形式，提供傳統金融資產，如貨幣、債券、商品和證券。",
-                        "general_c_b": "從長遠來看，Jibrel Network 旨在讓消費者在銀行業務方面能夠達到全面自動化和分散化。"
+                        "general_c_b": "從長遠來看，Jibrel Network 旨在讓消費者在金融業務方面能夠達到全面自動化和分散化。"
                     }
                 },
                 "d": {
@@ -39,7 +39,7 @@
                 "e": {
                     "general_e_question": "Jibrel Network 想要解決什麼問題？",
                     "answer": {
-                        "general_e_a": "將傳統金融資產帶入區塊鍊，可以消除困擾傳統銀行的問題，如高收費及轉帳時間緩慢。",
+                        "general_e_a": "將傳統金融資產帶入區塊鍊，可以消除困擾傳統金融的問題，如高收費及轉帳時間緩慢。",
                         "general_e_b": "使用加密法令虛擬貨幣，用戶可以以接近零的費用以本國貨幣儲存、傳送和接收價值。",
                         "general_e_c": "此外，去中心化組織和基金可以利用資產支持的加密存託憑證 (CryDR) 投入傳統資產以多樣化。"
                     }
@@ -61,7 +61,7 @@
                 "c": {
                     "receipts_c_question": "什麼是Jibrel DAO？",
                     "answer": {
-                        "receipts_c_a": "Jibrel DAO 或 Jibrel 去中心銀行是一個去中心化實體，以 JNT 交換 CryDR。用戶可用 JNT 製作新的 CryDR，或贖回 CryDR 的 JNT 基礎價值。"
+                        "receipts_c_a": "Jibrel DAO 是一個去中心化實體，以 JNT 交換 CryDR。用戶可用 JNT 製作新的 CryDR，或贖回 CryDR 的 JNT 基礎價值。"
                     }
                 },
                 "d": {

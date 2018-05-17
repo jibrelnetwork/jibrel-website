@@ -11,7 +11,7 @@
                 "a": {
                     "general_a_question": "Jibrel Networkは暗号通貨の不安定な変動からユーザーをどのように保護しますか？",
                     "answer": {
-                        "general_a_a": "Jibrelは、Ethereumブロックチェーン上で現実世界の価値を表す安定したコインを提供します。Jibrel分散銀行（Jibrel DAO）を使用すると、不安定なETH、BTCやその他の暗号通貨を、jUSD、jEUR、jGBP、jKRWなどの安定したトークンと交換できます。",
+                        "general_a_a": "Jibrelは、Ethereumブロックチェーン上で現実世界の価値を表す安定したコインを提供します。Jibrel DAO を使用すると、不安定なETH、BTCやその他の暗号通貨を、jUSD、jEUR、jGBP、jKRWなどの安定したトークンと交換できます。",
                         "general_a_b": "こうした安定したトークンは、その時点のETHやBTCの価格に関係なく、将来の任意の時点で潜在的価値と交換することができます。"
                     }
                 },
@@ -26,7 +26,7 @@
                     "general_c_question": "Jibrel Networkとは何ですか？",
                     "answer": {
                         "general_c_a": "Jibrel Networkは、通貨、債券、コモディティ、有価証券などの伝統的な金融資産をEthereumブロックチェーン上の標準ERC-20トークンとして提供しています。",
-                        "general_c_b": "Jibrel Networkの長期目標は、消費者の銀行取引を完全に自動化し、分散化することです、"
+                        "general_c_b": "Jibrel Networkの長期目標は、消費者の金融取引を完全に自動化し、分散化することです、"
                     }
                 },
                 "d": {
@@ -39,7 +39,7 @@
                 "e": {
                     "general_e_question": "Jibrel Networkはどのような問題を解決することを目標としていますか？",
                     "answer": {
-                        "general_e_a": "伝統的な金融資産をブロックチェーンに導入することにより、高い手数料や遅い移転時間など、伝統的な銀行取引を悩ます問題を解決することができます。",
+                        "general_e_a": "伝統的な金融資産をブロックチェーンに導入することにより、高い手数料や遅い移転時間など、伝統的な金融取引を悩ます問題を解決することができます。",
                         "general_e_b": "暗号化された不換トークンを使用して、ユーザーは、現地通貨の価値をゼロに近い手数料で保存し、送付し、受け取ることができます。",
                         "general_e_c": "また、分散型組織やファンドは、資産担保型暗号保管預託証券（CryDR）を使用して伝統資産へ投資を拡大させることができます。"
                     }
@@ -61,7 +61,7 @@
                 "c": {
                     "receipts_c_question": "Jibrel DAOとは何ですか？",
                     "answer": {
-                        "receipts_c_a": "Jibrel DAOまたはJibrel分散銀行は、JNTをCryDRと交換する分散型組織です。\nユーザーは、JNTを使用して新しいCryDRを作成するか、またはCryDRをJNTの潜在的価値と交換することができます。"
+                        "receipts_c_a": "Jibrel DAO、JNTをCryDRと交換する分散型組織です。\nユーザーは、JNTを使用して新しいCryDRを作成するか、またはCryDRをJNTの潜在的価値と交換することができます。"
                     }
                 },
                 "d": {

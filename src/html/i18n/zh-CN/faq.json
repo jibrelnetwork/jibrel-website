@@ -11,7 +11,7 @@
                 "a": {
                     "general_a_question": "Jibrel 网络能如何帮我规避加密货币波动性的风险？",
                     "answer": {
-                        "general_a_a": "Jibrel 所提供的链上代币具有稳定性，有现实世界资产担保。用户可使用 Jibrel 去中心化银行(Jibrel DAO) 交换波动性大的以太币、比特币或其他加密货币，也可以换成像 jUSD、jEUR、jGBP、jKRW 之类的稳定代币。",
+                        "general_a_a": "Jibrel 所提供的链上代币具有稳定性，有现实世界资产担保。用户可使用 Jibrel DAO 交换波动性大的以太币、比特币或其他加密货币，也可以换成像 jUSD、jEUR、jGBP、jKRW 之类的稳定代币。",
                         "general_a_b": "不管以太币和比特币的价格是多少，这些价值稳定的代币随时都能按照其本身代表的价值进行交易。"
                     }
                 },
@@ -26,7 +26,7 @@
                     "general_c_question": "什么是Jibrel网络？",
                     "answer": {
                         "general_c_a": "Jibrel 网络按照 ERC-20 代币合约标准，在以太网区块链上提供货币、债券、商品、证券等传统金融资产。",
-                        "general_c_b": "Jibrel 网络的长远目标是充分实现自动化、去中心化的消费者银行业务。"
+                        "general_c_b": "Jibrel 网络的长远目标是充分实现自动化、去中心化的消费者金融服务务。"
                     }
                 },
                 "d": {
@@ -39,7 +39,7 @@
                 "e": {
                     "general_e_question": "Jibrel 网络想解决的问题是什么？",
                     "answer": {
-                        "general_e_a": "将传统金融资产放到区块链上，解决传统银行业普遍存在的收费高、时效慢等问题。",
+                        "general_e_a": "将传统金融资产放到区块链上，解决传统金融服务普遍存在的收费高、时效慢等问题。",
                         "general_e_b": "通过使用加密法币，用户可以在几乎零手续费的条件下储存、发送和接收当地货币。",
                         "general_e_c": "此外，使用有资产背书的 CryDRs，去中心化组织和基金可以使传统资产实现多样化。"
                     }
@@ -61,7 +61,7 @@
                 "c": {
                     "receipts_c_question": "什么是Jibrel DAO？",
                     "answer": {
-                        "receipts_c_a": "Jibrel DAO 或 Jibrel 去中心化银行可以实现 JNT 和 CryDRs 的交易。用户可以用 JNT 创造新的CryDRs 或者按 CryDRs 的价值赎回等值的JNT。"
+                        "receipts_c_a": "Jibrel DAO 可以实现 JNT 和 CryDRs 的交易。用户可以用 JNT 创造新的CryDRs 或者按 CryDRs 的价值赎回等值的JNT。"
                     }
                 },
                 "d": {
