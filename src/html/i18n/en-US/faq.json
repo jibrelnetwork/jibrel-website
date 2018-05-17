@@ -1,119 +1,119 @@
 {
     "faq": {
-        "title": "Frequently Asked Questions",
+        "faq_title": "Frequently Asked Questions",
         "categories": {
-            "general": "General Overview",
-            "receipts": "CryptoDepository Receipts",
-            "jnt": "Jibrel Network Token (JNT)"
+            "categories_general": "General Overview",
+            "categories_receipts": "CryptoDepository Receipts",
+            "categories_jnt": "Jibrel Network Token (JNT)"
         },
         "tabs": {
             "general": {
                 "a": {
-                    "question": "How does Jibrel Network protect me from cryptocurrency volatility?",
+                    "general_a_question": "How does Jibrel Network protect me from cryptocurrency volatility?",
                     "answer": {
-                        "a": "Jibrel provides stable coins representing real world value on the Ethereum blockchain. Using the Jibrel DAO, you can exchange volatile ETH, BTC or other cryptocurrencies for stable tokens like jUSD, jEUR, jGBP, jKRW and others.",
-                        "b": "These stable tokens can be exchanged for the underlying value at any point in the future, regardless of the price of ETH or BTC at the time."
+                        "general_a_a": "Jibrel provides stable coins representing real world value on the Ethereum blockchain. Using the Jibrel DAO, you can exchange volatile ETH, BTC or other cryptocurrencies for stable tokens like jUSD, jEUR, jGBP, jKRW and others.",
+                        "general_a_b": "These stable tokens can be exchanged for the underlying value at any point in the future, regardless of the price of ETH or BTC at the time."
                     }
                 },
                 "b": {
-                    "question": "How do I know Jibrel is secure?",
+                    "general_b_question": "How do I know Jibrel is secure?",
                     "answer": {
-                        "a": "Jibrel Smart Contracts have been audited by our security partner, New Alchemy: ",
-                        "b": "the full Security Audit can be found here."
+                        "general_b_a": "Jibrel Smart Contracts have been audited by our security partner, New Alchemy: ",
+                        "general_b_b": "the full Security Audit can be found here."
                     }
                 },
                 "c": {
-                    "question": "What is the Jibrel Network?",
+                    "general_c_question": "What is the Jibrel Network?",
                     "answer": {
-                        "a": "The Jibrel Network provides traditional financial assets, such as currencies, bonds, commodities and securities, as standard ERC-20 tokens on the Ethereum blockchain.",
-                        "b": "In the longer term, the Jibrel Network aims to fully automate and decentralize consumer financial services."
+                        "general_c_a": "The Jibrel Network provides traditional financial assets, such as currencies, bonds, commodities and securities, as standard ERC-20 tokens on the Ethereum blockchain.",
+                        "general_c_b": "In the longer term, the Jibrel Network aims to fully automate and decentralize consumer financial services."
                     }
                 },
                 "d": {
-                    "question": "Who is the Jibrel Network?",
+                    "general_d_question": "Who is the Jibrel Network?",
                     "answer": {
-                        "a": "The Jibrel Network is a Jibrel AG – Qubist Labs Inc initiative. Jibrel AG is registered in Zug, Switzerland. Qubist Labs Inc. is a blockchain development company based out of New York, US.",
-                        "b": "The team combines financial services experience with deep knowledge of blockchain and smart contract development."
+                        "general_d_a": "The Jibrel Network is a Jibrel AG – Qubist Labs Inc initiative. Jibrel AG is registered in Zug, Switzerland. Qubist Labs Inc. is a blockchain development company based out of New York, US.",
+                        "general_d_b": "The team combines financial services experience with deep knowledge of blockchain and smart contract development."
                     }
                 },
                 "e": {
-                    "question": "What problems does the Jibrel Network aim to solve?",
+                    "general_e_question": "What problems does the Jibrel Network aim to solve?",
                     "answer": {
-                        "a": "By bringing traditional financial assets to the blockchain, problems plaguing traditional financial services such as high fees and slow transfer times can be eliminated.",
-                        "b": "Using crypto fiat tokens, users can store, send and receive value in their local currency with near-zero fees.",
-                        "c": "In addition, decentralized organizations and funds can diversify into traditional assets, using asset backed CryptoDepository Receipts (CryDRs)."
+                        "general_e_a": "By bringing traditional financial assets to the blockchain, problems plaguing traditional financial services such as high fees and slow transfer times can be eliminated.",
+                        "general_e_b": "Using crypto fiat tokens, users can store, send and receive value in their local currency with near-zero fees.",
+                        "general_e_c": "In addition, decentralized organizations and funds can diversify into traditional assets, using asset backed CryptoDepository Receipts (CryDRs)."
                     }
                 }
             },
             "receipts": {
                 "a": {
-                    "question": "What are CryptoDepository Receipts (CryDRs)?",
+                    "receipts_a_question": "What are CryptoDepository Receipts (CryDRs)?",
                     "answer": {
-                        "a": "Crypto Depository Receipts are smart contracts that represent the value of a real-world asset.  Users can convert Jibrel Network Tokens (JNT) into CryDRs representing fiat currencies, commodities, bonds or even securities.  CryDRs can be transferred to another individual or entity, who can redeem the token for the underlying value in JNT with the Jibrel DAO. CryDRs have smart regulation embedded, meaning all transactions are KYC \/ AML compliant."
+                        "receipts_a_a": "Crypto Depository Receipts are smart contracts that represent the value of a real-world asset.  Users can convert Jibrel Network Tokens (JNT) into CryDRs representing fiat currencies, commodities, bonds or even securities.  CryDRs can be transferred to another individual or entity, who can redeem the token for the underlying value in JNT with the Jibrel DAO. CryDRs have smart regulation embedded, meaning all transactions are KYC \/ AML compliant."
                     }
                 },
                 "b": {
-                    "question": "What CryDRs will be available?",
+                    "receipts_b_question": "What CryDRs will be available?",
                     "answer": {
-                        "a": "At launch, the Jibrel Network will offer six fiat currencies: USD, CNY, EUR, GBP, RUB, AED. In the future, Jibrel will offer a wide range of currencies, commodities, securities and derivatives."
+                        "receipts_b_a": "At launch, the Jibrel Network will offer six fiat currencies: USD, CNY, EUR, GBP, RUB, AED. In the future, Jibrel will offer a wide range of currencies, commodities, securities and derivatives."
                     }
                 },
                 "c": {
-                    "question": "What is the Jibrel DAO?",
+                    "receipts_c_question": "What is the Jibrel DAO?",
                     "answer": {
-                        "a": "The Jibrel DAO is a decentralized entity that exchanges JNT for CryDRs. Users can either mint new CryDRs using JNT or redeem CryDRs for the underlying value in JNT."
+                        "receipts_c_a": "The Jibrel DAO is a decentralized entity that exchanges JNT for CryDRs. Users can either mint new CryDRs using JNT or redeem CryDRs for the underlying value in JNT."
                     }
                 },
                 "d": {
-                    "question": "What is Smart Regulation?",
+                    "receipts_d_question": "What is Smart Regulation?",
                     "answer": {
-                        "a": "CryDRs are governed by a set of rules deployed to the blockchain to ensure they are compliant with any relevant regulation based on asset class and jurisdiction."
+                        "receipts_d_a": "CryDRs are governed by a set of rules deployed to the blockchain to ensure they are compliant with any relevant regulation based on asset class and jurisdiction."
                     }
                 },
                 "e": {
-                    "question": "How does Smart Regulation work?",
+                    "receipts_e_question": "How does Smart Regulation work?",
                     "answer": {
-                        "a": "Real world rules are translated into Solidity code which is deployed as a rulebook for CryDRs to follow on the Ethereum blockchain.",
-                        "b": "Smart Regulation ensures that while CryDRs are decentralized, they always follow real world regulation. Governance without governments."
+                        "receipts_e_a": "Real world rules are translated into Solidity code which is deployed as a rulebook for CryDRs to follow on the Ethereum blockchain.",
+                        "receipts_e_b": "Smart Regulation ensures that while CryDRs are decentralized, they always follow real world regulation. Governance without governments."
                     }
                 },
                 "f": {
-                    "question": "How does an investor tokenize a financial asset?",
+                    "receipts_f_question": "How does an investor tokenize a financial asset?",
                     "answer": {
-                        "a": "Liquid assets are transferred to and held by the Jibrel AG Fund in Zug, Switzerland. Illiquid assets are securitized using JNT as the underlying currency. All transactions involving the tokenized asset are conducted using JNT."
+                        "receipts_f_a": "Liquid assets are transferred to and held by the Jibrel AG Fund in Zug, Switzerland. Illiquid assets are securitized using JNT as the underlying currency. All transactions involving the tokenized asset are conducted using JNT."
                     }
                 },
                 "g": {
-                    "question": "How do users transact with tokenized assets?",
+                    "receipts_g_question": "How do users transact with tokenized assets?",
                     "answer": {
-                        "a": "Tokenized assets are standard ERC-20 tokens. Any ERC-20 wallet can be used to send, receive or exchange CryDRs."
+                        "receipts_g_a": "Tokenized assets are standard ERC-20 tokens. Any ERC-20 wallet can be used to send, receive or exchange CryDRs."
                     }
                 },
                 "h": {
-                    "question": "What is on-chain \/ off-chain arbitrage?",
+                    "receipts_h_question": "What is on-chain \/ off-chain arbitrage?",
                     "answer": {
-                        "a": "Due to the volatility of cryptocurrencies, primarily driven by speculation and liquidity bottlenecks, stable on-chain assets become especially valuable. If a traditional asset is tokenized successfully, and the community has a strong belief that this token is redeemable at any future date for the underlying asset, the value of the asset on-chain becomes more valuable than the original off-chain purchase price. This is due to the scarcity of stable assets on-chain. We call this on-chain \/ off-chain arbitrage."
+                        "receipts_h_a": "Due to the volatility of cryptocurrencies, primarily driven by speculation and liquidity bottlenecks, stable on-chain assets become especially valuable. If a traditional asset is tokenized successfully, and the community has a strong belief that this token is redeemable at any future date for the underlying asset, the value of the asset on-chain becomes more valuable than the original off-chain purchase price. This is due to the scarcity of stable assets on-chain. We call this on-chain \/ off-chain arbitrage."
                     }
                 }
             },
             "jnt": {
                 "a": {
-                    "question": "What is the Jibrel Network Token (JNT)?",
+                    "jnt_a_question": "What is the Jibrel Network Token (JNT)?",
                     "answer": {
-                        "a": "The Jibrel Network Token (JNT) is a virtual currency used to purchase \/ redeem CryDRs. In addition, any value exchange associated with the securitized off-chain assets are transacted using Jibrel Network Token. Finally, CryDR transfers consume small amounts of JNT in the form of jGas."
+                        "jnt_a_a": "The Jibrel Network Token (JNT) is a virtual currency used to purchase \/ redeem CryDRs. In addition, any value exchange associated with the securitized off-chain assets are transacted using Jibrel Network Token. Finally, CryDR transfers consume small amounts of JNT in the form of jGas."
                     }
                 },
                 "b": {
-                    "question": "Why is a dedicated token needed as opposed to ETH or BTC?",
+                    "jnt_b_question": "Why is a dedicated token needed as opposed to ETH or BTC?",
                     "answer": {
-                        "a": "Given the extreme volatility of ETH and BTC, it would be difficult to hold liabilities in fiat currency (CryDRs) while holding volatile and uncorrelated crypto assets. Using JNT, a closed system is established allowing for the system to self-balance. For more information, please read the full",
-                        "b": "Jibrel Network Roadmap."
+                        "jnt_b_a": "Given the extreme volatility of ETH and BTC, it would be difficult to hold liabilities in fiat currency (CryDRs) while holding volatile and uncorrelated crypto assets. Using JNT, a closed system is established allowing for the system to self-balance. For more information, please read the full",
+                        "jnt_b_b": "Jibrel Network Roadmap."
                     }
                 },
                 "c": {
-                    "question": "How are Jibrel Network Tokens consumed?",
+                    "jnt_c_question": "How are Jibrel Network Tokens consumed?",
                     "answer": {
-                        "a": "Jibrel Network Tokens are primarily consumed through CryDR purchases with the Jibrel DAO. In addition, CryDR transfers consume JNT in the form of jGas."
+                        "jnt_c_a": "Jibrel Network Tokens are primarily consumed through CryDR purchases with the Jibrel DAO. In addition, CryDR transfers consume JNT in the form of jGas."
                     }
                 }
             }

@@ -1,8 +1,8 @@
 {
     "footer": {
         "copy": {
-            "a": "版权所有 2017 Jibrel Network。保留所有权利。",
-            "b": "Baarerstrasse 10, 6302 Zug, Switzerland"
+            "copy_a": "版权所有 2017 Jibrel Network。保留所有权利。",
+            "copy_b": "Baarerstrasse 10, 6302 Zug, Switzerland"
         }
     }
 }

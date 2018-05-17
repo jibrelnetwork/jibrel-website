@@ -1,12 +1,12 @@
 {
     "start": {
         "jwallet": {
-            "title": "了解 j 钱包",
+            "jwallet_title": "了解 j 钱包",
             "text": {
-                "a": "虚拟币界的大新闻，",
-                "b": "全人类的革命性产品。"
+                "jwallet_a": "虚拟币界的大新闻，",
+                "jwallet_b": "全人类的革命性产品。"
             },
-            "link": "使用 j 钱包"
+            "jwallet_link": "使用 j 钱包"
         }
     }
 }

@@ -1,44 +1,44 @@
 {
     "articles": {
         "cointelegraph": {
-            "title": "以太坊支援的 Jibrel 旨在利用新型智慧虛擬貨幣預防 ICO 泡沫",
-            "date": "2017 年 9 月 14 日"
+            "cointelegraph_title": "以太坊支援的 Jibrel 旨在利用新型智慧虛擬貨幣預防 ICO 泡沫",
+            "cointelegraph_date": "2017 年 9 月 14 日"
         },
         "forbes": {
-            "title": "Jibrel Network 填補了加密與傳統市場之間的差距",
-            "date": "2018 年 1 月 22 日"
+            "forbes_title": "Jibrel Network 填補了加密與傳統市場之間的差距",
+            "forbes_date": "2018 年 1 月 22 日"
         },
         "thenextweb": {
-            "title": "隨著知名度與利潤增加，數位經濟將如何持續發展？",
-            "date": "2017 年 11 月 16 日"
+            "thenextweb_title": "隨著知名度與利潤增加，數位經濟將如何持續發展？",
+            "thenextweb_date": "2017 年 11 月 16 日"
         },
         "bitcoinmagazine": {
-            "title": "加密交易配合傳統資產是投資人的新選擇",
-            "date": "2017 年 11 月 17 日"
+            "bitcoinmagazine_title": "加密交易配合傳統資產是投資人的新選擇",
+            "bitcoinmagazine_date": "2017 年 11 月 17 日"
         },
         "huffingtonpost": {
-            "title": "投資前景：區塊鍊上的傳統資產標記化",
-            "date": "2017 年 11 月 17 日"
+            "huffingtonpost_title": "投資前景：區塊鍊上的傳統資產標記化",
+            "huffingtonpost_date": "2017 年 11 月 17 日"
         },
         "blockchain": {
-            "title": "Jibrel Network 宣布預售非常成功",
-            "date": "2017 年 11 月 20 日"
+            "blockchain_title": "Jibrel Network 宣布預售非常成功",
+            "blockchain_date": "2017 年 11 月 20 日"
         },
         "techcrunch": {
-            "title": "由於以太坊錢包不斷遭到攻擊，Jibrel Network 決定自行建立",
-            "date": "2017 年 11 月 22 日"
+            "techcrunch_title": "由於以太坊錢包不斷遭到攻擊，Jibrel Network 決定自行建立",
+            "techcrunch_date": "2017 年 11 月 22 日"
         },
         "themerkle": {
-            "title": "什麼是 j Wallet？",
-            "date": "2017 年 11 月 24 日"
+            "themerkle_title": "什麼是 j Wallet？",
+            "themerkle_date": "2017 年 11 月 24 日"
         },
         "nasdaq": {
-            "title": "加密交易配合傳統資產是是投資人的新選擇",
-            "date": "2017 年 11 月 17 日"
+            "nasdaq_title": "加密交易配合傳統資產是是投資人的新選擇",
+            "nasdaq_date": "2017 年 11 月 17 日"
         },
         "businessinsider": {
-            "title": "2017 年 Inside Fintech Conference＆Expo 亞太區金融科技活動於 2017 年 11 月 30 日至 12 月 1 日在韓國首爾舉行，當時區塊鍊和支付成為眾人矚目的焦點",
-            "date": "2017 年 11 月 15 日"
+            "businessinsider_title": "2017 年 Inside Fintech Conference＆Expo 亞太區金融科技活動於 2017 年 11 月 30 日至 12 月 1 日在韓國首爾舉行，當時區塊鍊和支付成為眾人矚目的焦點",
+            "businessinsider_date": "2017 年 11 月 15 日"
         }
     }
 }
