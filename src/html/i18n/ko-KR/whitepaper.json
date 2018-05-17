@@ -1,30 +1,30 @@
 {
     "whitepaper": {
-        "whitepaper_title": "백서",
+        "title": { "yjbysrqvxd": "백서" },
         "items": {
             "eng": {
-                "eng_title": "영어 백서"
+                "title": { "sswkajhjtc": "영어 백서" }
             },
             "fra": {
-                "fra_title": "프랑스어 백서"
+                "title": { "gytcxtsucm": "프랑스어 백서" }
             },
             "ger": {
-                "ger_title": "독일어 백서"
+                "title": { "nplrhytjek": "독일어 백서" }
             },
             "ara": {
-                "ara_title": "아랍어 백서"
+                "title": { "xvaozvczws": "아랍어 백서" }
             },
             "jap": {
-                "jap_title": "일본어 백서"
+                "title": { "svuusqsnfl": "일본어 백서" }
             },
             "kor": {
-                "kor_title": "한국어 백서"
+                "title": { "occndkbvfo": "한국어 백서" }
             },
             "chitw": {
-                "chitw_title": "중국어 번체 백서"
+                "title": { "xcntwxmmjz": "중국어 번체 백서" }
             },
             "chicn": {
-                "chicn_title": "Chinese Simplified White Paper"
+                "title": { "poffqrqolj": "Chinese Simplified White Paper" }
             }
         }
     }

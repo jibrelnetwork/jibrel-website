@@ -1,54 +1,54 @@
 {
     "roadmap": {
-        "roadmap_title": "ロードマップ",
+        "title": { "qesgdgwgho": "ロードマップ" },
         "timeline": {
             "may17": {
-                "may17_time": "2017年5月",
-                "may17_head": "Ropsten Alpha",
+                "time": { "bkricehhet": "2017年5月" },
+                "head": { "gaotmvlqbv": "Ropsten Alpha" },
                 "body": {
-                    "may17_a": "Jibrel Network Limited AlphaをRopsten上で立ち上げます。"
+                    "a": { "ytumyfewat": "Jibrel Network Limited AlphaをRopsten上で立ち上げます。" }
                 }
             },
             "sep17": {
-                "sep17_time": "2017年9月",
-                "sep17_head": "Jibrel Networkトークン（JNT）の事前販売",
+                "time": { "ghwbgwxomu": "2017年9月" },
+                "head": { "wkujymblqw": "Jibrel Networkトークン（JNT）の事前販売" },
                 "body": {
-                    "sep17_a": "Jibrel Networkトークンを割引価格で提供"
+                    "a": { "flzuwwvfou": "Jibrel Networkトークンを割引価格で提供" }
                 }
             },
             "nov17first": {
-                "nov17first_time": "2017年11月",
-                "nov17first_head": "jWalletのリリース",
+                "time": { "rpklvolckr": "2017年11月" },
+                "head": { "amxcfwsqwe": "jWalletのリリース" },
                 "body": {
-                    "nov17first_a": "公式のCryDRウォレットを、コミュニティで使用できるようにオープンソース・ライセンスの下でリリースします。"
+                    "a": { "whclvgrhfi": "公式のCryDRウォレットを、コミュニティで使用できるようにオープンソース・ライセンスの下でリリースします。" }
                 }
             },
             "nov17second": {
-                "nov17second_time": " ",
-                "nov17second_head": "jCash発売 \/ 競売",
+                "time": { "neyjafcmul": " " },
+                "head": { "cmzkbtupua": "jCash発売 \/ 競売" },
                 "body": {
-                    "nov17second_a": "Jibrel Networkトークンを公式に提供します。"
+                    "a": { "jtoedahtkb": "Jibrel Networkトークンを公式に提供します。" }
                 }
             },
             "1q18": {
-                "1q18_time": "2018年第1四半期",
-                "1q18_head": "CryDRエクスプローラ",
+                "time": { "ozfzvcxsvh": "2018年第1四半期" },
+                "head": { "icifxvcvkp": "CryDRエクスプローラ" },
                 "body": {
-                    "1q18_a": "専用のCryDRブロック・エクスプローラをリリースして、ネットワーク上のCryDRに対するより詳細な追跡を可能にします。"
+                    "a": { "solcnqrrvs": "専用のCryDRブロック・エクスプローラをリリースして、ネットワーク上のCryDRに対するより詳細な追跡を可能にします。" }
                 }
             },
             "3q18": {
-                "3q18_time": "2018年第3四半期",
-                "3q18_head": "機関グレードの銀行取引プラットフォーム",
+                "time": { "kgapszosrw": "2018年第3四半期" },
+                "head": { "oovhosywor": "機関グレードの取引プラットフォーム" },
                 "body": {
-                    "3q18_a": "銀行や他の金融機関が独自のオフチェーン資産を直接トークン化して取引できるようにする機関グレードのソリューション"
+                    "a": { "ybvrafkwby": "金融機関が独自のオフチェーン資産を直接トークン化して取引できるようにする機関グレードのソリューション" }
                 }
             },
             "4q18": {
-                "4q18_time": "2018年第4四半期",
-                "4q18_head": "Jibrel DAO \/ 完全な分散化",
+                "time": { "pvkfnysadb": "2018年第4四半期" },
+                "head": { "oivvigkyaq": "Jibrel DAO \/ 完全な分散化" },
                 "body": {
-                    "4q18_a": "Jibrel DAOをリリースし、ネットワークは完全な分散化を開始します（Pinocchioプロジェクト）。"
+                    "a": { "atgnejbqca": "Jibrel DAOをリリースし、ネットワークは完全な分散化を開始します（Pinocchioプロジェクト）。" }
                 }
             }
         }

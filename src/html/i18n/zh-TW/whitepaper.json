@@ -1,30 +1,30 @@
 {
     "whitepaper": {
-        "whitepaper_title": "白皮書",
+        "title": { "yjbysrqvxd": "白皮書" },
         "items": {
             "eng": {
-                "eng_title": "英文白皮書"
+                "title": { "sswkajhjtc": "英文白皮書" }
             },
             "fra": {
-                "fra_title": "法文白皮書"
+                "title": { "gytcxtsucm": "法文白皮書" }
             },
             "ger": {
-                "ger_title": "德文白皮書"
+                "title": { "nplrhytjek": "德文白皮書" }
             },
             "ara": {
-                "ara_title": "阿拉伯文白皮書"
+                "title": { "xvaozvczws": "阿拉伯文白皮書" }
             },
             "jap": {
-                "jap_title": "日文白皮書"
+                "title": { "svuusqsnfl": "日文白皮書" }
             },
             "kor": {
-                "kor_title": "韓文白皮書"
+                "title": { "occndkbvfo": "韓文白皮書" }
             },
             "chitw": {
-                "chitw_title": "繁體中文白皮書"
+                "title": { "xcntwxmmjz": "繁體中文白皮書" }
             },
             "chicn": {
-                "chicn_title": "Chinese Simplified White Paper"
+                "title": { "poffqrqolj": "Chinese Simplified White Paper" }
             }
         }
     }
