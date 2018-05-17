@@ -1,30 +1,30 @@
 {
     "whitepaper": {
-        "title": "백서",
+        "whitepaper_title": "백서",
         "items": {
             "eng": {
-                "title": "영어 백서"
+                "eng_title": "영어 백서"
             },
             "fra": {
-                "title": "프랑스어 백서"
+                "fra_title": "프랑스어 백서"
             },
             "ger": {
-                "title": "독일어 백서"
+                "ger_title": "독일어 백서"
             },
             "ara": {
-                "title": "아랍어 백서"
+                "ara_title": "아랍어 백서"
             },
             "jap": {
-                "title": "일본어 백서"
+                "jap_title": "일본어 백서"
             },
             "kor": {
-                "title": "한국어 백서"
+                "kor_title": "한국어 백서"
             },
             "chitw": {
-                "title": "중국어 번체 백서"
+                "chitw_title": "중국어 번체 백서"
             },
             "chicn": {
-                "title": "Chinese Simplified White Paper"
+                "chicn_title": "Chinese Simplified White Paper"
             }
         }
     }

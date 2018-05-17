@@ -1,30 +1,30 @@
 {
     "about": {
-        "title": "Jibrel Networkについて",
+        "about_title": "Jibrel Networkについて",
         "benefits": {
             "a": {
-                "head": "Jibrel Networkとは何ですか？",
-                "body": "Jibrel Networkは、通貨、株式、コモディティ、その他の金融資産と金融商品をEthereumブロックチェーン上の標準ERC-20トークンとして提供しています。"
+                "benefits_a_head": "Jibrel Networkとは何ですか？",
+                "benefits_a_body": "Jibrel Networkは、通貨、株式、コモディティ、その他の金融資産と金融商品をEthereumブロックチェーン上の標準ERC-20トークンとして提供しています。"
             },
             "b": {
-                "head": "CryDRとは何ですか？",
-                "body": "CryDR（暗号保管預託証券）は、Jibrel NetworkトークンまたはJNTで表示された伝統的な金融資産の価値を表すトークンです（例えば、1つのUSD CryDRは1ドル価値のJNTを保有しています）。"
+                "benefits_b_head": "CryDRとは何ですか？",
+                "benefits_b_body": "CryDR（暗号保管預託証券）は、Jibrel NetworkトークンまたはJNTで表示された伝統的な金融資産の価値を表すトークンです（例えば、1つのUSD CryDRは1ドル価値のJNTを保有しています）。"
             },
             "c": {
-                "head": "CryDRの用途？",
-                "body": "Fiat CryDRは、送金、グローバルな支払い、取引およびヘッジに使用できます。\nCryDRはまた、債券、コモディティ、債券類、有価証券などの自動化された分散型金融商品の開発にも使用できます。"
+                "benefits_c_head": "CryDRの用途？",
+                "benefits_c_body": "Fiat CryDRは、送金、グローバルな支払い、取引およびヘッジに使用できます。\nCryDRはまた、債券、コモディティ、債券類、有価証券などの自動化された分散型金融商品の開発にも使用できます。"
             },
             "d": {
-                "head": "スマート規制とは何ですか？",
-                "body": "CryDRsにはスマート規制が組み込まれています。現実のルールと規制をSolinityコードに変換して、Ethereumブロックチェーンに展開しました。\nCryDRが分散型であり、常に現実の世界のルールと規制に従っていることを保証します。"
+                "benefits_d_head": "スマート規制とは何ですか？",
+                "benefits_d_body": "CryDRsにはスマート規制が組み込まれています。現実のルールと規制をSolinityコードに変換して、Ethereumブロックチェーンに展開しました。\nCryDRが分散型であり、常に現実の世界のルールと規制に従っていることを保証します。"
             },
             "e": {
-                "head": "jCashとは何ですか？",
-                "body": "jCashは、初公開の通貨です。USD、GBP、EUR、RUB、AED、CNYのCryDRが利用可能になります。"
+                "benefits_e_head": "jCashとは何ですか？",
+                "benefits_e_body": "jCashは、初公開の通貨です。USD、GBP、EUR、RUB、AED、CNYのCryDRが利用可能になります。"
             },
             "f": {
-                "head": "CryDRsはどのように購入できますか？",
-                "body": "CryDRはJibrel Networkトークン（JNT）を使用してJibrel DAOから購入できます。"
+                "benefits_f_head": "CryDRsはどのように購入できますか？",
+                "benefits_f_body": "CryDRはJibrel Networkトークン（JNT）を使用してJibrel DAOから購入できます。"
             }
         }
     }

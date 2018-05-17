@@ -1,36 +1,36 @@
 {
     "advisors": {
-        "title": "Our Advisors",
+        "advisors_title": "Our Advisors",
         "persons": {
             "tapscott": {
-                "name": "Don Tapscott",
-                "title": "Strategy Advisor",
-                "position": "CEO of Tapscott Group"
+                "tapscott_name": "Don Tapscott",
+                "tapscott_title": "Strategy Advisor",
+                "tapscott_position": "CEO of Tapscott Group"
             },
             "gavrilyuk": {
-                "name": "Ruslan Gavrilyuk",
-                "title": "CryptoFinance Advisor",
-                "position": "CEO & Founder of TaaS Fund"
+                "gavrilyuk_name": "Ruslan Gavrilyuk",
+                "gavrilyuk_title": "CryptoFinance Advisor",
+                "gavrilyuk_position": "CEO & Founder of TaaS Fund"
             },
             "zuaiter": {
-                "name": "Abbas Zuaiter",
-                "title": "Capital Markets Advisor",
-                "position": "Former COO Soros Fund"
+                "zuaiter_name": "Abbas Zuaiter",
+                "zuaiter_title": "Capital Markets Advisor",
+                "zuaiter_position": "Former COO Soros Fund"
             },
             "hudson": {
-                "name": "Saul Hudson",
-                "title": "Communications Advisor",
-                "position": "GM at Thomson Reuters"
+                "hudson_name": "Saul Hudson",
+                "hudson_title": "Communications Advisor",
+                "hudson_position": "GM at Thomson Reuters"
             },
             "sehli": {
-                "name": "Mohammad Al Sehli",
-                "title": "MENA Advisor",
-                "position": "CEO & Founder of Arabian Chain"
+                "sehli_name": "Mohammad Al Sehli",
+                "sehli_title": "MENA Advisor",
+                "sehli_position": "CEO & Founder of Arabian Chain"
             },
             "levin": {
-                "name": "Dr. Moe Levin",
-                "title": "Public Sector Advisor",
-                "position": "CEO of Keynote"
+                "levin_name": "Dr. Moe Levin",
+                "levin_title": "Public Sector Advisor",
+                "levin_position": "CEO of Keynote"
             }
         }
     }

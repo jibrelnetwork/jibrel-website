@@ -1,36 +1,36 @@
 {
     "advisors": {
-        "title": "본사 자문",
+        "advisors_title": "본사 자문",
         "persons": {
             "tapscott": {
-                "name": "Don Tapscott",
-                "title": "전략 자문",
-                "position": "Tapscott Group의 CEO"
+                "tapscott_name": "Don Tapscott",
+                "tapscott_title": "전략 자문",
+                "tapscott_position": "Tapscott Group의 CEO"
             },
             "gavrilyuk": {
-                "name": "Ruslan Gavrilyuk",
-                "title": "암호화금융 자문",
-                "position": "TaaS Fund의 CEO 겸 설립자"
+                "gavrilyuk_name": "Ruslan Gavrilyuk",
+                "gavrilyuk_title": "암호화금융 자문",
+                "gavrilyuk_position": "TaaS Fund의 CEO 겸 설립자"
             },
             "zuaiter": {
-                "name": "Abbas Zuaiter",
-                "title": "자본시장 자문",
-                "position": "전 Soros Fund COO"
+                "zuaiter_name": "Abbas Zuaiter",
+                "zuaiter_title": "자본시장 자문",
+                "zuaiter_position": "전 Soros Fund COO"
             },
             "hudson": {
-                "name": "Saul Hudson",
-                "title": "커뮤니케이션 자문",
-                "position": "Thomson Reuters의 GM"
+                "hudson_name": "Saul Hudson",
+                "hudson_title": "커뮤니케이션 자문",
+                "hudson_position": "Thomson Reuters의 GM"
             },
             "sehli": {
-                "name": "Mohammad Al Sehli",
-                "title": "MENA 자문",
-                "position": "Arabian Chain의 CEO겸 설립자 "
+                "sehli_name": "Mohammad Al Sehli",
+                "sehli_title": "MENA 자문",
+                "sehli_position": "Arabian Chain의 CEO겸 설립자 "
             },
             "levin": {
-                "name": "Dr. Moe Levin",
-                "title": "공공부문 자문",
-                "position": "CEO 기조연설"
+                "levin_name": "Dr. Moe Levin",
+                "levin_title": "공공부문 자문",
+                "levin_position": "CEO 기조연설"
             }
         }
     }

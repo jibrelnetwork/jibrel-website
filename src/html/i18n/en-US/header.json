@@ -1,11 +1,11 @@
 {
     "header": {
-        "about": "About",
-        "roadmap": "Roadmap",
-        "faq": "FAQ",
-        "whitepaper": "White Paper",
-        "team": "Team",
-        "sale": "Sign In",
-        "button": "Menu"
+        "menu_about": "About",
+        "menu_roadmap": "Roadmap",
+        "menu_faq": "FAQ",
+        "menu_whitepaper": "White Paper",
+        "menu_team": "Team",
+        "menu_sale": "Sign In",
+        "menu_button": "Menu"
     }
 }

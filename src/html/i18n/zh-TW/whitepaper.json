@@ -1,30 +1,30 @@
 {
     "whitepaper": {
-        "title": "白皮書",
+        "whitepaper_title": "白皮書",
         "items": {
             "eng": {
-                "title": "英文白皮書"
+                "eng_title": "英文白皮書"
             },
             "fra": {
-                "title": "法文白皮書"
+                "fra_title": "法文白皮書"
             },
             "ger": {
-                "title": "德文白皮書"
+                "ger_title": "德文白皮書"
             },
             "ara": {
-                "title": "阿拉伯文白皮書"
+                "ara_title": "阿拉伯文白皮書"
             },
             "jap": {
-                "title": "日文白皮書"
+                "jap_title": "日文白皮書"
             },
             "kor": {
-                "title": "韓文白皮書"
+                "kor_title": "韓文白皮書"
             },
             "chitw": {
-                "title": "繁體中文白皮書"
+                "chitw_title": "繁體中文白皮書"
             },
             "chicn": {
-                "title": "Chinese Simplified White Paper"
+                "chicn_title": "Chinese Simplified White Paper"
             }
         }
     }

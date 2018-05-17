@@ -1,30 +1,30 @@
 {
     "about": {
-        "title": "Jibrel Network 소개",
+        "about_title": "Jibrel Network 소개",
         "benefits": {
             "a": {
-                "head": "Jibrel Network란 무엇입니까?",
-                "body": "Jibrel Network는 통화, 주식, 상품 및 기타 금융 자산과 상품을 이더리움 블록 체인 표준 ERC-20 토큰으로 제공합니다."
+                "benefits_a_head": "Jibrel Network란 무엇입니까?",
+                "benefits_a_body": "Jibrel Network는 통화, 주식, 상품 및 기타 금융 자산과 상품을 이더리움 블록 체인 표준 ERC-20 토큰으로 제공합니다."
             },
             "b": {
-                "head": "CryDR은 무엇입니까?",
-                "body": "CryptoDepository 영수증, 줄여서 CryDR은 Jibrel Network 토큰, 즉 JNT에 표시된 전통적인 금융 자산의 가치를 나타내는 토큰입니다 (예: USD CryDR은 1 달러에 해당하는 JNT를 갖습니다)."
+                "benefits_b_head": "CryDR은 무엇입니까?",
+                "benefits_b_body": "CryptoDepository 영수증, 줄여서 CryDR은 Jibrel Network 토큰, 즉 JNT에 표시된 전통적인 금융 자산의 가치를 나타내는 토큰입니다 (예: USD CryDR은 1 달러에 해당하는 JNT를 갖습니다)."
             },
             "c": {
-                "head": "CryDR은 어디에 이용될 수 있습니까?",
-                "body": "Fiat CryDR은 송금, 글로벌 결제, 거래 및 헤지에 이용할 수 있습니다. CryDR은 또한 채권, 상품, 채무상품, 증권 등 자동화되고 분산된 금융 상품을 만드는데 이용될 수 있습니다."
+                "benefits_c_head": "CryDR은 어디에 이용될 수 있습니까?",
+                "benefits_c_body": "Fiat CryDR은 송금, 글로벌 결제, 거래 및 헤지에 이용할 수 있습니다. CryDR은 또한 채권, 상품, 채무상품, 증권 등 자동화되고 분산된 금융 상품을 만드는데 이용될 수 있습니다."
             },
             "d": {
-                "head": "Smart Regulation이란 무엇입니까?",
-                "body": "CryDR은 Smart Regulation을 내장하고 있습니다. 현실 세계의 규정과 규칙은 Solinity 코드로 변환되어 이더리움 블록 체인에 배포됩니다. CryDR은 분산된 상태에서도 항상 실제 규칙과 규정을 준수하도록 보장됩니다."
+                "benefits_d_head": "Smart Regulation이란 무엇입니까?",
+                "benefits_d_body": "CryDR은 Smart Regulation을 내장하고 있습니다. 현실 세계의 규정과 규칙은 Solinity 코드로 변환되어 이더리움 블록 체인에 배포됩니다. CryDR은 분산된 상태에서도 항상 실제 규칙과 규정을 준수하도록 보장됩니다."
             },
             "e": {
-                "head": "jCash란 무엇입니까?",
-                "body": "jCash는 새로 개시되는 화폐입니다. USD, GBP, EUR, RUB, AED, 그리고 CNY CryDR을 이용할 수 있습니다."
+                "benefits_e_head": "jCash란 무엇입니까?",
+                "benefits_e_body": "jCash는 새로 개시되는 화폐입니다. USD, GBP, EUR, RUB, AED, 그리고 CNY CryDR을 이용할 수 있습니다."
             },
             "f": {
-                "head": "CryDR은 어떻게 구입할 수 있습니까?",
-                "body": "CryDR은 Jibrel Network 토큰(JNT)을 사용하여 Jibrel DAO에서 구입할 수 있습니다."
+                "benefits_f_head": "CryDR은 어떻게 구입할 수 있습니까?",
+                "benefits_f_body": "CryDR은 Jibrel Network 토큰(JNT)을 사용하여 Jibrel DAO에서 구입할 수 있습니다."
             }
         }
     }

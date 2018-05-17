@@ -1,11 +1,11 @@
 {
     "header": {
-        "about": "紹介",
-        "roadmap": "ロードマップ",
-        "faq": "よくある質問",
-        "whitepaper": "ホワイトペーパー",
-        "team": "チーム",
-        "sale": "サインイン",
-        "button": "メニュー"
+        "menu_about": "紹介",
+        "menu_roadmap": "ロードマップ",
+        "menu_faq": "よくある質問",
+        "menu_whitepaper": "ホワイトペーパー",
+        "menu_team": "チーム",
+        "menu_sale": "サインイン",
+        "menu_button": "メニュー"
     }
 }

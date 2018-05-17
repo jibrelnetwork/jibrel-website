@@ -49,7 +49,7 @@ const getKeys = content => {
     return []
   }
 
-  const foundKeys = content.match(/{{ ([a-z0-9\-\.]*) }}/ig)
+  const foundKeys = content.match(/{{ ([a-z0-9\-_\.]*) }}/ig)
 
   if (!foundKeys) {
     return []
