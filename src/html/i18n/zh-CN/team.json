@@ -1,66 +1,66 @@
 {
     "team": {
-        "title": "团队成员",
+        "team_title": "团队成员",
         "persons": {
             "barghuthi": {
-                "name": "Yazan Barghuthi",
-                "position": "项目主管（联合创始人）",
-                "description": "Yazan 从事金融服务领域超过 9 年，曾就职于奥纬咨询 (oliver wyman) 和德勤 (Deloitte) 等高级管理咨询公司。他本人精通 Javascript、HTML、CSS、React 和大部分前端开发框架。"
+                "barghuthi_name": "Yazan Barghuthi",
+                "barghuthi_position": "项目主管（联合创始人）",
+                "barghuthi_description": "Yazan 从事金融服务领域超过 9 年，曾就职于奥纬咨询 (oliver wyman) 和德勤 (Deloitte) 等高级管理咨询公司。他本人精通 Javascript、HTML、CSS、React 和大部分前端开发框架。"
             },
             "mezrin": {
-                "name": "Victor Mezrin",
-                "position": "技术主管（联合创始人）",
-                "description": "Victor 拥有长达 10 年的研发工作经验。2014 年至 2016 年期间，他曾管理排名前三的山寨币矿池 (pool.mn)。他本人精通 C++\/C、Python、Java、C#、PHP、JavaScript 和 Solidity 语言。"
+                "mezrin_name": "Victor Mezrin",
+                "mezrin_position": "技术主管（联合创始人）",
+                "mezrin_description": "Victor 拥有长达 10 年的研发工作经验。2014 年至 2016 年期间，他曾管理排名前三的山寨币矿池 (pool.mn)。他本人精通 C++\/C、Python、Java、C#、PHP、JavaScript 和 Solidity 语言。"
             },
             "tabbaa": {
-                "name": "Talal Tabbaa",
-                "position": "商务拓展主管（联合创始人）",
-                "description": "Talal 在顶级咨询公司普华永道 (PwC) 以及私募股权投资有超过 6 年的财务顾问经验。他本人精通 Python 和 SQL 语言，目前正在研究前端开发。"
+                "tabbaa_name": "Talal Tabbaa",
+                "tabbaa_position": "商务拓展主管（联合创始人）",
+                "tabbaa_description": "Talal 在顶级咨询公司普华永道 (PwC) 以及私募股权投资有超过 6 年的财务顾问经验。他本人精通 Python 和 SQL 语言，目前正在研究前端开发。"
             },
             "marinin": {
-                "name": "Nick Marinin",
-                "position": "UX\/UI 开发人员",
-                "description": "Nick 在设计和开发金融用户界面方面有超过 9 年的工作经验，曾分别为金融机构、零售企业和制造商开发过 UX\/UI。他本人精通 HTML、CSS 和 JavaScript 语言。"
+                "marinin_name": "Nick Marinin",
+                "marinin_position": "UX\/UI 开发人员",
+                "marinin_description": "Nick 在设计和开发金融用户界面方面有超过 9 年的工作经验，曾分别为金融机构、零售企业和制造商开发过 UX\/UI。他本人精通 HTML、CSS 和 JavaScript 语言。"
             },
             "kolaghassi": {
-                "name": "Hamzeh Kolaghassi",
-                "position": "运营主管",
-                "description": "Hamzeh 曾 在Alcazar Capital 和安永 (Ernst & Young) 等顶级私募和金融咨询公司拥有超过 6 年的财务经验 。他本人擅长财务管理和数据分析，侧重企业战略、计划和程序的设计和执行。"
+                "kolaghassi_name": "Hamzeh Kolaghassi",
+                "kolaghassi_position": "运营主管",
+                "kolaghassi_description": "Hamzeh 曾 在Alcazar Capital 和安永 (Ernst & Young) 等顶级私募和金融咨询公司拥有超过 6 年的财务经验 。他本人擅长财务管理和数据分析，侧重企业战略、计划和程序的设计和执行。"
             },
             "selikhov": {
-                "name": "Aleksey Selikhov",
-                "position": "后端开发人员",
-                "description": "Aleksey 在金融机构技术解决方案开发领域拥有长达 12 年的工作经验，为银行和投资基金都提供过全栈框架。他本人精通 C++\/C、Java、Python、JavaScript 和 Solidity 语言。"
+                "selikhov_name": "Aleksey Selikhov",
+                "selikhov_position": "后端开发人员",
+                "selikhov_description": "Aleksey 在金融机构技术解决方案开发领域拥有长达 12 年的工作经验，为银行和投资基金都提供过全栈框架。他本人精通 C++\/C、Java、Python、JavaScript 和 Solidity 语言。"
             },
             "violentov": {
-                "name": "Ivan Violentov",
-                "position": "前端开发人员",
-                "description": "Ivan 在网络编程方面有 5 年的工作经验，专业开发金融解决方案和应用程序。他本人擅长用服务器端的 Node 和客户端的 React\/Angular\/Vue 进行全栈开发。"
+                "violentov_name": "Ivan Violentov",
+                "violentov_position": "前端开发人员",
+                "violentov_description": "Ivan 在网络编程方面有 5 年的工作经验，专业开发金融解决方案和应用程序。他本人擅长用服务器端的 Node 和客户端的 React\/Angular\/Vue 进行全栈开发。"
             },
             "bordunova": {
-                "name": "Anna Bordunova",
-                "position": "公共关系",
-                "description": "Anna 从事媒体传播行业长达  5年，专注领域为新闻、公关和社交媒体。她本人专业知识涵盖传统营销、体验营销和数字营销，擅长全方位的互联网在线管理。"
+                "bordunova_name": "Anna Bordunova",
+                "bordunova_position": "公共关系",
+                "bordunova_description": "Anna 从事媒体传播行业长达  5年，专注领域为新闻、公关和社交媒体。她本人专业知识涵盖传统营销、体验营销和数字营销，擅长全方位的互联网在线管理。"
             },
             "khusyainov": {
-                "name": "Rust Khusyainov",
-                "position": "视觉设计",
-                "description": "Rust 在平面设计和插图领域有 7 年的工作经验，曾为金融、零售和体育方面的客户创造了高质量的内容。他本人擅长光栅和矢量图形以及视频编辑。"
+                "khusyainov_name": "Rust Khusyainov",
+                "khusyainov_position": "视觉设计",
+                "khusyainov_description": "Rust 在平面设计和插图领域有 7 年的工作经验，曾为金融、零售和体育方面的客户创造了高质量的内容。他本人擅长光栅和矢量图形以及视频编辑。"
             },
             "homyakov": {
-                "name": "Yuriy Homyakov",
-                "position": "后端开发人员",
-                "description": "Yuriy 在开发 Web 应用程序方面拥有超过7年的工作经验，擅长后端开发、数据库设计和 Web 应用程序框架。他本人精通 Python、JavaScript 和 Solidity 语言。"
+                "homyakov_name": "Yuriy Homyakov",
+                "homyakov_position": "后端开发人员",
+                "homyakov_description": "Yuriy 在开发 Web 应用程序方面拥有超过7年的工作经验，擅长后端开发、数据库设计和 Web 应用程序框架。他本人精通 Python、JavaScript 和 Solidity 语言。"
             },
             "shchipanov": {
-                "name": "Nikita Shchipanov",
-                "position": "网络分析师",
-                "description": "Nikita 拥有 5 年数字营销和分析经验。他的特长是配置分析工具，通过付费渠道获得用户以及流量质量分析。"
+                "shchipanov_name": "Nikita Shchipanov",
+                "shchipanov_position": "网络分析师",
+                "shchipanov_description": "Nikita 拥有 5 年数字营销和分析经验。他的特长是配置分析工具，通过付费渠道获得用户以及流量质量分析。"
             },
             "smirnov": {
-                "name": "Aleksey Smirnov",
-                "position": "开发工程师",
-                "description": "Aleksey 拥有 10 年以上开发工程师和系统架构经验。他的特长是设计开发高负载架构，精通 Linux、云和基础架构解决方案。他使用 Python 作为主要工作工具。"
+                "smirnov_name": "Aleksey Smirnov",
+                "smirnov_position": "开发工程师",
+                "smirnov_description": "Aleksey 拥有 10 年以上开发工程师和系统架构经验。他的特长是设计开发高负载架构，精通 Linux、云和基础架构解决方案。他使用 Python 作为主要工作工具。"
             }
         }
     }

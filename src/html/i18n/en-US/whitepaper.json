@@ -1,30 +1,30 @@
 {
     "whitepaper": {
-        "title": "White Paper",
+        "title": { "yjbysrqvxd": "White Paper" },
         "items": {
             "eng": {
-                "title": "English White Paper"
+                "title": { "sswkajhjtc": "English White Paper" }
             },
             "fra": {
-                "title": "French White Paper"
+                "title": { "gytcxtsucm": "French White Paper" }
             },
             "ger": {
-                "title": "German White Paper"
+                "title": { "nplrhytjek": "German White Paper" }
             },
             "ara": {
-                "title": "Arabic White Paper"
+                "title": { "xvaozvczws": "Arabic White Paper" }
             },
             "jap": {
-                "title": "Japanese White Paper"
+                "title": { "svuusqsnfl": "Japanese White Paper" }
             },
             "kor": {
-                "title": "Korean White Paper"
+                "title": { "occndkbvfo": "Korean White Paper" }
             },
             "chitw": {
-                "title": "Chinese Traditional White Paper"
+                "title": { "xcntwxmmjz": "Chinese Traditional White Paper" }
             },
             "chicn": {
-                "title": "Chinese Simplified White Paper"
+                "title": { "poffqrqolj": "Chinese Simplified White Paper" }
             }
         }
     }

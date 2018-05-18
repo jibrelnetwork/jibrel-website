@@ -1,36 +1,36 @@
 {
     "advisors": {
-        "title": "我們的顧問團隊",
+        "advisors_title": "我們的顧問團隊",
         "persons": {
             "tapscott": {
-                "name": "Don Tapscott",
-                "title": "策略顧問",
-                "position": "Tapscott 集團執行長"
+                "tapscott_name": "Don Tapscott",
+                "tapscott_title": "策略顧問",
+                "tapscott_position": "Tapscott 集團執行長"
             },
             "gavrilyuk": {
-                "name": "Ruslan Gavrilyuk",
-                "title": "金融加密顧問",
-                "position": "TaaS 基金執行長兼創始人"
+                "gavrilyuk_name": "Ruslan Gavrilyuk",
+                "gavrilyuk_title": "金融加密顧問",
+                "gavrilyuk_position": "TaaS 基金執行長兼創始人"
             },
             "zuaiter": {
-                "name": "Abbas Zuaiter",
-                "title": "資本市場顧問",
-                "position": "索羅斯基金前首席營運長"
+                "zuaiter_name": "Abbas Zuaiter",
+                "zuaiter_title": "資本市場顧問",
+                "zuaiter_position": "索羅斯基金前首席營運長"
             },
             "hudson": {
-                "name": "Saul Hudson",
-                "title": "通訊顧問",
-                "position": "Thomson Reuters 總經理"
+                "hudson_name": "Saul Hudson",
+                "hudson_title": "通訊顧問",
+                "hudson_position": "Thomson Reuters 總經理"
             },
             "sehli": {
-                "name": "Mohammad Al Sehli",
-                "title": "MENA 顧問",
-                "position": "阿拉伯鏈執行長兼創始人"
+                "sehli_name": "Mohammad Al Sehli",
+                "sehli_title": "MENA 顧問",
+                "sehli_position": "阿拉伯鏈執行長兼創始人"
             },
             "levin": {
-                "name": "Moe Levin 博士",
-                "title": "公共部門顧問",
-                "position": "Keynote 執行長"
+                "levin_name": "Moe Levin 博士",
+                "levin_title": "公共部門顧問",
+                "levin_position": "Keynote 執行長"
             }
         }
     }

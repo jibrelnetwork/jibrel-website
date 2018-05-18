@@ -1,9 +1,11 @@
+const uniqKeysTest = require('./uniqKeysTest')
 const jsonKeysTest = require('./jsonKeysTest')
 const partialsKeysTest = require('./partialsKeysTest')
 const translationsTest = require('./translationsTest')
 
 const start = () => {
   try {
+    uniqKeysTest()
     jsonKeysTest()
     partialsKeysTest()
     translationsTest()

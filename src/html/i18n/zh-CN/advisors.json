@@ -1,36 +1,36 @@
 {
     "advisors": {
-        "title": "顾问团",
+        "advisors_title": "顾问团",
         "persons": {
             "tapscott": {
-                "name": "Don Tapscott",
-                "title": "策略顾问",
-                "position": "Tapscott 集团 CEO"
+                "tapscott_name": "Don Tapscott",
+                "tapscott_title": "策略顾问",
+                "tapscott_position": "Tapscott 集团 CEO"
             },
             "gavrilyuk": {
-                "name": "Ruslan Gavrilyuk",
-                "title": "加密金融顾问",
-                "position": "TaaS 基金 CEO 及创始人"
+                "gavrilyuk_name": "Ruslan Gavrilyuk",
+                "gavrilyuk_title": "加密金融顾问",
+                "gavrilyuk_position": "TaaS 基金 CEO 及创始人"
             },
             "zuaiter": {
-                "name": "Abbas Zuaiter",
-                "title": "资本市场顾问",
-                "position": "Soros 基金前 COO"
+                "zuaiter_name": "Abbas Zuaiter",
+                "zuaiter_title": "资本市场顾问",
+                "zuaiter_position": "Soros 基金前 COO"
             },
             "hudson": {
-                "name": "Saul Hudson",
-                "title": "交流顾问",
-                "position": "汤森路透公司总裁"
+                "hudson_name": "Saul Hudson",
+                "hudson_title": "交流顾问",
+                "hudson_position": "汤森路透公司总裁"
             },
             "sehli": {
-                "name": "Mohammad Al Sehli",
-                "title": "中东北非地区顾问",
-                "position": "Arabian Chain CEO 及创始人"
+                "sehli_name": "Mohammad Al Sehli",
+                "sehli_title": "中东北非地区顾问",
+                "sehli_position": "Arabian Chain CEO 及创始人"
             },
             "levin": {
-                "name": "Dr. Moe Levin",
-                "title": "公关领域顾问",
-                "position": "Keynote CEO"
+                "levin_name": "Dr. Moe Levin",
+                "levin_title": "公关领域顾问",
+                "levin_position": "Keynote CEO"
             }
         }
     }

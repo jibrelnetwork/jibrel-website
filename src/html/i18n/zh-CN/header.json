@@ -1,11 +1,11 @@
 {
     "header": {
-        "about": "关于 Jibrel",
-        "roadmap": "发展蓝图",
-        "faq": "FAQ",
-        "whitepaper": "白皮书",
-        "team": "团队",
-        "sale": "登录",
-        "button": "菜单"
+        "menu_about": "关于 Jibrel",
+        "menu_roadmap": "发展蓝图",
+        "menu_faq": "FAQ",
+        "menu_whitepaper": "白皮书",
+        "menu_team": "团队",
+        "menu_sale": "登录",
+        "menu_button": "菜单"
     }
 }

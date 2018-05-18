@@ -1,30 +1,30 @@
 {
     "whitepaper": {
-        "title": "ホワイトペーパー",
+        "title": { "yjbysrqvxd": "ホワイトペーパー" },
         "items": {
             "eng": {
-                "title": "英語ホワイトペーパー"
+                "title": { "sswkajhjtc": "英語ホワイトペーパー" }
             },
             "fra": {
-                "title": "フランス語ホワイトペーパー"
+                "title": { "gytcxtsucm": "フランス語ホワイトペーパー" }
             },
             "ger": {
-                "title": "ドイツ語ホワイトペーパー"
+                "title": { "nplrhytjek": "ドイツ語ホワイトペーパー" }
             },
             "ara": {
-                "title": "アラビア語ホワイトペーパー"
+                "title": { "xvaozvczws": "アラビア語ホワイトペーパー" }
             },
             "jap": {
-                "title": "日本語ホワイトペーパー"
+                "title": { "svuusqsnfl": "日本語ホワイトペーパー" }
             },
             "kor": {
-                "title": "韓国語ホワイトペーパー"
+                "title": { "occndkbvfo": "韓国語ホワイトペーパー" }
             },
             "chitw": {
-                "title": "繁体字中国語ホワイトペーパー"
+                "title": { "xcntwxmmjz": "繁体字中国語ホワイトペーパー" }
             },
             "chicn": {
-                "title": "Chinese Simplified White Paper"
+                "title": { "poffqrqolj": "Chinese Simplified White Paper" }
             }
         }
     }

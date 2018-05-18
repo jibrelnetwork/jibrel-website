@@ -1,66 +1,66 @@
 {
     "team": {
-        "title": "Our Team",
+        "team_title": "Our Team",
         "persons": {
             "barghuthi": {
-                "name": "Yazan Barghuthi",
-                "position": "Project Lead (Co-founder)",
-                "description": "Yazan has over 9 years’ financial services experience at top management consultancies such as Oliver Wyman and Deloitte. He is proficient at Javascript, HTML, CSS, React and most front-end frameworks."
+                "barghuthi_name": "Yazan Barghuthi",
+                "barghuthi_position": "Project Lead (Co-founder)",
+                "barghuthi_description": "Yazan has over 9 years’ financial services experience at top management consultancies such as Oliver Wyman and Deloitte. He is proficient at Javascript, HTML, CSS, React and most front-end frameworks."
             },
             "mezrin": {
-                "name": "Victor Mezrin",
-                "position": "Technical Lead (Co-founder)",
-                "description": "Victor has over 10 years’ development experience and ran a top-3 altcoin mining pool (pool.mn) between 2014 and 2016. He is proficient at C++\/C, Python, Java, C#, PHP, JavaScript, Solidity."
+                "mezrin_name": "Victor Mezrin",
+                "mezrin_position": "Technical Lead (Co-founder)",
+                "mezrin_description": "Victor has over 10 years’ development experience and ran a top-3 altcoin mining pool (pool.mn) between 2014 and 2016. He is proficient at C++\/C, Python, Java, C#, PHP, JavaScript, Solidity."
             },
             "tabbaa": {
-                "name": "Talal Tabbaa",
-                "position": "BizDev Lead (Co-founder)",
-                "description": "Talal has over 6 years’ experience in financial advisory roles at top tier consultancies (PwC) as well as private investment funds. He is proficient at Python and SQL and is learning front-end development."
+                "tabbaa_name": "Talal Tabbaa",
+                "tabbaa_position": "BizDev Lead (Co-founder)",
+                "tabbaa_description": "Talal has over 6 years’ experience in financial advisory roles at top tier consultancies (PwC) as well as private investment funds. He is proficient at Python and SQL and is learning front-end development."
             },
             "marinin": {
-                "name": "Nick Marinin",
-                "position": "Developer (UX\/UI)",
-                "description": "Nick has over 9 years’ experience in designing and developing financial user interfaces. He has developed UI\/UX for financial institutions, retail businesses and manufacturers. He is proficient at HTML, CSS and JavaScript."
+                "marinin_name": "Nick Marinin",
+                "marinin_position": "Developer (UX\/UI)",
+                "marinin_description": "Nick has over 9 years’ experience in designing and developing financial user interfaces. He has developed UI\/UX for financial institutions, retail businesses and manufacturers. He is proficient at HTML, CSS and JavaScript."
             },
             "kolaghassi": {
-                "name": "Hamzeh Kolaghassi",
-                "position": "Operations",
-                "description": "Hamzeh has over 6 years’ financial experience at top private equity and financial consultancy firms such as Alcazar Capital and Ernst & Young. He is proficient in financial management and data analysis, with an emphasis on designing and implementing business strategies, plans and procedures."
+                "kolaghassi_name": "Hamzeh Kolaghassi",
+                "kolaghassi_position": "Operations",
+                "kolaghassi_description": "Hamzeh has over 6 years’ financial experience at top private equity and financial consultancy firms such as Alcazar Capital and Ernst & Young. He is proficient in financial management and data analysis, with an emphasis on designing and implementing business strategies, plans and procedures."
             },
             "selikhov": {
-                "name": "Aleksey Selikhov",
-                "position": "Developer (Back-end)",
-                "description": "Aleksey has over 12 years’ experience developing tech solutions for financial institutions. He has delivered full-stack solutions for both banks and investment funds. He is proficient at C++\/C, Java, Python, JavaScript, Solidity."
+                "selikhov_name": "Aleksey Selikhov",
+                "selikhov_position": "Developer (Back-end)",
+                "selikhov_description": "Aleksey has over 12 years’ experience developing tech solutions for financial institutions. He has delivered full-stack solutions for both banks and investment funds. He is proficient at C++\/C, Java, Python, JavaScript, Solidity."
             },
             "violentov": {
-                "name": "Ivan Violentov",
-                "position": "Developer (Front-end)",
-                "description": "Ivan has over 5 years’ experience in web programming. He is especially skilled at developing financial solutions and applications. He specializes in full-stack development using Node server-side, and React\/Angular\/Vue client-side."
+                "violentov_name": "Ivan Violentov",
+                "violentov_position": "Developer (Front-end)",
+                "violentov_description": "Ivan has over 5 years’ experience in web programming. He is especially skilled at developing financial solutions and applications. He specializes in full-stack development using Node server-side, and React\/Angular\/Vue client-side."
             },
             "bordunova": {
-                "name": "Anna Bordunova",
-                "position": "Public Relations",
-                "description": "Anna is media and communications practitioner over 5 years’ of experience in journalism, PR and social media. Her expertise spans traditional, experiential & digital marketing, with an emphasis on comprehensive internet presence management."
+                "bordunova_name": "Anna Bordunova",
+                "bordunova_position": "Public Relations",
+                "bordunova_description": "Anna is media and communications practitioner over 5 years’ of experience in journalism, PR and social media. Her expertise spans traditional, experiential & digital marketing, with an emphasis on comprehensive internet presence management."
             },
             "khusyainov": {
-                "name": "Rust Khusyainov",
-                "position": "Illustrator",
-                "description": "Rust has over 7 years’ of experience in graphic design and illustration. He has created high quality content for clients across financial services, retail and sports. He specializes in raster and vector graphics and video editing."
+                "khusyainov_name": "Rust Khusyainov",
+                "khusyainov_position": "Illustrator",
+                "khusyainov_description": "Rust has over 7 years’ of experience in graphic design and illustration. He has created high quality content for clients across financial services, retail and sports. He specializes in raster and vector graphics and video editing."
             },
             "homyakov": {
-                "name": "Yuriy Homyakov",
-                "position": "Developer (Back-end)",
-                "description": "Yuriy has over 7 years’ experience developing  web applications. He specializes in backend development, database design, web applications architecture. He is proficient at Python, JavaScript and Solidity."
+                "homyakov_name": "Yuriy Homyakov",
+                "homyakov_position": "Developer (Back-end)",
+                "homyakov_description": "Yuriy has over 7 years’ experience developing  web applications. He specializes in backend development, database design, web applications architecture. He is proficient at Python, JavaScript and Solidity."
             },
             "shchipanov": {
-                "name": "Nikita Shchipanov",
-                "position": "Web Analyst",
-                "description": "Nikita has 5 years’ of experience in digital marketing and analytics. He specializes in сonfiguring analytics tools, user acquisition through paid channels and traffic quality analysis."
+                "shchipanov_name": "Nikita Shchipanov",
+                "shchipanov_position": "Web Analyst",
+                "shchipanov_description": "Nikita has 5 years’ of experience in digital marketing and analytics. He specializes in сonfiguring analytics tools, user acquisition through paid channels and traffic quality analysis."
             },
             "smirnov": {
-                "name": "Aleksey Smirnov",
-                "position": "DevOps Engineer",
-                "description": "Aleksey has over 10 years’ experience as a DevOps Engineer and Systems Architect. He specializes in designing and developing high-load architectures. He is proficient in Linux, cloud and infrastructure solutions. He uses Python as his main work tool."
+                "smirnov_name": "Aleksey Smirnov",
+                "smirnov_position": "DevOps Engineer",
+                "smirnov_description": "Aleksey has over 10 years’ experience as a DevOps Engineer and Systems Architect. He specializes in designing and developing high-load architectures. He is proficient in Linux, cloud and infrastructure solutions. He uses Python as his main work tool."
             }
         }
     }
