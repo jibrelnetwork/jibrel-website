@@ -7,32 +7,38 @@
   box-shadow: @shadow-2;
   position: relative;
   transition: all 0.3s ease 0s;
+
   .remodal-header {
     margin: 50px 50px 0 50px;
     position: relative;
+
     h2 {
       font-weight: normal;
       font-size: 18px;
     }
+
     .remodal-close {
       position: absolute;
       right: 0;
-      top: 50%;
+      top: 0;
       width: 20px;
       height: 20px;
       background-image: url('../img/icons/modal-close.svg');
-      border: none;
       background-color: transparent;
-      margin-top: -10px;
+      border: none;
       opacity: 0.5;
+      cursor: pointer;
     }
   }
+
   .remodal-content {
     padding: 50px;
     transition: all 0.3s ease 0s;
   }
+
   .remodal-footer {
     padding: 0 50px 50px 50px;
+
     .pull-left {
       font-weight: bold;
       text-transform: uppercase;
@@ -42,10 +48,12 @@
         opacity: 1;
       }
     }
+
     .pull-right {
       text-transform: uppercase;
       font-weight: bold;
       position: relative;
+
       &:before {
         background-image: url('../img/icons/step.svg');
         content: '';
@@ -56,57 +64,70 @@
         left: -32px;
         top: -5px;
       }
+
       &:hover {
         &:before {
           left: -36px;
         }
       }
     }
+
     .disabled {
       opacity: 0.5;
       cursor: default;
+
       &:hover {
         color: @blue;
       }
+
       &:before {
         display: none;
       }
     }
+
     .hidden {
       display: none;
     }
   }
+
   .steps {
     display: none;
     transition: all 0.3s ease 0s;
+
     &.step-4, &.step-5 {
       p {
         font-weight: 600;
         line-height: 24px;
         margin-bottom: 1.5em;
+
         span {
           color: @blue;
         }
+
         &:first-child {
           margin-bottom: 40px;
+
           img {
             width: 115px;
             height: 110px;
             display: inline-block;
           }
         }
+
         &:last-child {
           font-weight: normal;
           opacity: 0.7;
         }
       }
     }
+
     &.show-errors .field-input.error,
     &.show-errors .field-select.error {
       input {
         color: @pink;
         border-bottom: 1px solid @pink;
       }
+
       div.error-text {
         display: block;
         color: @pink;
@@ -116,23 +137,29 @@
         top: 60px;
       }
     }
+
     &.active {
       display: block;
     }
   }
+
   .hidden {
     visibility: hidden;
     opacity: 0;
   }
+
   .field {
     position: relative;
     margin-bottom: 30px;
+
     &:last-child {
       margin-bottom: 0;
     }
+
     &.field-checkbox {
       input {
         display:none;
+
         & + label {
           padding-left: 30px;
           font-size: 13px;
@@ -144,6 +171,7 @@
           display: block;
           line-height: 24px;
         }
+
         & + label:before {
           top: 2px;
           display: inline-block;
@@ -156,6 +184,7 @@
           content: '';
           border-radius: 10px;
         }
+
         &:checked + label:before {
           display: block;
           position: absolute;
@@ -168,11 +197,13 @@
           background-repeat: no-repeat;
           background-position: center center;
         }
+
         &:checked + label {
           color: @blue;
         }
       }
     }
+
     &.field-input {
       input {
         display: block;
@@ -187,15 +218,18 @@
         -moz-appearance: none;
         appearance: none;
         border-radius: 0;
+
         &:invalid,
         &:-moz-ui-invalid {
           color: @pink;
           box-shadow: none;
         }
       }
+
       input:focus + ul {
         display: block;
       }
+
       ul {
         display: none;
         position: absolute;
@@ -208,33 +242,40 @@
         padding: 5px 0;
         max-height: 160px;
         overflow: auto;
+
         &.scroll {
           height: 136px;
           overflow: auto;
         }
+
         a {
           display: block;
           line-height: 40px;
           padding: 0 15px;
           cursor: pointer;
+
           &.active {
             background-color: @line-bg;
           }
+
           &:hover {
             color: @black;
           }
         }
+
         &.active {
           display: block;
         }
       }
     }
+
     &.field-input,
     &.field-select {
       div.error-text {
         display: none;
       }
     }
+
     &.field-select {
       select {
         display: block;
@@ -250,21 +291,25 @@
         -webkit-appearance: none;
         -moz-appearance: none;
         appearance: none;
+
         &.selected {
           color: #000;
         }
       }
     }
   }
+
   .notice {
     color: @blue;
     position: relative;
     line-height: 24px;
     padding: 25px 0;
     margin-bottom: 40px;
+
     p {
       position: relative;
     }
+
     &:before {
       content: '';
       background-color: @blue-bg;
@@ -277,7 +322,92 @@
       top: 0;
     }
   }
+
   .label {
     margin-bottom: 40px;
+  }
+
+  &.remodal-qrcode {
+    max-width: 345px;
+    border-radius: 8px;
+
+    .remodal-header {
+      margin: 30px 10px 0 30px;
+      height: 20px;
+    }
+
+    .remodal-content {
+      padding: 30px 13px;
+    }
+
+    .qrcode {
+      display: block;
+      width: 320px;
+      height: 425px;
+      margin: 0 auto;
+      background-position: 100%;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-image: url('../img/qrcode.jpg');
+    }
+
+    @media only screen and (max-width: 600px) {
+      width: 290px;
+
+      .remodal-content {
+        padding: 30px 15px;
+      }
+
+      .qrcode {
+        width: 260px;
+        height: 345px;
+      }
+    }
+
+    @media only screen and (max-width: 370px) {
+      width: 230px;
+
+      .remodal-content {
+        padding: 20px 15px;
+      }
+
+      .qrcode {
+        width: 200px;
+        height: 265px;
+      }
+    }
+  }
+
+  @media only screen and (max-width: 440px) {
+    width: 100%;
+    border-radius: 0;
+
+    .remodal-header {
+      margin: 30px 30px 0 30px;
+
+      h2 {
+        font-size: 16px;
+        padding-right: 30px;
+      }
+    }
+
+    .remodal-content {
+      padding: 30px;
+    }
+
+    .remodal-footer {
+      padding: 0 30px 30px 30px;
+    }
+
+    .field {
+      margin-bottom: 20px;
+    }
+
+    .notice {
+      &:before {
+        width: calc(~"100% + 60px");
+        left: -30px;
+      }
+    }
   }
 }
