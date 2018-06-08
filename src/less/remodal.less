@@ -328,16 +328,26 @@
   }
 
   &.remodal-qrcode {
-    max-width: 345px;
+    max-width: 380px;
     border-radius: 8px;
 
     .remodal-header {
-      margin: 30px 10px 0 30px;
-      height: 20px;
+      height: 0;
+      margin: 0;
+
+      .remodal-close {
+        right: -40px;
+        background-image: url('../img/icons/modal-close-white.svg');
+        transition: opacity 0.3s ease 0s;
+
+        &:hover {
+          opacity: 1;
+        }
+      }
     }
 
     .remodal-content {
-      padding: 30px 13px;
+      padding: 30px;
     }
 
     .qrcode {
@@ -354,26 +364,26 @@
     @media only screen and (max-width: 600px) {
       width: 290px;
 
-      .remodal-content {
-        padding: 30px 15px;
-      }
-
       .qrcode {
-        width: 260px;
-        height: 345px;
+        width: 230px;
+        height: 305px;
       }
     }
 
     @media only screen and (max-width: 370px) {
       width: 230px;
 
+      .remodal-header .remodal-close {
+        right: -30px;
+      }
+
       .remodal-content {
-        padding: 20px 15px;
+        padding: 20px;
       }
 
       .qrcode {
-        width: 200px;
-        height: 265px;
+        width: 190px;
+        height: 250px;
       }
     }
   }
