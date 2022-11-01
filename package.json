@@ -28,10 +28,10 @@
   },
   "devDependencies": {
     "express": "4.15.3",
-    "gulp": "3.9.1",
+    "gulp": "4.0.2",
     "gulp-clean-css": "3.9.0",
     "gulp-concat": "2.6.1",
-    "gulp-copy": "1.0.1",
+    "gulp-copy": "4.0.1",
     "gulp-less": "3.3.2",
     "gulp-minify-css": "1.2.4",
     "gulp-nunjucks": "3.0.0",
